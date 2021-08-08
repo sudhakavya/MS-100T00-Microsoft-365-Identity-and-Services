@@ -31,13 +31,13 @@ In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have bee
 
 Once you launch the lab, you can obtain your **Office 365 credentials** from the **Environment details** tab. Copy the username and password.
    
-   ![](images/environment-details-1.png) 
+   ![](Images/environment-details-1.png) 
    
 ### Task 2: Install and Activate Office 365 Apps
 
 1. Once the environment is provisioned, select the **Microsoft Edge** icon. Maximize your browser window when it opens.
 
-   ![](images/select-edge.png) 
+   ![](Images/select-edge.png) 
 
 1. In your browser go to the **Microsoft Office Home** page by entering the following URL in the address bar: 
    ```
@@ -46,39 +46,39 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
 
 1. In the **Sign in** dialog box, copy and paste in the **Username** provided in the environment details page (**odl_user_DID@xxxxx.onmicrosoft.com**) and then select **Next**.
 
-   ![](images/login-username.png) 
+   ![](Images/login-username.png) 
 
 1. In the **Enter password** dialog box, copy and paste in the **Password** and then select **Sign in**.
 
-   ![](images/login-password.png) 
+   ![](Images/login-password.png) 
 
 1. On the **Help us protect your account** dialog box, Select **Skip for now (14 days until this is required)**.
 
-   ![](images/skip-14.png) 
+   ![](Images/skip-14.png) 
 
 1. On the **Stay signed in?** dialog box, select the **Don’t show this again** check box and then select **No.** 
 
-   ![](images/stay-sign-in.png) 
+   ![](Images/stay-sign-in.png) 
 
 1. If a **Get your work done with Office 365** window appears, then close it now. 
 
 1. On the **Microsoft Office Home** tab, in the column of Microsoft 365 app icons that appears on the left side of the screen, select the **Admin** icon, which is the last icon in the list; this opens the **Microsoft 365 admin center** in a new browser tab. 
 
-   ![](images/admin.png)
+   ![](Images/admin.png)
 
 1. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Show all** and then select **Settings**. In the **Settings** group, select **Org settings**. 
 
-   ![](images/admin-page.png)
+   ![](Images/admin-page.png)
 
 1. On the **Org settings** page, the **Services** tab at the top of the page is displayed by default. To the right of the **Services** tab is the **Organization profile** tab; select this tab now. 
 
 1. On the **Org settings** page, in the **Organization profile** tab, select **Organization information** from the list of profile data.
 
-   ![](images/org-info.png)
+   ![](Images/org-info.png)
 
 1. In the **Organization information** pane that appears, enter the following information:
 
-   ![](images/org-details.png)
+   ![](Images/org-details.png)
 
     - Name: **Adatum Corporation** (Note: Contoso is originally displayed as the organization name; this was explained in the Introduction section at the start of this lab. In this step you will change it to Adatum Corporation.)
 
@@ -104,7 +104,7 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
 
 1. In the **Release preferences** pane that appears, select the **Targeted release for select users** option and then select **Save**.<br/>
 
-   ![](images/release-pref.png)
+   ![](Images/release-pref.png)
 
     **Note:** One of the benefits of Microsoft 365 is the ability to have the latest features and updates automatically applied to your environment, which can reduce maintenance costs and overhead for an organization and allow early-adopter users to test new features. By setting up your Release preferences, you can control how and when your Microsoft 365 tenant receives these updates. <br/>
 
@@ -112,7 +112,7 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
 
 2. In the **Release preferences** pane, below the list of release options, select **Select users**.
 
-   ![](images/select-user.png)
+   ![](Images/select-user.png)
 
 1. In the **Choose users for targeted release** pane that appears, select inside the **Who should receive targeted releases?** field. This displays the list of active users (these are the ten Microsoft 365 user accounts created for your tenant by your lab hosting provider). In this list, select each of the following users (Note: You have to select each user, one at a time; after selecting a user, you must select inside the field again to re-display the list so that you can display the next user): 
 
@@ -125,7 +125,7 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
     
 1. Select **Save**.
 
-   ![](images/select-users.png)
+   ![](Images/select-users.png)
 
 1. Verify the users you selected appear at the bottom of the **Release preferences** pane, and then select the **X** in the upper-right corner of the **Release preferences** pane to close it. 
 
@@ -133,7 +133,7 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
 
 1. In the **Custom themes** pane, in the **Customize Microsoft 365 for your organization** select **+ Add theme**, then select the **Show the user's display name** check box. <br/>
 
-   ![](images/add-themes.png)
+   ![](Images/add-themes.png)
 
 	As you scroll through the pane, review the various theme and branding options that are available for you to update. For this lab, you can change any of the options or leave the default values as is. For example, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color. Go ahead and explore the different options for your tenant and make any changes that you wish. <br/>
 
@@ -141,7 +141,7 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
 
 1. Select **Save** when you are done and then close the **Custom themes** pane once your changes have been saved.
 
-   ![](images/add-themes-1.png)
+   ![](Images/add-themes-1.png)
 
 
 ### Task 3 – Prepare for Microsoft Azure Active Directory 
@@ -158,7 +158,7 @@ Azure Active Directory is required to perform several configuration steps when i
 
 4. If you are prompted to confirm whether you want to install the module from an untrusted repository (PSGallery), enter **A** to select **[A] Yes to All.** 
 
-   ![](images/ms-online.png)
+   ![](Images/ms-online.png)
 
 5. Once the installation is complete, the screen will return to the Windows PowerShell command prompt. You must then run the following command to install the Azure AD PowerShell module that you just retrieved in the earlier step:
 
@@ -166,7 +166,7 @@ Azure Active Directory is required to perform several configuration steps when i
 	
 6. If you are prompted to confirm whether you want to install the module from an untrusted repository (PSGallery), enter **A** to select **[A] Yes to All.** 
 
-   ![](images/ad-preview.png)
+   ![](Images/ad-preview.png)
 
 7. Once the installation is complete, the screen will return to the Windows PowerShell command prompt. You have now installed the Windows Azure Active Directory PowerShell Module.
 

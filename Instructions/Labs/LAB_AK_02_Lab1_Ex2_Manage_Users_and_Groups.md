@@ -19,7 +19,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 
 4. In the **Active Users** window, select **Add a user** that appears on the menu bar above the list of active users. This initiates the **Add a user** wizard.
 
-   ![](images/add-user.png)
+   ![](Images/add-user.png)
 
 5. In the **Add a user** wizard, on the **Set up the basics** page, enter the following information:
 
@@ -45,7 +45,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 
 6. Select **Next**.
 
-   ![](images/user-details.png)
+   ![](Images/user-details.png)
 
 7. In the **Assign product licenses** page, enter the following information:
 
@@ -55,7 +55,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 
 8. Select **Next.**
 
-   ![](images/assign-licenses.png)
+   ![](Images/assign-licenses.png)
 
 9. In the **Optional settings** window, select the drop-down arrow to the right of **Roles.** 
 
@@ -65,11 +65,11 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 
 11. Select the **Global administrator** check box and then select **Next**.
 
-   ![](images/assign-role.png)
+   ![](Images/assign-role.png)
 
 12. On the **Review and finish** window, review your selections. If anything needs to be changed, select the appropriate **Edit** link and make the necessary changes. Otherwise, if everything is correct, select **Finish adding**. 
 
-   ![](images/review-finish.png)
+   ![](Images/review-finish.png)
 
 13. On the **Holly Dickson added to Active users** page, under the **User details** section, select **Show** next to the password to verify Holly's password is **Pa55w.rd** and then select **Close.** 
 
@@ -96,19 +96,19 @@ In this task, you will create two new groups and then manage the groups by assig
 
 4. In the **Sign in** window, enter **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider). Select **Next**.
 
-   ![](images/holly-login.png) 
+   ![](Images/holly-login.png) 
 
 5. In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in**.
 
-   ![](images/holly-password.png) 
+   ![](Images/holly-password.png) 
 
 6. If a **Get your work done with Office 365** window appears, select the **X** to close it. 
 
 7. On the **Office 365 Home** page, in the column of Microsoft 365 app icons that appears along the left side of the screen, select the **Admin** icon to open the Microsoft 365 admin center in a new browser tab.
 
-   ![](images/homepage-2.png)
+   ![](Images/homepage-2.png)
 
-   ![](images/admin.png)
+   ![](Images/admin.png)
 
 8. If a survey window appears, select **Cancel**.
 
@@ -116,35 +116,35 @@ In this task, you will create two new groups and then manage the groups by assig
 
 10. In the **Active groups** page, select **Add a group** that appears on the menu bar above the list of groups. This initiates the **Add a group** wizard. 
 
-   ![](images/add-group.png)
+   ![](Images/add-group.png)
 
 11. In the **Add a group** wizard, on the **Choose a group type** page, select **Microsoft 365 (recommended)** and then select **Next**. 
 
-   ![](images/group-type.png)
+   ![](Images/group-type.png)
 
 12. In the **Set up the basics** page, enter **Inside Sales** in the **Name** field, and then enter **Collaboration group for the Inside Sales team** in the **Description** field (even if you don't enter a description, you must still select into this field to enable the **Next** button). Select **Next**.
 
-   ![](images/group-name.png)
+   ![](Images/group-name.png)
 
 13. You will now assign **Allan Deyoung** and **Patti Fernandez** as owners of the **Inside Sales** group. In the **Assign owners** window, select **+ Assign owners**.
 
 14. In the list of users that appears, select **Allan Deyoung** and **Patti Fernandez**, and then select **Add (2)**.
 
-   ![](images/add-owner.png)
+   ![](Images/add-owner.png)
 
 15. On the **Assign owners** page, Allan and Patti should appear as owners of the group. Select **Next**.
 
-   ![](images/owner-next.png)
+   ![](Images/owner-next.png)
 
 16. You will now assign Diego Siciliani and Lynne Robbins as members of the Inside Sales group. In the **Add members** page, select **+ Add members**.
 
 17. In the list of users that appears, select **Diego Siciliani** and **Lynne Robbins**, and then select **Add (2)**.
 
-   ![](images/select-members.png)
+   ![](Images/select-members.png)
 
 18. On the **Add members** page, Diego and Lynne should appear as members of the group. Select **Next**.
 
-   ![](images/member-next.png)
+   ![](Images/member-next.png)
 
 19. In the **Edit settings** page, enter the following information: <br/>
 
@@ -152,11 +152,11 @@ In this task, you will create two new groups and then manage the groups by assig
 	- Even though Public is displayed in the **Privacy** field, select the field to display the two options that are available. Select **Public**.
 	- Under the **Add Microsoft Teams to your group** section, verify the **Create a team for this group** check box is selected (select it if need be), and then select **Next**.
 
-   ![](images/edit-settings.png)
+   ![](Images/edit-settings.png)
 
 20. In the **Review and finish adding group** page, review the content that you entered. If anything needs to be fixed, select **Edit** under the specific area that needs adjustment, make any necessary corrections, and then select **Next** to continue back to this page. Once everything is correct, select **Create group**.
 
-   ![](images/review-group.png)
+   ![](Images/review-group.png)
 
 21. On the **New group created** window, note the comment at the top of the page that it may take 5 minutes for the new group to appear in the list of groups. </br>
 
@@ -172,9 +172,9 @@ In this task, you will create two new groups and then manage the groups by assig
 
 	**Note:** there is no owner, email address, or privacy setting for Security groups
 
-   ![](images/security-group.png)
+   ![](Images/security-group.png)
 
-   ![](images/it-group.png)
+   ![](Images/it-group.png)
 
 23. If either of the two new groups do not appear in the **Active groups** list, wait a minute or so and then select the **Refresh** option on the menu bar (to the right of **Add a group**). You may need to wait an additional minute or two for both groups to appear.
 
@@ -186,13 +186,13 @@ In this task, you will create two new groups and then manage the groups by assig
 
 26. The **Members** tab displays sections for the Owners and the Members. Under the **Members** section, you can see that there are zero (0) members. Under this section, select **View all and manage members** to add members to the group. 
 
-   ![](images/add-members-it.png)
+   ![](Images/add-members-it.png)
 
 27. In the **Members** window that appears, select **+ Add members**. This displays the list of active Microsoft 365 users.
 
 28. In the list of users, select the check boxes for **Isaiah Langer**, **Megan Brown** and **Nestor Wilke**, and then at the bottom of the window select **Add (3)**. 
 
-   ![](images/members-it-group.png)
+   ![](Images/members-it-group.png)
 
 29. Verify that the members list has the three users and select the **X** to close the members pane. This displays the list of users for this group. Select **Close** again. 
 
@@ -200,7 +200,7 @@ In this task, you will create two new groups and then manage the groups by assig
 
 31. In the **Delete Inside Sales?** pane that appears, select the **Delete group** button.
 
-   ![](images/delete-group.png)
+   ![](Images/delete-group.png)
 
 32. Once the group is deleted, select **Close**. 
 
@@ -229,14 +229,14 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 4. A new window will appear requesting your credentials. Sign in using Holly's Microsoft 365 account of **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd** as the Password.  
 
-   ![](images/connect-azureaad.png)
+   ![](Images/connect-azureaad.png)
 
 5. At the command prompt, type the following command and then press Enter to display the repository of deleted groups (this should display the **Inside Sales** group that you earlier deleted):<br/>  
 	
 		Get-AzureADMSDeletedGroup   
 
 
-   ![](images/deleted-group.png)
+   ![](Images/deleted-group.png)
 
 6. At the command prompt, either type or copy and paste in the following command; however, do not press Enter yet as you must first replace {objectId} with the actual Object ID of the deleted Inside Sales group. 
 
@@ -248,7 +248,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 	**NOTE:** If nothing happens when you hit Enter, then extraneous hidden characters may have been pasted in following the object ID. If this occurs, retype the command and then after pasting in the object ID, hit the Delete key a couple of times to delete any extraneous characters that may have been pasted in following the object ID, and then press Enter again.  <br/>
 
-   ![](images/restore-group.png)
+   ![](Images/restore-group.png)
 		
 7. Leave your Windows PowerShell window open for the next exercise; simply minimize the PowerShell window for now.
 
@@ -260,7 +260,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 11. In the **Inside Sales** pane, select the **Members** tab. **Allan Deyoung** and **Patti Fernandez** should appear as owners of the group, and **Diego Siciliani** and **Lynne Robbins** should appear as members of the group.
 
-   ![](images/verify-restore.png)
+   ![](Images/verify-restore.png)
 
 12. Close the **Inside Sales** window.
 
