@@ -98,9 +98,9 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 ![](Images/image72.png)
 
-![](Images/image73.png)
-
 27. In the **Office 365 Security & Compliance center**, in the left-hand navigation pane, select **Mail flow**, and then in the Mail Flow group, select **Exchange Message trace**. 
+
+![](Images/image73.png)
 
 28. In the **Home > Message trace** window, select the **+Start a trace** button. 
 
