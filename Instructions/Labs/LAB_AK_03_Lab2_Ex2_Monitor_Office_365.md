@@ -129,9 +129,9 @@ Adatum's CTO is concerned with the service health issues that have recently come
 
 13. Scroll down to the bottom of the page to see details for each of the site collections for your tenant.
 
-14. You now want to review the reports that are available in the **Office 365 Security &amp; Compliance** center. In your browser, you should have the **Message trace - Security & Compliance** tab open from the prior task; if so, select it now. However, if you previously closed this tab, then in the **Microsoft 365 admin center**, under the **Admin centers** group, select **Security**.
+14.In your browser, open **Microsoft 365 admin center**, under the **Admin centers** group, select **Security** then if you now want to review the reports, you should select the **Exchange message trace**.
 
-15. In the **Office 365 Security &amp; Compliance** center, scroll down in the left-hand navigation pane and select **Reports,** and then under the **Reports** section, select **Dashboard.** 
+15. Now go to https://protection.office.com for **Office 365 Security &amp; Compliance** center, scroll down in the left-hand navigation pane and select **Reports,** and then under the **Reports** section, select **Dashboard.** 
 
 16. In the **Home > Dashboard** window, scroll down to any report that has data displayed (for example, **Top senders and recipients**) and click in the chart area to open the **Report Viewer** for that report. 
 
