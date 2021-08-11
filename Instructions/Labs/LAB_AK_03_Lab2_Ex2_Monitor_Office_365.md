@@ -14,7 +14,7 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 	**Note:** If an **Outlook settings** window appears, accept **English** as the language, select your corresponding **Time zone**, and then select **Save**. <br/>
 	
-![](Images/image60.png)
+	![](Images/image60.png)
 
 4. If a **Pick an account** window appears, select Holly's account of **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZis the tenant prefix provided by your lab hosting provider), and then enter **Pa55w.rd** in the **Enter password** window and select **Sign in**.
 
@@ -26,27 +26,27 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 7. Enter a subject and some body text and then send the email.  
 
-![](Images/image61.png)
+	![](Images/image61.png)
 
 8. Wait for the delivery failure message to appear in Holly’s Inbox, then double-click the message to open it in a new window. This will make it easier to copy the text of the message in the next step. 
 
-![](Images/image63.png)
+	![](Images/image63.png)
 
 9. In the message window, scroll down through the message until you reach the body of text that says **Diagnostic information for administrators**. Select the text in the body of the message starting after **Diagnostic information for administrators** through the end of the message. With this text selected, press **Ctrl+C** to copy it to the clipboard, and then close message window.
 
-![](Images/image64.png)
+	![](Images/image64.png)
 
 10. Open a new tab in your web browser and enter the following URL in the address bar: **https://testconnectivity.microsoft.com**. 
 
 11. This opens the **Microsoft Remote Connectivity Analyzer** portal. In the navigation bar on the left, select the **Message Analyzer** tab. This opens the **Message Header Analyzer** tool.
 
-![](Images/image65.png)
+	![](Images/image65.png)
 
 12. Take a moment to review the **Message Header Analyzer** tool. It consists of two sections - In the top section, you will paste in the diagnostic data that you copied from the failure to deliver email message; in the bottom section, the tool will display its analysis of this data. 
 
 13. In the **Message Analyzer Header** window, paste the message (right-click and select **Paste**, or press **Ctrl+V**) in the field that appears below the **-Insert the message header you would like to analyze** row, and then select the **Analyze headers** button. 
 
-![](Images/image66.png)
+	![](Images/image66.png)
 
 14. SMTP message headers contain a wealth of information that allow you to determine the origins of a message and how it made its way through one or more SMTP servers to its destination. Here’s a quick summary of the information found in this header analysis:
 
@@ -60,11 +60,11 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 15. Select the **Clear** option that appears to the right of the **Analyze headers** button; this will reset the Message Header Analyzer window. 
 
-![](Images/image67.png)
+	![](Images/image67.png)
 
 16. Return to the **Mail - Holly Dickson - Outlook** tab in your browser. In Holly's mailbox, select **New message** to create a new email.
 
-![](Images/image68.png)
+	![](Images/image68.png)
 
 17. In this email, you will send the mail to a non-existent mailbox in a valid domain (outlook.com). In the **To** field, enter an email address of **{a random series of numbers followed by your name}@outlook.com** (for example, 123456LynneRobbins@outlook.com). After entering the email address, tab off the **To** field to commit the entered value. 
 
@@ -72,19 +72,19 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 19. Wait for the delivery failure (NDR) message to appear in Holly’s Inbox, then double-click the message to open it in a new window. 
 
-![](Images/image69.png)
+	![](Images/image69.png)
 	
    **Note:** When this lab was originally written, it asked the student to enter **difflop8675399@outlook.com** in the **To** field. The lab author never assumed anyone would ever create a mailbox called **difflop8675399** in the outlook.com domain. This worked fine for several months, until someone actually created this mailbox in outlook.com. This broke the lab, since it stopped returning an NDR reply. So the previous instruction was changed to ask you to send this email to an email address consisting of a random series of numbers followed by your name. Hopefully, the combination you choose is not a valid mailbox. **If you do not receive an NDR reply within a minute (or less) after sending the email, then you can assume someone has created that mailbox in the outlook.com domain.** If this occurs, then send another email to a different mailbox address that you feel is completely bogus. 
 
 20. In the window for the NDR reply, scroll down through the message until you reach the body of text that says **Diagnostic information for administrators**. Select the text in the body of the message starting after **Diagnostic information for administrators** through the end of the message. With this text selected, press **Ctrl+C** to copy it to the clipboard, and then close the message window. 
 
-![](Images/image70.png)
+	![](Images/image70.png)
 
 21. Switch to the **Message Header Analyzer** tab in your browser.
 
 22. In the **Message Analyzer Header** window, paste the message in the field that appears below the **-Insert the message header you would like to analyze** row, and then select **Analyze headers**.  <br/>
 
-![](Images/image71.png)
+	![](Images/image71.png)
 
    **Note:** Review the diagnostic information and the time taken for the message to be rejected. In the prior email, the domain of the email address did not exist. In this email, the user's domain (outlook.com) was valid, but the user mailbox was unavailable. 
 
@@ -96,38 +96,38 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 26. Scroll down through the left-hand navigation pane, and under **Admin centers,** select **Security**. This will open the Office 365 Security & Compliance center in a new tab.
 
-![](Images/image72.png)
+	![](Images/image72.png)
 
 27. In the **Microsoft 365 Defender** portal, in the left-hand navigation pane, select **Email & Collaboration**, and then in the Email & Collaboration group, select **Exchange Message trace**. 
 
-![](Images/image73.png)
+	![](Images/image73.png)
 
 28. In the **Home > Message trace** window, select the **+Start a trace** button. 
 
-![](Images/image74.png)
+	![](Images/image74.png)
 
 29. In the **New message trace** pane, Under the **Within this time range** section,
 
 30. Select **1 day** that appears above the slider. Note how the slider circle moved under **1 day**.
 
-![](Images/image75.png)
+	![](Images/image75.png)
 
 31. Scroll down and select **More search options**. In the **Delivery status** field, select the drop-down arrow and select **Failed**.
 
-![](Images/image95.png)
+	![](Images/image95.png)
 
 32. At the bottom of the page, select the **Search** button.
 
 33. In the **Message trace search results** window that appears, if no failed message deliveries appear in the list, you may need to wait several minutes before selecting the **Refresh** button that appears above the item list. 
 
-![](Images/image76.png)
+	![](Images/image76.png)
 
 34. Double-click on the first failed message to view the **Message trace details** pane for that message. This displays the sender, recipient, status, and error information, as well as the **How to fix it** instructions. Select the **Close** button at the bottom of the pane to close it. <br/>
 
 	Repeat this step for the other failed message. 
 	
 
-![](Images/image77.png)
+	![](Images/image77.png)
 
 35. Close the **Message trace search results** window, and then close the **New message trace** window. This will return you to the **Home > Message trace** window in the **Office 365 Security and Compliance center**. Leave this tab open for the next task.
 
@@ -142,11 +142,11 @@ Adatum's CTO is concerned with the service health issues that have recently come
 
 2. In the left-hand navigation pane, you previously selected the **Show all** option in the prior task. Select the **Health** group that displayed when you selected **Show all**, and then select **Service health**. 
 
-![](Images/image78.png)
+	![](Images/image78.png)
 
 3. On the **Service health** page, the **All services** tab is displayed by default across the top of the page. Select the **History** tab.  
 
-![](Images/image79.png)
+	![](Images/image79.png)
 
 4. The default option is to display a list of items from the past 7 days (see the right side of the menu bar above the list of items; **Past 7 days** displays as the default option). Select any entry in the list to see further details about the incident. Close the incident window when you’re done reviewing it. 
 
@@ -158,23 +158,23 @@ Adatum's CTO is concerned with the service health issues that have recently come
 
 	‎**Note:** There may be little or no data shown due to the limited mailbox usage in the lab environment. 
 	
-![](Images/image81.png)
+	![](Images/image81.png)
 
 8. Under the **Email activity** chart select the **View more** button. This displays the **Exchange** report dashboard. In the report header at the top of the page, select **Mailbox usage**. 
 
-![](Images/image82.png)
+	![](Images/image82.png)
 
 9. The default mailbox usage that is initially displayed is **30 days**. Select the other date views at the top of the report (**7 days**, **90 days**, and **180 days**) to see how the display changes. 
 
 10. Scroll down to the bottom of the page to see mailbox details for each of the active users.
 
-![](Images/image83.png)
+	![](Images/image83.png)
 
 11. Scroll back to the top of the page. On the menu bar above the chart, it currently displays **Mailbox usage** followed by a drop-down arrow. Select the drop-down arrow, and in the menu that appears, select **SharePoint**. In the SharePoint group, select **Site usage**. 
 
 12. The default site usage that is initially displayed at the top-right of the screen is **Past 30 days**. Select the drop-down arrow next to this and in the menu that appears, select the other date views to see how the display changes: **7 days**, **90 days**, and **180 days**. 
 
-![](Images/image84.png)
+	![](Images/image84.png)
 
 13. Scroll down to the bottom of the page to see details for each of the site collections for your tenant.
 
@@ -182,15 +182,15 @@ Adatum's CTO is concerned with the service health issues that have recently come
 
 15. Now go to https://protection.office.com for **Office 365 Security &amp; Compliance** center, scroll down in the left-hand navigation pane and select **Reports,** and then under the **Reports** section, select **Dashboard.** 
 
-![](Images/image86.png)
+	![](Images/image86.png)
 
 16. In the **Home > Dashboard** window, scroll down to any report that has data displayed (for example, **Top senders and recipients**) and click in the chart area to open the **Report Viewer** for that report. 
 
-![](Images/image87.png)
+	![](Images/image87.png)
 
 17. After reviewing the report, select **Dashboard** in navigation thread at the top of the page (Home > **Dashboard** > Report Viewer - Security &amp; Compliance) to return to the report dashboard.
 
-![](Images/image88.png)
+	![](Images/image88.png)
 
 18. Repeat the prior two steps for any other report that has data displayed.
 
@@ -203,11 +203,11 @@ If an organization runs into a situation in Microsoft 365 where it needs assista
 
 1. On LON-DC1, in the **Microsoft 365 admin center** tab of your Edge browser, select **Support** in the left-hand navigation pane, and then select **View service requests** to see if there are any outstanding service request tickets. You should verify that no service request tickets appear on the **Service request history** page.
 
-![](Images/image89.png)
+	![](Images/image89.png)
 
 2. In the left-hand navigation bar, under the **Support** group, select **New service request**.
 
-![](Images/image90.png)
+	![](Images/image90.png)
 
 3. In the **Support Assistant** pane that appears, select the **Message** line at the bottom of the window (which currently displays **Message e.g. How do I install Office?**) and type the following message: **This is a test of the service request system; a call back is not needed.** When you are done, select the **Send message** arrow icon that appears below the message line.
 
