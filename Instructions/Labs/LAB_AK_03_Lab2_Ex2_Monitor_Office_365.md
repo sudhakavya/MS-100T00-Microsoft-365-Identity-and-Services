@@ -82,13 +82,11 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 21. Switch to the **Message Header Analyzer** tab in your browser.
 
-![](Images/image71.png)
-
 22. In the **Message Analyzer Header** window, paste the message in the field that appears below the **-Insert the message header you would like to analyze** row, and then select **Analyze headers**.  <br/>
 
-	**Note:** Review the diagnostic information and the time taken for the message to be rejected. In the prior email, the domain of the email address did not exist. In this email, the user's domain (outlook.com) was valid, but the user mailbox was unavailable. 
-	
-![](Images/image72.png)
+![](Images/image71.png)
+
+   **Note:** Review the diagnostic information and the time taken for the message to be rejected. In the prior email, the domain of the email address did not exist. In this email, the user's domain (outlook.com) was valid, but the user mailbox was unavailable. 
 
 23. Close both the **Message Header Analyzer** tab and the **Microsoft Remote Connectivity Analyzer** tab in your Edge browser. 
 
@@ -97,6 +95,8 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 25. On the **Microsoft 365 admin center** page, in the left-hand navigation pane, select **Show all** (if necessary). 
 
 26. Scroll down through the left-hand navigation pane, and under **Admin centers,** select **Security**. This will open the Office 365 Security & Compliance center in a new tab.
+
+![](Images/image72.png)
 
 ![](Images/image73.png)
 
