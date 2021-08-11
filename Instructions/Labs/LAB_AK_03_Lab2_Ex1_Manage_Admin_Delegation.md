@@ -40,11 +40,11 @@ As Holly Dickson, Adatum’s Enterprise Administrator and Microsoft 365 Global A
 
 ![](Images/image08.png)
 
-9. Repeat steps 3-8 for **Lynne Robbins.** Assign Lynne to the **User Administrator** role under the **Identity** category.
+9. Repeat steps 3-8 for **Lynne Robbins.** Assign Lynne to the **User Administrator** and **Helpdesk admin** role under the **Identity** category.
 
 ![](Images/image09.png)
 
-![](Images/image10.png)
+![](Images/image23.png)
 
    **Note:** The role is in the list of commonly used admin roles that appear under the **Admin center access** option; therefore, you do not have to select **Show all by category**.
 
