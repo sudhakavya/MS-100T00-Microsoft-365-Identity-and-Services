@@ -98,7 +98,7 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 ![](Images/image72.png)
 
-27. In the **Microsoft 365 Defender** portal, in the left-hand navigation pane, select **Mail flow**, and then in the Mail Flow group, select **Exchange Message trace**. 
+27. In the **Microsoft 365 Defender** portal, in the left-hand navigation pane, select **Email & Collaboration**, and then in the Mail Flow group, select **Exchange Message trace**. 
 
 ![](Images/image73.png)
 
