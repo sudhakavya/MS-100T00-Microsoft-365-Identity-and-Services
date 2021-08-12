@@ -89,7 +89,7 @@ This task is similar to the prior one in that you will assign administrator righ
 
 7. Holly now wants to assign **Patti Fernandez** to the **Service support administrator** role. In the Windows PowerShell window, at the command prompt, type the following command (don't forget to replace xxxxxZZZZZZ with the tenant prefix provided by your lab hosting provider), and then press Enter:  <br/>
 
-	Add-MsolRoleMember -RoleName "Service support administrator” –RoleMemberEmailAddress PattiF@xxxxxZZZZZZ.onmicrosoft.com  
+		Add-MsolRoleMember -RoleName "Service support administrator” –RoleMemberEmailAddress PattiF@xxxxxZZZZZZ.onmicrosoft.com  
 	
 	![](Images/image16.png)
 
