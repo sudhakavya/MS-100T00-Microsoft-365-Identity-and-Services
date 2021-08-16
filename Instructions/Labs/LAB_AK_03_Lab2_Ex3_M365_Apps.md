@@ -26,7 +26,9 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 1. You will begin by testing whether a user **without** an appropriate Office 365 license can install Microsoft 365 Apps for enterprise. For this test, you will use **Laura Atkins**. Your lab hosting provider has already created an on-premises user account for Laura, but she does not have a Microsoft 365 user account. You will create a Microsoft 365 account for Laura, but you will not assign her an Office 365 license. 
 
 	At the top of the **Active users** window, select **Add a user** on the menu bar.
-
+	
+	![](Images/image98.png)
+       
 1. In the **Set up the basics** window, enter the following information:
 	- First name: **Laura**
 	- Last name: **Atkins** 
@@ -59,8 +61,6 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 1. On the **Laura Atkins added to active users** page, select **Close**. If a survey form appears, select **Cancel**. 
 
-	![](Images/image105.png)
-
 1. Switch to the Client 1 VM (**LON-CL1**). 
 
 1. You want to log in as **Laura Atkins**. If the Edge browser is still open from the previous lab exercise, then close it now. You should be on the LON-CL1's desktop, where it should indicate that you are logged on as **adatum\administrator**. Since you want to log on as Laura Atkins, select the **Ctrl+Alt+Delete** function for your VM environment. On the menu screen that appears, select **Switch user**. <br/>
@@ -79,15 +79,13 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 1. In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in.**
 
-	![](Images/image107.png)
-
 1. In the **Stay signed in?** window, select the **Don't show this again** check box and then select **Yes.**
 
-	![](Images/image108.png)
+	![](Images/image107.png)
 
-1. In the **Microsoft Office Home** page for Laura, notice that no column of Microsoft 365 app icons appears on the left-side of the screen; this is because Laura does not have an Office 365 license assigned. <br/> ![](Images/image109.png)
+1. In the **Microsoft Office Home** page for Laura, notice that no column of Microsoft 365 app icons appears on the left-side of the screen; this is because Laura does not have an Office 365 license assigned. <br/> ![](Images/image108.png)
 
-	Select the **Install Office** button, and then in the drop-down menu that appears, select **Install software**. This opens the **My account** window for Laura.
+1. Select the **Install Office** button, and then in the drop-down menu that appears, select **Install software**. This opens the **My account** window for Laura.
 	
 	![](Images/image109.png)
 
@@ -123,24 +121,20 @@ Holly is now going to test whether users can be prohibited from downloading Micr
 	![](Images/image115.png)	
 
 1. You should now test whether turning off this global download setting affects a **licensed** user from installing Microsoft 365 Apps for enterprise. In this case, you’re once again going to use **Laura Atkins**, so you must first assign Laura an Office 365 license. 
-
-	![](Images/image116.png)
 	
 1. You want to log in as **Holly Dickson**, In the **Microsoft 365 admin center**, under **Users** in the left-hand navigation pane select **Active users**, and then in the in the **Active users** list, scroll down to **Laura Atkins**. The value in the **Licenses** column for Laura currently indicates that she is **Unlicensed**. Select **Laura Atkins**.
-	
-	![](Images/image117.png)
+
+	![](Images/image116.png)
 
 1. In Laura Atkins’ account window, the **Account** tab is displayed by default. Select the **Licenses and Apps** tab. In the **Licenses** section, select the **Office 365 E5** check box and then select **Save changes**. You can then close Laura’s account window. In the **Active users** list, note how the value in the **Licenses** column for Laura now displays **Office 365 E5**.
 
 	![](Images/image99.png)
 
-1. You should now check whether Laura can download Microsoft 365 Apps for enterprise on to her client PC when the global Office download setting has been turned Off. <br/>
-
-	![](Images/image120.png)	
+1. You should now check whether Laura can download Microsoft 365 Apps for enterprise on to her client PC when the global Office download setting has been turned Off. <br/>	
 
 	To do this, you must first switch back to **LON-CL1**.
 
-1. In **LON-CL1**, your Edge browser should still be open, and you should still be logged into Microsoft 365 as Laura Atkins. The **My account** window should be displayed, and the **Apps and devices** section should still be displayed along with the error message that you received in the prior task that indicated Laura was not assigned an Office license. <br/> 
+1. In **LON-CL1**, your Edge browser should still be open, and you should still be logged into Microsoft 365 as Laura Atkins. The **My account** window should be displayed, and the **Apps and devices** section should still be displayed along with the error message that you received in the prior task that indicated Laura was not assigned an Office license. <br/>
 
 	Select the **Refresh icon** that appears to the left of the address bar at the top of your browser. This will refresh the **Office apps &amp; devices** page. <br/>
 	
@@ -156,7 +150,7 @@ Holly is now going to test whether users can be prohibited from downloading Micr
 
 1. In the **Pick an account** window, select **Laura@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider).
 
-	![](Images/image119.png)
+	![](Images/image97.png)
 
 1. In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in.**		
 
@@ -166,7 +160,7 @@ Holly is now going to test whether users can be prohibited from downloading Micr
 
 1. In the **Microsoft Office Home** page for Laura, notice that the column of Microsoft 365 app icons now appears on the left-side of the screen because Laura has been assigned an Office 365 license. <br/> ![](Images/image100.png)
 
-	Select the **Install Office** button, and then in the drop-down menu, select **Install software**.<br/> 
+1. Select the **Install Office** button, and then in the drop-down menu, select **Install software**.<br/> 
 	
 1. In the **My account** window, under the **Office apps &amp; devices** section, select **View apps &amp; devices**. 
 
