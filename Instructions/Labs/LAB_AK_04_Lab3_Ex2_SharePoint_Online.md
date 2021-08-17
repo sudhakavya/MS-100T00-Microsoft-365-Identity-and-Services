@@ -135,7 +135,7 @@ In this task, you will create the following hierarchical permission structure fo
 
 1. In the ribbon that appears at the top of the screen, two tabs are available - a **BROWSE** tab and a **PERMISSIONS** tab, the latter of which is displayed by default.<br><br> ![](Images/image149.png) <br/>
 
-	Select the **BROWSE** tab and note how the Permissions ribbon disappears. This also reveals the name of this page, which is **Site Settings > Permissions**.<br> <br> ![](Images/image150.png)
+1. Select the **BROWSE** tab and note how the Permissions ribbon disappears. This also reveals the name of this page, which is **Site Settings > Permissions**.<br> <br> ![](Images/image150.png)
 	
 1. Select the **PERMISSIONS** tab, which displays the Permissions ribbon. In the ribbon, under the **Check** section, select **Check Permissions.** <br><br> ![](Images/image151.png)  
 
