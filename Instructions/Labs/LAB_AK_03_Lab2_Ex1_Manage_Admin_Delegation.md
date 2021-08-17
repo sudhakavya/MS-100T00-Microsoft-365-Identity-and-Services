@@ -6,7 +6,7 @@ In this exercise, you will continue in your role as Holly Dickson, Adatum's Ente
 
 As Holly Dickson, Adatum’s Enterprise Administrator and Microsoft 365 Global Admin, you will use the Microsoft 365 admin center to assign administrator rights to several users. 
 
-1. If you’re not logged into LON-DC1 as **ADATUM\Administrator** and password **Pa55w.rd**, then please do so now.
+1. If you’re not logged into lab VM then please do so now.
 
 1. In the **Microsoft 365 admin center** in your Edge browser, you should still be logged in as Holly Dickson. In the left-hand navigation pane, select **Users** and then select **Active Users**. 
 
@@ -89,7 +89,7 @@ This task is similar to the prior one in that you will assign administrator righ
 
 1. Holly now wants to assign **Patti Fernandez** to the **Service support administrator** role. In the Windows PowerShell window, at the command prompt, type the following command (don't forget to replace xxxxxZZZZZZ with the tenant prefix provided by your lab hosting provider), and then press Enter:  <br/>
 
-	Add-MsolRoleMember -RoleName "Service support administrator” –RoleMemberEmailAddress PattiF@xxxxxZZZZZZ.onmicrosoft.com  
+		Add-MsolRoleMember -RoleName "Service support administrator” –RoleMemberEmailAddress PattiF@xxxxxZZZZZZ.onmicrosoft.com  
 	
 	![](Images/image16.png)
 
@@ -210,7 +210,8 @@ In this task, you will begin by examining the administrative properties of two u
    To correct this situation, enter **P@$$w0rd** in the **Password** field. Note how **Strong** now appears next to this password, and the **Reset password** button at the bottom of the pane is now enabled.
 
 	![](Images/image33.png)
-             **Note:** This is just a temporary password because Lynne wants to force Diego to change it the next time he logs in. Therefore, verify the **Require this user to change their password when they first sign in** check box displays a check mark; if the box is clear, then select it so that it displays a check mark.
+
+   **Note:** This is just a temporary password because Lynne wants to force Diego to change it the next time he logs in. Therefore, verify the **Require this user to change their password when they first sign in** check box displays a check mark; if the box is clear, then select it so that it displays a check mark.
 
 1. Select **Reset password**.
 
@@ -228,9 +229,9 @@ In this task, you will begin by examining the administrative properties of two u
 
 1. In the **Reset password** window for Allan, if the **Automatically create a password** check box displays a check mark, then select this box to clear it. Lynne wants to manually assign Allan a password, so enter **P@$$w0rd** in the **Password** field.  
  
-       This is just a temporary password because Lynne wants to force Allan to change it the next time he logs in. Therefore, verify the **Require this user to change their password when they first sign in** check box displays a check mark; if the box is clear, then select it so that it displays a check mark. Select the **Email the sign-in info to me** check box. This displays a **Your email** field, which displays Lynne Robbins' email address. Since you also want to email this temporary password to Allan, you should enter Allan's email address following Lynne's. </br>
+    This is just a temporary password because Lynne wants to force Allan to change it the next time he logs in. Therefore, verify the **Require this user to change their password when they first sign in** check box displays a check mark; if the box is clear, then select it so that it displays a check mark. Select the **Email the sign-in info to me** check box. This displays a **Your email** field, which displays Lynne Robbins' email address. Since you also want to email this temporary password to Allan, you should enter Allan's email address following Lynne's. </br>
        
-       If you enter multiple email addresses in this field, they must be separated by a semicolon and a space. Therefore, enter a semicolon and a space following Lynne's email address, enter Allan's email address of **AllanD@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the prefix provided by your lab hosting provider).
+    If you enter multiple email addresses in this field, they must be separated by a semicolon and a space. Therefore, enter a semicolon and a space following Lynne's email address, enter Allan's email address of **AllanD@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the prefix provided by your lab hosting provider).
        
 	![](Images/image37.png)
 

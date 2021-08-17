@@ -131,9 +131,9 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
 
 1. In the list of organization profile data, select **Custom themes**.
 
-1. In the **Custom themes** pane, in the **Customize Microsoft 365 for your organization** select **+ Add theme**, then select the **Show the user's display name** check box. <br/>
+1. In the **Custom themes** pane, in the **Customize Microsoft 365 for your organization** select **Default theme**, then select the **Show the user's display name** check box. <br/>
 
-   ![](Images/add-themes.png)
+   ![](Images/deault-team.png)
 
 	As you scroll through the pane, review the various theme and branding options that are available for you to update. For this lab, you can change any of the options or leave the default values as is. For example, you can add the logo of your company and set the background image as the default for all your users. Along with these options you can change the colors for your navigation pane, text color, icon color, and accent color. Go ahead and explore the different options for your tenant and make any changes that you wish. <br/>
 
@@ -199,11 +199,15 @@ By the time you get to the Module 4 labs, External Access should be ready so tha
 
 7. Below the toggle switches, select **+Add a domain**.
 
+   ![](Images/teams-external.png)
+
 8. In the **Add a domain** pane that appears, enter **xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ **is your fellow student's tenant prefix** that was assigned to you by your instructor) in the **Domain** field. **Do NOT enter your own tenant prefix.** 
 
 9. In the **Action to take on this domain** field, select **Allowed**, and then select **Done**.
 
 10. On the **External access** page, select **Save**.
+
+   ![](Images/teams-save.png)
 
 11. In your Microsoft Edge browser, close the **External access - Microsoft Teams** tab. This should return you to the **Microsoft 365 admin center** tab, which you should leave open as you proceed to the next exercise.
 
