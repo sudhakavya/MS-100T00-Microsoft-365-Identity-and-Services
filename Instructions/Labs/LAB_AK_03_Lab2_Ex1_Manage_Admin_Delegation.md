@@ -6,7 +6,7 @@ In this exercise, you will continue in your role as Holly Dickson, Adatum's Ente
 
 As Holly Dickson, Adatum’s Enterprise Administrator and Microsoft 365 Global Admin, you will use the Microsoft 365 admin center to assign administrator rights to several users. 
 
-1. If you’re not logged into LON-DC1 as **ADATUM\Administrator** and password **Pa55w.rd**, then please do so now.
+1. If you’re not logged into lab VM then please do so now.
 
 2. In the **Microsoft 365 admin center** in your Edge browser, you should still be logged in as Holly Dickson. In the left-hand navigation pane, select **Users** and then select **Active Users**. 
 
