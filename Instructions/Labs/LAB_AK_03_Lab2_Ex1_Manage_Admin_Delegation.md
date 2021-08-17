@@ -16,7 +16,9 @@ As Holly Dickson, Adatum’s Enterprise Administrator and Microsoft 365 Global A
 
 	![](Images/image2.png)
 
-**Note:** Select Diego’s name; do not select the circle to the left of his name. The circle with the check mark is typically used for selecting multiple users when you want to perform one of the user-related actions on the menu bar that appears above the list of users, such as **Manage product licenses** and **Manage roles**. Selecting a user’s name opens a detail pane specifically for that user.<br><br>[](Images/image03.png)
+	**Note:** Select Diego’s name; do not select the circle to the left of his name. The circle with the check mark is typically used for selecting multiple users when you want to perform one of the user-related actions on the menu bar that appears above the list of users, such as **Manage product licenses** and **Manage roles**. Selecting a user’s name opens a detail pane specifically for that user.
+	
+	[](Images/image03.png)
 
 1. In the **Diego Siciliani** pane that appears, the **Account** tab is displayed by default. In this tab, scroll down to the **Roles** section and select **Manage roles**. 
 
