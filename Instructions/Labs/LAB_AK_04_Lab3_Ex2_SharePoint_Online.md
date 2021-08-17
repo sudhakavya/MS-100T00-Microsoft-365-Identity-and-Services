@@ -165,7 +165,7 @@ In this task, you will create the following hierarchical permission structure fo
 
 	- About me: **This group is used for members of the IT staff**
 
-	- Group owner: If Holly Dickson appears as the owner, select the **X** to the right of her name to remove her, and then enter **MOD**. As you type MOD, a window appears listing users whose first name starts with MOD. Select **MOD Administrator**.  
+	- Group owner: If Holly Dickson appears as the owner, select the **X** to the right of her name to remove her, and then enter **ODL**. As you type ODL, a window appears listing users whose first name starts with ODL. Select **ODL_USER_ID**.  
 	
 		‎**Best Practice:** When you create groups make sure the group owner is either a generic Administrator account or an Administrator group. Giving ownership of groups to individuals can cause editing issues because only the owners can make changes to groups. <br><br> ![](Images/image156.png)
 
@@ -179,7 +179,7 @@ In this task, you will create the following hierarchical permission structure fo
 
 		- Auto-accept requests: **No**
 
-		- Send membership requests to the following e-mail address: If Holly Dickson’s email appears, replace her email with the MOD Administrator's email, which is **admin@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider)
+		- Send membership requests to the following e-mail address: If Holly Dickson’s email appears, replace her email with the ODL_USER_ID's email, which is **ODL_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider)
 
 		- Choose the permission level group members get on this site: **Full Control – Has full control**
 
