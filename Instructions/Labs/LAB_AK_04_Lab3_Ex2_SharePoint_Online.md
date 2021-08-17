@@ -129,7 +129,7 @@ In this task, you will create the following hierarchical permission structure fo
 
 1. In the **Permissions** pane that appears, select **Advanced permissions settings**, which opens a new **Permissions: IT Services** tab in your Edge browser.
 
-	**Note:** If Advanced permission settings is not displayed in the Permission pane, Try to delete the IT Service site in the Sharepoint admin center and Repeat the task 1 steps again.
+	**Note:** If Advanced permission settings is not displayed in the Permission pane, Try to delete the IT Service site in the Sharepoint admin center and Repeat the task 1 steps 5 to 11 and Task 2 again.
 
 	![](Images/image148.png)
 
