@@ -6,19 +6,29 @@ Adatum's CTO has heard a lot about Microsoft SharePoint and is interested in imp
 
 A team site includes a group of related web pages, a default document library for files, lists for data management, and web parts that can be customized to meet your collaboration needs. Holly is excited about the possibility of using team sites in SharePoint Online to improve collaboration between team members when working on specific projects. As part of Adatum's pilot project, Holly wants to create a team site for the IT department so that IT personnel can work on projects and share information from anywhere and on any device. 
 
-1. You should still be logged into LON-DC1 as **Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into LON-DC1 as **Azureuser Administrator** and password **Pa55w.rd**; if not, then do so now.
 
-2. You should still have Microsoft Edge and the **Microsoft 365 admin center** open from the prior lab, and you should be logged in as Holly Dickson. If so, proceed to the next step; otherwise, open Edge, navigate to **https://portal.office.com/**, log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**, and then in the **Microsoft Office Home** page, select **Admin** to open the Microsoft 365 admin center.
+1. You should still have Microsoft Edge and the **Microsoft 365 admin center** open from the prior lab, and you should be logged in as Holly Dickson. If so, proceed to the next step; otherwise, open Edge, navigate to **https://portal.office.com/**, log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**, and then in the **Microsoft Office Home** page, select **Admin** to open the Microsoft 365 admin center.
 
-3. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Show all** (if necessary), then scroll down to **Admin centers** and select **SharePoint.** This will open the SharePoint admin center.
+	![](Images/image174.png)	
 
-4. In the **SharePoint admin center**, in the left-hand navigation pane, select **Sites**, and then select **Active sites.** 
+1. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Show all** (if necessary), then scroll down to **Admin centers** and select **SharePoint.** This will open the SharePoint admin center.
 
-5. In the **Active sites** window, select the **+Create** option on the menu bar.   
+	![](Images/image173.png)
 
-6.  Depending on the team or company need, there are several templates that can be used when creating a new site. For the purposes of this lab, in the **Create a site** window, select the **Team site** tile.
+1. In the **SharePoint admin center**, in the left-hand navigation pane, select **Sites**, and then select **Active sites.** 
 
-7. In the **Get a team site connected to Microsoft 365 Groups** window, enter the following information.
+	![](Images/image172.png)
+
+1. In the **Active sites** window, select the **+Create** option on the menu bar.   
+
+	![](Images/image171.png)
+
+1.  Depending on the team or company need, there are several templates that can be used when creating a new site. For the purposes of this lab, in the **Create a site** window, select the **Team site** tile.
+
+	![](Images/image134.png)
+
+1. In the **Get a team site connected to Microsoft 365 Groups** window, enter the following information.
 
 	- Site name: **IT Services**
 
@@ -36,39 +46,59 @@ A team site includes a group of related web pages, a default document library fo
 
 		- Site Description: **Team site for the IT department** 
 
-8. Select **Next**.
+1. Select **Next**.
 
-9. In the **Add group members** window, in the **Add additional owners** field, enter **Holly**. As you enter Holly, a window appears listing users whose first name starts with Holly. Select **Holly Dickson**.
+	![](Images/image135.png)<br><br>![](Images/image147.png)
 
-10. You now want to add **Patti Fernandez** and **Nestor Wilke** as members of this group. 
+1. In the **Add group members** window, in the **Add additional owners** field, enter **Holly**. As you enter Holly, a window appears listing users whose first name starts with Holly. Select **Holly Dickson**.
+
+1. You now want to add **Patti Fernandez** and **Nestor Wilke** as members of this group. 
 
 	In the **Add members** field, enter **Patti**. As you enter Patti, a window appears listing users whose first name starts with Patti. Select **Patti Fernandez**. 
 
-11. Repeat the previous step for **Nestor Wilke**.
+1. Repeat the previous step for **Nestor Wilke**.
 
-12. Select **Finish**. The **IT Services** site should now appear in the list of **Active sites**. Scroll the horizontal scroll bar to the right to view all the information for the IT Services site and all the other sites in the list. 
+	![](Images/image136.png)
 
-13. You’re now going to test the process of deleting a team site and then restoring it. In the list of **Active sites**, hover your mouse to the left of the **IT Services** site name, which should display a circle. Select this circle (do not select the IT Services site name, as this will open a properties window for the site). 
+1. Select **Finish**. The **IT Services** site should now appear in the list of **Active sites**. Scroll the horizontal scroll bar to the right to view all the information for the IT Services site and all the other sites in the list. 
+
+	![](Images/image137.png)
+
+1. You’re now going to test the process of deleting a team site and then restoring it. In the list of **Active sites**, hover your mouse to the left of the **IT Services** site name, which should display a circle. Select this circle (do not select the IT Services site name, as this will open a properties window for the site). 
 
 	**Tip:** Selecting the circle to the left of an item in a display view enables you to perform any of the tasks on the menu bar for the selected item. Some tasks require you to select multiple items, in which case the task you perform in the menu bar will be performed on all the selected items. 
 	
-14. In the menu bar at the top of the page, select **Delete**. 
+	![](Images/image138.png)	
+	
+1. In the menu bar at the top of the page, select **Delete**. 
 
-15. In the **Delete Microsoft 365 group** pop-up window that appears, select the **Delete the group “IT Services” and all its resources** check box and then select **Delete.** Note that the IT Services site disappears from the **Active sites** list. 
+	![](Images/image139.png)
 
-16. In the left-hand navigation pane on the **SharePoint admin site**, under **Sites**, select **Deleted sites.** Note how the IT Services site that you just deleted appears in the list of deleted sites (it may take a minute or so to appear in the list). 
+1. In the **Delete Microsoft 365 group** pop-up window that appears, select the **Delete the group “IT Services” and all its resources** check box and then select **Delete.** Note that the IT Services site disappears from the **Active sites** list. 
 
-17. In the **Deleted sites** window, select the circle to the left of the **IT Services** site name (do not select the IT Services site name).
+	![](Images/image140.png) <br><br> ![](Images/image141.png)
 
-18. In the menu bar at the top of the page, select **Restore**.
+1. In the left-hand navigation pane on the **SharePoint admin site**, under **Sites**, select **Deleted sites.** Note how the IT Services site that you just deleted appears in the list of deleted sites (it may take a minute or so to appear in the list). 
 
-19. In the **Restore Microsoft 365 group** pop-up window that appears, select **Restore**.  Note that the IT Services site disappears from the **Deleted sites** list. 
+	![](Images/image142.png)
 
-20. In the left-hand navigation pane on the **SharePoint admin site**, under **Sites**, select **Active sites.** The IT Services site should once again appear in the **Active sites** list. 
+1. In the **Deleted sites** window, select the circle to the left of the **IT Services** site name (do not select the IT Services site name).
 
-21. In the **Active sites** list, select the circle to the left of the **IT Services** site name to highlight this site. Scroll the horizontal scroll bar to the right to verify that all the information for the IT Services site has been restored. 
+1. In the menu bar at the top of the page, select **Restore**.
 
-22. Remain in the SharePoint admin center for the next task.
+	![](Images/image144.png)
+
+1. In the **Restore Microsoft 365 group** pop-up window that appears, select **Restore**.  Note that the IT Services site disappears from the **Deleted sites** list. 
+
+	![](Images/image143.png)
+
+1. In the left-hand navigation pane on the **SharePoint admin site**, under **Sites**, select **Active sites.** The IT Services site should once again appear in the **Active sites** list.
+
+	![](Images/image175.png)
+
+1. In the **Active sites** list, select the circle to the left of the **IT Services** site name to highlight this site. Scroll the horizontal scroll bar to the right to verify that all the information for the IT Services site has been restored. 
+
+1. Remain in the SharePoint admin center for the next task.
 
  
 ### Task 2 – Hierarchical Permissions
@@ -85,39 +115,51 @@ In this task, you will create the following hierarchical permission structure fo
 
 1. In the **SharePoint admin center**, you should still be displaying **Active sites**.
 
-2. Select the **IT Services** site that you created in the prior task (do not select the circle to the left of it as you did in the prior task; instead, select the site name like you normally would).
+1. Select the **IT Services** site that you created in the prior task (do not select the circle to the left of it as you did in the prior task; instead, select the site name like you normally would).
 
-3. In the **IT Services** window that appears, select the URL (**.../sites/ITServices**) that is displayed under **URL.** 
+1. In the **IT Services** window that appears, select the URL (**.../sites/ITServices**) that is displayed under **URL.** 
 
-4. A new tab will open in your Edge browser that displays the **IT Services** site. In the upper right-hand corner of the **IT Services** site (to the left of Holly Dickson's name and initials), select the **gear (Settings)** icon.
+	![](Images/image176.png)
 
-5. In the **Settings** pane that appears, select **Site permissions.**
+1. A new tab will open in your Edge browser that displays the **IT Services** site. In the upper right-hand corner of the **IT Services** site (to the left of Holly Dickson's name and initials), select the **gear (Settings)** icon.
 
-6. In the **Permissions** pane that appears, select **Advanced permissions settings**, which opens a new **Permissions: IT Services** tab in your Edge browser.
+1. In the **Settings** pane that appears, select **Site permissions.**
 
-7. In the ribbon that appears at the top of the screen, two tabs are available - a **BROWSE** tab and a **PERMISSIONS** tab, the latter of which is displayed by default. <br/>
+	![](Images/image146.png)
 
-	Select the **BROWSE** tab and note how the Permissions ribbon disappears. This also reveals the name of this page, which is **Site Settings > Permissions**.
+1. In the **Permissions** pane that appears, select **Advanced permissions settings**, which opens a new **Permissions: IT Services** tab in your Edge browser.
 
-8. Select the **PERMISSIONS** tab, which displays the Permissions ribbon. In the ribbon, under the **Check** section, select **Check Permissions.**  
+	![](Images/image148.png)
+
+1. In the ribbon that appears at the top of the screen, two tabs are available - a **BROWSE** tab and a **PERMISSIONS** tab, the latter of which is displayed by default.<br> ![](Images/image149.png) <br/>
+
+	Select the **BROWSE** tab and note how the Permissions ribbon disappears. This also reveals the name of this page, which is **Site Settings > Permissions**. <br> ![](Images/image150.png)
+	
+1. Select the **PERMISSIONS** tab, which displays the Permissions ribbon. In the ribbon, under the **Check** section, select **Check Permissions.** <br> ![](Images/image151.png)  
 
 	**Note:** This option enables you to check access permissions for users and groups. In this case, you will check the permissions that were assigned to Holly Dickson. In the prior task, you assigned Holly as an owner of the IT Services site. The following steps will enable you to check what default team site permissions were assigned in this role. 
 
-9. In the **IT Services: Check Permissions** dialog box that appears, in the **User/Group** field, type **Holly**. As you type Holly, a window appears listing users whose first name starts with Holly. Select **Holly Dickson** and then select **Check now**. Since Holly is an owner of this site, this confirms that she was automatically assigned **Full Control** permissions.
+1. In the **IT Services: Check Permissions** dialog box that appears, in the **User/Group** field, type **Holly**. As you type Holly, a window appears listing users whose first name starts with Holly. Select **Holly Dickson** and then select **Check now**. Since Holly is an owner of this site, this confirms that she was automatically assigned **Full Control** permissions.
 
-10. In the **User/Group** field, select the **X** next to Holly’s name to remove it from the field. In the **User/Group** field, type **Nestor**. As you type Nestor, a window appears listing users whose first name starts with Nestor. Select **Nestor Wilke** and then select **Check now.** Since Nestor is member of this site, this confirms that he was automatically assigned **Edit** permissions.
+	![](Images/image152.png)
+
+1. In the **User/Group** field, select the **X** next to Holly’s name to remove it from the field. In the **User/Group** field, type **Nestor**. As you type Nestor, a window appears listing users whose first name starts with Nestor. Select **Nestor Wilke** and then select **Check now.** Since Nestor is member of this site, this confirms that he was automatically assigned **Edit** permissions.
 
 	**Note:** At the time of this writing, the application was displaying **None** as Nestor's permission level, which is typically attributed to someone who is not a site member. The same thing occurred when checking Diego Siciliani and Patti Fernandez. You can try checking their permissions to see if this issue has been resolved and it displays their actual permission level.
 	
-11. Repeat the prior step and check the permission for **Alex Wilber**. You will see that Alex's permission level is set to **None**, which means he does not have permission to access or update the site since he has not been assigned as a site member.
+	![](Images/image153.png)
+	
+1. Repeat the prior step and check the permission for **Alex Wilber**. You will see that Alex's permission level is set to **None**, which means he does not have permission to access or update the site since he has not been assigned as a site member.
 
-12. In the **IT Services: Check Permissions** window, select **Close.**
+	![](Images/image154.png)
 
-13. You are now back in the **Permissions: IT Services** tab in your browser. You have been asked to create a new group of users and assign them permission to access the IT Services site. In the ribbon that appears at the top of the page, under the **Grant** section, select **Create Group.**  
+1. In the **IT Services: Check Permissions** window, select **Close.**
+
+1. You are now back in the **Permissions: IT Services** tab in your browser. You have been asked to create a new group of users and assign them permission to access the IT Services site. In the ribbon that appears at the top of the page, under the **Grant** section, select **Create Group.**  <br> ![](Images/image155.png)
 
 	‎**Best Practice:** It’s a best practice that you should use Groups to assign access permissions rather than assigning access to individual user accounts for two important reasons: Assigning individual users access to a site makes it difficult to track user access when the user leaves your organization, and direct permissions can override security groups permissions.
 
-14. In the **People and Groups &gt; Create Group** window, enter the following information:   
+1. In the **People and Groups &gt; Create Group** window, enter the following information:   
 
 	- Name: **Information Technology**
 
@@ -125,7 +167,7 @@ In this task, you will create the following hierarchical permission structure fo
 
 	- Group owner: If Holly Dickson appears as the owner, select the **X** to the right of her name to remove her, and then enter **MOD**. As you type MOD, a window appears listing users whose first name starts with MOD. Select **MOD Administrator**.  
 	
-		‎**Best Practice:** When you create groups make sure the group owner is either a generic Administrator account or an Administrator group. Giving ownership of groups to individuals can cause editing issues because only the owners can make changes to groups.
+		‎**Best Practice:** When you create groups make sure the group owner is either a generic Administrator account or an Administrator group. Giving ownership of groups to individuals can cause editing issues because only the owners can make changes to groups. <br> ![](Images/image156.png)
 
 	- Group Settings:
 
@@ -141,43 +183,65 @@ In this task, you will create the following hierarchical permission structure fo
 
 		- Choose the permission level group members get on this site: **Full Control – Has full control**
 
-15. Select **Create**. 
+	![](Images/image157.png)
 
-16. This displays the **Information Technology** group information. The users displayed in the list are the members of this group. Since Holly Dickson created the group, she is listed as the sole member.
+1. Select **Create**. 
 
-17. In the menu bar that appears above the user list, select the drop-down arrow that appears next to **New**, and then in the drop-down menu, select **Add users to this group.**
+	![](Images/image158.png)
 
-18. In the **Share ‘IT Services’** window, the **Invite people** tab is selected in the left-hand pane by default. In the **Enter names or email addresses** field, enter **Isaiah**. As you type Isaiah, a window appears listing users whose first name starts with Isaiah. Select **Isaiah Langer**. 
+1. This displays the **Information Technology** group information. The users displayed in the list are the members of this group. Since Holly Dickson created the group, she is listed as the sole member.
+
+	![](Images/image159.png)
+
+1. In the menu bar that appears above the user list, select the drop-down arrow that appears next to **New**, and then in the drop-down menu, select **Add users to this group.**
+
+	![](Images/image160.png)
+
+1. In the **Share ‘IT Services’** window, the **Invite people** tab is selected in the left-hand pane by default. In the **Enter names or email addresses** field, enter **Isaiah**. As you type Isaiah, a window appears listing users whose first name starts with Isaiah. Select **Isaiah Langer**. 
 
 	Repeat this step for **Joni Sherman** (type **Joni** next to Isaiah Langer's name in the **Enter names or email addresses** field).
 
-19. Below the personal message field, select **SHOW OPTIONS.**
+1. Below the personal message field, select **SHOW OPTIONS.**
 
-20. Uncheck the **Send an email invitation** option.
+1. Uncheck the **Send an email invitation** option.
 
-21. Select **Share** to share the IT Services site with the members of this Information Technology group.
+1. Select **Share** to share the IT Services site with the members of this Information Technology group.
 
-22. In the **People and Groups > Information Technology** window that appears, the members of the group (Holly, Isaiah, and Joni) should be displayed.
+	![](Images/image161.png)
 
-23. Close this **Peoples and Groups** tab in your Edge browser. This will return you to the **SharePoint admin center** and the **Active sites** list, with the **IT Services** pane open on the right-hand side. 
+1. In the **People and Groups > Information Technology** window that appears, the members of the group (Holly, Isaiah, and Joni) should be displayed.
 
-24. In the **IT Services** window that appears, select the URL (**.../sites/ITServices**) that is displayed under **URL.** 
+	![](Images/image162.png)
 
-25. A new tab will open in your Edge browser that displays the **IT Services** site.
+1. Close this **Peoples and Groups** tab in your Edge browser. This will return you to the **SharePoint admin center** and the **Active sites** list, with the **IT Services** pane open on the right-hand side. 
 
-26. In the upper right-hand corner of the **IT Services** site, select the **gear (Settings)** icon.
+1. In the **IT Services** window that appears, select the URL (**.../sites/ITServices**) that is displayed under **URL.** 
 
-27. In the **Settings** pane that appears, select **Site permissions.**
+	![](Images/image176.png)
 
-28. At the bottom of the **Permissions** pane, select **Advanced permissions settings**, which opens the **Permissions: IT Services** tab for the IT Services site.
+1. A new tab will open in your Edge browser that displays the **IT Services** site.
 
-29. On the ribbon that appears at the top of the page, under the **Manage** section, select **Permission Levels**.  
+1. In the upper right-hand corner of the **IT Services** site, select the **gear (Settings)** icon.
+
+1. In the **Settings** pane that appears, select **Site permissions.**
+
+	![](Images/image146.png)
+
+1. At the bottom of the **Permissions** pane, select **Advanced permissions settings**, which opens the **Permissions: IT Services** tab for the IT Services site.
+
+	![](Images/image163.png)
+
+1. On the ribbon that appears at the top of the page, under the **Manage** section, select **Permission Levels**.  
 
 	‎**Note:** This option enables you to customize permission levels to better fit your organization.
+	
+	![](Images/image164.png)
 
-30. In the **Permission Levels** window, in the menu bar at the top of the page, select **Add a Permission Level.**
+1. In the **Permission Levels** window, in the menu bar at the top of the page, select **Add a Permission Level.**
 
-31. You want to create a permission level for your team’s web specialists who will be designing SharePoint sites upon request. They need to be assigned permission levels that provide complete editing and administrative capabilities. In the window that appears, enter the following information:
+	![](Images/image165.png)
+
+1. You want to create a permission level for your team’s web specialists who will be designing SharePoint sites upon request. They need to be assigned permission levels that provide complete editing and administrative capabilities. In the window that appears, enter the following information:
 
 	- Name: **Designer**
 	
@@ -221,11 +285,15 @@ In this task, you will create the following hierarchical permission structure fo
 
 		- **Open**
 
-32. Scroll to the bottom of the page and select the **Create** button to save your changes.
+1. Scroll to the bottom of the page and select the **Create** button to save your changes.
 
-33. The **Permission Levels** window now displays the permission level that you just added.
+	![](Images/image169.png)
 
-34. In your Edge browser session, close the **Permission Levels** tab. Leave the **SharePoint admin center** tab open as you will use it in the next lab exercise.
+1. The **Permission Levels** window now displays the permission level that you just added.
+
+	![](Images/image170.png)
+
+1. In your Edge browser session, close the **Permission Levels** tab. Leave the **SharePoint admin center** tab open as you will use it in the next lab exercise.
 
 
 # Proceed to Lab 3 - Exercise 3
