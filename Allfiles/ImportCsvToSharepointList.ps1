@@ -17,8 +17,7 @@ Install-Module SharePointPnPPowerShellOnline
 
 # You can select lines 20-21 and run both together at one time.
 
-$Credential= Get-Credential -Message "Please enter the IT Consultant's MOD Administrator credentials."
-$ServiceRequestSystem= Import-Csv "C:\Users\DomainAdmin\Documents\Service Request System.csv"
+$ServiceRequestSystem= Import-Csv "C:\LabFiles\MS-100T00-Microsoft-365-Identity-and-Services\Allfiles\Service Request System.csv"
 
 
 # You will be prompted twice for the IT Consultant's MOD Administrator credentials. Please enter it each time.
@@ -29,7 +28,7 @@ $ServiceRequestSystem= Import-Csv "C:\Users\DomainAdmin\Documents\Service Reques
 
 # Line 32 should be run by itself and not included with any other selection. 
 
-Connect-PnPOnline -Url "https://m365xZZZZZZ.sharepoint.com/sites/ITServices" -Credentials $credential
+Connect-PnPOnline -Url "https://m365xZZZZZZ.sharepoint.com/sites/ITServices" –UseWebLogin
 
 
 # Each of the next 6 commands (lines 41-51) MUST be run separately. 
