@@ -167,14 +167,10 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     **IMPORTANT:** There are two ways in which you can export the data from the spreadsheet and upload it to the SharePoint list on the IT Services site: through commands in the Excel spreadsheet, or by running a PowerShell script. Both options are presented in this task and you are free to choose whichever method you prefer. Using the Excel spreadsheet commands is probably the more common method, but for those of you who prefer to work in PowerShell, using the PowerShell script provides another experience to add to your personal repository of PowerShell tools.
 
-**CAUTION:** In this task, whenever you access the URL of the IT Services site, you will use ***your*** tenant prefix (xxxxxZZZZZZ) in the URL (**<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>**), since you created the site in your Adatum tenant in the prior task. When you access this site in your role as the IT Consultant, you will sign in using your fellow student's tenant admin username and password (which represents the IT Consultant); the username will be **admin@xxxxxZZZZZZ.onmicrosoft.com**, where the tenant prefix (xxxxxZZZZZZ) will be ***your fellow student’s*** tenant prefix that was assigned to you by your instructor.
+**CAUTION:** In this task, whenever you access the URL of the IT Services site, you will use ***your*** tenant prefix (xxxxxZZZZZZ) in the URL (**<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>**), since you created the site in your Adatum tenant in the prior task. When you access this site in your role as the IT Consultant, you will sign in using your fellow student's tenant admin username and password (which represents the IT Consultant); the username will be **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com**, where the tenant prefix (xxxxxZZZZZZ) will be ***your fellow student’s*** tenant prefix that was assigned to you by your instructor.
 
 1. Switch to **LON-CL1**.
 1. On **LON-CL1**, you should still be logged in as the **Administrator** (Adatum\\Administrator) from the earlier lab in which you installed Microsoft 365 Apps for enterprise. If you did not log out of LON-CL1 as Laura Atkins and log back in as the Administrator at the end of the earlier lab, then do so now.
-1. Select the **File Explorer** icon that is located on the taskbar at the bottom of the screen.
-1. Maximize the **File Explorer** window, and then select the **Documents**.
-
-    ![](Images/image224.png)
 
 1. If you will recall from the task description, you will be presented with two options for completing this task: through commands in the Excel spreadsheet, or by running a PowerShell script.
       - If you prefer to use Excel to accomplish this task, then proceed to **step 6**.
@@ -183,10 +179,10 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     Since you are at this step, you have chosen to use Excel to export the table data into a SharePoint list in the IT Services site.
 
-    Open **File Explorer** and under **This PC**, select **Documents** (this provides a shortcut that points to the actual path of C:\\Users\\Administrator.ADATUM\\Documents). Confirm the **Service Request System.xlsx** and **BackupFile.xlsx** files are present in the Documents folder. The **Service Request System** spreadsheet contains copies of the service request tickets from Adatum’s old ticketing system. The **Backup File** spreadsheet, which is simply a copy of the Service Request System file, was created for precautionary purposes (it will come into play in the next task). Note that there are two files with the name **Service Request System**; one is an Excel spreadsheet file with a .xlsx extension, and the other is a comma separated value file with a .csv extension. The Excel spreadsheet file is used in this section, whereas students that chose to use PowerShell will use the .csv file. <br><br> ![](Images/image225.png)<br><br>
+    Open **File Explorer** and under **Window C Drive**, select the path **LabFiles\MS-100T00-Microsoft-365-Identity-and-Services\Allfiles** (this provides a shortcut that points to the actual path of C:\LabFiles\MS-100T00-Microsoft-365-Identity-and-Services\Allfiles). Confirm the **Service Request System.xlsx** and **BackupFile.xlsx** files are present in the Documents folder. The **Service Request System** spreadsheet contains copies of the service request tickets from Adatum’s old ticketing system. The **Backup File** spreadsheet, which is simply a copy of the Service Request System file, was created for precautionary purposes (it will come into play in the next task). Note that there are two files with the name **Service Request System**; one is an Excel spreadsheet file with a .xlsx extension, and the other is a comma separated value file with a .csv extension. The Excel spreadsheet file is used in this section, whereas students that chose to use PowerShell will use the .csv file. <br><br> ![](Images/image225.png)<br><br>
 
     Double-click the **Service Request System.xlsx** file to open it. Make sure you open the .xlsx file and not the .csv file.
-1. If a **Sign in to set up Office** window appears, sign in using the tenant admin account (odl_user_id@xxxxxZZZZZZ.onmicrosoft.com, where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and tenant admin password.
+1. If a **Sign in to set up Office** window appears, sign in using the tenant admin account (odl_user_id@xxxxxZZZZZZ.onmicrosoft.com, where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and password.
 
     ![](Images/image226.png) <br><br> ![](Images/image227.png)
 
