@@ -117,7 +117,7 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
     On your taskbar, right-click on the **Microsoft Edge** icon and select **New InPrivate window** in the menu that appears.
 1. This opens an InPrivate browsing session. Maximize the InPrivate browser window, and then enter the following URL in the address bar: **<https://outlook.office365.com/mail/inbox>**
-1. In the **Sign in** window, enter your fellow student’s MOD Administrator email address of **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is your fellow student’s tenant prefix that was assigned to you by your instructor). In the **Enter password** window, enter your fellow student's tenant email password and select **Sign in**.
+1. In the **Sign in** window, enter your fellow student’s Odl_user_id email address of **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is your fellow student’s tenant prefix that was assigned to you by your instructor). In the **Enter password** window, enter your fellow student's tenant email password and select **Sign in**.
 
     ![](Images/image215.png) <br><br> ![](Images/image216.png)
 
@@ -148,7 +148,7 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
 1. Select the X in the upper right corner of the screen to close the InPrivate Browsing session in Microsoft Edge.
 1. Close the Microsoft Outlook mail message that you opened earlier.
-1. This will return you to the **People and Groups \> Consultants** site in your normal Edge browser session. If your fellow student's MOD Administrator account does not appear in the list of consultants, select the **Refresh** icon on the left-side of the address bar at the top of the page to refresh the list. Your fellow student's **Odl_user_id** account should now appear.
+1. This will return you to the **People and Groups \> Consultants** site in your normal Edge browser session. If your fellow student's odl_user_id Administrator account does not appear in the list of consultants, select the **Refresh** icon on the left-side of the address bar at the top of the page to refresh the list. Your fellow student's **Odl_user_id** account should now appear.
 
     ![](Images/image223.png)
 
@@ -252,7 +252,7 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     **Important:** Do NOT select OK; instead, select the **link** to the site in which the table was published. This will take you to the IT Services site where it will display a list showing the data that was exported from the spreadsheet and uploaded into the site. <br><br>![](Images/image244.png)<br><br>
 
-    **Note:** If a **Sign in** window appears, enter the MOD Administrator’s account for the IT Consultant’s tenant. In this case, enter **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is your fellow student's tenant prefix that was assigned to you by your instructor). Select **Next**, and then in the **Enter password** window, enter your fellow student's tenant password and then select **Sign in**.
+    **Note:** If a **Sign in** window appears, enter the odl_user_id Administrator’s account for the IT Consultant’s tenant. In this case, enter **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is your fellow student's tenant prefix that was assigned to you by your instructor). Select **Next**, and then in the **Enter password** window, enter your fellow student's tenant password and then select **Sign in**.
 1. On the taskbar at the bottom of the screen, select the **Excel** icon. In the **Microsoft SharePoint Foundation** dialog box that displayed the link to the published list in the IT Services site, select **OK** to close the window.
 1. Close Excel.
 1. Close your Edge browser.
@@ -263,7 +263,7 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     Since you are at this step, you have chosen to use Windows PowerShell to export the table data into a SharePoint list in the IT Services site rather than using Excel to accomplish this task.
 
-    Open **File Explorer** and under **This PC**, select **Documents** (this provides a shortcut that points to the actual path of C:\\Users\\Administrator.ADATUM\\Documents). Confirm the **Service Request System.csv** file is present in the Documents folder. This file contains copies of the service request tickets from Adatum’s old ticketing system. Note that there are two files with the name **Service Request System**; one is this comma separated value file with a .csv extension, and the other is an Excel spreadsheet file with a .xlsx extension. The .csv file is used in this section, whereas students that chose to use Excel to complete this task will use the .xlsx file. The **Backupfile.xlsx** spreadsheet, which is simply a copy of the Service Request System.xlsx file, was created for precautionary purposes (it will come into play in the next task).
+    Open **File Explorer** and under **Window C Drive**, select the path **LabFiles\MS-100T00-Microsoft-365-Identity-and-Services\Allfiles** (this provides a shortcut that points to the actual path of C:\LabFiles\MS-100T00-Microsoft-365-Identity-and-Services\Allfiles). Confirm the **Service Request System.csv** file is present in the Documents folder. This file contains copies of the service request tickets from Adatum’s old ticketing system. Note that there are two files with the name **Service Request System**; one is this comma separated value file with a .csv extension, and the other is an Excel spreadsheet file with a .xlsx extension. The .csv file is used in this section, whereas students that chose to use Excel to complete this task will use the .xlsx file. The **Backupfile.xlsx** spreadsheet, which is simply a copy of the Service Request System.xlsx file, was created for precautionary purposes (it will come into play in the next task).
 
     Confirm the **ImportCsvToSharepointList.ps1** script is also present in the **Documents** folder. This script contains the PowerShell commands you will run to export the table data from the **Service Request System.csv** file and import it into a SharePoint list in the IT Services site.
 1. In the **Search** field on the taskbar at the bottom of the desktop, enter **PowerShell**.
@@ -285,21 +285,21 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     ![](Images/image248.png)
 
-1. At the command prompt, you will run the commands in lines **20-21** together; therefore, select these two lines in the script and then select the **Run Selection (F8)** icon on the menu bar.
+1. At the command prompt, you will run the commands in lines **20** together; therefore, select these two lines in the script and then select the **Run Selection (F8)** icon on the menu bar.
 
     ![](Images/image249.png)
 
-1. In the **Windows PowerShell credential request** dialog box that appears, enter **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** in the **User name** field (where xxxxxZZZZZZ is the tenant prefix ***from your fellow student*** that was assigned to you by your instructor); this is the IT Consultant’s MOD Administrator (tenant admin) account.
+1. In the **Windows PowerShell credential request** dialog box that appears, enter **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** in the **User name** field (where xxxxxZZZZZZ is the tenant prefix ***from your fellow student*** that was assigned to you by your instructor); this is the IT Consultant’s Odl_user_id Administrator (tenant admin) account.
 
     **Note:** Copy the value (Ctrl+C) that you entered in the **User name** field as you will have to enter it again in a couple of steps. By copying the value here, you can simply paste it in later on rather than re-entering it.
 
     Enter your fellow student's tenant admin password in the **Password** field, and then select **OK**.
 1. On line **32** in the script, you MUST update the URL before you can run this command. In the URL, you must replace the xxxxxZZZZZZ with ***your tenant ID*** provided by your lab hosting provider (this is your Adatum tenant where the IT Services site was created earlier by Holly).
 
-    ![](Images/image.png)
+    ![image](https://user-images.githubusercontent.com/69506830/129944215-1369c17f-294b-45c7-9567-e5408515d47a.png)
 
 1. At the command prompt, you will run the command in line **32** by itself; therefore, select this line in the script and then select the **Run Selection (F8)** icon on the menu bar.
-1. In the **Enter your credentials** dialog box, paste into the **User name** field the value that you copied in the earlier step. If you did not copy the User name value, then enter in the **User name** field **admin@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix ***from your fellow student*** that was assigned to you by your instructor); this is the IT Consultant’s odl_user_id (tenant admin) account.
+1. In the **Enter your credentials** dialog box, paste into the **User name** field the value that you copied in the earlier step. If you did not copy the User name value, then enter in the **User name** field **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix ***from your fellow student*** that was assigned to you by your instructor); this is the IT Consultant’s odl_user_id (tenant admin) account.
 
     Enter your fellow student's tenant admin password in the **Password** field, and then select **OK**.
 1. The commands in lines 41-51 in the script MUST be run individually. If you select all six commands and run them all together at one time, the commands will fail.
