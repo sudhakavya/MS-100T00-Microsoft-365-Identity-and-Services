@@ -50,15 +50,13 @@ A team site includes a group of related web pages, a default document library fo
 
 	![](Images/image135.png)<br><br>![](Images/image147.png)
 
-1. In the **Add group members** window, in the **Add additional owners** field, enter **Holly**. As you enter Holly, a window appears listing users whose first name starts with Holly. Select **Holly Dickson**.
+1. In the **Add group members** window, in the **Add additional owners** field, enter **Holly** and **odl_user_id**. As you enter Holly and odl_user_id, a window appears listing users whose first name starts with Holly and Odl_user_id. Select **Holly Dickson** and **Odl_user_id**.
 
 1. You now want to add **Patti Fernandez** and **Nestor Wilke** as members of this group. 
 
 	In the **Add members** field, enter **Patti**. As you enter Patti, a window appears listing users whose first name starts with Patti. Select **Patti Fernandez**. 
 
 1. Repeat the previous step for **Nestor Wilke**.
-
-	![](Images/image136.png)
 
 1. Select **Finish**. The **IT Services** site should now appear in the list of **Active sites**. Scroll the horizontal scroll bar to the right to view all the information for the IT Services site and all the other sites in the list. 
 
