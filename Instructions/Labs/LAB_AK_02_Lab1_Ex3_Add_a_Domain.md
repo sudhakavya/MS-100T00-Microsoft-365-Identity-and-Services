@@ -171,7 +171,7 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 
 1. On the **Domains > xxxUPNxxx.xxxCustomDomainxxx.xxx** page, select the **Domains** portion of this thread.  The **xxxUPNxxx.xxxCustomDomainxxx.xxx** custom domain that you just added should now appear in the list of domains, along with your **xxxxxZZZZZZ.onmicrosoft.com** domain.  
 
-1. Remain logged into the VM-Deployment-ID with both **Microsoft Edge** and **Windows PowerShell** left open for the next task. 
+1. Remain logged into the **VM-Deployment-ID** with both **Microsoft Edge** and **Windows PowerShell** left open for the next task. 
 
 
 
