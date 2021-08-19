@@ -6,7 +6,7 @@ Adatum's CTO has heard a lot about Microsoft SharePoint and is interested in imp
 
 A team site includes a group of related web pages, a default document library for files, lists for data management, and web parts that can be customized to meet your collaboration needs. Holly is excited about the possibility of using team sites in SharePoint Online to improve collaboration between team members when working on specific projects. As part of Adatum's pilot project, Holly wants to create a team site for the IT department so that IT personnel can work on projects and share information from anywhere and on any device. 
 
-1. You should still be logged into LON-DC1 as **Azureuser Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into **VM-Deployment-ID** if not, then do so now.
 
 1. You should still have Microsoft Edge and the **Microsoft 365 admin center** open from the prior lab, and you should be logged in as Holly Dickson. If so, proceed to the next step; otherwise, open Edge, navigate to **https://portal.office.com/**, log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**, and then in the **Microsoft Office Home** page, select **Admin** to open the Microsoft 365 admin center.
 
@@ -48,7 +48,9 @@ A team site includes a group of related web pages, a default document library fo
 
 1. Select **Next**.
 
-	![](Images/image135.png)<br><br>![](Images/image147.png)
+	![](Images/image135.png)
+	
+	![](Images/image147.png)
 
 1. In the **Add group members** window, in the **Add additional owners** field, enter **Holly** and **odl_user_id**. As you enter Holly and odl_user_id, a window appears listing users whose first name starts with Holly and Odl_user_id. Select **Holly Dickson** and **Odl_user_id**.
 
@@ -74,7 +76,9 @@ A team site includes a group of related web pages, a default document library fo
 
 1. In the **Delete Microsoft 365 group** pop-up window that appears, select the **Delete the group “IT Services” and all its resources** check box and then select **Delete.** Note that the IT Services site disappears from the **Active sites** list. 
 
-	![](Images/image140.png) <br><br> ![](Images/image141.png)
+	![](Images/image140.png)
+	
+	![](Images/image141.png)
 
 1. In the left-hand navigation pane on the **SharePoint admin site**, under **Sites**, select **Deleted sites.** Note how the IT Services site that you just deleted appears in the list of deleted sites (it may take a minute or so to appear in the list). 
 
