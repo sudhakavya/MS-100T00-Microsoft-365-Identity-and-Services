@@ -30,6 +30,8 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 8. Wait for the delivery failure message to appear in Holly’s Inbox, then double-click the message to open it in a new window. This will make it easier to copy the text of the message in the next step. 
 
+	![](Images/image63.png)
+
 9. In the message window, scroll down through the message until you reach the body of text that says **Diagnostic information for administrators**. Select the text in the body of the message starting after **Diagnostic information for administrators** through the end of the message. With this text selected, press **Ctrl+C** to copy it to the clipboard, and then close message window.
 
 	![](Images/image64.png)
@@ -111,9 +113,6 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 	![](Images/image75.png)
 
 31. Scroll down and select **More search options**. In the **Delivery status** field, select the drop-down arrow and select **Failed**.
-
-	![](Images/image95.png)
-
 32. At the bottom of the page, select the **Search** button.
 
 33. In the **Message trace search results** window that appears, if no failed message deliveries appear in the list, you may need to wait several minutes before selecting the **Refresh** button that appears above the item list. 
