@@ -30,8 +30,6 @@ Holly Dickson, Adatum's new Enterprise Administrator, wants to prepare herself f
 
 8. Wait for the delivery failure message to appear in Holly’s Inbox, then double-click the message to open it in a new window. This will make it easier to copy the text of the message in the next step. 
 
-	![](Images/image63.png)
-
 9. In the message window, scroll down through the message until you reach the body of text that says **Diagnostic information for administrators**. Select the text in the body of the message starting after **Diagnostic information for administrators** through the end of the message. With this text selected, press **Ctrl+C** to copy it to the clipboard, and then close message window.
 
 	![](Images/image64.png)
