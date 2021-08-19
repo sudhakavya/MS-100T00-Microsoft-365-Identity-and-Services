@@ -6,7 +6,7 @@ Because Holly is busy with running the Microsoft 365 pilot project along with he
 
 ## Important: Collaboration with an External User
 
-In Lab 1, Enter the username and password as provided in the Environment Details tab. Your tenant ID(xxxxxZZZZZZ.onmicrosoft.com) will represent the IT Consultant who will partner with Holly Dickson in building Adatum's new service request ticketing system. In this lab, you will provide your fellow student's tenant ID with access to the new ticketing system. In a lab 1 exercise, you authorized external access to your tenant from this student’s tenant ID. By providing external access to this tenant suffix ID, you and your fellow student will be able to collaborate through Microsoft Teams as you set up this new service request ticketing system (you will do this in the next lab that deals with Teams).
+In Lab 1, Enter the username and password as provided in the Environment Details tab. Your tenant ID(xxxxxZZZZZZ.onmicrosoft.com) will represent the IT Consultant who will partner with Holly Dickson in building Adatum's new service request ticketing system. In this lab, you will be provided by odl_user_id's tenant ID with access to the new ticketing system. In a lab 1 exercise, you authorized external access to your tenant from this student’s tenant ID. By providing external access to this tenant suffix ID, you and your odl_user_id will be able to collaborate through Microsoft Teams as you set up this new service request ticketing system (you will do this in the next lab that deals with Teams).
 
 In the previous lab exercise, you created a SharePoint team site called IT Services. As you develop this site, you will employ good security practices by limiting site access to Holly and your odl_user_id tenant ID (this tenant ID represents the IT consultant). As you set up the new service request ticketing system, you will access the site using your odl_user_id tenant ID to prove that the IT consultant can access the system. In the next lab involving Microsoft Teams, you will actually chat with your odl_user_id concerning the new ticketing system.
 
@@ -95,7 +95,7 @@ In the previous lab exercise, you created a SharePoint team site called IT Servi
 
     ![](Images/image213.png)
 
-1. In the **Share ‘IT Services’** window that appears, in the **Enter names or email addresses** field, enter your fellow student’s tenant admin account, which will be **Odl_user_id@xxxxxZZZZZZ.onmicrosoft.com**.
+1. In the **Share ‘IT Services’** window that appears, in the **Enter names or email addresses** field, enter your odl_user_id’s tenant admin account, which will be **Odl_user_id@xxxxxZZZZZZ.onmicrosoft.com**.
 
     This same address will be displayed below the field in a menu. Select this address.
 
@@ -105,7 +105,7 @@ In the previous lab exercise, you created a SharePoint team site called IT Servi
 
     ![](Images/image214.png)
 
-1. Because you selected the option to **Send an email invitation**, your fellow student will receive an email invitation in his or her odl_user_id’s Inbox. To verify this email was received, you must open an InPrivate browsing session to impersonate your fellow student’s tenant. This enables you to access your fellow student’s odl_user_id Administrator account within the student’s tenant, and therefore access this odl_user_id’s Outlook Inbox.
+1. Because you selected the option to **Send an email invitation**, your odl_user_id will receive an email invitation in his or her odl_user_id’s Inbox. To verify this email was received, you must open an InPrivate browsing session to impersonate your odl_user_id’s tenant. This enables you to access your odl_user_id Administrator account within the student’s tenant, and therefore access this odl_user_id’s Outlook Inbox.
 
     On your taskbar, right-click on the **Microsoft Edge** icon and select **New InPrivate window** in the menu that appears.
 1. This opens an InPrivate browsing session. Maximize the InPrivate browser window, and then enter the following URL in the address bar: **<https://outlook.office365.com/mail/inbox>**
@@ -117,7 +117,7 @@ In the previous lab exercise, you created a SharePoint team site called IT Servi
 
     ![](Images/image219.png)
 
-1. This will open your fellow student’s odl_user_id’s Inbox in Outlook. In the Inbox you should see an email from **no-reply@sharepointonline.com.** Open the email.
+1. This will open your odl_user_id’s Inbox in Outlook. In the Inbox you should see an email from **no-reply@sharepointonline.com.** Open the email.
 
     ![](Images/image217.png)
 
@@ -126,7 +126,7 @@ In the previous lab exercise, you created a SharePoint team site called IT Servi
     ![](Images/image218.png)
 
 1. A new tab will open in your InPrivate browsing session that displays **Welcome to SharePoint Online.** On this webpage, select **Organizational account.**
-1. This will open the **IT Services** site that you created in your tenant. In other words, by using an InPrivate browsing session, you are impersonating your fellow student by being signed into his or her tenant, and from your fellow student’s browser (i.e. in the InPrivate browsing session), you are accessing the **IT Services** site that Holly created in Adatum’s Microsoft 365 tenant.
+1. This will open the **IT Services** site that you created in your tenant. In other words, by using an InPrivate browsing session, you are impersonating your odl_user_id by being signed into his or her tenant, and from your odl_user_id’s browser (i.e. in the InPrivate browsing session), you are accessing the **IT Services** site that Holly created in Adatum’s Microsoft 365 tenant.
 
     ![](Images/image220.png)
 
@@ -140,7 +140,7 @@ In the previous lab exercise, you created a SharePoint team site called IT Servi
 
 1. Select the X in the upper right corner of the screen to close the InPrivate Browsing session in Microsoft Edge.
 1. Close the Microsoft Outlook mail message that you opened earlier.
-1. This will return you to the **People and Groups \> Consultants** site in your normal Edge browser session. If your fellow student's odl_user_id Administrator account does not appear in the list of consultants, select the **Refresh** icon on the left-side of the address bar at the top of the page to refresh the list. Your fellow student's **Odl_user_id** account should now appear.
+1. This will return you to the **People and Groups \> Consultants** site in your normal Edge browser session. If your  odl_user_id Administrator account does not appear in the list of consultants, select the **Refresh** icon on the left-side of the address bar at the top of the page to refresh the list. Your **Odl_user_id** account should now appear.
 
     ![](Images/image223.png)
 
@@ -159,7 +159,7 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     **IMPORTANT:** There are two ways in which you can export the data from the spreadsheet and upload it to the SharePoint list on the IT Services site: through commands in the Excel spreadsheet, or by running a PowerShell script. Both options are presented in this task and you are free to choose whichever method you prefer. Using the Excel spreadsheet commands is probably the more common method, but for those of you who prefer to work in PowerShell, using the PowerShell script provides another experience to add to your personal repository of PowerShell tools.
 
-    **CAUTION:** In this task, whenever you access the URL of the IT Services site, you will use ***your*** tenant prefix (xxxxxZZZZZZ) in the URL (**<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>**), since you created the site in your Adatum tenant in the prior task. When you access this site in your role as the IT Consultant, you will sign in using your fellow student's tenant admin username and password (which represents the IT Consultant); the username will be **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** as provided in the environment tab
+    **CAUTION:** In this task, whenever you access the URL of the IT Services site, you will use ***your*** tenant prefix (xxxxxZZZZZZ) in the URL (**<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>**), since you created the site in your Adatum tenant in the prior task. When you access this site in your role as the IT Consultant, you will sign in using your odl_user_id's tenant admin username and password (which represents the IT Consultant); the username will be **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** as provided in the environment tab
 
 1. Switch to ****VM-Deployment-ID****.
 1. On ****VM-Deployment-ID****, you should still be logged in as the **Administrator** (Adatum\\Azureuser Administrator) from the earlier lab in which you installed Microsoft 365 Apps for enterprise. If you did not log out of **VM-Deployment-ID** as Laura Atkins and log back in as the Administrator at the end of the earlier lab, then do so now.
