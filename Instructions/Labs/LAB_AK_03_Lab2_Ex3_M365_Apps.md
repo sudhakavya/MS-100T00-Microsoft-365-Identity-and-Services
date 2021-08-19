@@ -17,7 +17,7 @@ In this task, Holly will test whether a user who has not been assigned an approp
 
 Therefore, you must use one of Adatum's on-premises user accounts that has been loaded in its on-premises domain (adatum.com) by your lab hosting provider. For this test, you will use **Laura Atkins**. You will create a Microsoft 365 account for Laura, but you will not assign her an Office 365 license. 
 
-1. You should still be logged into **VM-Deployment-ID** as **Administrator** and password **Pa55w.rd**. 
+1. You should still be logged into **VM-Deployment-ID** if not, then do so now 
 
 1. The **Microsoft 365 admin center** should still be open in your Edge browser from the prior lab, where you should be logged into Microsoft 365 as Holly Dickson. In the left-hand navigation pane, select **Users** and then select **Active users**.
 
@@ -63,7 +63,7 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 1. Switch to the Client 1 VM (**VM-Deployment-ID**). 
 
-1. You want to log in as **Laura Atkins**. If the Edge browser is still open from the previous lab exercise, then close it now. You should be on the **VM-Deployment-ID**'s desktop, where it should indicate that you are logged on as **adatum\administrator**. Since you want to log on as Laura Atkins, select the **Ctrl+Alt+Delete** function for your VM environment. On the menu screen that appears, select **Switch user**. <br/>
+1. You want to log in as **Laura Atkins**. If the Edge browser is still open from the previous lab exercise, then close it now. You should be on the **VM-Deployment-ID**'s desktop, where it should indicate that you are logged on as **adatum\Azureuser administrator**. Since you want to log on as Laura Atkins, select the **Ctrl+Alt+Delete** function for your VM environment. On the menu screen that appears, select **Switch user**. <br/>
 
 	The lower-left portion of the desktop displays the **Administrator** and **Other user** options. Select **Other user**.
 
@@ -231,7 +231,7 @@ In the prior task, you logged into Laura Atkins’ client PC, and you verified t
 
 1. Once the Microsoft 365 Apps for enterprise installation file has finished downloading, select **Run** in the notification bar that appears at the bottom of the page.
 
-1. If a **Do you want to allow this app to make changes to your device?** dialog box appears, enter **adatum\administrator** in the **username** box, type **Pa55w.rd** in the **Password** box, and then select **Yes**. 
+1. If a **Do you want to allow this app to make changes to your device?** dialog box appears, enter **adatum\azureuser administrator** in the **username** box, type **Pa55w.rd** in the **Password** box, and then select **Yes**. 
 
 1. You may receive a **Continuing could be expensive** dialog box that displays a warning message indicating that it may be expensive to continue downloading because you're connected to a network that limits downloads every month. <br/>
 
