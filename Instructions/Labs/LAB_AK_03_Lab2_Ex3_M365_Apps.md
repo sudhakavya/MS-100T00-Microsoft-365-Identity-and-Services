@@ -13,11 +13,11 @@ In the final task in this exercise, you will install the Microsoft 365 Apps for 
 
 ### Task 1 – Verify how licensing affects installing Microsoft 365 Apps for enterprise
 
-In this task, Holly will test whether a user who has not been assigned an appropriate Office 365 license can download Microsoft 365 Apps for enterprise. For this test, you cannot use any of the existing users that appear in the **Active Users** list in the Microsoft 365 admin center. These users only have Microsoft 365 accounts (xxxxxZZZZZZ.onmicrosoft.com accounts); they do not have corresponding on-premises accounts in the adatum domain. Without an on-premises account, you cannot log into the Client 1 (LON-CL1) VM as any of these users to install Microsoft 365 Apps for enterprise on the client machine. 
+In this task, Holly will test whether a user who has not been assigned an appropriate Office 365 license can download Microsoft 365 Apps for enterprise. For this test, you cannot use any of the existing users that appear in the **Active Users** list in the Microsoft 365 admin center. These users only have Microsoft 365 accounts (xxxxxZZZZZZ.onmicrosoft.com accounts); they do not have corresponding on-premises accounts in the adatum domain. Without an on-premises account, you cannot log into the Client 1 (**VM-Deployment-ID**) VM as any of these users to install Microsoft 365 Apps for enterprise on the client machine. 
 
 Therefore, you must use one of Adatum's on-premises user accounts that has been loaded in its on-premises domain (adatum.com) by your lab hosting provider. For this test, you will use **Laura Atkins**. You will create a Microsoft 365 account for Laura, but you will not assign her an Office 365 license. 
 
-1. You should still be logged into LON-DC1 as **Administrator** and password **Pa55w.rd**. 
+1. You should still be logged into **VM-Deployment-ID** if not, then do so now 
 
 1. The **Microsoft 365 admin center** should still be open in your Edge browser from the prior lab, where you should be logged into Microsoft 365 as Holly Dickson. In the left-hand navigation pane, select **Users** and then select **Active users**.
 
@@ -61,9 +61,9 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 1. On the **Laura Atkins added to active users** page, select **Close**. If a survey form appears, select **Cancel**. 
 
-1. Switch to the Client 1 VM (**LON-CL1**). 
+1. Switch to the Client 1 VM (**VM-Deployment-ID**). 
 
-1. You want to log in as **Laura Atkins**. If the Edge browser is still open from the previous lab exercise, then close it now. You should be on the LON-CL1's desktop, where it should indicate that you are logged on as **adatum\administrator**. Since you want to log on as Laura Atkins, select the **Ctrl+Alt+Delete** function for your VM environment. On the menu screen that appears, select **Switch user**. <br/>
+1. You want to log in as **Laura Atkins**. If the Edge browser is still open from the previous lab exercise, then close it now. You should be on the **VM-Deployment-ID**'s desktop, where it should indicate that you are logged on as **adatum\Azureuser administrator**. Since you want to log on as Laura Atkins, select the **Ctrl+Alt+Delete** function for your VM environment. On the menu screen that appears, select **Switch user**. <br/>
 
 	The lower-left portion of the desktop displays the **Administrator** and **Other user** options. Select **Other user**.
 
@@ -93,14 +93,14 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 	
 	‎**Important:** You have just verified that a user cannot download Microsoft 365 Apps for enterprise if he or she has not been assigned an appropriate Office 365 license.
 	
-1. Leave LON-CL1 open and remain signed into Microsoft 365 as Laura Atkins for the next task.
+1. Leave **VM-Deployment-ID** open and remain signed into Microsoft 365 as Laura Atkins for the next task.
 
 
 ### Task 2 – Verify how the global Office download setting affects installing Microsoft 365 Apps for enterprise
 
 Holly is now going to test whether users can be prohibited from downloading Microsoft 365 Apps for enterprise if an admin such as herself turns off the global Office download setting that controls the downloading of mobile and desktop apps for all users.<br/>
 	
-1. Switch back to **LON-DC1**. You should still be logged into Microsoft 365 as Holly Dickson, Adatum’s Enterprise Administrator.
+1. Switch back to **VM-Deployment-ID**. You should still be logged into Microsoft 365 as Holly Dickson, Adatum’s Enterprise Administrator.
 
 	![](Images/image112.png)
 
@@ -132,9 +132,9 @@ Holly is now going to test whether users can be prohibited from downloading Micr
 
 1. You should now check whether Laura can download Microsoft 365 Apps for enterprise on to her client PC when the global Office download setting has been turned Off. <br/>	
 
-	To do this, you must first switch back to **LON-CL1**.
+	To do this, you must first switch back to ****VM-Deployment-ID****.
 
-1. In **LON-CL1**, your Edge browser should still be open, and you should still be logged into Microsoft 365 as Laura Atkins. The **My account** window should be displayed, and the **Apps and devices** section should still be displayed along with the error message that you received in the prior task that indicated Laura was not assigned an Office license. <br/>
+1. In ****VM-Deployment-ID****, your Edge browser should still be open, and you should still be logged into Microsoft 365 as Laura Atkins. The **My account** window should be displayed, and the **Apps and devices** section should still be displayed along with the error message that you received in the prior task that indicated Laura was not assigned an Office license. <br/>
 
 	Select the **Refresh icon** that appears to the left of the address bar at the top of your browser. This will refresh the **Office apps &amp; devices** page. <br/>
 	
@@ -170,9 +170,9 @@ Holly is now going to test whether users can be prohibited from downloading Micr
 
 1. At this point Holly wants to turn the global Office download setting back On so that Laura can download Microsoft 365 Apps for enterprise. <br/>
 
-	To do this, switch back to **LON-DC1**. 
+	To do this, switch back to **VM-Deployment-ID**. 
 
-1. On **LON-DC1**, you should still be logged into Microsoft 365 as Holly Dickson. In the **Microsoft 365 admin center**, under the **Settings** section in the left-hand navigation pane, select **Org Settings**.
+1. On **VM-Deployment-ID**, you should still be logged into Microsoft 365 as Holly Dickson. In the **Microsoft 365 admin center**, under the **Settings** section in the left-hand navigation pane, select **Org Settings**.
 
 	![](Images/image121.png)
 
@@ -192,9 +192,9 @@ Holly is now going to test whether users can be prohibited from downloading Micr
 
 1. Now that this global Office download option is turned back On, you should see if it affects Laura’s ability to download Microsoft 365 Apps for enterprise. <br/>
 
-	To do this, switch back to **LON-CL1**.
+	To do this, switch back to **VM-Deployment-ID**.
 
-1. On **LON-CL1**, Laura's Edge browser should still be open, and the **Office apps and devices** page should be displayed along with the error message that indicated your admin has turned off Office installs. Since you just turned this global option back On, you need to refresh this page to see how it affects Laura’s ability to download Microsoft 365 Apps for enterprise. <br/>
+1. On **VM-Deployment-ID**, Laura's Edge browser should still be open, and the **Office apps and devices** page should be displayed along with the error message that indicated your admin has turned off Office installs. Since you just turned this global option back On, you need to refresh this page to see how it affects Laura’s ability to download Microsoft 365 Apps for enterprise. <br/>
 
 	**Note:** Unlike the previous time when you refreshed this page and it did not reflect Laura's updated Office 365 license status, refreshing this page after updating the global download setting works. 
 
@@ -206,14 +206,14 @@ Holly is now going to test whether users can be prohibited from downloading Micr
 	
 	‎**Important:** You have just verified that a user with an Office license is able to download Microsoft 365 Apps for enterprise if the global Office download setting is turned On.
 
-1. Remain on LON-CL1 and continue to the next task to perform the user-driven installation for Laura Atkins.
+1. Remain on **VM-Deployment-ID** and continue to the next task to perform the user-driven installation for Laura Atkins.
 
 
 ### Task 3 – Perform a User-Driven Installation of Microsoft 365 Apps for enterprise 
 
 In the prior task, you logged into Laura Atkins’ client PC, and you verified that she could download Microsoft 365 Apps for enterprise once she was assigned an Office 365 license and the global Office download setting was turned On. In this task, you will continue the process by having Laura perform a user-driven installation of the Microsoft 365 Apps for enterprise suite from the Microsoft 365 portal.  
 
-1. On **LON-CL1**, you should still be logged in as Laura Atkins. 
+1. On **VM-Deployment-ID**, you should still be logged in as Laura Atkins. 
 
 1. You should still be in Laura’s **My account** window since this is where you left off at the end of the prior task. Under the **Office apps &amp; devices** section, the **Install Office** button now appears since Laura is assigned an Office 365 E5 license and the global Office download setting is turned On.<br/> ![](Images/image125.png)
 
@@ -231,7 +231,7 @@ In the prior task, you logged into Laura Atkins’ client PC, and you verified t
 
 1. Once the Microsoft 365 Apps for enterprise installation file has finished downloading, select **Run** in the notification bar that appears at the bottom of the page.
 
-1. If a **Do you want to allow this app to make changes to your device?** dialog box appears, enter **adatum\administrator** in the **username** box, type **Pa55w.rd** in the **Password** box, and then select **Yes**. 
+1. If a **Do you want to allow this app to make changes to your device?** dialog box appears, enter **adatum\azureuser administrator** in the **username** box, type **Pa55w.rd** in the **Password** box, and then select **Yes**. 
 
 1. You may receive a **Continuing could be expensive** dialog box that displays a warning message indicating that it may be expensive to continue downloading because you're connected to a network that limits downloads every month. <br/>
 
@@ -269,14 +269,14 @@ In the prior task, you logged into Laura Atkins’ client PC, and you verified t
 
 1. Close Word.
 
-1. Now that you have completed this lab exercise by installing Microsoft 365 Apps for enterprise, you should log out of LON-CL1 as Laura Atkins and log back in as the Adatum administrator. This will prepare LON-CL1 for the next lab.
+1. Now that you have completed this lab exercise by installing Microsoft 365 Apps for enterprise, you should log out of **VM-Deployment-ID** as Laura Atkins and log back in as the Adatum administrator. This will prepare **VM-Deployment-ID** for the next lab.
 
-	On LON-CL1, select the **Ctrl+Alt+Delete** function in your VM lab environment. 
+	On **VM-Deployment-ID**, select the **Ctrl+Alt+Delete** function in your VM lab environment. 
 	
 1. On the desktop menu, select **Switch user**. 
 
 1. On the desktop, the **Administrator** is selected by default. Enter **Pa55w.rd** in the **Password** field and then select the forward arrow. 
 
-	The desktop should now display the logged on user as **adatum\administrator**. LON-CL1 is now ready for the next lab.
+	The desktop should now display the logged on user as **adatum\Azureuser administrator**. **VM-Deployment-ID** is now ready for the next lab.
 
 # End of Lab 2

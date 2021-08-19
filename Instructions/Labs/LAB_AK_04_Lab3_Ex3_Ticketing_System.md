@@ -6,23 +6,15 @@ Because Holly is busy with running the Microsoft 365 pilot project along with he
 
 ## Important: Collaboration with an External User
 
-In Lab 1, your instructor assigned you the tenant suffix ID of a fellow student in your class. Your fellow student's tenant ID will represent the IT Consultant who will partner with Holly Dickson in building Adatum's new service request ticketing system. In this lab, you will provide your fellow student's tenant ID with access to the new ticketing system. In a lab 1 exercise, you authorized external access to your tenant from this student’s tenant ID. By providing external access to this tenant suffix ID, you and your fellow student will be able to collaborate through Microsoft Teams as you set up this new service request ticketing system (you will do this in the next lab that deals with Teams).
+In Lab 1, Enter the username and password as provided in the Environment Details tab. Your tenant ID(xxxxxZZZZZZ.onmicrosoft.com) will represent the IT Consultant who will partner with Holly Dickson in building Adatum's new service request ticketing system. In this lab, you will be provided by odl_user_id's tenant ID with access to the new ticketing system. In a lab 1 exercise, you authorized external access to your tenant from this student’s tenant ID. By providing external access to this tenant suffix ID, you and your odl_user_id will be able to collaborate through Microsoft Teams as you set up this new service request ticketing system (you will do this in the next lab that deals with Teams).
 
-In the previous lab exercise, you created a SharePoint team site called IT Services. As you develop this site, you will employ good security practices by limiting site access to Holly and your fellow student's tenant ID (this tenant ID represents the IT consultant). As you set up the new service request ticketing system, you will access the site using your fellow student's tenant ID to prove that the IT consultant can access the system. In the next lab involving Microsoft Teams, you will actually chat with your fellow student concerning the new ticketing system. Keep in mind that the student who was assigned as your IT consultant will also be taking on the role of Holly Dickson in his or her own lab, and you will be taking on the IT consultant role with another student. Therefore, each student in the class will take on dual roles – that of Holly Dickson in the student’s own lab, and that of the IT consultant for a fellow student’s lab.
+In the previous lab exercise, you created a SharePoint team site called IT Services. As you develop this site, you will employ good security practices by limiting site access to Holly and your odl_user_id tenant ID (this tenant ID represents the IT consultant). As you set up the new service request ticketing system, you will access the site using your odl_user_id tenant ID to prove that the IT consultant can access the system. In the next lab involving Microsoft Teams, you will actually chat with your odl_user_id concerning the new ticketing system.
 
 ### Task 1 - Assign site permissions to your IT consultant
 
-As Holly Dickson, you earlier provided your fellow student's tenant ID with External Access back in Lab 1. You now must assign the consultant with permission to access the new IT Services team site that you created in the prior lab. If you will recall, in the prior lab you created a new Information Technology group that was assigned to the IT Services site. This group included Isaiah Langer and Joni Sherman, and you assigned the group Full Control permissions. Since you do not want the IT consultant to have Full Control permissions, you do not want to assign the consultant to the Information Technology group.
+1. You should meet with odl_user_id username assigned to your lab to play the role of the IT consultant. During this meeting you should exchange the tenant admin accounts **(ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com)** from each of your tenants along with the tenant admin's password.
 
-Instead, in your role as Holly Dickson, you will perform the following steps in this task to assign the IT consultant to the IT Services team site with limited permissions:
-
-- You will create a new permission level for the IT Services site titled **Restricted Use**. You will then assign to this permission level the limited set of permissions that you want assigned to any external users who will access the site (in this case, the IT Consultant).
-- For the IT Services site, you will then create a new group of users titled **Consultants**, and you will assign your fellow student’s tenant admin account (which represents the IT Consultant) to this group.
-- You will assign the **Restricted Use** permission level to this **Consultants** group. This will limit the actions the IT Consultant will be able to perform when accessing the IT Services site.
-
-1. You should meet with the student who your instructor assigned to your lab to play the role of the IT consultant. During this meeting you should exchange the tenant admin accounts **(ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com)** from each of your tenants along with the tenant admin's password.
-
-1. You should still be logged into LON-DC1 as **ADATUM\\Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into **VM-Deployment-ID** as **ADATUM\\Azureuser Administrator**; if not, then do so now.
 
 1. You should still have your Edge browser and the SharePoint admin center open from the prior lab in which you were logged in as Holly Dickson. If so, proceed to the next step; otherwise, navigate to the SharePoint admin center just as you did in the prior lab exercise.
 1. In the **SharePoint admin center**, you will begin by creating a new permission level for the IT Services site. In the left-hand navigation pane, select **Sites**, and then select **Active sites**.
@@ -107,7 +99,7 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
     ![](Images/image213.png)
 
-1. In the **Share ‘IT Services’** window that appears, in the **Enter names or email addresses** field, enter your fellow student’s tenant admin account, which will be **Odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (**IMPORTANT:** replace xxxxxZZZZZZ with your fellow student’s tenant prefix that was assigned to you by your instructor; do **NOT** use your tenant prefix).
+1. In the **Share ‘IT Services’** window that appears, in the **Enter names or email addresses** field, enter your odl_user_id’s tenant admin account, which will be **Odl_user_id@xxxxxZZZZZZ.onmicrosoft.com**.
 
     This same address will be displayed below the field in a menu. Select this address.
 
@@ -117,11 +109,11 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
     ![](Images/image214.png)
 
-1. Because you selected the option to **Send an email invitation**, your fellow student will receive an email invitation in his or her odl_user_id’s Inbox. To verify this email was received, you must open an InPrivate browsing session to impersonate your fellow student’s tenant. This enables you to access your fellow student’s odl_user_id Administrator account within the student’s tenant, and therefore access this odl_user_id’s Outlook Inbox.
+1. Because you selected the option to **Send an email invitation**, your odl_user_id will receive an email invitation in his or her odl_user_id’s Inbox. To verify this email was received, you must open an InPrivate browsing session to impersonate your odl_user_id’s tenant. This enables you to access your odl_user_id Administrator account within the student’s tenant, and therefore access this odl_user_id’s Outlook Inbox.
 
     On your taskbar, right-click on the **Microsoft Edge** icon and select **New InPrivate window** in the menu that appears.
 1. This opens an InPrivate browsing session. Maximize the InPrivate browser window, and then enter the following URL in the address bar: **<https://outlook.office365.com/mail/inbox>**
-1. In the **Sign in** window, enter your fellow student’s Odl_user_id email address of **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is your fellow student’s tenant prefix that was assigned to you by your instructor). In the **Enter password** window, enter your fellow student's tenant email password and select **Sign in**.
+1. In the **Sign in** window, enter Odl_user_id email address of **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** as provided in the environment tab. In the **Enter password** window, enter  password and select **Sign in**.
 
     ![](Images/image215.png)
     
@@ -131,7 +123,7 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
     ![](Images/image219.png)
 
-1. This will open your fellow student’s odl_user_id’s Inbox in Outlook. In the Inbox you should see an email from **no-reply@sharepointonline.com.** Open the email.
+1. This will open your odl_user_id’s Inbox in Outlook. In the Inbox you should see an email from **no-reply@sharepointonline.com.** Open the email.
 
     ![](Images/image217.png)
 
@@ -140,7 +132,7 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
     ![](Images/image218.png)
 
 1. A new tab will open in your InPrivate browsing session that displays **Welcome to SharePoint Online.** On this webpage, select **Organizational account.**
-1. This will open the **IT Services** site that you created in your tenant. In other words, by using an InPrivate browsing session, you are impersonating your fellow student by being signed into his or her tenant, and from your fellow student’s browser (i.e. in the InPrivate browsing session), you are accessing the **IT Services** site that Holly created in Adatum’s Microsoft 365 tenant.
+1. This will open the **IT Services** site that you created in your tenant. In other words, by using an InPrivate browsing session, you are impersonating your odl_user_id by being signed into his or her tenant, and from your odl_user_id’s browser (i.e. in the InPrivate browsing session), you are accessing the **IT Services** site that Holly created in Adatum’s Microsoft 365 tenant.
 
     ![](Images/image220.png)
 
@@ -154,7 +146,7 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
 1. Select the X in the upper right corner of the screen to close the InPrivate Browsing session in Microsoft Edge.
 1. Close the Microsoft Outlook mail message that you opened earlier.
-1. This will return you to the **People and Groups \> Consultants** site in your normal Edge browser session. If your fellow student's odl_user_id Administrator account does not appear in the list of consultants, select the **Refresh** icon on the left-side of the address bar at the top of the page to refresh the list. Your fellow student's **Odl_user_id** account should now appear.
+1. This will return you to the **People and Groups \> Consultants** site in your normal Edge browser session. If your  odl_user_id Administrator account does not appear in the list of consultants, select the **Refresh** icon on the left-side of the address bar at the top of the page to refresh the list. Your **Odl_user_id** account should now appear.
 
     ![](Images/image223.png)
 
@@ -164,19 +156,19 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
 In this task, **you will take on the persona of the IT consultant** who is helping Holly Dickson implement a new service request ticketing system. In your role as the IT consultant, you are concerned that during this transition from Adatum’s old ticketing system to the new one, Adatum may lose critical historical data, such as ticket volume and monthly activity. Therefore, you have recommended to Holly that you should upload the existing data from Adatum’s old service request ticketing system to the new ticketing system.
 
-To facilitate this process, the existing ticketing data has been captured in a spreadsheet and a backup spreadsheet, and your lab service provider has stored these two spreadsheets on LON-CL1.
+To facilitate this process, the existing ticketing data has been captured in a spreadsheet and a backup spreadsheet, and your lab service provider has stored these two spreadsheets on **VM-Deployment-ID**.
 
 As the IT Consultant in this task, you will perform two primary steps:
 
 - You will connect to Adatum’s IT Services team site to validate that you can access the site and authenticate your credentials.
-- You will export the existing ticket data from the spreadsheet on LON-CL1 and upload it to a SharePoint list in the IT Services site that Adatum (Holly) created in the prior task. When the data is uploaded to the IT Services site, it will be uploaded as a SharePoint list (titled “Service Desk Requests”) on the site.
+- You will export the existing ticket data from the spreadsheet on **VM-Deployment-ID** and upload it to a SharePoint list in the IT Services site that Adatum (Holly) created in the prior task. When the data is uploaded to the IT Services site, it will be uploaded as a SharePoint list (titled “Service Desk Requests”) on the site.
 
     **IMPORTANT:** There are two ways in which you can export the data from the spreadsheet and upload it to the SharePoint list on the IT Services site: through commands in the Excel spreadsheet, or by running a PowerShell script. Both options are presented in this task and you are free to choose whichever method you prefer. Using the Excel spreadsheet commands is probably the more common method, but for those of you who prefer to work in PowerShell, using the PowerShell script provides another experience to add to your personal repository of PowerShell tools.
 
-**CAUTION:** In this task, whenever you access the URL of the IT Services site, you will use ***your*** tenant prefix (xxxxxZZZZZZ) in the URL (**<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>**), since you created the site in your Adatum tenant in the prior task. When you access this site in your role as the IT Consultant, you will sign in using your fellow student's tenant admin username and password (which represents the IT Consultant); the username will be **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com**, where the tenant prefix (xxxxxZZZZZZ) will be ***your fellow student’s*** tenant prefix that was assigned to you by your instructor.
+    **CAUTION:** In this task, whenever you access the URL of the IT Services site, you will use ***your*** tenant prefix (xxxxxZZZZZZ) in the URL (**<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>**), since you created the site in your Adatum tenant in the prior task. When you access this site in your role as the IT Consultant, you will sign in using your odl_user_id's tenant admin username and password (which represents the IT Consultant); the username will be **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** as provided in the environment tab
 
-1. Switch to **LON-CL1**.
-1. On **LON-CL1**, you should still be logged in as the **Administrator** (Adatum\\Administrator) from the earlier lab in which you installed Microsoft 365 Apps for enterprise. If you did not log out of LON-CL1 as Laura Atkins and log back in as the Administrator at the end of the earlier lab, then do so now.
+1. Switch to ****VM-Deployment-ID****.
+1. On ****VM-Deployment-ID****, you should still be logged in as the **Administrator** (Adatum\\Azureuser Administrator) from the earlier lab in which you installed Microsoft 365 Apps for enterprise. If you did not log out of **VM-Deployment-ID** as Laura Atkins and log back in as the Administrator at the end of the earlier lab, then do so now.
 
 1. If you will recall from the task description, you will be presented with two options for completing this task: through commands in the Excel spreadsheet, or by running a PowerShell script.
       - If you prefer to use Excel to accomplish this task, then proceed to **step 6**.
@@ -230,7 +222,7 @@ As the IT Consultant in this task, you will perform two primary steps:
     ![](Images/image236.png)
     
     ![](Images/image237.png)
-
+    
     Once you are signed in, select **Connect**.
     
     ![](Images/image238.png)
@@ -281,7 +273,7 @@ As the IT Consultant in this task, you will perform two primary steps:
     
     ![](Images/image244.png)
 
-    **Note:** If a **Sign in** window appears, enter the odl_user_id Administrator’s account for the IT Consultant’s tenant. In this case, enter **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is your fellow student's tenant prefix that was assigned to you by your instructor). Select **Next**, and then in the **Enter password** window, enter your fellow student's tenant password and then select **Sign in**.
+    **Note:** If a **Sign in** window appears, enter the odl_user_id Administrator’s account for the IT Consultant’s tenant. In this case, enter **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** as provided in the environment tab. Select **Next**, and then in the **Enter password** window, enter password as provided in the environment tab and then select **Sign in**.
 1. On the taskbar at the bottom of the screen, select the **Excel** icon. In the **Microsoft SharePoint Foundation** dialog box that displayed the link to the published list in the IT Services site, select **OK** to close the window.
 1. Close Excel.
 1. Close your Edge browser.
@@ -319,21 +311,15 @@ As the IT Consultant in this task, you will perform two primary steps:
 
 1. At the command prompt, you will run the commands in lines **20** together; therefore, select these two lines in the script and then select the **Run Selection (F8)** icon on the menu bar.
 
-    ![](Images/image249.png)
-
-1. In the **Windows PowerShell credential request** dialog box that appears, enter **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** in the **User name** field (where xxxxxZZZZZZ is the tenant prefix ***from your fellow student*** that was assigned to you by your instructor); this is the IT Consultant’s Odl_user_id Administrator (tenant admin) account.
-
-    **Note:** Copy the value (Ctrl+C) that you entered in the **User name** field as you will have to enter it again in a couple of steps. By copying the value here, you can simply paste it in later on rather than re-entering it.
-
-    Enter your fellow student's tenant admin password in the **Password** field, and then select **OK**.
 1. On line **32** in the script, you MUST update the URL before you can run this command. In the URL, you must replace the xxxxxZZZZZZ with ***your tenant ID*** provided by your lab hosting provider (this is your Adatum tenant where the IT Services site was created earlier by Holly).
 
     ![image](https://user-images.githubusercontent.com/69506830/129944215-1369c17f-294b-45c7-9567-e5408515d47a.png)
 
 1. At the command prompt, you will run the command in line **32** by itself; therefore, select this line in the script and then select the **Run Selection (F8)** icon on the menu bar.
-1. In the **Enter your credentials** dialog box, paste into the **User name** field the value that you copied in the earlier step. If you did not copy the User name value, then enter in the **User name** field **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix ***from your fellow student*** that was assigned to you by your instructor); this is the IT Consultant’s odl_user_id (tenant admin) account.
+1. In the **Enter your credentials** dialog box, paste into the **User name** field the value that you copied in the earlier step. If you did not copy the User name value, then enter in the **User name** field **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix as provided in the environment tab ); this is the IT Consultant’s odl_user_id (tenant admin) account.
 
-    Enter your fellow student's tenant admin password in the **Password** field, and then select **OK**.
+    Enter password in the **Password** field as provided in the environment tab, and then select **OK**.
+    
 1. The commands in lines 41-51 in the script MUST be run individually. If you select all six commands and run them all together at one time, the commands will fail.
 
     ![](Images/image253.png)
@@ -374,8 +360,8 @@ As the IT Consultant in this task, you will perform two primary steps:
 
 In this task you will return to your role as Holly Dickson. You have just been informed by the IT Consultant that he or she finished exporting the existing ticketing system data and uploaded it to the new SharePoint site. However, as you reviewed the list of data that was imported into the Service Desk Requests list, you noticed that the **Customer** field and the **Assign to** fields were missing. The **Customer** field is the name of the person who entered the ticket, and the **Assign to** field is the name of the support engineer to whom the ticket was assigned. This is critical data for a service request system, so it is imperative that you add this information to the **Service Desk Requests** list.
 
-1. On LON-CL1 you should have closed the Edge browser at the end of the prior task. If not, then do so now.
-1. Since Holly will be using her PC to perform this task, you will use LON-CL1 in this role-playing exercise as Holly’s PC rather than the IT Consultant's PC as you did in the prior task.
+1. On **VM-Deployment-ID** you should have closed the Edge browser at the end of the prior task. If not, then do so now.
+1. Since Holly will be using her PC to perform this task, you will use **VM-Deployment-ID** in this role-playing exercise as Holly’s PC rather than the IT Consultant's PC as you did in the prior task.
 
     Select the **Microsoft Edge** icon on the taskbar to open your browser, and then enter the following URL in the address bar: **<https://portal.office.com>**.
 1. In the **Pick an account** window, select Holly’s account if it appears; otherwise, select **Use another account** and then enter **holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix assigned to you by your lab hosting provider). In the **Enter password** window, enter **Pa55w.rd** and select **Sign in**.
@@ -463,7 +449,7 @@ In this task you will return to your role as Holly Dickson. You have just been i
 
     ![](Images/image273.png)
 
-1. Leave the browser and all existing tabs open on LON-CL1 for the next task.
+1. Leave the browser and all existing tabs open on **VM-Deployment-ID** for the next task.
 
 ### Task 4 - Create filtered views for targeted viewing
 
@@ -474,7 +460,7 @@ In this task, you will continue in your role as Holly Dickson, Adatum’s Enterp
 - All Cases by Support Agent
 - All Cases by Customer
 
-1. You should still be signed into LON-CL1 as the **Administrator**, and you should be logged into Microsoft 365 as Holly Dickson. In your browser, you should still have the tab open from the prior task that displays the **Service Desk Requests** list. If not, then navigate to this list now.
+1. You should still be signed into **VM-Deployment-ID** as the **Administrator**, and you should be logged into Microsoft 365 as Holly Dickson. In your browser, you should still have the tab open from the prior task that displays the **Service Desk Requests** list. If not, then navigate to this list now.
 1. You will begin by creating a view showing all active cases. On the **Service Desk Requests** page, select the **gear** (**Settings**) icon in the top right corner of the webpage. In the menu that appears, select **List settings.**
 
     ![](Images/image274.png)
