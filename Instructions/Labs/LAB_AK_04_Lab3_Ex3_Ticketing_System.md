@@ -22,7 +22,7 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
 1. You should meet with the student who your instructor assigned to your lab to play the role of the IT consultant. During this meeting you should exchange the tenant admin accounts **(ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com)** from each of your tenants along with the tenant admin's password.
 
-1. You should still be logged into LON-DC1 as **ADATUM\\Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into **VM-Deployment-ID** as **ADATUM\\Azureuser Administrator**; if not, then do so now.
 
 1. You should still have your Edge browser and the SharePoint admin center open from the prior lab in which you were logged in as Holly Dickson. If so, proceed to the next step; otherwise, navigate to the SharePoint admin center just as you did in the prior lab exercise.
 1. In the **SharePoint admin center**, you will begin by creating a new permission level for the IT Services site. In the left-hand navigation pane, select **Sites**, and then select **Active sites**.
@@ -158,19 +158,19 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
 In this task, **you will take on the persona of the IT consultant** who is helping Holly Dickson implement a new service request ticketing system. In your role as the IT consultant, you are concerned that during this transition from Adatum’s old ticketing system to the new one, Adatum may lose critical historical data, such as ticket volume and monthly activity. Therefore, you have recommended to Holly that you should upload the existing data from Adatum’s old service request ticketing system to the new ticketing system.
 
-To facilitate this process, the existing ticketing data has been captured in a spreadsheet and a backup spreadsheet, and your lab service provider has stored these two spreadsheets on LON-CL1.
+To facilitate this process, the existing ticketing data has been captured in a spreadsheet and a backup spreadsheet, and your lab service provider has stored these two spreadsheets on **VM-Deployment-ID**.
 
 As the IT Consultant in this task, you will perform two primary steps:
 
 - You will connect to Adatum’s IT Services team site to validate that you can access the site and authenticate your credentials.
-- You will export the existing ticket data from the spreadsheet on LON-CL1 and upload it to a SharePoint list in the IT Services site that Adatum (Holly) created in the prior task. When the data is uploaded to the IT Services site, it will be uploaded as a SharePoint list (titled “Service Desk Requests”) on the site.
+- You will export the existing ticket data from the spreadsheet on **VM-Deployment-ID** and upload it to a SharePoint list in the IT Services site that Adatum (Holly) created in the prior task. When the data is uploaded to the IT Services site, it will be uploaded as a SharePoint list (titled “Service Desk Requests”) on the site.
 
     **IMPORTANT:** There are two ways in which you can export the data from the spreadsheet and upload it to the SharePoint list on the IT Services site: through commands in the Excel spreadsheet, or by running a PowerShell script. Both options are presented in this task and you are free to choose whichever method you prefer. Using the Excel spreadsheet commands is probably the more common method, but for those of you who prefer to work in PowerShell, using the PowerShell script provides another experience to add to your personal repository of PowerShell tools.
 
 **CAUTION:** In this task, whenever you access the URL of the IT Services site, you will use ***your*** tenant prefix (xxxxxZZZZZZ) in the URL (**<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>**), since you created the site in your Adatum tenant in the prior task. When you access this site in your role as the IT Consultant, you will sign in using your fellow student's tenant admin username and password (which represents the IT Consultant); the username will be **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com**, where the tenant prefix (xxxxxZZZZZZ) will be ***your fellow student’s*** tenant prefix that was assigned to you by your instructor.
 
-1. Switch to **LON-CL1**.
-1. On **LON-CL1**, you should still be logged in as the **Administrator** (Adatum\\Administrator) from the earlier lab in which you installed Microsoft 365 Apps for enterprise. If you did not log out of LON-CL1 as Laura Atkins and log back in as the Administrator at the end of the earlier lab, then do so now.
+1. Switch to ****VM-Deployment-ID****.
+1. On ****VM-Deployment-ID****, you should still be logged in as the **Administrator** (Adatum\\Azureuser Administrator) from the earlier lab in which you installed Microsoft 365 Apps for enterprise. If you did not log out of **VM-Deployment-ID** as Laura Atkins and log back in as the Administrator at the end of the earlier lab, then do so now.
 
 1. If you will recall from the task description, you will be presented with two options for completing this task: through commands in the Excel spreadsheet, or by running a PowerShell script.
       - If you prefer to use Excel to accomplish this task, then proceed to **step 6**.
@@ -338,8 +338,8 @@ As the IT Consultant in this task, you will perform two primary steps:
 
 In this task you will return to your role as Holly Dickson. You have just been informed by the IT Consultant that he or she finished exporting the existing ticketing system data and uploaded it to the new SharePoint site. However, as you reviewed the list of data that was imported into the Service Desk Requests list, you noticed that the **Customer** field and the **Assign to** fields were missing. The **Customer** field is the name of the person who entered the ticket, and the **Assign to** field is the name of the support engineer to whom the ticket was assigned. This is critical data for a service request system, so it is imperative that you add this information to the **Service Desk Requests** list.
 
-1. On LON-CL1 you should have closed the Edge browser at the end of the prior task. If not, then do so now.
-1. Since Holly will be using her PC to perform this task, you will use LON-CL1 in this role-playing exercise as Holly’s PC rather than the IT Consultant's PC as you did in the prior task.
+1. On **VM-Deployment-ID** you should have closed the Edge browser at the end of the prior task. If not, then do so now.
+1. Since Holly will be using her PC to perform this task, you will use **VM-Deployment-ID** in this role-playing exercise as Holly’s PC rather than the IT Consultant's PC as you did in the prior task.
 
     Select the **Microsoft Edge** icon on the taskbar to open your browser, and then enter the following URL in the address bar: **<https://portal.office.com>**.
 1. In the **Pick an account** window, select Holly’s account if it appears; otherwise, select **Use another account** and then enter **holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix assigned to you by your lab hosting provider). In the **Enter password** window, enter **Pa55w.rd** and select **Sign in**.
@@ -421,7 +421,7 @@ In this task you will return to your role as Holly Dickson. You have just been i
 
     ![](Images/image273.png)
 
-1. Leave the browser and all existing tabs open on LON-CL1 for the next task.
+1. Leave the browser and all existing tabs open on **VM-Deployment-ID** for the next task.
 
 ### Task 4 - Create filtered views for targeted viewing
 
@@ -432,7 +432,7 @@ In this task, you will continue in your role as Holly Dickson, Adatum’s Enterp
 - All Cases by Support Agent
 - All Cases by Customer
 
-1. You should still be signed into LON-CL1 as the **Administrator**, and you should be logged into Microsoft 365 as Holly Dickson. In your browser, you should still have the tab open from the prior task that displays the **Service Desk Requests** list. If not, then navigate to this list now.
+1. You should still be signed into **VM-Deployment-ID** as the **Administrator**, and you should be logged into Microsoft 365 as Holly Dickson. In your browser, you should still have the tab open from the prior task that displays the **Service Desk Requests** list. If not, then navigate to this list now.
 1. You will begin by creating a view showing all active cases. On the **Service Desk Requests** page, select the **gear** (**Settings**) icon in the top right corner of the webpage. In the menu that appears, select **List settings.**
 
     ![](Images/image274.png)
