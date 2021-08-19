@@ -242,23 +242,23 @@ Now that you have created the resource account for your calling queue, you will 
 		
 			**Important:** Note the red error message that appears across the top of the page. The error message indicates that Allan cannot be associated with this call queue because he is not enterprise-voice enabled. Select anywhere in the red error message to close the **Add users** pane, and then select the **X** on the right-side of this error message to close it.
 
-	![](Images/image328.png)
-
 		- **Choose which groups to associate with this call queue:** Select the **Add groups** button. In the **Add call agents** pane on the right-side of the screen, in the **Search by distribution list or group name** field, enter **Inside**. As you type Inside, a window appears listing the groups whose name starts with Inside. As you hover your mouse over **Inside Sales**, an **Add** button appears to the right of it. Select the **Add** button. In the **Add call agents** pane, the Inside Sales group appears under **Selected groups**. Select the **Add** button at the bottom of the pane.
-
-	![](Images/image329.png)
-
-		- Routing Method: **Round Robin**   
-		
-		- Presence-based routing - **Off**
+	       
+		-  Routing Method: **Round Robin**   
+	        
+	        -  Presence-based routing - **Off**
 	
-		- Agents can opt out of taking calls: **On**
+	        - Agents can opt out of taking calls: **On**
 		
-		- Agent alert time (in seconds) - **45** (Hint: Entering the value in the field is easier than dragging the slider icon)
+	        - Agent alert time (in seconds) - **45** (Hint: Entering the value in the field is easier than dragging the slider icon)
 
-		- Call overflow handling: **leave all settings to their default values**
+	        - Call overflow handling: **leave all settings to their default values**
 
-		- Call time out handling: **leave all settings to their default values**
+	        - Call time out handling: **leave all settings to their default values**
+
+	![](Images/image328.png)
+	 
+	![](Images/image329.png)
 
 1. Select **Save**. A Saved message will appear across the top of the page once the changes have been saved. This message will eventually disappear, and **Call Queue 1** will appear in the list of Call queues.
 
