@@ -75,7 +75,9 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 
     ![](Images/image207.png)
 
-1. Once the permission level is created you will be redirected to the **Permissions** \> **Permission Levels** page. Verify the new **Restricted Use** permission level appears in the list of permission levels for this IT Services site.<br><br> ![](Images/image208.png) <br>
+1. Once the permission level is created you will be redirected to the **Permissions** \> **Permission Levels** page. Verify the new **Restricted Use** permission level appears in the list of permission levels for this IT Services site.
+
+    ![](Images/image208.png)
 
     On this **Permissions** \> **Permission Levels** heading line, select the **Permissions** link to return to the **Permissions: IT Services** page.
 1. In the ribbon displayed at the top of the screen, the **PERMISSIONS** tab is displayed by default. In this tab, under the **Grant** section, select **Create Group**.
@@ -97,7 +99,9 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
         
 1. Select **Create**. You will be redirected to the **People and Groups** \> **Consultants** page for this **Consultants** group.
 
-    ![](Images/image211.png) <br><br> ![](Images/image212.png)
+    ![](Images/image211.png)
+    
+    ![](Images/image212.png)
 
 1. On the menu bar that appears above the list of consultants, select the drop-down arrow next to **New**. In the menu that appears, select **Add Users.**
 
@@ -119,7 +123,9 @@ Instead, in your role as Holly Dickson, you will perform the following steps in 
 1. This opens an InPrivate browsing session. Maximize the InPrivate browser window, and then enter the following URL in the address bar: **<https://outlook.office365.com/mail/inbox>**
 1. In the **Sign in** window, enter your fellow student’s Odl_user_id email address of **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is your fellow student’s tenant prefix that was assigned to you by your instructor). In the **Enter password** window, enter your fellow student's tenant email password and select **Sign in**.
 
-    ![](Images/image215.png) <br><br> ![](Images/image216.png)
+    ![](Images/image215.png)
+    
+    ![](Images/image216.png)
 
 1. In the **Stay signed in?** dialog box, select **Yes**.
 
@@ -184,7 +190,9 @@ As the IT Consultant in this task, you will perform two primary steps:
     Double-click the **Service Request System.xlsx** file to open it. Make sure you open the .xlsx file and not the .csv file.
 1. If a **Sign in to set up Office** window appears, sign in using the tenant admin account (odl_user_id@xxxxxZZZZZZ.onmicrosoft.com, where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and password.
 
-    ![](Images/image226.png) <br><br> ![](Images/image227.png)
+    ![](Images/image226.png)
+    
+    ![](Images/image227.png)
 
 1. If an **Accept the license agreement** window appears, select the **Accept** button.
 
@@ -196,26 +204,43 @@ As the IT Consultant in this task, you will perform two primary steps:
 
 1. In the next several steps, you will verify that in your role as the IT Consultant, you can connect to the IT Services site and that you can authenticate access to the site using your tenant admin’s credentials. Even though you will use the Excel command to **Get Data** from another source and import it into your spreadsheet, you will actually NOT being doing that since you already have the data in the spreadsheet. You will simply use this **Get Data** command to verify that you can successfully access the IT Services site from your PC.
 
-    In **Excel,** in the menu bar at the top of the screen, select **Data**.<br><br> ![](Images/image232.png) <br><br>
+    In **Excel,** in the menu bar at the top of the screen, select **Data**.
+    
+    ![](Images/image232.png)
+    
 1. In the ribbon, under the **Get and Transform Data** section, select the **Get Data** drop-down arrow. In the menu that appears, select **From Online Services**, and then in its menu, select **From SharePoint Online list**.
 
     ![](Images/image233.png)
 
-1. A new **SharePoint Online lists** window will open. In the **Site URL** field, enter **<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider, since the IT Services site is on your tenant). <br><br> ![](Images/image234.png) <br><br>
+1. A new **SharePoint Online lists** window will open. In the **Site URL** field, enter **<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider, since the IT Services site is on your tenant).
+
+    ![](Images/image234.png)
 
     **Note:** Before you select **OK**, copy the site URL that you just entered as you will need to enter this in future steps. Copying it now will save you from having to manually enter it later.
 
     Select **OK**.
 1. If a dialog box appears that allows you to select the type of authentication you want to use to access the IT Services site, it will display three options in the left-hand pane: Anonymous, Windows, and Microsoft account. Anonymous is displayed by default. However, in this case, select **Microsoft account**.
 
-    The dialog box displays a message indicating **You aren’t signed in**. Select the **Sign in** button. <br><br> ![](Images/image235.png) <br><br>
+    The dialog box displays a message indicating **You aren’t signed in**. Select the **Sign in** button.
+    
+    ![](Images/image235.png)
 
-    On the **Pick an account** window, select **Use another account** because you want to sign in as the IT Consultant's tenant admin account (**odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** where xxxxxZZZZZZ is **your fellow student’s tenant prefix that was assigned to you by your instructor**). In the **Enter password** window, enter your fellow student's tenant password and then select **Sign in**. If your sign in is successful, a message will be displayed in the window indicating you are signed in. <br><br> ![](Images/image236.png) <br><br> ![](Images/image237.png) <br><br>
+    On the **Pick an account** window, select **Use another account** because you want to sign in as the IT Consultant's tenant admin account (**odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** where xxxxxZZZZZZ is **your fellow student’s tenant prefix that was assigned to you by your instructor**). In the **Enter password** window, enter your fellow student's tenant password and then select **Sign in**. If your sign in is successful, a message will be displayed in the window indicating you are signed in.
+    
+    ![](Images/image236.png)
+    
+    ![](Images/image237.png)
 
-    Once you are signed in, select **Connect**. <br><br> ![](Images/image238.png) <br><br>
+    Once you are signed in, select **Connect**.
+    
+    ![](Images/image238.png)
+    
 1. When the **Navigator** window appears, this is your indication that you have established a connection between the IT Consultant’s external user account and Adatum’s IT Services site that Holly created in the prior task. Even though you used the **Get Data** command in Excel to do this, you will NOT import any data locally to the Excel spreadsheet (the data is already in the spreadsheet).
 
-    Select **Cancel** to close the **Navigator** window.  <br><br> ![](Images/image239.png) <br><br>
+    Select **Cancel** to close the **Navigator** window.
+    
+    ![](Images/image239.png)
+    
 1. Now that you have verified that the IT Consultant's external user account can access the IT Services site, you will export Adatum’s existing ticketing system data from the spreadsheet and upload it as a SharePoint list into the IT Services site.
 
     If you are already familiar with the use of table objects in Excel, **select a cell in the table and proceed to the next step.**
@@ -224,7 +249,9 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     Before you can export an Excel table into a SharePoint list, the stationary list of data must be inserted into an Excel table object. This has already been done for you as the data in the spreadsheet has already been inserted into an Excel table object. All you must do now is select the table, which can be done by simply selecting any cell of data (for example, select cell **C3**).
 
-    Because you have now selected the Excel table, note how the new menu bar option titled **Table Design** appears after **Help**.<br><br> ![](Images/image240.png) <br><br>
+    Because you have now selected the Excel table, note how the new menu bar option titled **Table Design** appears after **Help**.
+    
+    ![](Images/image240.png)
 
     **Note:** If you select a cell outside of the table, note how the **Table Design** menu bar option disappears. If you once again select a cell inside the table, note how it reappears.
 1. On the menu bar, select **Table Design**.
@@ -250,7 +277,9 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     ![](Images/image243.png)
 
-    **Important:** Do NOT select OK; instead, select the **link** to the site in which the table was published. This will take you to the IT Services site where it will display a list showing the data that was exported from the spreadsheet and uploaded into the site. <br><br>![](Images/image244.png)<br><br>
+    **Important:** Do NOT select OK; instead, select the **link** to the site in which the table was published. This will take you to the IT Services site where it will display a list showing the data that was exported from the spreadsheet and uploaded into the site.
+    
+    ![](Images/image244.png)
 
     **Note:** If a **Sign in** window appears, enter the odl_user_id Administrator’s account for the IT Consultant’s tenant. In this case, enter **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is your fellow student's tenant prefix that was assigned to you by your instructor). Select **Next**, and then in the **Enter password** window, enter your fellow student's tenant password and then select **Sign in**.
 1. On the taskbar at the bottom of the screen, select the **Excel** icon. In the **Microsoft SharePoint Foundation** dialog box that displayed the link to the published list in the IT Services site, select **OK** to close the window.
@@ -278,10 +307,13 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     ![](Images/image246.png)
 
-1. If you are prompted to confirm an **Execution Policy Change**, select **Yes to All.** <br><br> ![](Images/image247.png) <br><br>
-1. If you are prompted to confirm a **NuGet provider is required to continue**, select **Yes**.
-1. If you are prompted to confirm an **Untrusted repository**, select **Yes to All.**
-1. If you are prompted a second time to confirm an **Untrusted repository** dialog box, select **Yes to All.**
+1. If you are prompted to confirm an **Execution Policy Change**, select **Yes to All.**
+
+    ![](Images/image247.png)
+
+4. If you are prompted to confirm a **NuGet provider is required to continue**, select **Yes**.
+5. If you are prompted to confirm an **Untrusted repository**, select **Yes to All.**
+6. If you are prompted a second time to confirm an **Untrusted repository** dialog box, select **Yes to All.**
 
     ![](Images/image248.png)
 
@@ -308,10 +340,14 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     Therefore, at the command prompt, select line **41** in the script and then select the **Run Selection (F8)** icon on the menu bar. **Note:** This command in row 41 creates a new column in the distribution list that does not exist in the Excel spreadsheet. For each record imported from the spreadsheet into this distribution list, the value of this column will be blank. The reason you must run this command is that this specific column is required to successfully import the data and create the distribution list using PowerShell. That being said, when you create new filtered views later on in Task 4, you will ignore this column and not include it in any of the views you create.
 
-    Then select line **43** in the script and select the **Run Selection (F8)** icon on the menu bar. <br><br> ![](Images/image254.png)<br><br>
+    Then select line **43** in the script and select the **Run Selection (F8)** icon on the menu bar.
+    
+    ![](Images/image254.png)
 
     Repeat this process for the commands in lines **45, 47, 49,** and **51**.
-1. At the command prompt, you will run the command in line **60** by itself; therefore, select this line in the script and then select the **Run Selection (F8)** icon on the menu bar. <br><br> ![](Images/image255.png)<br><br>
+1. At the command prompt, you will run the command in line **60** by itself; therefore, select this line in the script and then select the **Run Selection (F8)** icon on the menu bar. 
+
+    ![](Images/image255.png)
 
     **Note:** This command displays the list of sites in the IT Services site. Verify the Service Desk Requests list appears in this list.
 1. At the command prompt, you will run the command in line **66** by itself; therefore, select this line in the script and then select the **Run Selection (F8)** icon on the menu bar. This command displays all the records in the .csv file that were imported into the terminal.
@@ -367,7 +403,9 @@ In this task you will return to your role as Holly Dickson. You have just been i
 
 1. On the menu bar at the top of the page, the option to the right of the **+New** button will either display **Edit in grid view** or **Exit grid view**. This option allows you to toggle in or out of grid view. You do NOT want to be in grid view to edit the list.
 
-    If this option displays **Edit in grid view**, it means you are not in grid view, so proceed to the next step.<br><br> ![](Images/image263.png)
+    If this option displays **Edit in grid view**, it means you are not in grid view, so proceed to the next step.
+    
+    ![](Images/image263.png)
 
     If this option displays **Exit grid view**, then you are currently in grid view, which you do not want to be in. In this case, select **Exit grid view**.
 
@@ -403,7 +441,11 @@ In this task you will return to your role as Holly Dickson. You have just been i
 1. Select the **Exit grid view** option on the menu bar to see how the Customer data appears in normal display view.
 1. Repeat steps **11-22** to add a column for the **Assign To** data and to copy the **Assign to** data from the **BackupFile.xlsx** spreadsheet and paste it into the **Service Desk Requests** list.
 
-    ![](Images/image268.png) <br><br> ![](Images/image269.png) <br><br> ![](Images/image270.png)
+    ![](Images/image268.png)
+    
+    ![](Images/image269.png)
+    
+    ![](Images/image270.png)
 
 1. After reviewing the changes to the **Service Desk Requests** list, you realize that the data type of the **Description** column only supports a **single line of text**. While this is fine for the existing data, going forward you want your customer support engineers to be able to enter more detailed information. Therefore, you want to modify this column to change the data type to **multiple lines of text**.
 
@@ -463,7 +505,9 @@ In this task, you will continue in your role as Holly Dickson, Adatum’s Enterp
       - Condition field – enter **Active**
 1. Scroll to the bottom of the page and select **OK**.
 
-    ![](Images/image277.png) <br><br> ![](Images/image278.png) <br><br>
+    ![](Images/image277.png)
+    
+    ![](Images/image278.png)
 
 1. You will now create a view showing all closed cases. On the **Service Desk Requests** page, select the **gear** (**Settings**) icon in the top right corner of the webpage. In the menu that appears, select **List settings.**
 
@@ -493,7 +537,9 @@ In this task, you will continue in your role as Holly Dickson, Adatum’s Enterp
       - Condition field – enter **Resolved**
 1. Scroll to the bottom of the page and select **OK**.
 
-    ![](Images/image280.png) <br><br> ![](Images/image281.png) <br><br>
+    ![](Images/image280.png)
+    
+    ![](Images/image281.png)
 
 1. You will now create a view showing all cases for each support agent. On the **Service Desk Requests** page, select the **gear** (**Settings**) icon in the top right corner of the webpage. In the menu that appears, select **List settings.**
 
@@ -548,7 +594,9 @@ In this task, you will continue in your role as Holly Dickson, Adatum’s Enterp
       - Then sort by the column: **Date** and **Show items in ascending order**
       - Filter section - **Show all items in this view**
 
-    ![](Images/image284.png) <br><br> ![](Images/image285.png)<br><br>
+    ![](Images/image284.png)
+    
+    ![](Images/image285.png)
 
 1. Scroll to the bottom of the page and select **OK**.
 1. In your Edge browser, close all tabs EXCEPT for the **Microsoft Office Home** tab and the **Microsoft 365 admin center** tab.
