@@ -306,6 +306,8 @@ As part of her Microsoft Teams pilot project, Holly Dickson has been tasked with
 1. Select **Save**. A Saved message will appear across the top of the page once the changes have been saved. This message will eventually disappear, and **Default Adatum Calling Policy** will appear in the list of Calling policies. Note how it is flagged as a Custom policy in the list.
 
 	![](Images/image334.png)
+	
+	![](Images/image350.png)
 
 1. Leave all tabs open in your browser and proceed to the next task. 
  
