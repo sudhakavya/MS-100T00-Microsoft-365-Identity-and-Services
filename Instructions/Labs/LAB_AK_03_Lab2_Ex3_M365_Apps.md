@@ -241,7 +241,9 @@ In the prior task, you logged into Laura Atkins’ client PC, and you verified t
 
 1. The installation may take several minutes to complete. Once the installation finishes, select **Close** in the **You're all set! Office is installed now** window.
 
-	![](Images/image127.png) <br><br> ![](Images/image128.png)
+	![](Images/image127.png)
+	
+	![](Images/image128.png)
 
 1. To validate Laura's Microsoft 365 Apps for enterprise installation, select the **Start** icon in the lower-left corner of the taskbar. Below the **Recently added** section (at the top of the **Start** menu) select **Expand** to display all the Microsoft 365 enterprise apps that were just installed. This should include Word, PowerPoint, OneNote 2016, Outlook, Publisher, Access, Skype for Business, and Excel.
 
@@ -251,7 +253,9 @@ In the prior task, you logged into Laura Atkins’ client PC, and you verified t
 
 1. On the **Sign in to set up Office** page, sign in as **Laura@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) with a password of **Pa55w.rd**.
 
-	![](Images/image130.png) <br> ![](Images/image131.png)
+	![](Images/image130.png) 
+	
+	![](Images/image131.png)
 
 1. On the **Accept the license agreement** window, select **Accept**.
 
