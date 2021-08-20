@@ -119,9 +119,11 @@ To improve communication between management and internal users, Holly Dickson ha
 ‎  
 ‎Select the **X** in the top right corner of the **Flow Checker** pane to close it. 
 
-    ![](Images/ex8-img19.png)
+   ![](Images/ex8-img19.png)
 
 23. At the top right corner of the screen, select **Test.** On the **Test Flow** pane that appears, select the **Manually** option, and then select **Save &amp; Test**. Leave this browser tab open.  
+
+    ![](Images/ex8-img36.png)
 ‎  
 ‎**Note:** If at any time you accidentally close this tab or navigate away from this page, select **My flows** in the left-hand navigation pane, select this flow from the list of flows, and then in the menu bar that appears at the top of the page for this flow, select **Edit**. That will return you to this window where you can run the **Flow Checker** and run a **Test**. 
 
