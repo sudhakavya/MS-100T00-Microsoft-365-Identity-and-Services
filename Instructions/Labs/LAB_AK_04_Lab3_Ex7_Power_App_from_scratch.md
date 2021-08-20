@@ -39,7 +39,7 @@ In your role as Holly Dickson, you will begin the process of creating a canvas a
  	
 	![](Images/image358.png)
 	
-1. In the **Tree view** pane, select the **ellipses** icon that appears to the right of **Screen1**. In the menu that appears, select **Rename**, and then enter **BrowseScreen1** as the new screen name (this will keep the screen name consistent with the naming convention that is used when Power Apps automatically creates screens for an app).
+1. In the **Tree view** pane, select the **ellipses** icon that appears to the right of **Screen1**. In the menu that appears, select **Rename**, and then enter **BrowseScreen1** as the new screen name (this will keep the screen name consistent with the naming convention that is used when Power Apps automatically creates screens for an app) or you will find the pencil icon in the right to enter **BrowseScreen1** as the new screen name .
 
 	![](Images/image359.png)
 
