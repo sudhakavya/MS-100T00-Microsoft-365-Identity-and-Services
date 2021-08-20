@@ -15,6 +15,10 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 2. In your Edge browser, make sure that your new Service Desk Ticketing system is open in a tab. The tab should be titled **IT Services – Service Desk Requests – All Items**. If you do not have this tab open, then go to the **SharePoint admin center**, select **Active Sites**, select **IT Services** from the **Active Sites** list, select **Site contents**, and then select the **Service Desk Requests** list. 
 
+    ![](Images/ex8-img1.1.png)
+    
+    ![](Images/ex8-img1.png)
+
 3. In your browser, open a new tab and enter the following URL in the address bar: **https://aka.ms/pbiSingleInstaller**
 
 4. This opens the **Microsoft Download Center** for **Microsoft Power BI**. Scroll down to the **Microsoft Power BI Desktop** section and select **Download.**
@@ -146,9 +150,9 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Issue Status – select the **Title** check box
 
-    ![](Images/ex14-img14.png)
+  ![](Images/ex14-img14.png)
     
-    ![](Images/ex15-img15.png)
+  ![](Images/ex15-img15.png)
    
 33. You can change the size of the table visualization in the report canvas by selecting the bottom right corner of the table and dragging it diagonally down to the right. Keep in mind that you will be adding a second visualization to this page, so leave enough room in the report canvas to add another visualization. 
 
