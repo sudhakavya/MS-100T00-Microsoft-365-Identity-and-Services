@@ -9,7 +9,7 @@ As part of your Power Platform pilot project, you now want to investigate how yo
 
 To improve communication between management and internal users, Holly Dickson has decided to build and share an automated flow within Power Automate that sends an email to Adatum’s MOD Administrator whenever a service request is created or modified. This task will focus on creating the flow; the next task will address how to share the flow with another manager. 
 
-1. After having completed the prior lab exercise in which you created a Power App from scratch, you should still be logged into your Domain Controller VM (LON-DC1) as **ADATUM\Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior lab exercise in which you created a Power App from scratch, you should still be logged into your Domain Controller VM (LON-DC1) as **ADATUM\Azureuser Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. In your Microsoft Edge browser, make sure that your new ticketing system is open in a tab. The tab should be titled **IT Services – Service Desk Requests – All Items**. If you do not have this tab open, then go to the **SharePoint admin center**, select **Active Sites**, select **IT Services** from the **Active Sites** list, select **Site contents**, and then select the **Service Desk Requests** list. 
 
@@ -29,7 +29,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 5. In the **Welcome to Power Automate** screen, select your **country/region** from the drop-down list and then select **Get Started**. 
 
-6. On the **Power Automate studio** screen, validate that Holly Dickson’s initials (**HD**) appear in the user icon in the upper right corner of the screen. If this user icon is someone other than Holly, then select the user icon, select **Sign out**, and then sign back in as Holly (**Holly@xxxxxZZZZZZ.onmicrosoft.com**, where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and a password of **Pa55w.rd**. 
+6. On the **Power Automate studio** screen, validate that Holly Dickson’s initials (**HD**) appear in the user icon in the upper right corner of the screen. If this user icon is someone other than Holly, then select the user icon, select **Sign out**, and then sign back in as Holly **Holly@xxxxxZZZZZZ.onmicrosoft.com**, where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and a password of **Pa55w.rd**. 
 
    ![](Images/ex8-img4.png)
 
@@ -83,7 +83,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 19. This opens an email form. Since Holly wants to send an email to ODL Administrator, enter the following information in this email:
 
-	- **To** - enter **ODL** in the field. A list of user accounts starting with ODL will appear. This list should include two ODL Administrator accounts – one for MOD Administrator, and one for the IT Consultant’s MOD Administrator. Select **Adatum’s MOD Administrator**, whose tenant suffix ID was provided to you by your lab hosting provider. Do **NOT** select the account whose tenant suffix ID is your fellow student’s tenant ID that was assigned to you by your instructor. 
+	- **To** - enter **ODL** in the field. A list of user accounts starting with ODL will appear. This list should include two ODL Administrator accounts – one for MOD Administrator, and one for the IT Consultant’s ODL Administrator. Select **ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com**, whose tenant suffix ID was provided to you by your lab hosting provider. Do **NOT** select the account whose tenant suffix ID is your fellow student’s tenant ID that was assigned to you by your instructor. 
 	
 		(**Note:** There is hypertext located at the bottom right of the flow tray that reads **Add dynamic content**. You can use this to input data directly from the ticket item)
 	
@@ -137,7 +137,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 	- Description – **Testing the flow**
 
-	- Customer – enter **Megan**, then select **Megan Bowen** from the list
+	- Customer – enter **Megan**, then select **Megan Brown** from the list
 
 	- Assign To – enter **Allan**, then select **Allan Deyoung** from the list   
 
@@ -152,7 +152,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
     ![](Images/ex8-img22.png)
     
-28. To verify whether the flow sent an email to the **MOD Administrator**, you should check the user’s Inbox in Outlook to see whether an email was received.
+28. To verify whether the flow sent an email to the **ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com**, you should check the user’s Inbox in Outlook to see whether an email was received.
 
 	Switch to **LON-CL1**.
 
@@ -162,7 +162,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 30. In your Edge browser, enter the following URL in the address bar: **https://portal.office.com**
 
-31. In the **Pick an account** window, select the **MOD Administrator** account for your tenant. Verify the username is **admin@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider).
+31. In the **Pick an account** window, select the **MOD Administrator** account for your tenant. Verify the username is **ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider).
 
 32. In the **Enter password** window, enter the tenant password provided by your lab hosting provider and select **Sign in**.
 
@@ -206,7 +206,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 In this task you will add an additional owner to the Power Automate flow that you just created. Generally, it is a good practice to designate additional owners to a flow, just as you would for a SharePoint site. This ensures that any issue can be addressed, and the flow can continue to run if the primary owner has changed roles or left the company. For the flow that Holly just created for her pilot project, she wants to add Allan Deyoung as an additional owner.
 
-1. After having completed the prior task in which you created a flow in Power Automate, you should still be logged into LON-DC1 as **ADATUM\Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior task in which you created a flow in Power Automate, you should still be logged into LON-DC1 as **ADATUM\Azureuser Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. You should still have the browser tab open to the **Flows &gt; Service Request Flow for new/modified tickets** window. If not, then repeat the steps you performed in the prior task to get to this tab (from **Power Automate studio**, select **My flows**, then select the flow you just created).
 
