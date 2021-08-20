@@ -45,7 +45,11 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	Assuming you must sign in, select the **Sign in** option. On the **Enter your email address** dialog box, enter **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) in the email address field and then select **Continue**. 
 	
-	In the **Pick an account** window that appears (which may take a minute or so to appear), select **Holly@xxxxxZZZZZZ.onmicrosoft.com**. In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in**.  
+	In the **Pick an account** window that appears (which may take a minute or so to appear), select **Holly@xxxxxZZZZZZ.onmicrosoft.com**. In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in**.
+	
+    ![](Images/ex8-img2.png)
+    
+    ![](Images/ex8-img3.png)
 
 14. In the **Power BI Desktop**, you want to create a new report based on the Service Desk Ticketing system you created earlier. You must begin by naming the report, so select **File** from the menu bar, select **Save as,** and enter **ServiceRequestPowerBI** in the **File name** field. By default, the file will be saved in the **Documents** folder as a Power BI file (.pbix). Select **Save**.
 
@@ -176,9 +180,9 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Title – rename to **Issue Status**  
 	
-   ![](Images/ex10-img16.png)
+  ![](Images/ex10-img16.png)
    
-   ![](Images/ex10-img17.png)
+  ![](Images/ex10-img17.png)
 ‎  
 ‎This completes the **Table** visualization. 
 
