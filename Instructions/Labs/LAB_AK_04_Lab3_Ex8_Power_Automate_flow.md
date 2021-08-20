@@ -13,47 +13,77 @@ To improve communication between management and internal users, Holly Dickson ha
 
 2. In your Microsoft Edge browser, make sure that your new ticketing system is open in a tab. The tab should be titled **IT Services – Service Desk Requests – All Items**. If you do not have this tab open, then go to the **SharePoint admin center**, select **Active Sites**, select **IT Services** from the **Active Sites** list, select **Site contents**, and then select the **Service Desk Requests** list. 
 
+   ![](Images/ex8-img1.1.png)
+   
+   ![](Images/ex8-img1.png)
+
 3. In your Edge browser, you want to open the Power Automate studio. Open a new tab in the browser and enter the following URL in the address bar:  **https://flow.microsoft.com**   
 ‎  
 ‎On the **Microsoft Power Automate** screen, select **Sign in** at the top of the screen. 
 
 4. If you are not already signed in with your corporate account, you will be prompted for your credentials, in which case you should enter **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and a password of **Pa55w.rd**. 
 
+   ![](Images/ex8-img2.png)
+   
+   ![](Images/ex8-img3.png)
+
 5. In the **Welcome to Power Automate** screen, select your **country/region** from the drop-down list and then select **Get Started**. 
 
 6. On the **Power Automate studio** screen, validate that Holly Dickson’s initials (**HD**) appear in the user icon in the upper right corner of the screen. If this user icon is someone other than Holly, then select the user icon, select **Sign out**, and then sign back in as Holly (**Holly@xxxxxZZZZZZ.onmicrosoft.com**, where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and a password of **Pa55w.rd**. 
 
+   ![](Images/ex8-img4.png)
+
 7. From the left navigation pane, select **+ Create.**
 
+   ![](Images/ex8-img5.png)
+
 8. On the **Three ways to make a flow** page, scroll down on the landing page until you see **Start from connector**, and then select **SharePoint**.
+
+   ![](Images/ex8-img6.png)
 
 9. On the **SharePoint** page, scroll down to view SharePoint triggers and templates. 
 
 10. In the list of triggers, select **When an item is created or modified**.
 
-11. On the **When an item is created or modified** window appears, select the drop-down arrow in the **Site address** field. A list should appear displaying the URL for the **IT Services** site that you created and published: **IT Services - https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider). Select this site.   
+   ![](Images/ex8-img7.png)
+
+11. On the **When an item is created or modified** window appears, select the drop-down arrow in the **Site address** field. A list should appear displaying the URL for the **IT Services** site that you created and published: **IT Services - https://xxxxxZZZZZZ.sharepoint.com/sites/ITService** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider). Select this site.   
+
+   ![](Images/ex8-img8.png)
 ‎  
 ‎**Note:** If you do not see the **IT Services** site in the drop-down list, then switch to the browser tab containing the **Service Desk Request** list and copy the URL. Switch back to the browser tab running the Power Automate designer tool, select **Enter custom value,** and then past the URL for the **Service Desk Request** list. However, notice how Power Automate trims the URL so that it is only the site address and does not include the name of the list. You will need to do the same here.
 
 13. In the **List Name** field, select the **drop-down arrow**, and in the list that appears select **Service Desk Requests**. 
 
+    ![](Images/ex8-img9.png)
+
 14. Select **Show advanced options.**
 
+     ![](Images/ex8-img10.png)
+
 15. In the **Limit Columns by View** field, select the **drop-down arrow**, and in the list that appears select **Enter custom value**. Then in the **Limit Columns by View** field, enter **Active cases by Support Agent**.
+
+     ![](Images/ex8-img12.png)
 ‎  
 ‎**Note:** The purpose of this field is to help avoid column threshold issues. The **All Items** view, which is the default view for this SharePoint list, displays all the available columns. On the other hand, the **Active Cases by Support Agent** view uses only a partial set of columns. 
 
 16. Select the **+ New step** button.
 
-17. The next screen in the Power Automate designer tool requires that you choose an action to be performed when an item is created or modified. Holly wants to send an email to Adatum’s MOD Administrator.   
+    ![](Images/ex8-img13.png)
+
+17. The next screen in the Power Automate designer tool requires that you choose an action to be performed when an item is created or modified. Holly wants to send an email to ODL Administrator.   
 ‎  
 ‎In the **Search connectors and actions** field at the top of the screen (below **Choose an action**), type in **Outlook**. Under the **All** tab that appears below this Search field, select **Office 365 Outlook**. This will display a list of all the actions available for the Office 365 Outlook connector.
 
+    ![](Images/ex8-img14.png)
+
 18. From the list of actions, scroll down and select **Send an email (V2).**
 
-19. This opens an email form. Since Holly wants to send an email to Adatum’s MOD Administrator, enter the following information in this email:
+    ![](Images/ex8-img15.png)
 
-	- **To** - enter **MOD** in the field. A list of user accounts starting with MOD will appear. This list should include two MOD Administrator accounts – one for Adatum’s MOD Administrator, and one for the IT Consultant’s MOD Administrator. Select **Adatum’s MOD Administrator**, whose tenant suffix ID was provided to you by your lab hosting provider. Do **NOT** select the account whose tenant suffix ID is your fellow student’s tenant ID that was assigned to you by your instructor. 
+19. This opens an email form. Since Holly wants to send an email to ODL Administrator, enter the following information in this email:
+
+	- **To** - enter **ODL** in the field. A list of user accounts starting with ODL will appear. This list should include two ODL Administrator accounts – one for MOD Administrator, and one for the IT Consultant’s MOD Administrator. Select **Adatum’s MOD Administrator**, whose tenant suffix ID was provided to you by your lab hosting provider. Do **NOT** select the account whose tenant suffix ID is your fellow student’s tenant ID that was assigned to you by your instructor. 
 	
 		(**Note:** There is hypertext located at the bottom right of the flow tray that reads **Add dynamic content**. You can use this to input data directly from the ticket item)
 	
@@ -71,11 +101,17 @@ To improve communication between management and internal users, Holly Dickson ha
 ‎  
 ‎**Note:** If you use this example, make sure you add a space before and after the selected parameters (**Customer DisplayName** and **Assign To DisplayName).**
 
+    ![](Images/ex8-img16.png)
+
 20. At the bottom of the email form, select **Show advanced options**. Scroll to the bottom of the list, select the **Importance** field, and in the list that appears, select **Normal**.
+
+    ![](Images/ex8-img18.png)
 
 21. At the bottom of the page, select **Save**. Scroll up to the top of the screen, where in the top-left corner, it displays the name that Power Automate assigned to this flow: **When an item is created or modified -&gt; Send an email (V2)**.   
 ‎  
 ‎Holly wants to change this to a more user-friendly name. To rename the flow, select this flow name, which highlights the name. Enter **Service Request flow for new/modified tickets** and then select anywhere below the name.
+
+   ![](Images/ex8-img18.png)
 
 22. At the top right corner of the screen (on the same row as the flow name), select **Flow checker**. In the **Flow checker** pane that appears, there should be zero errors and zero warnings.   
 ‎  
@@ -83,7 +119,9 @@ To improve communication between management and internal users, Holly Dickson ha
 ‎  
 ‎Select the **X** in the top right corner of the **Flow Checker** pane to close it. 
 
-23. At the top right corner of the screen, select **Test.** On the **Test Flow** pane that appears, select the **Manaually** option, and then select **Save &amp; Test**. Leave this browser tab open.  
+    ![](Images/ex8-img19.png)
+
+23. At the top right corner of the screen, select **Test.** On the **Test Flow** pane that appears, select the **Manually** option, and then select **Save &amp; Test**. Leave this browser tab open.  
 ‎  
 ‎**Note:** If at any time you accidentally close this tab or navigate away from this page, select **My flows** in the left-hand navigation pane, select this flow from the list of flows, and then in the menu bar that appears at the top of the page for this flow, select **Edit**. That will return you to this window where you can run the **Flow Checker** and run a **Test**. 
 
@@ -102,6 +140,9 @@ To improve communication between management and internal users, Holly Dickson ha
 	- Customer – enter **Megan**, then select **Megan Bowen** from the list
 
 	- Assign To – enter **Allan**, then select **Allan Deyoung** from the list   
+
+   ![](Images/ex8-img20.png)
+   
 ‎<br/>
 	**Note:** Alternatively, you could open the Power App that you created in the earlier exercise and create an entry to the Service Desk Requests SharePoint list. You could open a new browser tab and enter the following URL to access the app in Power Apps studio: **https://make.powerapps.com**
 
@@ -109,6 +150,8 @@ To improve communication between management and internal users, Holly Dickson ha
 
 27. On the top of the screen, you should hopefully see a message indicating **Your flow ran successfully**, and next to each step in the flow you will see **green check marks**. Keep this tab open. 
 
+    ![](Images/ex8-img22.png)
+    
 28. To verify whether the flow sent an email to the **MOD Administrator**, you should check the user’s Inbox in Outlook to see whether an email was received.
 
 	Switch to **LON-CL1**.
@@ -127,9 +170,13 @@ To improve communication between management and internal users, Holly Dickson ha
 
 34. The **Inbox** should include an email from **Holly Dickson** with a subject line that starts with: **New or edited Service Request**. Select this email to open it.  <br/>
 
+    ![](Images/ex8-img23.png)
+    
 	**Note:** It may take a few minutes for the email to show up in the MOD Administrator’s inbox. If need be, skip to step 36 and check back on the email at the end of this task.
 
 35. After opening the email, verify the full subject line is: **New or edited Service Request: &lt;Issue Title from the record that you created&gt;**. Also verify that the body of the email message is correct, and that if you included any parameters in the message (such as the Customer and Assign To values), that they are correct as well.
+
+    ![](Images/ex8-img24.png)
 
 36. Switch back to **LON-DC1**.
 
@@ -137,9 +184,16 @@ To improve communication between management and internal users, Holly Dickson ha
 
 38. In **Power Automate studio**, in the left-hand navigation pane, select **My flows**. 
 
+    ![](Images/ex8-img26.1.png)
+
 39. In the **Flows** window, select the flow that you just created from the list of your flows. 
 
+    ![](Images/ex8-img27.png)
+
 40. Review the information in the window for this flow. Scroll down to the bottom of the window and in the **Runs** group, you will see each of the times this flow ran. You should see the run that occurred for the record that you just created in the **Service Desk Requests** list. The status of the run should be **Succeeded**, which indicates the email was sent to the MOD Administrator. 
+
+    ![](Images/ex8-img28.png)
+    
 ‎  
 ‎In addition, review the menu options that appear in the menu bar at the top of the page. You will not make any changes, but for future reference, you would select **Edit** if you wish to change anything in the flow. From the **Edit** form, you can run **Flow Checker** and **Test,** just as you did earlier when you first created the flow. 
 
@@ -158,11 +212,20 @@ In this task you will add an additional owner to the Power Automate flow that yo
 
 3. On the menu bar, select **Share**.
 
+   ![](Images/ex8-img29.png)
+
 4. In the **Owners** section, in the **Add a user or group as owner** field, enter **Allan**. In the user list that appears, select **Allan Deyoung**. 
+
+   ![](Images/ex8-img30.png)
 
 5. In the **Connections Used** window that appears, read the information and then select **OK.** Note that Allan (or anyone you add as an owner) will have full access to all connections in the flow and the content within the connected accounts. 
 
+   ![](Images/ex8-img31.png)
+
 6. This will return you to the **Share** screen for the flow, and it will display Allan and Holly as owners of the flow. Select the **left arrow** that appears next the flow name at the top of the screen; this will return you to the detail screen for this flow.   
+
+   ![](Images/ex8-img32.png)
+   
 ‎  
 ‎**Note:** On the details screen, Holly will appear as the lone owner on the left-hand side of the screen, below the flow name. This owner represents the original owner of the flow. However, in the Owners section on the bottom right side of the screen, you will see both Holly and Allan as owners of the flow.
 
@@ -170,9 +233,15 @@ In this task you will add an additional owner to the Power Automate flow that yo
 
 8. In the **Flows** window, notice that the **Cloud flows** tab is selected by default. Also notice the message that appears in the middle of the screen indicating **You don’t have any flows**. Do not worry! Since you have shared ownership of the flow with another user or group, the flow is now considered a shared flow. 
 
+   ![](Images/ex8-img33.png)
+   
 9. In the **Flows** window, select the **Shared with me** tab.
 
+   ![](Images/ex8-img34.png)
+
 10. In the **Shared with me** tab, hover your mouse over the name of the flow and select the **vertical ellipses (More commands)** icon that appears to the right of the flow name. In the menu that appears, review the options that are available. Select the **Esc** button on your keyboard to close the menu (or select anywhere on the screen).
+
+   ![](Images/ex8-img35.png)
 
 11. Leave all the tabs open in your browser for the next task.
 
