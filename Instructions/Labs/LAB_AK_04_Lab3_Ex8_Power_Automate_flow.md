@@ -123,7 +123,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 23. At the top right corner of the screen, select **Test.** On the **Test Flow** pane that appears, select the **Manually** option, and then select **Save &amp; Test**. Leave this browser tab open.  
 
-    ![](Images/ex8-img36.png)
+   ![](Images/ex8-img36.png)
 ‎  
 ‎**Note:** If at any time you accidentally close this tab or navigate away from this page, select **My flows** in the left-hand navigation pane, select this flow from the list of flows, and then in the menu bar that appears at the top of the page for this flow, select **Edit**. That will return you to this window where you can run the **Flow Checker** and run a **Test**. 
 
@@ -144,9 +144,12 @@ To improve communication between management and internal users, Holly Dickson ha
 	- Assign To – enter **Allan**, then select **Allan Deyoung** from the list   
 
 ‎<br/>
-	**Note:** Alternatively, you could open the Power App that you created in the earlier exercise and create an entry to the Service Desk Requests SharePoint list. You could open a new browser tab and enter the following URL to access the app in Power Apps studio: **https://make.powerapps.com**
+  
+   ![](Images/ex8-img20.png)
+     
+**Note:** Alternatively, you could open the Power App that you created in the earlier exercise and create an entry to the Service Desk Requests SharePoint list. You could open a new browser tab and enter the following URL to access the app in Power Apps studio: **https://make.powerapps.com**
 	
-    ![](Images/ex8-img20.png)
+    
 
 26. After you create the entry on the SharePoint list, switch back to the browser tab containing the flow (the tab name will have changed to **Run History | Power Automate**). 
 
