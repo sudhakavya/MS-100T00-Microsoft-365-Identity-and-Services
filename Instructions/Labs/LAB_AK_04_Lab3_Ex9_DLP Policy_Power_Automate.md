@@ -79,9 +79,9 @@ In this task, Holly wants to create a data lost prevention policy for the flows 
 
      ![](Images/ex9-img10.png)
      
-     ![](Images/ex9-img10.2.png)
+     ![](Images/ex9-10.2.png)
      
-     ![](Images/ex9-img10.3.png)
+     ![](Images/ex9-10.3.png)
 
       **Note:** The Status of the flow is **On**. Eventually, once the policy propagates through the system, the status will change from **On** to **Suspended**.
       
@@ -95,11 +95,11 @@ In this task, Holly wants to create a data lost prevention policy for the flows 
 
 15. In the window that is returned, you will see the actions for your flow. Select **Save**.
 
-    ![](Images/ex9-img10.5.png)
+    ![](Images/ex9-10.5.png)
 
       A **Flow Checker** pane appears on the right-side of the screen. Each of the two connectors used in this flow have been flagged as violating Adatum's DLP policy, since both connectors are not in the same group. Close the **Flow checker** pane.
       
-    ![](Images/ex9-img10.6.png)
+    ![](Images/ex9-10.6.png)
    
       **Important:** Since this flow was already created at the time the policy was established, Power Automate automatically suspended the flow, which, in effect, turned the flow **Off**. If you subsequently create a new entry or modify an existing entry in the SharePoint list after the flow has been suspended, the flow will not run. 
 
@@ -124,7 +124,7 @@ In your role as Holly, you will update this DLP policy to include Outlook as an 
 ‎  
 ‎In your browser, select the **Power Platform admin center** tab, which should be displaying the **Data policies** window. If you closed this tab at the end of the prior task, then in the **Manage your flows | Microsoft Power Automate** tab, select the gear **(Settings)** icon, select **Admin center** in the **Settings** pane, and then in the **Power Platform admin center,** select **Data policies.**
 
-   ![](Images/ex9-img10.5.png)
+   ![](Images/ex9-10.5.png)
    
    ![](Images/ex9-img2.png)
 
