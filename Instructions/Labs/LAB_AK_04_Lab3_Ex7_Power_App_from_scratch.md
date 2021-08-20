@@ -407,8 +407,7 @@ The Edit screen that you created in the prior task provides the form needed to e
 
 	- **Navigate(EditScreen1)** – navigates the user to the screen (EditScreen1) which contains the edit form (Form1).
 
-‎
-	![](Images/image415.png)
+    ![](Images/image415.png)
 
 1. Now that the **Plus sign (+)** icon has been configured, you decide that you want to make some cosmetic changes to it. First, you decide that you want to change the location of the icon from the top left corner of **BrowseScreen1** to the top right. To do this, select the border of the **Plus sign (+)** icon (so that an image of crossed arrows appears) and drag it across to the right corner.
 
@@ -608,17 +607,16 @@ Now that Holly has created the ability to add a new record into the SharePoint l
 
 1. In the **Function property** **bar**, the field on the left side of the function currently displays **OnSelect.** While this value is left over from the prior task, it’s also the trigger action that you want to associate with this **Edit** icon. If **OnSelect** is not displayed in this field, select the drop-down arrow and select it from the menu. 
 
-1. In the function box, enter **Remove('Service Desk Requests', Gallery1.Selected); If(IsEmpty(Errors('Service Desk Requests', Gallery1.Selected)), Back() )** and then press Enter (copy and paste this function if your VM environment provides a copy and paste feature; this will ensure that you do not enter a typo). 
-  
-	![](Images/image439.png)
-	
+1. In the function box, enter **Remove('Service Desk Requests', Gallery1.Selected); If(IsEmpty(Errors('Service Desk Requests', Gallery1.Selected)), Back() )** and then press Enter (copy and paste this function if your VM environment provides a copy and paste feature; this will ensure that you do not enter a typo). 	
 ‎  
 ‎This function actually encapsulates two separate actions: 
 
 	- **Remove('Service Desk Requests', Gallery1.Selected)** - removes from the SharePoint list titled Service Desk Requests the entry that was selected from the gallery in BrowseScreen1.
 
 	- **If(IsEmpty(Errors('Service Desk Requests', Gallery1.Selected)), Back())** - checks for the existence of errors when editing the SharePoint list. Errors can occur for many reasons, including network outages, inadequate permissions, and edit conflicts. If there are no errors (the error table is empty) then the app will go back to the most recently displayed screen. The “If” statement does not include any action if there are errors in the error table; however, PowerApps will, by default, display a message.
-	
+
+   ![](Images/image439.png)
+
 1. After reviewing the Detail form, you decide that you want to change the colors of each icon and display a tool tip when you hover your mouse over them.   
 
 1. Since you cannot remember which control in the **Tree view** pane is associated with each icon, on the canvas for **DetailScreen1**, select the **Pencil** icon. In the **Tree view** pane, you notice this highlights **Icon5** under **DetailScreen1**. The **Properties pane** on the right also displays the properties for this icon. 
