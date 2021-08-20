@@ -146,9 +146,9 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Issue Status – select the **Title** check box
 
-   ![](Images/ex14-img14.png)
+    ![](Images/ex14-img14.png)
     
-   ![](Images/ex15-img15.png)
+    ![](Images/ex15-img15.png)
    
 33. You can change the size of the table visualization in the report canvas by selecting the bottom right corner of the table and dragging it diagonally down to the right. Keep in mind that you will be adding a second visualization to this page, so leave enough room in the report canvas to add another visualization. 
 
