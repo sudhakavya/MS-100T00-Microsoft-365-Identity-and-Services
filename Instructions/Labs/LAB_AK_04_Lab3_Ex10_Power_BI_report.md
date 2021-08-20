@@ -49,13 +49,22 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 16. In the **Get Data** window that opens, type **SharePoint** in the Search box that appears above the left-hand navigation pane. In the detail pane on the right, three SharePoint options will appear. Since you used the on-premises version of SharePoint to create the Service Request Ticketing system, select **SharePoint Online List**, and then select **Connect**.
 
+    ![](Images/ex10-img1.png)
+
 17. In the **SharePoint Online lists** window that appears, enter the following URL for the Service Request Ticketing system in the **Site URL** field: **https://xxxxxZZZZZZ.sharepoint.com/sites/ITservices** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting partner). Select **OK.**  
+
+
+    ![](Images/ex10-img2.png)
 
 18. In the pop-up window that appears that displays the SharePoint site URL at the top and three authentication options on the left-hand navigation pane (Anonymous, Windows, and Microsoft Account), select **Microsoft Account**. A message will be displayed indicating you are not signed in. Select the **Sign in** button. In the **Pick and account** window, repeat the previous steps to sign in as **Holly**.
 
 	The message that indicated you were not signed in will now change to indicate that you are currently signed in. Select **Connect**.
+	
+     ![](Images/ex10-img3.png)	
 
 19. A **Navigator** window opens that provides a list of tables from the SharePoint data source that is used by the Service Desk Ticketing system. In the list of tables that appear in the left-hand pane, select the check box to the left of **Service Desk Requests**. The details for this table will then appear on the right side of the window. If the details for this table do not appear, select the **Refresh** icon on the top right corner of the navigator window.  
+
+     ![](Images/ex10-img4.png)
 ‎  
 ‎**Note:** If you select **Service Desk Requests** but do NOT select the check box, the details for the table will display in Preview mode on the right, and the buttons at the bottom of the screen will be disabled. Since you want the buttons enabled, you must select the check box to the left of **Service Desk Requests**.   
 ‎  
@@ -73,11 +82,17 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 21. Now that you understand how the Customer and Assign To fields are handled, you are ready to proceed. At the bottom of the window, select the **Transform Data** button, which opens the **Power Query Editor**. Maximize this window.
 
+     ![](Images/ex10-img5.png)
+
 22. The **Power Query Editor** provides a great deal of functionality that enables you to transform data, clean data, create relationships between tables, and so on. For this exercise, you will use the Power Query Editor to focus on the simplest way of getting the persons’ names to appear in the Customer field and the Assigned To field.   
 ‎  
 ‎In the **Power Query Editor**, use the scroll bar to scroll to the right until you find the column labeled **FieldValuesAsText** (this column is in the middle of a bunch of columns whose rows display the word **Record** in orange-colored font; so you can quickly scroll to the right until you come upon the orange colored Record rows and then locate the **FieldValuesAsText** column). Select the icon to the right of the **FieldValuesAsText** column name.
 
-23. This opens a new window that shows all the columns that associated with this data type. In the top right corner of this window, select the "A thru Z" sort box that appears to the right of the Search field, and in the menu that appears, select **Name**. In the list of columns, the first check box is **(Select All Columns),** and since it is selected, all the columns below it are selected. You want to unselect this check box, which unselects all the other columns. The reason for doing this is that you only want to select the **Customer** and **Assignto** columns, which you will do in the next two steps.
+   ![](Images/ex10-img6.png)
+
+23. This opens a new window that shows all the columns that associated with this data type. In the top right corner of this window, select the "A to Z" sort box that appears to the right of the Search field, and in the menu that appears, select **Name**. In the list of columns, the first check box is **(Select All Columns),** and since it is selected, all the columns below it are selected. You want to unselect this check box, which unselects all the other columns. The reason for doing this is that you only want to select the **Customer** and **Assignto** columns, which you will do in the next two steps.
+
+    ![](Images/ex10-img7.png)
 
 24. Scroll down through the list of columns until you locate the **Assignto** column and then select its check box. 
 
@@ -87,9 +102,13 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 27. Note how the **FieldValuesAsText** column is replaced with two **FieldValuesAsText**-related columns, one titled **FieldValuesAsText.Customer** and the other **FieldValuesAsText.Assignto.** The names associated with these fields are displayed for each record from the SharePoint list. 
 
+     ![](Images/ex10-img8.png)
+
 28. On the far-left end of the ribbon at the top of the **Power Query Editor**, select **Close &amp; Apply**. In the drop-down menu that appears, select **Close &amp; Apply**. 
 
 	An **Apply query changes** window appears that shows the progression of applying the data from the SharePoint list to the report. It will take a few seconds for the query changes to apply.
+	
+	![](Images/ex10-img9.png)
 
 29. Once the query process completes, a **Fields** pane should appear on the far right of the screen. If the **Fields** pane is not expanded to show the actual fields, select the left pointing arrow **(&lt;)** that appears above **Fields** to open the pane.   
 ‎  
@@ -101,9 +120,15 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 ‎  
 ‎For this visualization, right-click on **Page 1** and select **Rename Page** in the menu that appears. Enter **Service Request Tickets** as the new name and press Enter to change the page name.
 
+   ![](Images/ex10-img11.png)
+   
+   ![](Images/ex10-img12.png)
+
 31. The **Visualizations** pane (which appears to the left of the **Fields** pane) includes a series of icons that represent the different types of visualizations that you can create. If you do not select an icon from the **Visualizations** pane, the default visualization type will be applied, which is a **Table**.   
 ‎  
 ‎The first visualization that you create will use the default **Table** visualization. While you do not have to select an icon for the Table visualization, it is recommended that you do so to see how it will appear in the report canvas. When you hover your mouse over each icon, the visualization type is displayed. Select the **Table** icon (fifth row, second from the left; hover your mouse over it to verify this is the correct icon before selecting it). 
+
+   ![](Images/ex10-img13.png)
 
 32. Now that you have selected the type of visualization that you want to create, you must select the fields that you want displayed in the visualization. As you select each field, note how they appear in the table visualization in the report canvas. Do not worry about the order in which they appear; you will change the order once all the fields are selected.  
 ‎  
@@ -121,6 +146,10 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Issue Status – select the **Title** check box
 
+   ![](Images/ex14-img1.png)
+    
+   ![](Images/ex15-img1.png)
+   
 33. You can change the size of the table visualization in the report canvas by selecting the bottom right corner of the table and dragging it diagonally down to the right. Keep in mind that you will be adding a second visualization to this page, so leave enough room in the report canvas to add another visualization. 
 
 34. The columns will appear in the visualization in the same order in which they were selected. In the prior step, the column names were simply listed in the sequence in which they appeared in the list; this made it easier to select them as you scrolled down through the list.   
@@ -142,6 +171,10 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 	- issueTitle – rename to **Issue Title** 
 
 	- Title – rename to **Issue Status**  
+	
+   ![](Images/ex10-img16.png)
+   
+   ![](Images/ex10-img17.png)
 ‎  
 ‎This completes the **Table** visualization. 
 
