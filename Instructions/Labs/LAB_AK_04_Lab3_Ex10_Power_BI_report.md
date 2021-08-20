@@ -49,22 +49,22 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 16. In the **Get Data** window that opens, type **SharePoint** in the Search box that appears above the left-hand navigation pane. In the detail pane on the right, three SharePoint options will appear. Since you used the on-premises version of SharePoint to create the Service Request Ticketing system, select **SharePoint Online List**, and then select **Connect**.
 
-![](Images/ex10-img1.png)
+    ![](Images/ex10-img1.png)
 
 17. In the **SharePoint Online lists** window that appears, enter the following URL for the Service Request Ticketing system in the **Site URL** field: **https://xxxxxZZZZZZ.sharepoint.com/sites/ITservices** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting partner). Select **OK.**  
 
 
-![](Images/ex10-img2.png)
+    ![](Images/ex10-img2.png)
 
 18. In the pop-up window that appears that displays the SharePoint site URL at the top and three authentication options on the left-hand navigation pane (Anonymous, Windows, and Microsoft Account), select **Microsoft Account**. A message will be displayed indicating you are not signed in. Select the **Sign in** button. In the **Pick and account** window, repeat the previous steps to sign in as **Holly**.
 
 	The message that indicated you were not signed in will now change to indicate that you are currently signed in. Select **Connect**.
 	
- ![](Images/ex10-img3.png)	
+    ![](Images/ex10-img3.png)	
 
 19. A **Navigator** window opens that provides a list of tables from the SharePoint data source that is used by the Service Desk Ticketing system. In the list of tables that appear in the left-hand pane, select the check box to the left of **Service Desk Requests**. The details for this table will then appear on the right side of the window. If the details for this table do not appear, select the **Refresh** icon on the top right corner of the navigator window.  
 
- ![](Images/ex10-img4.png)
+    ![](Images/ex10-img4.png)
 ‎  
 ‎**Note:** If you select **Service Desk Requests** but do NOT select the check box, the details for the table will display in Preview mode on the right, and the buttons at the bottom of the screen will be disabled. Since you want the buttons enabled, you must select the check box to the left of **Service Desk Requests**.   
 ‎  
@@ -82,13 +82,13 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 21. Now that you understand how the Customer and Assign To fields are handled, you are ready to proceed. At the bottom of the window, select the **Transform Data** button, which opens the **Power Query Editor**. Maximize this window.
 
- ![](Images/ex10-img5.png)
+    ![](Images/ex10-img5.png)
 
 22. The **Power Query Editor** provides a great deal of functionality that enables you to transform data, clean data, create relationships between tables, and so on. For this exercise, you will use the Power Query Editor to focus on the simplest way of getting the persons’ names to appear in the Customer field and the Assigned To field.   
 ‎  
 ‎In the **Power Query Editor**, use the scroll bar to scroll to the right until you find the column labeled **FieldValuesAsText** (this column is in the middle of a bunch of columns whose rows display the word **Record** in orange-colored font; so you can quickly scroll to the right until you come upon the orange colored Record rows and then locate the **FieldValuesAsText** column). Select the icon to the right of the **FieldValuesAsText** column name.
 
- ![](Images/ex10-img6.png)
+    ![](Images/ex10-img6.png)
 
 23. This opens a new window that shows all the columns that associated with this data type. In the top right corner of this window, select the "A to Z" sort box that appears to the right of the Search field, and in the menu that appears, select **Name**. In the list of columns, the first check box is **(Select All Columns),** and since it is selected, all the columns below it are selected. You want to unselect this check box, which unselects all the other columns. The reason for doing this is that you only want to select the **Customer** and **Assignto** columns, which you will do in the next two steps.
 
