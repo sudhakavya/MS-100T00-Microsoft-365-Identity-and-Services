@@ -98,7 +98,7 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
     ![](Images/ex10-img7.png)
 
-24. Scroll down through the list of columns until you locate the **Assignto** column and then select its check box. 
+24. Scroll down through the list of columns until you locate the **Assign to** column and then select its check box. 
 
 25. Then scroll down to the **Customer** column and select its check box. 
 
@@ -224,6 +224,8 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Note the changes to the Title – the Title text, the color, and the alignment.
 
+    ![](Images/ex10-img19.png)
+
 49. Scroll back up in the list of options until you get back to **Title**. Select the **up-arrow** to collapse the **Title** options. 
 
 50. From the **Title** option, scroll down and locate the **Border** option and then update the following settings:
@@ -242,7 +244,7 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 52. Now add a second filter based on the Issue Status of each service request ticket. Scroll down in the **Filters** pane until you are past the list of customers. Note that another **Add data fields here** box now appears. From the **Fields** pane, locate the item labeled **Title** (this is the **Issue Status** in the SharePoint list) and drag it into the **Add data fields here** box that’s under the **Filters on this page.**
 
-53. Now test out the filters that you just defined for this page. Select **Megan Bowen** in the **Customer** filter. In the Table visualization, note how it eliminated all service request tickets except for those with **Megan Bowen** as the **Customer**. Also note the change to the stacked chart visualization since it only applies to the tickets in which Megan is the Customer. For the stacked chart visualization, it still counts the records with any of the three issue statuses.
+53. Now test out the filters that you just defined for this page. Select **Megan Brown** in the **Customer** filter. In the Table visualization, note how it eliminated all service request tickets except for those with **Megan Brown** as the **Customer**. Also note the change to the stacked chart visualization since it only applies to the tickets in which Megan is the Customer. For the stacked chart visualization, it still counts the records with any of the three issue statuses.
 
 54. Now let’s implement the second filter. In the **Title** (Issue Status) filter, select **Active.** Note how the number of records changed in the **Table** visualization; these are the service request tickets with Megan as the Customer and an Active status. Note also how the stacked chart only includes the records with Megan as the Customer and an Active status.
 
@@ -254,12 +256,23 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 58. To publish your Power BI report, select Home on the menu bar, and then on the ribbon, select **Publish.**
 
-59. From the **Publish to Power BI** window that appears, select **My workspace** and then press **Select**. 
+    ![](Images/ex10-img20.png)
+
+59. From the **Publish to Power BI** window that appears, if prompted **enter your email address** then enter **holly@xxxxxZZZZZZ.onmicrosoft.com (where xxxxxZZZZZZ is the tenant prefix assigned to you by your lab hosting provider) and select **Continue**
+
+     ![](Images/ex10-img21.png)   
+     
+     Choose **My workspace** and click on **select**     
+     
+     ![](Images/ex10-img22.png)
 
 60. Once published, a green check mark will appear next to the word **Success!** Select **Got it** to close the window.
 
+     ![](Images/ex10-img23.png)
+
 61. Close the Power BI Desktop by selecting **X** icon in the top right corner of the screen.
- 
+    
+     ![](Images/ex10-img24.png)
 
 ### Task 2 - Create a Dashboard and view from Mobile device
 
@@ -281,13 +294,21 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 5. At the top of the **My workspace** page you will see 3 tabs: **All**, **Content**, and **Datasets + dataflows**. On the **All** tab, which is displayed by default, two **ServiceRequestPowerBI** objects are displayed - one is the report that you just published and the other is a dataset (see the **Type** column). Select the **ServiceRequestPowerBI** report.
 
+    ![](Images/ex10-img25.png)
+
 6. In the top-right corner of each visualization are several icons. Depending on the visualization size, they may not appear until you hover your mouse over the top right of the visualization (the icons may also appear on the bottom right corner if the visualization is flush with the top of the screen). Hover your mouse over the top right of the **Table** visualization and the four icons will appear. Then hover your mouse over each icon to display the tool tip for each.   
 ‎  
 ‎For the **Table** visualization, select the **Pin visual** icon. 
 
+   ![](Images/ex10-img26.png)
+
 7. In the **Pin to dashboard** window, select **New dashboard,** enter **ServiceRequestDashboard** in the **Dashboard name** field, then select **Pin**. 
 
+    ![](Images/ex10-img27.png)
+
 8. A **Pinned to dashboard** pop-up window will appear that allows you to create a phone view that will optimize your dashboard for phone views. For now, select **Go to dashboard**.   
+
+    ![](Images/ex10-img28.png)
 ‎  
 ‎**Note:** If you do not select anything when this pop-up window appears, it will close after a few seconds and you will remain in the report window. If this happens to you (for example, you were reading this instruction and the pop-up window suddenly closed), then in the left-hand navigation pane, select **My workspace**, and then under the **All** tab select the **ServiceRequestDashboard** you just created.
 
@@ -301,7 +322,11 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 11. For the stacked column visualization, select the **Pin visual** icon. In the **Pin to dashboard** window that appears, the **Existing dashboard** option is selected by default, and the dashboard name is selected by default in the **Select existing dashboard** field. Since this is the dashboard you want to pin the visualization to, select **Pin**. 
 
+    ![](Images/ex10-img31.png)
+
 12. In the **Pin to dashboard** pop-up window, select **Go to Dashboard**. If this window disappears before you can make this selection, then in the left-hand navigation pane, select **My workspace**, in the **All** tab, select **ServiceRequestDashboard**.
+
+    ![](Images/ex10-img30.png)
 
 13. At this point you may be wondering why you created the dashboard since you have the same information in your report. In this lab exercise, you only have one report, but a dashboard can be made up of visualizations from many different reports. A dashboard provides a one-page view of your most important metrics, from one or many reports, and provides an entry way to the underlying reports and datasets.   
 ‎  
@@ -323,7 +348,11 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 18. Now that you have created your dashboard, you can view it on a mobile device if you wish. In the menu bar at the top of the dashboard, select **Edit**. In the menu that appears, select **Mobile view**. 
 
+    ![](Images/ex10-img32.png)
+
 19. If a **Phone Version** dialog box appears, select **Continue**.
+
+    ![](Images/ex10-img33.png)
 
 20. An **Edit phone view** screen will appear that shows how the dashboard will appear on your mobile device. If you hover your mouse over each visualization, a border will appear. You can select a border and drag it to change the size of the visualizations.
 
@@ -352,11 +381,15 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 ‎  
 ‎Select the **Share** icon. 
 
+     ![](Images/ex10-img34.png)
+     
 5. In the **Share dashboard** pane that appears, under the **Share** tab, you will enter the name of the person with whom you want to share the dashboard.  
 ‎  
 ‎In the **Enter email addresses** field, enter **Laura**, and then in the list of Adatum users whose first name starts with Allan, select **Laura Atkins.**
 
-6. Towards the bottom of the Share dashboard pane, review the options that are already selected with a check mark. Leave the boxes checked and select **Grant access**. Once the dashboard is shared, you will see a message that says **Success!! Access has been granted.**
+     ![](Images/ex10-img36.png)
+
+6. Once the dashboard is shared, you will see a message that says **Success!! Access has been granted.**
 
 7. Switch to **LON-CL1** so that you can test whether the dashboard was successfully shared.   
 
@@ -375,7 +408,7 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 14. If the **Pick an account** window reappears, select Laura’s account.
 
 15. In the **Power BI** window, in the left-hand navigation pane, select **Shared with me.** Verify that the shared **ServiceRequestDashboard** is listed. Select the dashboard to verify that it opens and displays the report information.  
-
+ 
 **Note:** You would perform similar steps if you shared a report with another user; sharing within Power BI is not limited to just dashboards.
 
 16. Leave your Edge browser open and do NOT close the Power BI Service tab.
@@ -397,8 +430,12 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 ‎  
 ‎Select **Unapplied changes**. There are two settings on this page that you need to be aware of. The first is an Enabled/Disabled option that controls whether users in the organization can create app workspaces. Verify this setting is **Enabled**; if not, then select the toggle so that it’s Enabled. The second option indicates how you want to apply the permission to create workspaces. If **The entire organization** option is not selected, then select it now. 
 
-6. Select **Apply**. Note the message indicating that it may take 15 minutes to apply these permission changes. However, proceed ahead and hopefully you will not have to wait this time to create a new workspace. 
+   ![](Images/ex10-img39.png)
 
+6. Select **Apply**. Note the message indicating that it may take 15 minutes to apply these permission changes. However, proceed ahead and hopefully you will not have to wait this time to create a new workspace. 
+ 
+   ![](Images/ex10-img40.png)
+   
 7. Note that the Power BI Service’s navigation pane and the Admin portal’s navigation pane both have a **Workspace** option. However, you can only create a workspace through the Power BI Service. You can add members to a workspace using either one, but you can only create a workspace through the Power BI Service.   
 ‎  
 ‎In the left-hand navigation pane for the **Power BI Service**, select **Workspaces**.
@@ -408,6 +445,8 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 9. In the **Workspaces** pane that opens, select the **Create a workspace** button at the bottom of the pane.
 
 10. In the **Create a workspace** pane that opens, enter **Test Workspace** as the workspace name and then select **Save**.
+
+    ![](Images/ex10-img42.png)
 
 11. You just created the workspace using the Power BI Service, so now let’s see what workspace functionality is available in the Power BI Admin Portal.  
 ‎  
@@ -422,6 +461,8 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 15. In the **Admin portal’s** navigation pane, select **Tenant settings**. Scroll down through the **Settings** page and review the settings that are available.
 
 16. Scroll to the **Custom Branding** section at the very bottom of the **Settings** page. The **Theme Color** field controls the color scheme for the **Power BI Service**, which by default is set to black and gold. Go ahead and change the color to see the color scheme change in the Power BI Service.   
+
+    ![](Images/ex10-img46.png)
 ‎  
 ‎To change the color scheme, select the **black box** in the **Theme color** field to display the color palette. Drag the circle in the slider bar to the right until you locate a color combination that you like. Locate the circle that appears in the large colored square. Select this circle and drag it around the gradient colors. Note how the hex color codes change as you drag the circle. Once you find a color that you prefer, release your left-mouse button and select anywhere on the screen outside the color box to change the **Theme color**. Then scroll to the bottom of the page and select **Publish**.
 
