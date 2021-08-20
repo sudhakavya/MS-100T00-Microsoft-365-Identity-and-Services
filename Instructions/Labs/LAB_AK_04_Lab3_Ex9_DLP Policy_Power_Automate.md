@@ -104,7 +104,7 @@ Now that Holly has seen what happens when she creates a DLP policy that only inc
 
 In your role as Holly, you will update this DLP policy to include Outlook as an additional connector in the **Business** group. 
 
-1. You should still be logged into LON-DC1 as **ADATUM\Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into LON-DC1 as **ADATUM\Azureuser Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. You should still have your Edge browser open to the **Edit your flow | Power Automate** tab, which should still be displaying the **Flows** window and the **Shared with me** tab.   
 ‎  
