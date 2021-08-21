@@ -103,7 +103,7 @@ To improve communication between management and internal users, Holly Dickson ha
 ‎  
 ‎**Note:** If you use this example, make sure you add a space before and after the selected parameters (**Customer DisplayName** and **Assign To DisplayName).**
 
-    ![](Images/ex8-img16.png)
+![](Images/ex8-img16.png)
 
 20. At the bottom of the email form, select **Show advanced options**. Scroll to the bottom of the list, select the **Importance** field, and in the list that appears, select **Normal**.
 
@@ -145,8 +145,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 	- Assign To – enter **Allan**, then select **Allan Deyoung** from the list   
 
-  
-![](Images/ex8-img20.png)
+	    ![](Images/ex8-img20.png)
 
      
 **Note:** Alternatively, you could open the Power App that you created in the earlier exercise and create an entry to the Service Desk Requests SharePoint list. You could open a new browser tab and enter the following URL to access the app in Power Apps studio: **https://make.powerapps.com**
