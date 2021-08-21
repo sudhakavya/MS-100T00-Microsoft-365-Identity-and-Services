@@ -341,7 +341,7 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
       ![](Images/image420.png)
 
-59. From the **Publish to Power BI** window that appears, if prompted **enter your email address** then enter **holly@xxxxxZZZZZZ.onmicrosoft.com (where xxxxxZZZZZZ is the tenant prefix assigned to you by your lab hosting provider) and select **Continue**
+59. From the **Publish to Power BI** window that appears, if prompted **enter your email address** then enter **Holly@xxxxxZZZZZZ.onmicrosoft.com (where xxxxxZZZZZZ is the tenant prefix assigned to you by your lab hosting provider) and select **Continue**
 
      ![](Images/ex10-img21.png)   
      
@@ -371,11 +371,15 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 3. This opens the **Microsoft Power BI service**, which is required to create a dashboard. On the right-hand side of the top row, select **Sign in**. In the **Pick an account** window, select Holly’s account (**Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider). In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in**. In the **Stay signed in?** window, select **Yes**.
 
+    ![](Images/ex8-img2.png)
+    
+    ![](Images/ex8-img3.png)
+
 4. In the left-hand navigation pane, select **My workspace.** 
 
    ![](Images/image422.png)
 ‎  
-‎**Note:** Since Holly is the same user who created the report that she now wants to pin to a dashboard, she should select **My workspace** (this will show just her work). However, if she was going to use a report created by another Adatum user, she would select **Workspaces** and then select **Adatum Corporation** (or if she was collaborating with a user from another organization that had shared a report with her, she would select that organization instead). 
+‎**Note:** Since Holly is the same user who created the report that she now wants to pin to a dashboard, she should select **My workspace** (this will show just her work). However, if she was going to use a report created by another Adatum user, she would select **Workspaces** and then select **Odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (or if she was collaborating with a user from another organization that had shared a report with her, she would select that organization instead). 
 
 5. At the top of the **My workspace** page you will see 3 tabs: **All**, **Content**, and **Datasets + dataflows**. On the **All** tab, which is displayed by default, two **ServiceRequestPowerBI** objects are displayed - one is the report that you just published and the other is a dataset (see the **Type** column). Select the **ServiceRequestPowerBI** report.
 
@@ -519,6 +523,8 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 
 4. At the top side of the **Power BI** **service screen**, to the right of the **Search** field, select the **gear (Settings)** icon, and in the menu that appears, select **Admin portal**.
 
+   
+
 5. In the navigation pane for the **Power BI Admin portal**, select **Tenant Settings**. Under **Workspace settings,** select **Create workspaces (new workspace experience)**. Under this option it should display a message that says: **Unapplied changes**. This indicates that you have settings that have not been applied towards creating new workspaces.   
 ‎  
 ‎Select **Unapplied changes**. There are two settings on this page that you need to be aware of. The first is an Enabled/Disabled option that controls whether users in the organization can create app workspaces. Verify this setting is **Enabled**; if not, then select the toggle so that it’s Enabled. The second option indicates how you want to apply the permission to create workspaces. If **The entire organization** option is not selected, then select it now. 
@@ -547,10 +553,24 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 
 12. Select **Workspaces i**n the **Admin portal’s** navigation pane. **Test Workspace** should appear in the list of Workspaces. Select the **Test Workspace** name, which displays a check mark to the left of the name. In the menu bar that appears above the list, select **Details**. Review the information in the **Details pane** and then close it. 
 
+    ![](Images/image428.png)   
+    
+    ![](Images/image429.png) 
+
 13. With the **Test Workspace** still selected, select **Edit** on the menu bar. In the **Edit workspace pane**, note how you can change the workspace name and description even though you could not add a workspace using the **Power BI Admin portal**. Close the **Edit workspace pane**.
+
+     ![](Images/image430.png) 
+     
+     ![](Images/image431.png) 
 
 14. With the **Test Workspace** still selected, select **Access** on the menu bar. In the **Access pane**, note how you can add members to this workspace (you can do this through the **Workspaces** option in the **Power BI Service** as well). In the Enter email addresses field, enter **Patti**. In the list of users whose first name starts with Patti, select **Patti Fernandez** and then select **Add**. As you can see in the bottom portion of the pane, Patti now has **Member** permissions to this workspace. Close the **Access pane**. 
 
+      ![](Images/image432.png) 
+      
+      ![](Images/image433.png)
+      
+      ![](Images/image434.png)
+ 
 15. In the **Admin portal’s** navigation pane, select **Tenant settings**. Scroll down through the **Settings** page and review the settings that are available.
 
     ![](Images/image435.png)
