@@ -7,7 +7,7 @@ As part of your Power Platform pilot project, you now want to investigate how yo
 
 ### Task 1 - Create a Power Automate Flow
 
-To improve communication between management and internal users, Holly Dickson has decided to build and share an automated flow within Power Automate that sends an email to Adatum’s MOD Administrator whenever a service request is created or modified. This task will focus on creating the flow; the next task will address how to share the flow with another manager. 
+To improve communication between management and internal users, Holly Dickson has decided to build and share an automated flow within Power Automate that sends an email to  **ADATUM\Azureuser Administrator** whenever a service request is created or modified. This task will focus on creating the flow; the next task will address how to share the flow with another manager. 
 
 1. After having completed the prior lab exercise in which you created a Power App from scratch, you should still be logged into your Domain Controller VM (**VM-Deployment-ID**) as **ADATUM\Azureuser Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
@@ -204,7 +204,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 41. Leave all the tabs open in your browser for the next task.
 
-**Congratulations! You have successfully created an automated flow in Power Automate that adds another level of communication in Adatum’s Service Request Ticketing system.**
+**Congratulations! You have successfully created an automated flow in Power Automate that adds another level of communication in ADATUM\Azureuser Administrator’s Service Request Ticketing system.**
 
 
 ### Task 2 – Assign an additional owner to the flow
