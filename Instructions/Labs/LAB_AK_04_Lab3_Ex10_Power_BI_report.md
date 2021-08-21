@@ -11,7 +11,7 @@ In your role as Holly Dickson, you will use this exercise to create some basic v
 
 In this task, you will download and install the Microsoft Power BI Desktop. Once installed, you will create a Power BI report based on the new Service Desk Ticketing system that you created earlier in SharePoint.
 
-1. After having completed the prior lab exercise in which you created a Power Automate flow, you should still be logged into LON-CL1 as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior lab exercise in which you created a Power Automate flow, you should still be logged into **VM-Deployment-ID** as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. In your Edge browser, make sure that your new Service Desk Ticketing system is open in a tab. The tab should be titled **IT Services – Service Desk Requests – All Items**. If you do not have this tab open, then go to the **SharePoint admin center**, select **Active Sites**, select **IT Services** from the **Active Sites** list, select **Site contents**, and then select the **Service Desk Requests** list. 
 
@@ -23,20 +23,36 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 4. This opens the **Microsoft Download Center** for **Microsoft Power BI**. Scroll down to the **Microsoft Power BI Desktop** section and select **Download.**
 
+    ![](Images/image287.png)
+
 5. In the **Choose the download you want** window, select **PBIDesktopSetup_x64.exe** then select **Next** on the bottom of the screen. The status of the download will display on the notification bar at the bottom of the screen.
+
+    ![](Images/image288.png)    
 
 6. On the notification bar at the bottom of the screen, select **Open file** once the download of **PBIDesktopSetup_x64.exe** is complete.
 
+    ![](Images/image289.png)
+
 7. The **Microsoft Power BI Desktop (x64) Setup** wizard will begin. On the **Welcome to the Microsoft Power BI Desktop (x64) Setup Wizard** page select your language and then select **Next.** Another **Welcome** page will appear; select **Next** on this page as well. 
+
+    ![](Images/image290.png)
 
 8. On the **Microsoft Software License Terms** page, select the check box to accept the license terms and then select **Next.** 
 
+    ![](Images/image291.png)
+
 9. On the **Destination Folder** page, accept the default location and select **Next.** 
+
+    ![](Images/image292.png)
 
 10. On the **Ready to install Microsoft Power BI Desktop (x64)** page, select **Install**.
 
+    ![](Images/image293.png)
+
 11. On the **Completed the Microsoft Power BI Desktop Setup Wizard** page, select **Finish.** This will launch the Power BI Desktop.
 
+    ![](Images/image294.png)
+   
 12. When the **Power BI Desktop** opens, a window will appear in the middle of the screen that has three panes. The left-hand pane is a **Power BI Desktop** pane that enables you to **Get data**, view **Recent sources**, and **Open other reports**. The middle pane is a **Collaborate and share** pane in which you can select **Get started** to use Power BI. The right-hand pane provides free tutorial videos and links to **What’s New**, **Forums**, **Power BI Blog**, and **Tutorials**. Feel free to review any of this information. 
 
 	When you are ready to proceed, select the **X** in the upper right-hand corner to close this window. 
@@ -55,20 +71,24 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 15. In the ribbon that appears at the top of the screen below the menu bar, select **Get data**. In the drop-down menu that appears, select **More…** 
 
+    ![](Images/image295.png)
+
 16. In the **Get Data** window that opens, type **SharePoint** in the Search box that appears above the left-hand navigation pane. In the detail pane on the right, three SharePoint options will appear. Since you used the on-premises version of SharePoint to create the Service Request Ticketing system, select **SharePoint Online List**, and then select **Connect**.
 
     ![](Images/ex10-img1.png)
 
-17. In the **SharePoint Online lists** window that appears, enter the following URL for the Service Request Ticketing system in the **Site URL** field: **https://xxxxxZZZZZZ.sharepoint.com/sites/ITservices** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting partner). Select **OK.**  
+17. In the **SharePoint Online lists** window that appears, enter the following URL for the Service Request Ticketing system in the **Site URL** field: **https://xxxxxZZZZZZ.sharepoint.com/sites/ITservice** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting partner). Select **OK.**  
 
 
-    ![](Images/ex10-img2.png)
+    ![](Images/image296.png)
 
 18. In the pop-up window that appears that displays the SharePoint site URL at the top and three authentication options on the left-hand navigation pane (Anonymous, Windows, and Microsoft Account), select **Microsoft Account**. A message will be displayed indicating you are not signed in. Select the **Sign in** button. In the **Pick and account** window, repeat the previous steps to sign in as **Holly**.
 
 	The message that indicated you were not signed in will now change to indicate that you are currently signed in. Select **Connect**.
 	
-    ![](Images/ex10-img3.png)	
+    ![](Images/image297.png)
+    
+    ![](Images/image298.png)
 
 19. A **Navigator** window opens that provides a list of tables from the SharePoint data source that is used by the Service Desk Ticketing system. In the list of tables that appear in the left-hand pane, select the check box to the left of **Service Desk Requests**. The details for this table will then appear on the right side of the window. If the details for this table do not appear, select the **Refresh** icon on the top right corner of the navigator window.  
 
@@ -103,7 +123,9 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
     ![](Images/ex10-img7.png)
 
 24. Scroll down through the list of columns until you locate the **Assign to** column and then select its check box. 
-
+ 
+    ![](Images/image299.png)
+  
 25. Then scroll down to the **Customer** column and select its check box. 
 
 26. Select **OK**.
@@ -116,9 +138,11 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	An **Apply query changes** window appears that shows the progression of applying the data from the SharePoint list to the report. It will take a few seconds for the query changes to apply.
 	
-	![](Images/ex10-img9.png)
+     ![](Images/ex10-img9.png)
 
 29. Once the query process completes, a **Fields** pane should appear on the far right of the screen. If the **Fields** pane is not expanded to show the actual fields, select the left pointing arrow **(&lt;)** that appears above **Fields** to open the pane.   
+
+      ![](Images/fields.png)
 ‎  
 ‎The **Fields** pane should display the fields associated with the **Service Desk Requests** list. If you only see the Search field and the table name **Service Desk Requests**, then select the down arrow that appears to the right of **Service Desk Requests** to display all the fields. 
 
@@ -136,7 +160,7 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 ‎  
 ‎The first visualization that you create will use the default **Table** visualization. While you do not have to select an icon for the Table visualization, it is recommended that you do so to see how it will appear in the report canvas. When you hover your mouse over each icon, the visualization type is displayed. Select the **Table** icon (fifth row, second from the left; hover your mouse over it to verify this is the correct icon before selecting it). 
 
-   ![](Images/ex10-img13.png)
+   ![](Images/image300.png)
 
 32. Now that you have selected the type of visualization that you want to create, you must select the fields that you want displayed in the visualization. As you select each field, note how they appear in the table visualization in the report canvas. Do not worry about the order in which they appear; you will change the order once all the fields are selected.  
 ‎  
@@ -154,16 +178,17 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Issue Status – select the **Title** check box
 
-  ![](Images/ex14-img14.png)
+  ![](Images/image301.png)
     
-  ![](Images/ex15-img15.png)
+  ![](Images/image302.png)
    
 33. You can change the size of the table visualization in the report canvas by selecting the bottom right corner of the table and dragging it diagonally down to the right. Keep in mind that you will be adding a second visualization to this page, so leave enough room in the report canvas to add another visualization. 
 
 34. The columns will appear in the visualization in the same order in which they were selected. In the prior step, the column names were simply listed in the sequence in which they appeared in the list; this made it easier to select them as you scrolled down through the list.   
 ‎  
-‎However, now you want to rearrange the columns to appear in the order that you want. In the **Visualizations** pane, below the six rows of icons is a row of three tabs that are represented by icons: **Fields**, **Format**, and **Analytics.** The **Fields** tab, which is selected by default, displays the list of fields in the order in which they will appear in the table. To move a field to the left, select the field and drag and drop the field up in the list until it appears where you want. To move a field to the right, select the field and drag and drop it down in the list until it’s in the correct location.  
-‎  
+‎However, now you want to rearrange the columns to appear in the order that you want. In the **Visualizations** pane, below the six rows of icons is a row of three tabs that are represented by icons: **Fields**, **Format**, and **Analytics.** The **Fields** tab, which is selected by default, displays the list of fields in the order in which they will appear in the table. To move a field to the left, select the field and drag and drop the field up in the list until it appears where you want. To move a field to the right, select the field and drag and drop it down in the list until it’s in the correct location. 
+
+‎ 
 ‎**Note:** Alternatively, you can select the down arrow in the field, and in the menu that appears, select **Move**, and then select **Up** or **Down**. Since you would have to repeat this process multiple times to move a field multiple positions to the left or right, it is much simpler to just drag and drop the field in the list of **Values**.   
 ‎  
 ‎Take this opportunity to arrange the columns in whatever order you want.
@@ -194,11 +219,19 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 37. In the **Visualizations** pane, select the **Stacked column chart** icon (top row, second from left; verify by hovering your mouse over the icon to see its name). Note the visualization of the chart that appears on the report canvas. Increase the size of the chart by dragging its bottom-right corner down diagonally.
 
+    ![](Images/image303.png)
+
 38. You now want to define the chart’s horizontal axis. In the **Fields** pane, select the **Location** field, and holding your left mouse button down, drag the field into the **Add data fields here** box for the **Axis** option in the **Visualizations** pane.
+
+    ![](Images/image304.png)
 
 39. In the **Fields** pane, select the **Title** field (this is the Issue Status in the SharePoint list) and drag it into the **Add data fields here** box for the **Legend** box in the **Visualizations** pane.
 
+    ![](Images/image305.png)
+
 40. In the **Fields** pane, select the **Title** field again and drag it into the **Add data fields here** box for the **Value** box in the **Visualizations** pane.
+
+    ![](Images/image306.png)
 
 41. Since the Title field is referred to as the Issue Status in the SharePoint list, you want to rename it here to reflect this name in the chart.
 
@@ -206,15 +239,25 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- In the **Value** field, select the **drop-down arrow** next to **Count of Title**, and in the menu, select **Rename for this visual**. Enter **Count of Issue Status** as the new name of the **Value**.
 
+     ![](Images/image307.png)
+
 42. To change formatting of the chart, ensure the chart is selected. If the chart is not already selected, click your mouse inside the area of where the chart had previously appeared; this will display the chart outline. 
 
 43. In the **Visualizations** pane, select the **Format** tab (its icon appears to the right of the Values icon).
 
+    ![](Images/image308.png)
+
 44. In the **Format** tab, all the objects that you can format (General, Legend, X axis, Y axis, and so on) appear below the **Search** field. Select the **down-arrow** key next to **Legend.** This displays all the values that can be formatted for the **Legend.**
+
+    ![](Images/image309.png)
 
 45. The first Legend object is **Position**. In the **Position** field, select the drop-down arrow and select **Right center**. Note how the legend now appears centered on the right side of the chart.
 
+    ![](Images/image400.png)
+
 46. Select the **up-arrow** key next to the word **Legend** to collapse the Legend options.
+
+    ![](Images/image401.png)
 
 47. On the **Data labels** option, the toggle button is currently set to **Off**. Select this toggle button to turn it **On.**
 
@@ -227,10 +270,18 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 	- Scroll down to the **Alignment** option. The **Left**-aligned icon is currently selected. Change this by selecting the **Center**-aligned icon.
 
 	- Note the changes to the Title – the Title text, the color, and the alignment.
-
-    ![](Images/ex10-img19.png)
+    
+    ![](Images/image403.png)
+    
+    ![](Images/image404.png)
+    
+    ![](Images/image405.png)
+    
+    ![](Images/image406.png)
 
 49. Scroll back up in the list of options until you get back to **Title**. Select the **up-arrow** to collapse the **Title** options. 
+
+    ![](Images/image407.png)
 
 50. From the **Title** option, scroll down and locate the **Border** option and then update the following settings:
 
@@ -238,29 +289,57 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Select the down-arrow next to **Border** to see the available border options. In the **Color** option, change the color of the border to the color of your choice.   <br/>
 	
+     ![](Images/image408.png)
+	
 	This completes the stacked chart visualization.  
 
 51. Now that both visualizations are complete, note the data displayed for each. Both visualizations are based on ALL the records stored in the **Service Desk Requests** SharePoint List. Now let’s see what happens when you create data filters that filter the records viewed in each visualization. For example, if you created a filter for a specific customer, only the records for that customer would be processed by each visualization (as opposed to all customers that would be displayed by default).   
+
+     ![](Images/image409.png)
 ‎  
 ‎By creating a filter for the page, all visualizations on the page will be updated based on that filter. On the **Filters** pane, notice there are two options: **Filters on this page** and **Filters on all pages**. Each filter option enables you to add data fields that will apply to that option. For this lab, you are going to update the **Filters on this page** option by creating two filters – one by **Customer** and the other by **Issue Status**.  
+
+  ![](Images/image410.png)
 ‎  
 ‎In the **Fields** pane, select **FieldValuesAsText.Customer** and drag it into the **Add data fields here** box that’s under the **Filters on this page** option. This filter will show you the list of customers from the records in the SharePoint list, and it will display the number of records for each customer. If there are tickets that have no customer assigned to it, the filter option will appear as a number until a person is assigned. If you select one or more of these customers, the visualizations will only reflect the records for those customers. By default, all customers are displayed in the visualizations.
 
+   ![](Images/image411.png)
+
 52. Now add a second filter based on the Issue Status of each service request ticket. Scroll down in the **Filters** pane until you are past the list of customers. Note that another **Add data fields here** box now appears. From the **Fields** pane, locate the item labeled **Title** (this is the **Issue Status** in the SharePoint list) and drag it into the **Add data fields here** box that’s under the **Filters on this page.**
+
+     ![](Images/image412.png)
 
 53. Now test out the filters that you just defined for this page. Select **Megan Brown** in the **Customer** filter. In the Table visualization, note how it eliminated all service request tickets except for those with **Megan Brown** as the **Customer**. Also note the change to the stacked chart visualization since it only applies to the tickets in which Megan is the Customer. For the stacked chart visualization, it still counts the records with any of the three issue statuses.
 
+      ![](Images/image413.png)
+
 54. Now let’s implement the second filter. In the **Title** (Issue Status) filter, select **Active.** Note how the number of records changed in the **Table** visualization; these are the service request tickets with Megan as the Customer and an Active status. Note also how the stacked chart only includes the records with Megan as the Customer and an Active status.
 
-55. Now change the value(s) selected in the **Title** (Issue Status) filter to see how the visualizations change as the values selected change. Unselect **Active** and select **New**. Note the change to the list. Then unselect **New** and select **Resolved**. Note the changes to both visualizations as you change the selected filter value. Next select both **New** and **Resolved** and note the change.
+       ![](Images/image414.png)
+
+55. Now change the value(s) selected in the **Title** (Issue Status) filter to see how the visualizations change as the values selected change. Unselect **Active** and select **New**. Note the change to the list.
+
+       ![](Images/image415.png)
+       
+      Then unselect **New** and select **Resolved**. Note the changes to both visualizations as you change the selected filter value. 
+      
+     ![](Images/image416.png)
+     
+      Next select both **New** and **Resolved** and note the change.
+      
+      ![](Images/image417.png)
 
 56. Set each filter back to display all the records by selecting **Select all** for each filter; this clears all the check boxes for each filter.
 
+      ![](Images/image418.png)
+
 57. Save your work by selecting the **Save** icon in the top left corner of the screen.
+
+      ![](Images/image419.png)
 
 58. To publish your Power BI report, select Home on the menu bar, and then on the ribbon, select **Publish.**
 
-    ![](Images/ex10-img20.png)
+      ![](Images/image420.png)
 
 59. From the **Publish to Power BI** window that appears, if prompted **enter your email address** then enter **holly@xxxxxZZZZZZ.onmicrosoft.com (where xxxxxZZZZZZ is the tenant prefix assigned to you by your lab hosting provider) and select **Continue**
 
@@ -286,13 +365,15 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 **Note:** At the end of this task are steps on how to use your mobile device to view the dashboard that you created. These steps are strictly optional. 
 
-1. After having completed the prior task, you should still be logged into LON-DC1 as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior task, you should still be logged into **VM-Deployment-ID** as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. In your Edge browser, open a new tab and then enter the following URL in the address bar: **https://powerbi.microsoft.com** 
 
-3. This opens the **Microsoft Power BI service**, which is required to create a dashboard. On the right-hand side of the top row, select **Sign in**. In the **Pick an account** window, select Holly’s account (**holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider). In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in**. In the **Stay signed in?** window, select **Yes**.
+3. This opens the **Microsoft Power BI service**, which is required to create a dashboard. On the right-hand side of the top row, select **Sign in**. In the **Pick an account** window, select Holly’s account (**Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider). In the **Enter password** window, enter **Pa55w.rd** and then select **Sign in**. In the **Stay signed in?** window, select **Yes**.
 
-4. In the left-hand navigation pane, select **My workspace.**  
+4. In the left-hand navigation pane, select **My workspace.** 
+
+   ![](Images/image422.png)
 ‎  
 ‎**Note:** Since Holly is the same user who created the report that she now wants to pin to a dashboard, she should select **My workspace** (this will show just her work). However, if she was going to use a report created by another Adatum user, she would select **Workspaces** and then select **Adatum Corporation** (or if she was collaborating with a user from another organization that had shared a report with her, she would select that organization instead). 
 
@@ -324,6 +405,8 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 10. In your **My workspace** page, in the **All** tab, select the **ServiceRequestPowerBI** report.
 
+    ![](Images/ex10-img25.png)
+
 11. For the stacked column visualization, select the **Pin visual** icon. In the **Pin to dashboard** window that appears, the **Existing dashboard** option is selected by default, and the dashboard name is selected by default in the **Select existing dashboard** field. Since this is the dashboard you want to pin the visualization to, select **Pin**. 
 
     ![](Images/ex10-img31.png)
@@ -338,13 +421,21 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 14. On the left-hand navigation pane, select **My workspace**.
 
-15. On the main screen, under the **All** tab, hover your mouse over the name of the dashboard you created. This will display several icons to the right of the dashboard name, one of which is a **star** icon. You can mark this dashboard as one of your favorites by selecting this icon. Select the **star** icon. 
+    ![](Images/image422.png)
+
+15. On the main screen, under the **All** tab, hover your mouse over the name of the dashboard you created. This will display several icons to the right of the dashboard name, one of which is a **star** icon. You can mark this dashboard as one of your favorites by selecting this icon. Select the **star** icon.
+
+    ![](Images/image423.png)
 
 		Notice that when you select the star, it changes to a solid star rather than the outlined star that it originally appeared as. Select the **star** icon  again so that is no longer a Favorite; notice how it returns to its original unfilled state.   
 ‎  
 ‎Select the star icon again to make it one of your favorites.
 
+ ![](Images/image424.png)
+
 16. In the left-hand navigation pane, select **Favorites**. You should see this dashboard in your list of favorites. Select the **ServiceRequestDashboard** to open it. 
+
+   ![](Images/image425.png)
 
 17. **THE REMAINING STEPS IN THIS TASK ARE OPTIONAL.**   
 ‎  
@@ -356,13 +447,11 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 19. If a **Phone Version** dialog box appears, select **Continue**.
 
-    ![](Images/ex10-img33.png)
-
 20. An **Edit phone view** screen will appear that shows how the dashboard will appear on your mobile device. If you hover your mouse over each visualization, a border will appear. You can select a border and drag it to change the size of the visualizations.
 
 21. To run the app from your mobile device, you must first download and install **Power BI** from the **App Store** or **Google Play**.
 
-22. Once you have downloaded and installed the **Power BI** app to your phone, open the app and sign-in as **holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is  tenant prefix provided by your lab hosting provider).
+22. Once you have downloaded and installed the **Power BI** app to your phone, open the app and sign-in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is  tenant prefix provided by your lab hosting provider).
 
 23. You will see the dashboard and report listed on under **Recents.** 
 
@@ -375,7 +464,7 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 As part of her pilot project, Holly wants to share the dashboard that she just created with Laura Atkins.
 
-1. After having completed the prior task, you should still be logged into LON-DC1 as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior task, you should still be logged into **VM-Deployment-ID** as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. You should also have the Power BI Service open in your Edge browser; if not, then open a new browser tab, enter **https://app.powerbi.com** in the address bar, and sign in as **Holly.**
 
@@ -395,9 +484,9 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 
 6. Once the dashboard is shared, you will see a message that says **Success!! Access has been granted.**
 
-7. Switch to **LON-CL1** so that you can test whether the dashboard was successfully shared.   
+7. Switch to **VM-Deployment-ID** so that you can test whether the dashboard was successfully shared.   
 
-8. On **LON-CL1**, you should still be logged in as the **Administrator** with a password of **Pa55w.rd**. 
+8. On **VM-Deployment-ID**, you should still be logged in as the **Administrator** with a password of **Pa55w.rd**. 
 
 9. Open your Edge browser and enter the following URL in the address bar: **https://app.powerbi.com**
 
@@ -422,9 +511,9 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 
 Now that Holly has created a report and dashboard and shared it with another Adatum user, she wants to explore the administrative functionality within Power BI that’s available in the Power BI Admin Portal.
 
-1. Switch back to **LON-DC1**.
+1. Switch back to **VM-Deployment-ID**.
 
-2. On **LON-DC1**, you should still be logged in as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+2. On **VM-Deployment-ID**, you should still be logged in as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 3. In your **Edge** browser, you should still have the **Power BI Service** tab open; if not, open a new tab and enter the following URL in the address bar: **https://app.powerbi.com** 
 
@@ -464,17 +553,21 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 
 15. In the **Admin portal’s** navigation pane, select **Tenant settings**. Scroll down through the **Settings** page and review the settings that are available.
 
+    ![](Images/image435.png)
+
 16. Scroll to the **Custom Branding** section at the very bottom of the **Settings** page. The **Theme Color** field controls the color scheme for the **Power BI Service**, which by default is set to black and gold. Go ahead and change the color to see the color scheme change in the Power BI Service.   
 
     ![](Images/ex10-img46.png)
 ‎  
 ‎To change the color scheme, select the **black box** in the **Theme color** field to display the color palette. Drag the circle in the slider bar to the right until you locate a color combination that you like. Locate the circle that appears in the large colored square. Select this circle and drag it around the gradient colors. Note how the hex color codes change as you drag the circle. Once you find a color that you prefer, release your left-mouse button and select anywhere on the screen outside the color box to change the **Theme color**. Then scroll to the bottom of the page and select **Publish**.
 
+  ![](Images/image436.png)
+
 17. In the **Publish your changes?** dialog box that appears, select **Publish**. 
 
 18. In the **Published!** dialog box, select **OK**. 
 
-19. Select the **Refesh** icon that appears on the address bar and note the color scheme change when the **Power BI Service** page refreshes itself. You can repeat this process until you find a color combination that you prefer.
+19. Select the **Refresh** icon that appears on the address bar and note the color scheme change when the **Power BI Service** page refreshes itself. You can repeat this process until you find a color combination that you prefer.
 
 20. Select any of the other options in the **Admin portal’s** navigation pane that are of interest to you. 
 
