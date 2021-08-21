@@ -309,7 +309,8 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
      ![](Images/image412.png)
 
-53. Now test out the filters that you just defined for this page. Select **Megan Brown** in the **Customer** filter. In the Table visualization, note how it eliminated all service request tickets except for those with **Megan Brown** as the **Customer**. Also note the change to the stacked chart visualization since it only applies to the tickets in which Megan is the Customer. For the stacked chart visualization, it still counts the records with any of the three issue statuses.
+53. Now test out the filters that you just defined for this page. Select **
+Brown** in the **Customer** filter. In the Table visualization, note how it eliminated all service request tickets except for those with **Megan Brown** as the **Customer**. Also note the change to the stacked chart visualization since it only applies to the tickets in which Megan is the Customer. For the stacked chart visualization, it still counts the records with any of the three issue statuses.
 
       ![](Images/image413.png)
 
@@ -550,6 +551,8 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 11. You just created the workspace using the Power BI Service, so now let’s see what workspace functionality is available in the Power BI Admin Portal.  
 ‎  
 ‎After you saved the workspace in the prior step, it took you to the workspaces page for the workspace that you just created (the **Welcome to the Test Workspace** page). You can return back to the **Admin portal** by selecting the back arrow (to the left of the address bar) twice, or by selecting the **gear (Settings)** icon and then selecting **Admin portal**. 
+
+   ![](Images/ex10-img426.png)
 
 12. Select **Workspaces i**n the **Admin portal’s** navigation pane. **Test Workspace** should appear in the list of Workspaces. Select the **Test Workspace** name, which displays a check mark to the left of the name. In the menu bar that appears above the list, select **Details**. Review the information in the **Details pane** and then close it. 
 
