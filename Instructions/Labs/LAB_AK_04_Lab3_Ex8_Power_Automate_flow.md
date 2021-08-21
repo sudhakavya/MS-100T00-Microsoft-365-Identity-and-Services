@@ -145,7 +145,8 @@ To improve communication between management and internal users, Holly Dickson ha
 
 	- Assign To – enter **Allan**, then select **Allan Deyoung** from the list   
 
-	    ![](Images/ex8-img20.png)
+	   
+	![](Images/ex8-img20.png)
 
      
 **Note:** Alternatively, you could open the Power App that you created in the earlier exercise and create an entry to the Service Desk Requests SharePoint list. You could open a new browser tab and enter the following URL to access the app in Power Apps studio: **https://make.powerapps.com**
