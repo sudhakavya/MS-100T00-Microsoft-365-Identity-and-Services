@@ -145,7 +145,6 @@ To improve communication between management and internal users, Holly Dickson ha
 
 	- Assign To – enter **Allan**, then select **Allan Deyoung** from the list   
 
-	   
 ![](Images/ex8-img20.png)
 
      
