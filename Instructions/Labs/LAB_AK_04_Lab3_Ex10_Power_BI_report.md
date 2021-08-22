@@ -492,7 +492,7 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
      
 5. In the **Share dashboard** pane that appears, under the **Share** tab, you will enter the name of the person with whom you want to share the dashboard.  
 ‎  
-‎In the **Enter email addresses** field, enter **Laura**, and then in the list of Adatum users whose first name starts with Allan, select **Laura Atkins.**
+‎In the **Enter email addresses** field, enter **Laura**, and then in the list of Adatum users whose first name starts with Allan, select **Laura Atkins.** and click on **Grant access**
 
      ![](Images/ex10-img35.1.png)
 
@@ -510,7 +510,7 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 
 12. In the **Almost there** window, leave the check box blank so that Microsoft does not share Laura’s information with partners, and then select **Get started**.
 
-13. If the **Invite more people** window appears, scroll to the bottom and select **Skip**.
+13. In the **Invite more people** window appears, scroll to the bottom and select **Skip**.
 
 14. If the **Pick an account** window reappears, select Laura’s account.
 
