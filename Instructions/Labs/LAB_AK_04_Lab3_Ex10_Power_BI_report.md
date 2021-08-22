@@ -160,7 +160,7 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 ‎  
 ‎The first visualization that you create will use the default **Table** visualization. While you do not have to select an icon for the Table visualization, it is recommended that you do so to see how it will appear in the report canvas. When you hover your mouse over each icon, the visualization type is displayed. Select the **Table** icon (fifth row, second from the left; hover your mouse over it to verify this is the correct icon before selecting it). 
 
-   ![](Images/image300.png)
+    ![](Images/image300.png)
 
 32. Now that you have selected the type of visualization that you want to create, you must select the fields that you want displayed in the visualization. As you select each field, note how they appear in the table visualization in the report canvas. Do not worry about the order in which they appear; you will change the order once all the fields are selected.  
 ‎  
@@ -261,6 +261,8 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 47. On the **Data labels** option, the toggle button is currently set to **Off**. Select this toggle button to turn it **On.**
 
+    ![](Images/datalabel-toggle.png)
+
 48. Scroll down past the **Data labels** option and locate **Title**, then select its **down-arrow** to display the **Title** options. Within the **Title** object, update the following options:
 
 	- Enter **Ticket Count by Location and Issue Status** in the **Title text** field. 
@@ -350,13 +352,10 @@ Brown** in the **Customer** filter. In the Table visualization, note how it elim
      
      ![](Images/ex10-img22.png)
 
-60. Once published, a green check mark will appear next to the word **Success!** Select **Got it** to close the window.
-
-     ![](Images/ex10-img23.png)
-
-61. Close the Power BI Desktop by selecting **X** icon in the top right corner of the screen.
+60. Once published, a green check mark will appear next to the word **Success!** Select **Got it** to close the window. Then close the Power BI Desktop by selecting **X** icon in the top right corner of the screen.
     
      ![](Images/ex10-img24.png)
+     
 
 ### Task 2 - Create a Dashboard and view from Mobile device
 
@@ -473,7 +472,14 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 
 2. You should also have the Power BI Service open in your Edge browser; if not, then open a new browser tab, enter **https://app.powerbi.com** in the address bar, and sign in as **Holly.**
 
+    ![](Images/ex8-img2.png)
+    
+    ![](Images/ex8-img3.png)
+   
+
 3. In the **Power BI** tab in your browser, in the left-hand navigation pane, select **My Workspace.**
+
+    ![](Images/image422.png)
 
 4. On the main screen, select the **Dashboards** tab (if necessary)**.** To the far right of the dashboard name are a series of icons that appear under the **Actions** column heading. Hover your mouse over each icon to see their tool tip.   
 ‎  
@@ -588,7 +594,11 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 
 17. In the **Publish your changes?** dialog box that appears, select **Publish**. 
 
+   ![](Images/img47.png)
+
 18. In the **Published!** dialog box, select **OK**. 
+
+   ![](Images/img48.png)
 
 19. Select the **Refresh** icon that appears on the address bar and note the color scheme change when the **Power BI Service** page refreshes itself. You can repeat this process until you find a color combination that you prefer.
 
