@@ -123,7 +123,7 @@ You can create a Power App through either the Power App portal or through ShareP
 
 	![](Images/customer-megan.png)
 
-1. Select the **check mark** icon to save your changes. If the record is accepted, the list of records will be displayed. Scroll down the list and locate your record to verify that it appears. 
+1. Select the **check mark** icon to save your changes.
 
 1. You should now verify that the record has been added in the Service Desk Requests list in the IT Services site. In your Edge browser, select the **IT Services – Service Desk Requests** tab in your browser, and then select the **Refresh** icon on the left side of the address bar. Scroll to the bottom of the list and verify the record appears.
 
@@ -164,8 +164,6 @@ You can create a Power App through either the Power App portal or through ShareP
 1. To delete this record, select the **trash can** icon.
 
 	![](Images/delete-record.png)
-
-1. Once the record is deleted, the browse screen should be displayed. Scroll down through the record list to verify that the record no longer appears. 
 
 1. You should now verify that the record has been deleted from the Service Desk Requests list in the IT Services site. Select the **IT Services – Service Desk Requests** tab in your browser, and then select the **Refresh** icon on the left side of the address bar. Scroll down through the list and verify the record no longer appears.
 
@@ -265,7 +263,7 @@ Now that Holly Dickson has built her first Power App and has used it to successf
 ‎
 	![](Images/tree-pane.png)
 
-‎Select the **right arrow (&gt;)** next to **BrowseScreen1** to expand it again.
+1. Select the **right arrow (&gt;)** next to **BrowseScreen1** to expand it again.
 
 1. Under the **BrowseScreen1** tree, select **BrowseGallery1** and notice what gets selected on the app screen - the area in the app where the data records are displayed; this area is known as the Gallery. Also notice the pane that is displayed on the right-hand side of the screen. This is known as the **Properties** pane. It displays the properties of the item that you selected in the **Tree view**. 
 
@@ -320,19 +318,33 @@ The app that Holly created in the earlier task is known as a canvas app. It was 
 
 1. In the **Data** window, notice two changes - the value in **Body1** is now **Assign To**, and a **Display value** field has appeared below the **Assign To** value. Select the drop-down arrow for the **Display value** field, and in the menu list, select **DisplayName**. 
 
+	![](Images/body.png)
+
 	Notice how the records displayed in the gallery have been updated to reflect the **Assign To** field. 
 
 1. Close the **Data** window by selecting the **X** in the upper right corner.
 
 1. Holly now wants to customize the browse screen to change the **Title1** field so that it maps to the **Issue Title** column of the SharePoint list. Select the drop-down arrow for the **Title1** field, select **Issue Title**, and then close the **Data** window. 
 
+	![](Images/title1.png)
+
 1. You are now ready to save your changes to the app. Select **File** from the top menu bar of the PowerApps screen, and then select **Save** from the navigation pane that appears on the left side of the screen. In the body of the screen, in the **Service Request Ticketing app** window, select the **Save** button. 
+
+	![](Images/save-settings.png)
+
+	![](Images/save-settings1.png)
 
 1. In the **Service Request Ticketing app** window, it should display a message indicating that all changes were saved. However, to propagate the saved changes to the live version of the app, you must publish the app. To do so, select the **Publish** button. 
 
+	![](Images/publish.png)
+
 1. In the **Publish** dialog box that appears, select **Publish this version**. The changes are saved and published so the next time you preview the app, it will include the update.
 
-1. Now that the changes have been saved and published, you can share the app with additional users if you wish. However, at the time you created the app in the previous task, you only shared it with the IT Consultant’s **MOD Administrator** account. Since you don’t want to share it with any other users at this time, you will just ignore this **Share** option. 
+	![](Images/publish-version.png)
+
+1. Now that the changes have been saved and published, you can share the app with additional users if you wish. However, at the time you created the app in the previous task, you only shared it with the IT Consultant’s **ODL_User** account. Since you don’t want to share it with any other users at this time, you will just ignore this **Share** option. 
+
+	![](Images/share-service.png)
 
 1. In your Edge browser, close **all** the Power Apps-related tabs that are open. In this next exercise, you will open a new Power Apps session to start fresh.
  
@@ -344,15 +356,21 @@ In your role as Holly Dickson, you have created the new Service Desk Ticketing s
 However, the IT Consultant has just informed Holly that there’s another way in which she can make the ticketing system available to Adatum’s users. By adding the Power App that she just created to Microsoft Teams, Adatum’s employees can work directly from Teams to access the app and submit their service request tickets. Holly is very excited to test this out. In your role as Holly Dickson, you will perform this task to add the new Power App to Microsoft Teams.
  
 
-1. You should still be logged into LON-DC1 as **ADATUM\Administrator** and password **Pa55w.rd**; if not, then do so now.
+1. You should still be logged into **VM-Deployment-ID** if not, then do so now.
 
 1. You will first verify whether Teams is configured to allow the use of PowerApps.   
 ‎  
 ‎In your Edge browser, select the **Microsoft 365 admin center** tab if it’s still open; if not, open the **Office 365 home** page and select the **Admin** icon. If required, log into Microsoft 365 as **holly@xxxxxZZZZZZ.onmicosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and a password of **Pa55w.rd**. 
 
+   ![](Images/admin.png)
+
 1. In the **Microsoft 365 admin center**, select the **…Show all** option in the navigation pane to display the admin centers, and then select **Teams**.
 
+   ![](Images/teams.png)
+
 1. In the **Microsoft Teams admin center**, in the left-hand navigation pane, select **Teams Apps**, and then select **Manage apps**. 
+
+   ![](Images/manage-app.png)
 
 1. In the **Manage apps** window, since there are so many apps in the apps list, you will use the **Search** feature to quickly locate PowerApps. Enter **Power Apps** in the **Search by name** field. This field is on the right-side of the menu bar, above the row of column headings.
 
@@ -360,9 +378,11 @@ However, the IT Consultant has just informed Holly that there’s another way in
 
 1. In the **Power Apps** window, verify the **App status** is set to **Allowed**. If this is set to **Blocked**, then select this toggle switch to change it to **Allowed**.
 
+   ![](Images/allow-status.png)
+
 1. You will now enable the Power App for your Service Desk Ticketing system within Teams.   
 ‎  
-‎Switch to **LON-CL1**, where you should already be logged in as the **Administrator** with a password of **Pa55w.rd**.
+‎Switch to **LON-CL1**, where you should already be logged
 
 1. Since Holly created the Service Request Ticketing system app, you must be logged into Teams as Holly to add this Power App to Teams.  
 ‎  
@@ -378,13 +398,53 @@ However, the IT Consultant has just informed Holly that there’s another way in
 
 1. In the search results in the body of the window, select **Power Apps**. 
 
+   ![](Images/teams-apps.png)
+
 1. In the **PowerApps** window, select the drop-down arrow to the right of the **Add** button. In the drop-down menu that appears, select **Add to a team**.
+
+   ![](Images/add-to-teams.png)
 
 1. In the **Set up Power Apps for a team** window, select inside the **Search** field; this will display the **General** channel for Adatum Corporation. Select **General.** 
 
+   ![](Images/select-group.png)
+
+	>Note: If you are not having General group in teams, **Follow the below steps to create one**
+
+	a. Select Join or create a team.
+
+	b. This is where you create your own team, or discover existing ones.
+
+	![](Images/join-teams.png)
+
+	c. Select Create team to create a new team.
+
+	![](Images/create-teams.png)
+
+	![](Images/manage-project.png)
+
+	d. By default, your team is Private, meaning you'll have to add the people or groups you want on the team.
+
+	e. Select Public if you want anyone in the organization to be able to find and join the team.
+
+	![](Images/public-group.png)
+
+	f. Give the team a name **Adatum Corporation** and add a short description if you like. Wait for few minutes untill the group get created
+
+	![](Images/teams-group-name.png)
+
+	g. In add members search for **ODL_User** and select **Add**.
+
+		![](Images/teams-group-name.png)
+	
+	h. Click on **close**
+
 1. The system will display **Adatum Corporation &gt; General** in the **Search** field. Select the **Set up a tab** button at the bottom of the page. 
 
-1. After processing for a short period, a **Choose from existing apps** window will appear. The **Service Request Ticketing app** that Holly just finished creating should appear in the list. Select this app.   
+   ![](Images/select-group1.png)
+
+1. After processing for a short period, a **Choose from existing apps** window will appear. The **Service Request Ticketing app** that Holly just finished creating should appear in the list. Select this app.
+
+   ![](Images/selsect-power-app.png)
 ‎  
 ‎**Important:** Note the message that appears at the bottom of the window: **Make sure your team can use this app. If you’re its owner, share access.** Since you shared this app with the IT Consultant’s MOD Administrator account at the time you published the app, you do not need to share it with anyone else at this time for the purpose of this lab. However, in a real-world scenario, once you were ready to make an app available to other users within the organization, you would need to share the app with them either at the time you published it, or at this point in the process when adding the app to Teams. 
 
@@ -392,7 +452,9 @@ However, the IT Consultant has just informed Holly that there’s another way in
 
 1. This opens the **General** channel. Note how a new tab was created at the top of the page for the **Service Request Ticketing app**, which is currently selected. The app is running in the window, which enables you to access and maintain service tickets in the **Service Desk Requests** list in SharePoint. 
 
-1. Since the Power App was shared with your IT Consultant’s MOD Administrator account, you can test this feature by either requesting that your fellow student log into Teams in his or her VM environment using LON-CL1, or testing it yourself by signing out of Teams as Holly and logging back in as the IT Consultant’s MOD Administrator account (**admin@xxxxxZZZZZZ.onmicrosoft.com**, where xxxxxZZZZZZ is **your fellow student’s tenant prefix that was assigned to you by your instructor**).  
+   ![](Images/sercive-request-app.png)
+
+1. Since the Power App was shared with your IT Consultant’s ODL_User account, you can test this feature by either requesting that your fellow student log into Teams in his or her VM environment using LON-CL1, or testing it yourself by signing out of Teams as Holly and logging back in as the IT Consultant’s ODL_User account (**odl_user@xxxxxZZZZZZ.onmicrosoft.com**, where xxxxxZZZZZZ is **your fellow student’s tenant prefix that was assigned to you by your instructor**).  
 ‎  
 ‎In either case, once Microsoft Teams is open, select **Teams** from the navigation pane. The **General** channel will appear by default, so select the **Service Request Ticketing app** tab at the top of the form to initiate the Power App within Microsoft Teams.
  
