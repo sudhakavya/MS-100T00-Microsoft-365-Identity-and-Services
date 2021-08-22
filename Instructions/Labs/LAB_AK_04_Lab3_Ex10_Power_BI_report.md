@@ -160,7 +160,7 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 ‎  
 ‎The first visualization that you create will use the default **Table** visualization. While you do not have to select an icon for the Table visualization, it is recommended that you do so to see how it will appear in the report canvas. When you hover your mouse over each icon, the visualization type is displayed. Select the **Table** icon (fifth row, second from the left; hover your mouse over it to verify this is the correct icon before selecting it). 
 
-    ![](Images/image300.png)
+    ![](Images/image-300.png)
 
 32. Now that you have selected the type of visualization that you want to create, you must select the fields that you want displayed in the visualization. As you select each field, note how they appear in the table visualization in the report canvas. Do not worry about the order in which they appear; you will change the order once all the fields are selected.  
 ‎  
@@ -178,9 +178,9 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Issue Status – select the **Title** check box
 
-  ![](Images/image301.png)
+  ![](Images/image-301.png)
     
-  ![](Images/image302.png)
+  ![](Images/image-302.png)
    
 33. You can change the size of the table visualization in the report canvas by selecting the bottom right corner of the table and dragging it diagonally down to the right. Keep in mind that you will be adding a second visualization to this page, so leave enough room in the report canvas to add another visualization. 
 
@@ -219,19 +219,19 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 37. In the **Visualizations** pane, select the **Stacked column chart** icon (top row, second from left; verify by hovering your mouse over the icon to see its name). Note the visualization of the chart that appears on the report canvas. Increase the size of the chart by dragging its bottom-right corner down diagonally.
 
-    ![](Images/image303.png)
+    ![](Images/image-303.png)
 
 38. You now want to define the chart’s horizontal axis. In the **Fields** pane, select the **Location** field, and holding your left mouse button down, drag the field into the **Add data fields here** box for the **Axis** option in the **Visualizations** pane.
 
-    ![](Images/image304.png)
+    ![](Images/image-304.png)
 
 39. In the **Fields** pane, select the **Title** field (this is the Issue Status in the SharePoint list) and drag it into the **Add data fields here** box for the **Legend** box in the **Visualizations** pane.
 
-    ![](Images/image305.png)
+    ![](Images/image-305.png)
 
 40. In the **Fields** pane, select the **Title** field again and drag it into the **Add data fields here** box for the **Value** box in the **Visualizations** pane.
 
-    ![](Images/image306.png)
+    ![](Images/image-306.png)
 
 41. Since the Title field is referred to as the Issue Status in the SharePoint list, you want to rename it here to reflect this name in the chart.
 
@@ -239,25 +239,25 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- In the **Value** field, select the **drop-down arrow** next to **Count of Title**, and in the menu, select **Rename for this visual**. Enter **Count of Issue Status** as the new name of the **Value**.
 
-     ![](Images/image307.png)
+     ![](Images/image-307.png)
 
 42. To change formatting of the chart, ensure the chart is selected. If the chart is not already selected, click your mouse inside the area of where the chart had previously appeared; this will display the chart outline. 
 
 43. In the **Visualizations** pane, select the **Format** tab (its icon appears to the right of the Values icon).
 
-    ![](Images/image308.png)
+    ![](Images/image-308.png)
 
 44. In the **Format** tab, all the objects that you can format (General, Legend, X axis, Y axis, and so on) appear below the **Search** field. Select the **down-arrow** key next to **Legend.** This displays all the values that can be formatted for the **Legend.**
 
-    ![](Images/image309.png)
+    ![](Images/image-309.png)
 
 45. The first Legend object is **Position**. In the **Position** field, select the drop-down arrow and select **Right center**. Note how the legend now appears centered on the right side of the chart.
 
-    ![](Images/image400.png)
+    ![](Images/image-400.png)
 
 46. Select the **up-arrow** key next to the word **Legend** to collapse the Legend options.
 
-    ![](Images/image401.png)
+    ![](Images/image-401.png)
 
 47. On the **Data labels** option, the toggle button is currently set to **Off**. Select this toggle button to turn it **On.**
 
@@ -265,7 +265,7 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 48. Scroll down past the **Data labels** option and locate **Title**, then select its **down-arrow** to display the **Title** options.
 
-     ![](Images/image403.png)
+     ![](Images/image-403.png)
 
     Within the **Title** object, update the following options:
 
@@ -278,15 +278,15 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 	- Note the changes to the Title – the Title text, the color, and the alignment.
     
  
-    ![](Images/image404.png)
+    ![](Images/image-404.png)
     
-    ![](Images/image405.png)
+    ![](Images/image-405.png)
     
-    ![](Images/image406.png)
+    ![](Images/image-406.png)
 
 49. Scroll back up in the list of options until you get back to **Title**. Select the **up-arrow** to collapse the **Title** options. 
 
-    ![](Images/image407.png)
+    ![](Images/image-407.png)
 
 50. From the **Title** option, scroll down and locate the **Border** option and then update the following settings:
 
@@ -294,38 +294,38 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Select the down-arrow next to **Border** to see the available border options. In the **Color** option, change the color of the border to the color of your choice.   <br/>
 	
-     ![](Images/image408.png)
+     ![](Images/image-408.png)
 	
 	This completes the stacked chart visualization.  
 
 51. Now that both visualizations are complete, note the data displayed for each. Both visualizations are based on ALL the records stored in the **Service Desk Requests** SharePoint List. Now let’s see what happens when you create data filters that filter the records viewed in each visualization. For example, if you created a filter for a specific customer, only the records for that customer would be processed by each visualization (as opposed to all customers that would be displayed by default).   
 
-     ![](Images/image409.png)
+     ![](Images/image-409.png)
 ‎  
 ‎By creating a filter for the page, all visualizations on the page will be updated based on that filter. On the **Filters** pane, notice there are two options: **Filters on this page** and **Filters on all pages**. Each filter option enables you to add data fields that will apply to that option. For this lab, you are going to update the **Filters on this page** option by creating two filters – one by **Customer** and the other by **Issue Status**.  
 
-  ![](Images/image410.png)
+  ![](Images/image-410.png)
 ‎  
 ‎In the **Fields** pane, select **FieldValuesAsText.Customer** and drag it into the **Add data fields here** box that’s under the **Filters on this page** option. This filter will show you the list of customers from the records in the SharePoint list, and it will display the number of records for each customer. If there are tickets that have no customer assigned to it, the filter option will appear as a number until a person is assigned. If you select one or more of these customers, the visualizations will only reflect the records for those customers. By default, all customers are displayed in the visualizations.
 
-   ![](Images/image411.png)
+   ![](Images/image-411.png)
 
 52. Now add a second filter based on the Issue Status of each service request ticket. Scroll down in the **Filters** pane until you are past the list of customers. Note that another **Add data fields here** box now appears. From the **Fields** pane, locate the item labeled **Title** (this is the **Issue Status** in the SharePoint list) and drag it into the **Add data fields here** box that’s under the **Filters on this page.**
 
-     ![](Images/image412.png)
+     ![](Images/image-412.png)
 
 53. Now test out the filters that you just defined for this page. Select **
 Brown** in the **Customer** filter. In the Table visualization, note how it eliminated all service request tickets except for those with **Megan Brown** as the **Customer**. Also note the change to the stacked chart visualization since it only applies to the tickets in which Megan is the Customer. For the stacked chart visualization, it still counts the records with any of the three issue statuses.
 
-      ![](Images/image413.png)
+      ![](Images/image-413.png)
 
 54. Now let’s implement the second filter. In the **Title** (Issue Status) filter, select **Active.** Note how the number of records changed in the **Table** visualization; these are the service request tickets with Megan as the Customer and an Active status. Note also how the stacked chart only includes the records with Megan as the Customer and an Active status.
 
-       ![](Images/image414.png)
+       ![](Images/image-414.png)
 
 55. Now change the value(s) selected in the **Title** (Issue Status) filter to see how the visualizations change as the values selected change. Unselect **Active** and select **New**. Note the change to the list.
 
-       ![](Images/image415.png)
+       ![](Images/image-415.png)
        
       Then unselect **New** and select **Resolved**. Note the changes to both visualizations as you change the selected filter value. 
       
@@ -333,19 +333,19 @@ Brown** in the **Customer** filter. In the Table visualization, note how it elim
      
       Next select both **New** and **Resolved** and note the change.
       
-      ![](Images/image417.png)
+      ![](Images/image-417.png)
 
 56. Set each filter back to display all the records by selecting **Select all** for each filter; this clears all the check boxes for each filter.
 
-      ![](Images/image418.png)
+      ![](Images/image-418.png)
 
 57. Save your work by selecting the **Save** icon in the top left corner of the screen.
 
-      ![](Images/image419.png)
+      ![](Images/image-419.png)
 
 58. To publish your Power BI report, select Home on the menu bar, and then on the ribbon, select **Publish.**
 
-      ![](Images/image420.png)
+      ![](Images/image-420.png)
 
 59. From the **Publish to Power BI** window that appears, if prompted **enter your email address** then enter **Holly@xxxxxZZZZZZ.onmicrosoft.com (where xxxxxZZZZZZ is the tenant prefix assigned to you by your lab hosting provider) and select **Continue**
 
@@ -380,7 +380,7 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 4. In the left-hand navigation pane, select **My workspace.** 
 
-   ![](Images/image422.png)
+   ![](Images/image-422.png)
 ‎  
 ‎**Note:** Since Holly is the same user who created the report that she now wants to pin to a dashboard, she should select **My workspace** (this will show just her work). However, if she was going to use a report created by another Adatum user, she would select **Workspaces** and then select **Odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** (or if she was collaborating with a user from another organization that had shared a report with her, she would select that organization instead). 
 
@@ -428,21 +428,21 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 14. On the left-hand navigation pane, select **My workspace**.
 
-    ![](Images/image422.png)
+    ![](Images/image-422.png)
 
 15. On the main screen, under the **All** tab, hover your mouse over the name of the dashboard you created. This will display several icons to the right of the dashboard name, one of which is a **star** icon. You can mark this dashboard as one of your favorites by selecting this icon. Select the **star** icon.
 
-    ![](Images/image423.png)
+    ![](Images/image-423.png)
 
 		Notice that when you select the star, it changes to a solid star rather than the outlined star that it originally appeared as. Select the **star** icon  again so that is no longer a Favorite; notice how it returns to its original unfilled state.   
 ‎  
 ‎Select the star icon again to make it one of your favorites.
 
- ![](Images/image424.png)
+ ![](Images/image-424.png)
 
 16. In the left-hand navigation pane, select **Favorites**. You should see this dashboard in your list of favorites. Select the **ServiceRequestDashboard** to open it. 
 
-   ![](Images/image425.png)
+   ![](Images/image-425.png)
 
 17. **THE REMAINING STEPS IN THIS TASK ARE OPTIONAL.**   
 ‎  
@@ -482,7 +482,7 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 
 3. In the **Power BI** tab in your browser, in the left-hand navigation pane, select **My Workspace.**
 
-    ![](Images/image422.png)
+    ![](Images/image-422.png)
 
 4. On the main screen, select the **Dashboards** tab (if necessary)**.** To the far right of the dashboard name are a series of icons that appear under the **Actions** column heading. Hover your mouse over each icon to see their tool tip.   
 ‎  
@@ -565,23 +565,23 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 
 12. Select **Workspaces i**n the **Admin portal’s** navigation pane. **Test Workspace** should appear in the list of Workspaces. Select the **Test Workspace** name, which displays a check mark to the left of the name. In the menu bar that appears above the list, select **Details**. Review the information in the **Details pane** and then close it. 
 
-    ![](Images/image428.png)   
+    ![](Images/image-428.png)   
     
-    ![](Images/image429.png) 
+    ![](Images/image-429.png) 
 
 13. With the **Test Workspace** still selected, select **Edit** on the menu bar. In the **Edit workspace pane**, note how you can change the workspace name and description even though you could not add a workspace using the **Power BI Admin portal**. Close the **Edit workspace pane**.
 
-     ![](Images/image430.png) 
+     ![](Images/image-430.png) 
      
      ![](Images/image431.png) 
 
 14. With the **Test Workspace** still selected, select **Access** on the menu bar. In the **Access pane**, note how you can add members to this workspace (you can do this through the **Workspaces** option in the **Power BI Service** as well). In the Enter email addresses field, enter **Patti**. In the list of users whose first name starts with Patti, select **Patti Fernandez** and then select **Add**. As you can see in the bottom portion of the pane, Patti now has **Member** permissions to this workspace. Close the **Access pane**. 
 
-      ![](Images/image432.png) 
+      ![](Images/image-432.png) 
       
-      ![](Images/image433.png)
+      ![](Images/image-433.png)
       
-      ![](Images/image434.png)
+      ![](Images/image-434.png)
  
 15. In the **Admin portal’s** navigation pane, select **Tenant settings**. Scroll down through the **Settings** page and review the settings that are available.
 
@@ -593,7 +593,7 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 ‎  
 ‎To change the color scheme, select the **black box** in the **Theme color** field to display the color palette. Drag the circle in the slider bar to the right until you locate a color combination that you like. Locate the circle that appears in the large colored square. Select this circle and drag it around the gradient colors. Note how the hex color codes change as you drag the circle. Once you find a color that you prefer, release your left-mouse button and select anywhere on the screen outside the color box to change the **Theme color**. Then scroll to the bottom of the page and select **Publish**.
 
-  ![](Images/image436.png)
+  ![](Images/image-436.png)
 
 17. In the **Publish your changes?** dialog box that appears, select **Publish**. 
 
