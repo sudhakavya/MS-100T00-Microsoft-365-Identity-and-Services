@@ -53,35 +53,35 @@ To improve communication between management and internal users, Holly Dickson ha
 ‎  
 ‎**Note:** If you do not see the **IT Services** site in the drop-down list, then switch to the browser tab containing the **Service Desk Request** list and copy the URL. Switch back to the browser tab running the Power Automate designer tool, select **Enter custom value,** and then past the URL for the **Service Desk Request** list. However, notice how Power Automate trims the URL so that it is only the site address and does not include the name of the list. You will need to do the same here.
 
-13. In the **List Name** field, select the **drop-down arrow**, and in the list that appears select **Service Desk Requests**. 
+12. In the **List Name** field, select the **drop-down arrow**, and in the list that appears select **Service Desk Requests**. 
 
     ![](Images/ex8-img9.png)
 
-14. Select **Show advanced options.**
+13. Select **Show advanced options.**
 
      ![](Images/ex8-img10.png)
 
-15. In the **Limit Columns by View** field, select the **drop-down arrow**, and in the list that appears select **Enter custom value**. Then in the **Limit Columns by View** field, enter **Active cases by Support Agent**.
+14. In the **Limit Columns by View** field, select the **drop-down arrow**, and in the list that appears select **Enter custom value**. Then in the **Limit Columns by View** field, enter **Active cases by Support Agent**.
 
      ![](Images/ex8-img12.png)
 ‎  
 ‎**Note:** The purpose of this field is to help avoid column threshold issues. The **All Items** view, which is the default view for this SharePoint list, displays all the available columns. On the other hand, the **Active Cases by Support Agent** view uses only a partial set of columns. 
 
-16. Select the **+ New step** button.
+15. Select the **+ New step** button.
 
     ![](Images/ex8-img13.png)
 
-17. The next screen in the Power Automate designer tool requires that you choose an action to be performed when an item is created or modified. Holly wants to send an email to ODL Administrator.   
+16. The next screen in the Power Automate designer tool requires that you choose an action to be performed when an item is created or modified. Holly wants to send an email to ODL Administrator.   
 ‎  
 ‎In the **Search connectors and actions** field at the top of the screen (below **Choose an action**), type in **Outlook**. Under the **All** tab that appears below this Search field, select **Office 365 Outlook**. This will display a list of all the actions available for the Office 365 Outlook connector.
 
     ![](Images/ex8-img14.png)
 
-18. From the list of actions, scroll down and select **Send an email (V2).**
+17. From the list of actions, scroll down and select **Send an email (V2).**
 
     ![](Images/ex8-img15.png)
 
-19. This opens an email form. Since Holly wants to send an email to ODL Administrator, enter the following information in this email:
+18. This opens an email form. Since Holly wants to send an email to ODL Administrator, enter the following information in this email:
 
 	- **To** - enter **ODL** in the field. A list of user accounts starting with ODL will appear. This list should include two ODL Administrator accounts – one for ODL Administrator, and one for the IT Consultant’s ODL Administrator. Select **ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com**, whose tenant suffix ID was provided to you by your lab hosting provider. Do **NOT** select the account whose tenant suffix ID is your fellow student’s tenant ID that was assigned to you by your instructor. 
 	
@@ -105,17 +105,17 @@ To improve communication between management and internal users, Holly Dickson ha
 
 ![](Images/ex8-img16.png)
 
-20. At the bottom of the email form, select **Show advanced options**. Scroll to the bottom of the list, select the **Importance** field, and in the list that appears, select **Normal**.
+19. At the bottom of the email form, select **Show advanced options**. Scroll to the bottom of the list, select the **Importance** field, and in the list that appears, select **Normal**.
 
     ![](Images/ex8-img18.png)
 
-21. At the bottom of the page, select **Save**. Scroll up to the top of the screen, where in the top-left corner, it displays the name that Power Automate assigned to this flow: **When an item is created or modified -&gt; Send an email (V2)**.   
+20. At the bottom of the page, select **Save**. Scroll up to the top of the screen, where in the top-left corner, it displays the name that Power Automate assigned to this flow: **When an item is created or modified -&gt; Send an email (V2)**.   
 ‎  
 ‎Holly wants to change this to a more user-friendly name. To rename the flow, select this flow name, which highlights the name. Enter **Service Request flow for new/modified tickets** and then select anywhere below the name.
 
    ![](Images/ex8-img18.png)
 
-22. At the top right corner of the screen (on the same row as the flow name), select **Flow checker**. In the **Flow checker** pane that appears, there should be zero errors and zero warnings.   
+21. At the top right corner of the screen (on the same row as the flow name), select **Flow checker**. In the **Flow checker** pane that appears, there should be zero errors and zero warnings.   
 ‎  
 ‎**Note:** If an error or warning occurs, select the drop-down arrow to the left of the Error or Warning line to display the specific issues.   
 ‎  
@@ -123,15 +123,15 @@ To improve communication between management and internal users, Holly Dickson ha
 
    ![](Images/ex8-img19.png)
 
-23. At the top right corner of the screen, select **Test.** On the **Test Flow** pane that appears, select the **Manually** option, and then select **Save &amp; Test**. Leave this browser tab open.  
+22. At the top right corner of the screen, select **Test.** On the **Test Flow** pane that appears, select the **Manually** option, and then select **Save &amp; Test**. Leave this browser tab open.  
 
    ![](Images/ex8-img36.png)
 ‎  
 ‎**Note:** If at any time you accidentally close this tab or navigate away from this page, select **My flows** in the left-hand navigation pane, select this flow from the list of flows, and then in the menu bar that appears at the top of the page for this flow, select **Edit**. That will return you to this window where you can run the **Flow Checker** and run a **Test**. 
 
-24. In your browser, select the **IT Services - Service Desk Requests – All Items** tab. 
+23. In your browser, select the **IT Services - Service Desk Requests – All Items** tab. 
 
-25. In the **Service Desk Requests** list, create a new ticket with the following information:
+24. In the **Service Desk Requests** list, create a new ticket with the following information:
 
 	- Issue Status – **Active**
 
@@ -151,58 +151,57 @@ To improve communication between management and internal users, Holly Dickson ha
      
         **Note:** Alternatively, you could open the Power App that you created in the earlier exercise and create an entry to the Service Desk Requests SharePoint list. You could open a new browser tab and enter the following URL to access the app in Power Apps studio: **https://make.powerapps.com**
 	
-26. After you create the entry on the SharePoint list, switch back to the browser tab containing the flow (the tab name will have changed to **Run History | Power Automate**). 
+25. After you create the entry on the SharePoint list, switch back to the browser tab containing the flow (the tab name will have changed to **Run History | Power Automate**). 
 
-27. On the top of the screen, you should hopefully see a message indicating **Your flow ran successfully**, and next to each step in the flow you will see **green check marks**. Keep this tab open. 
+26. On the top of the screen, you should hopefully see a message indicating **Your flow ran successfully**, and next to each step in the flow you will see **green check marks**. Keep this tab open. 
 
     ![](Images/ex8-img22.png)
     
-28. To verify whether the flow sent an email to the **ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com**, you should check the user’s Inbox in Outlook to see whether an email was received.
+27. To verify whether the flow sent an email to the **ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com**, you should check the user’s Inbox in Outlook to see whether an email was received.
 
 	Switch to **VM-Deployment-ID**.
 
-29. On **VM-Deployment-ID**, in your Edge browser, you should be logged in as Holly Dickson. Select Holly’s user icon in the upper right corner of the screen, and in the **My account** pane, select **Sign out.** 
+28. On **VM-Deployment-ID**, in your Edge browser, you should be logged in as Holly Dickson. Select Holly’s user icon in the upper right corner of the screen, and in the **My account** pane, select **Sign out.** 
 
 	Close Edge and all the open tabs to clear your cache, then select the **Edge** icon on the taskbar to start a new browser session.
 
-30. In your Edge browser, enter the following URL in the address bar: **https://portal.office.com**
+29. In your Edge browser, enter the following URL in the address bar: **https://portal.office.com**
 
-31. In the **Pick an account** window, select the **ADATUM\Azureuser Administrator** account for your tenant. Verify the username is **ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider).
+30. In the **Pick an account** window, select the **ADATUM\Azureuser Administrator** account for your tenant. Verify the username is **ODL_USER_ID@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider).
 
-32. In the **Enter password** window, enter the tenant password provided by your lab hosting provider and select **Sign in**.
+31. In the **Enter password** window, enter the tenant password provided by your lab hosting provider and select **Sign in**.
 
-33. On the **Office 365 Home** page, select the **Outlook** icon from the column of app icons on the left side of the screen. This will open the **Inbox** for the **ODL Administrator**. If a **Welcome** window appears, then close it now.
+32. On the **Office 365 Home** page, select the **Outlook** icon from the column of app icons on the left side of the screen. This will open the **Inbox** for the **ODL Administrator**. If a **Welcome** window appears, then close it now.
 
-34. The **Inbox** should include an email from **Holly Dickson** with a subject line that starts with: **New or edited Service Request**. Select this email to open it.  <br/>
+33. The **Inbox** should include an email from **Holly Dickson** with a subject line that starts with: **New or edited Service Request**. Select this email to open it.  <br/>
 
     ![](Images/ex8-img23.png)
     
 	**Note:** It may take a few minutes for the email to show up in the ODL Administrator’s inbox. If need be, skip to step 36 and check back on the email at the end of this task.
 
-35. After opening the email, verify the full subject line is: **New or edited Service Request: &lt;Issue Title from the record that you created&gt;**. Also verify that the body of the email message is correct, and that if you included any parameters in the message (such as the Customer and Assign To values), that they are correct as well.
+34. After opening the email, verify the full subject line is: **New or edited Service Request: &lt;Issue Title from the record that you created&gt;**. Also verify that the body of the email message is correct, and that if you included any parameters in the message (such as the Customer and Assign To values), that they are correct as well.
 
     ![](Images/ex8-img24.png)
 
-36. Switch back to **VM-Deployment-ID**.
+35. Switch back to **VM-Deployment-ID**.
 
-37. On **VM-Deployment-ID**, select the **Run History | Power Automate** tab in your browser (if necessary). 
+36. On **VM-Deployment-ID**, select the **Run History | Power Automate** tab in your browser (if necessary). 
 
-38. In **Power Automate studio**, in the left-hand navigation pane, select **My flows**. 
+37. In **Power Automate studio**, in the left-hand navigation pane, select **My flows**. 
 
     ![](Images/ex8-img26.1.png)
 
-39. In the **Flows** window, select the flow that you just created from the list of your flows. 
+38. In the **Flows** window, select the flow that you just created from the list of your flows. 
 
     ![](Images/ex8-img27.png)
-
-40. Review the information in the window for this flow. Scroll down to the bottom of the window and in the **Runs** group, you will see each of the times this flow ran. You should see the run that occurred for the record that you just created in the **Service Desk Requests** list. The status of the run should be **Succeeded**, which indicates the email was sent to the ODL Administrator. 
+39. Review the information in the window for this flow. Scroll down to the bottom of the window and in the **Runs** group, you will see each of the times this flow ran. You should see the run that occurred for the record that you just created in the **Service Desk Requests** list. The status of the run should be **Succeeded**, which indicates the email was sent to the ODL Administrator. 
 
     ![](Images/ex8-img28.png)
     
 ‎  
 ‎In addition, review the menu options that appear in the menu bar at the top of the page. You will not make any changes, but for future reference, you would select **Edit** if you wish to change anything in the flow. From the **Edit** form, you can run **Flow Checker** and **Test,** just as you did earlier when you first created the flow. 
 
-41. Leave all the tabs open in your browser for the next task.
+40. Leave all the tabs open in your browser for the next task.
 
 **Congratulations! You have successfully created an automated flow in Power Automate that adds another level of communication in ADATUM\Azureuser Administrator’s Service Request Ticketing system.**
 
