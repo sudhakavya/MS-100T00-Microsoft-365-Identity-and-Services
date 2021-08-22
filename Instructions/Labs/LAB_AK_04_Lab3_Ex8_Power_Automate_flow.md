@@ -87,7 +87,7 @@ To improve communication between management and internal users, Holly Dickson ha
 	
 **Note:** There is hypertext located at the bottom right of the flow tray that reads **Add dynamic content**. You can use this to input data directly from the ticket item
 		
-**Note:** If nothing appears in **Add dynamic content** or while you type in **ODL** in **To** field of email, repeat steps from 7
+**Note:** If nothing appears in **Add dynamic content** or while you type in **ODL** in **To** field of email, repeat steps from step-7 to step-18
 	
 - **Subject** – Select inside the **Subject** field; this will display a list of parameters that you can choose from to display in the **Subject** line of the email. This list includes various connectors as well as each field from the **Active Cases** view that you selected earlier. Scroll down in the list and select **Issue Title.** Note that when you make this selection, **Issue Title** appears in the **Subject** field. The subject line of the email will be the actual **Issue Title** for the item that was added or edited in the SharePoint list.   
 ‎  
@@ -143,11 +143,13 @@ To improve communication between management and internal users, Holly Dickson ha
 
 	- Customer – enter **Megan**, then select **Megan Brown** from the list
 
-	- Assign To – enter **Allan**, then select **Allan Deyoung** from the list   
+	- Assign To – enter **Allan**, then select **Allan Deyoung** from the list  
+
+    ![](Images/ex8-img21.png)
 
 **Note:** Alternatively, you could open the Power App that you created in the earlier exercise and create an entry to the Service Desk Requests SharePoint list. You could open a new browser tab and enter the following URL to access the app in Power Apps studio: **https://make.powerapps.com**
 	
-![](Images/ex8-img21.png)
+
 	
 25. After you create the entry on the SharePoint list, switch back to the browser tab containing the flow (the tab name will have changed to **Run History | Power Automate**). 
 
