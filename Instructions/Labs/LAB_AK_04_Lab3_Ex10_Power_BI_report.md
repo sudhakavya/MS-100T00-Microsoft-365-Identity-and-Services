@@ -263,7 +263,11 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
     ![](Images/datalabel-toggle.png)
 
-48. Scroll down past the **Data labels** option and locate **Title**, then select its **down-arrow** to display the **Title** options. Within the **Title** object, update the following options:
+48. Scroll down past the **Data labels** option and locate **Title**, then select its **down-arrow** to display the **Title** options.
+
+     ![](Images/image403.png)
+
+    Within the **Title** object, update the following options:
 
 	- Enter **Ticket Count by Location and Issue Status** in the **Title text** field. 
 
@@ -273,8 +277,7 @@ In this task, you will download and install the Microsoft Power BI Desktop. Once
 
 	- Note the changes to the Title – the Title text, the color, and the alignment.
     
-    ![](Images/image403.png)
-    
+ 
     ![](Images/image404.png)
     
     ![](Images/image405.png)
@@ -507,7 +510,7 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 
 12. In the **Almost there** window, leave the check box blank so that Microsoft does not share Laura’s information with partners, and then select **Get started**.
 
-13. In the **Invite more people** window, scroll to the bottom and select **Skip**.
+13. If the **Invite more people** window appears, scroll to the bottom and select **Skip**.
 
 14. If the **Pick an account** window reappears, select Laura’s account.
 
