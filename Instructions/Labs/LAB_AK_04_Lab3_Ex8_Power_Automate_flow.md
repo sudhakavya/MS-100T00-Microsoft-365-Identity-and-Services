@@ -49,7 +49,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 11. On the **When an item is created or modified** window appears, select the drop-down arrow in the **Site address** field. A list should appear displaying the URL for the **IT Services** site that you created and published: **IT Services - https://xxxxxZZZZZZ.sharepoint.com/sites/ITService** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider). Select this site.   
 
-   ![](Images/ex8-img8.png)
+   ![](Images/ex8-img8.1.png)
 ‎  
 ‎**Note:** If you do not see the **IT Services** site in the drop-down list, then switch to the browser tab containing the **Service Desk Request** list and copy the URL. Switch back to the browser tab running the Power Automate designer tool, select **Enter custom value,** and then past the URL for the **Service Desk Request** list. However, notice how Power Automate trims the URL so that it is only the site address and does not include the name of the list. You will need to do the same here.
 
