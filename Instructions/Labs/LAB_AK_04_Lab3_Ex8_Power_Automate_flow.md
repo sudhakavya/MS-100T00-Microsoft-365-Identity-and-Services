@@ -2,7 +2,7 @@
 
 In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have built a new service desk ticketing system in SharePoint that consists of a team site titled **IT Services** and a SharePoint list titled **Service Desk Requests**. In your effort to implement Microsoft’s Power Platform at Adatum, you then created a Power App that enables users to enter service tickets using the app rather than SharePoint, and you also added the app to Microsoft Teams so that users can access the Power App through Teams. 
 
-As part of your Power Platform pilot project, you now want to investigate how you can use Power Automate to improve your new ticketing system. After reviewing Adatum’s old ticketing system, you realized that a lack of real-time communication between managers and customers (your internal users) was a key factor in its ineffectiveness. To address this issue, you have decided to build and share an automated flow within Power Automate that automatically sends an email to the MOD Administrator whenever a service request is created or modified.
+As part of your Power Platform pilot project, you now want to investigate how you can use Power Automate to improve your new ticketing system. After reviewing Adatum’s old ticketing system, you realized that a lack of real-time communication between managers and customers (your internal users) was a key factor in its ineffectiveness. To address this issue, you have decided to build and share an automated flow within Power Automate that automatically sends an email to the ODL Administrator whenever a service request is created or modified.
  
 
 ### Task 1 - Create a Power Automate Flow
@@ -135,7 +135,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 	- Issue Status – **Active**
 
-	- Date – enter the current month
+	- Date – **enter the current month**
 
 	- Issue Title – **Power Automate Flow test**
 
@@ -171,13 +171,13 @@ To improve communication between management and internal users, Holly Dickson ha
 
 32. In the **Enter password** window, enter the tenant password provided by your lab hosting provider and select **Sign in**.
 
-33. On the **Office 365 Home** page, select the **Outlook** icon from the column of app icons on the left side of the screen. This will open the **Inbox** for the **MOD Administrator**. If a **Welcome** window appears, then close it now.
+33. On the **Office 365 Home** page, select the **Outlook** icon from the column of app icons on the left side of the screen. This will open the **Inbox** for the **ODL Administrator**. If a **Welcome** window appears, then close it now.
 
 34. The **Inbox** should include an email from **Holly Dickson** with a subject line that starts with: **New or edited Service Request**. Select this email to open it.  <br/>
 
     ![](Images/ex8-img23.png)
     
-	**Note:** It may take a few minutes for the email to show up in the MOD Administrator’s inbox. If need be, skip to step 36 and check back on the email at the end of this task.
+	**Note:** It may take a few minutes for the email to show up in the ODL Administrator’s inbox. If need be, skip to step 36 and check back on the email at the end of this task.
 
 35. After opening the email, verify the full subject line is: **New or edited Service Request: &lt;Issue Title from the record that you created&gt;**. Also verify that the body of the email message is correct, and that if you included any parameters in the message (such as the Customer and Assign To values), that they are correct as well.
 
@@ -195,7 +195,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
     ![](Images/ex8-img27.png)
 
-40. Review the information in the window for this flow. Scroll down to the bottom of the window and in the **Runs** group, you will see each of the times this flow ran. You should see the run that occurred for the record that you just created in the **Service Desk Requests** list. The status of the run should be **Succeeded**, which indicates the email was sent to the MOD Administrator. 
+40. Review the information in the window for this flow. Scroll down to the bottom of the window and in the **Runs** group, you will see each of the times this flow ran. You should see the run that occurred for the record that you just created in the **Service Desk Requests** list. The status of the run should be **Succeeded**, which indicates the email was sent to the ODL Administrator. 
 
     ![](Images/ex8-img28.png)
     
