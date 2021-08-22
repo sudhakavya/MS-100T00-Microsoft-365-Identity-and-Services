@@ -597,11 +597,11 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 
 17. In the **Publish your changes?** dialog box that appears, select **Publish**. 
 
-   ![](Images/img47.png)
+   ![](Images/ex10-img47.png)
 
 18. In the **Published!** dialog box, select **OK**. 
 
-   ![](Images/img48.png)
+   ![](Images/ex10-img48.png)
 
 19. Select the **Refresh** icon that appears on the address bar and note the color scheme change when the **Power BI Service** page refreshes itself. You can repeat this process until you find a color combination that you prefer.
 
