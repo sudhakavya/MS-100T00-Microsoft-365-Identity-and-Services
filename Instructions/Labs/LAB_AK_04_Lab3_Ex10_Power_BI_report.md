@@ -533,7 +533,7 @@ Now that Holly has created a report and dashboard and shared it with another Ada
 
 4. At the top side of the **Power BI** **service screen**, to the right of the **Search** field, select the **gear (Settings)** icon, and in the menu that appears, select **Admin portal**.
 
-   
+   ![](Images/ex10-img38.png)
 
 5. In the navigation pane for the **Power BI Admin portal**, select **Tenant Settings**. Under **Workspace settings,** select **Create workspaces (new workspace experience)**. Under this option it should display a message that says: **Unapplied changes**. This indicates that you have settings that have not been applied towards creating new workspaces.   
 ‎  
