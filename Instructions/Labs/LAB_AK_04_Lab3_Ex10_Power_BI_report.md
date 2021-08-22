@@ -494,7 +494,7 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 ‎  
 ‎In the **Enter email addresses** field, enter **Laura**, and then in the list of Adatum users whose first name starts with Allan, select **Laura Atkins.**
 
-     ![](Images/ex10-img36.png)
+     ![](Images/ex10-img35.1.png)
 
 6. Once the dashboard is shared, you will see a message that says **Success!! Access has been granted.**
 
