@@ -120,11 +120,17 @@ In your role as Holly, you will update this DLP policy to include Outlook as an 
 
 1. You should still be logged into **VM-Deployment-ID** as **ADATUM\Azureuser Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
+    ![](Images/ex8-img2png)
+    
+    ![](Images/ex8-img3.png)
+
 2. You should still have your Edge browser open to the **Edit your flow | Power Automate** tab, which should still be displaying the **Flows** window and the **Shared with me** tab.   
+
+   ![](Images/ex9-img10.1.png)
 ‎  
 ‎In your browser, select the **Power Platform admin center** tab, which should be displaying the **Data policies** window. If you closed this tab at the end of the prior task, then in the **Manage your flows | Microsoft Power Automate** tab, select the gear **(Settings)** icon, select **Admin center** in the **Settings** pane, and then in the **Power Platform admin center,** select **Data policies.**
 
-   ![](Images/ex9-10.5.png)
+   ![](Images/ex9-img10.5.png)
    
    ![](Images/ex9-img2.png)
 
