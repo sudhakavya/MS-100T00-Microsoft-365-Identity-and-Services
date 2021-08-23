@@ -52,8 +52,6 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 
    ![](Images/server-dashboard.png)
 
-   ![](Images/dns-manager.png)
-
 1. In the **DNS Manager** window, in the **File Explorer** section in the left-hand column, under **VM-Deployment-ID** expand the **Forward Lookup Zones** folder and then select the **xxxUPNxxx.xxxCustomDomainxxx.xxx** zone that you previously added in Windows PowerShell (where xxxUPNxxx is the unique UPN name provided by your lab hosting provider and xxxCustomDomainxxx.xxx is your lab hosting provider's domain name). 
 
 1. Right-click on this **xxxUPNxxx.xxxCustomDomainxxx.xxx** zone, and in the menu that appears, select **Other New Records...** 
