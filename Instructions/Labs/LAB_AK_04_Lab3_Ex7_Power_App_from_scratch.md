@@ -17,7 +17,7 @@ When you initially create these screens, you will just create their forms with t
 
 In your role as Holly Dickson, you will begin the process of creating a canvas app from scratch by building the app’s Browse screen.
 
-1. Switch to **VM-Deployment-ID**, where you should still be logged in as **ADATUM\Azureuser Administrator**; if not, then do so now.
+1. Switch to **LON-DC1-ID**, where you should still be logged in as **ADATUM\Azureuser Administrator**; if not, then do so now.
 
 1. In your Microsoft Edge browser, open a new tab and enter the following URL in the address bar: **https://make.powerapps.com**
 

@@ -48,14 +48,14 @@ As Holly Dickson, Adatum’s Enterprise Administrator and Microsoft 365 Global A
 
    **Note:** The role is in the list of commonly used admin roles that appear under the **Admin center access** option; therefore, you do not have to select **Show all by category**.
 
-1. Remain logged into **VM-Deployment-ID** and the Microsoft 365 admin center as Holly Dickson.
+1. Remain logged into **LON-DC1-ID** and the Microsoft 365 admin center as Holly Dickson.
 
 
 ### Task 2 - Assign Delegated Administrators with Windows PowerShell  
 
 This task is similar to the prior one in that you will assign administrator rights to users; however, in this case, you will use Windows PowerShell to perform this function rather than the Microsoft 365 Admin Center. This will give you experience performing this management function in PowerShell, since some administrators prefer performing maintenance such as this using PowerShell. In addition, PowerShell enables you to display all the users assigned to a specific role, which can be very important when auditing your Microsoft 365 deployment. In this task, you will learn how to use PowerShell to display all the users assigned to a specific role. 
 
-1. On **VM-Deployment-ID**, select the Windows PowerShell icon on the taskbar that you left open from the previous lab. If you closed the PowerShell window, then open an elevated instance of it using the same instruction as before. 
+1. On **LON-DC1-ID**, select the Windows PowerShell icon on the taskbar that you left open from the previous lab. If you closed the PowerShell window, then open an elevated instance of it using the same instruction as before. 
 
 1. You should begin by connecting your PowerShell session to the Microsoft Online Service. At the command prompt, type the following command, and then press Enter:  <br/>
 
@@ -131,11 +131,11 @@ This task is similar to the prior one in that you will assign administrator righ
 
 ### Task 3 - Verify Delegated Administration  
 
-In this task, you will begin by examining the administrative properties of two users, Allan Deyoung and Lynne Robbins. You will then log into the Office 365 home page on the Client 1 VM (**VM-Deployment-ID**) as each user to confirm several of the changes that you made when managing their administrative delegation in the prior tasks. Finally, as Lynne Robbins, you will perform several user account maintenance tasks, such as resetting passwords and blocking a user account.
+In this task, you will begin by examining the administrative properties of two users, Allan Deyoung and Lynne Robbins. You will then log into the Office 365 home page on the Client 1 VM (**LON-CL1-ID**) as each user to confirm several of the changes that you made when managing their administrative delegation in the prior tasks. Finally, as Lynne Robbins, you will perform several user account maintenance tasks, such as resetting passwords and blocking a user account.
 
 **Password Note:** When logging into Microsoft 365 as any of the existing user accounts that were created for you in the Microsoft 365 tenant (for example, Allan Deyoung, Lynne Robbins, and so on), you must use the same Tenant Password that you used in Lab 1 when you signed in using the tenant email account (odl_user_id@xxxxxZZZZZZ.onmicrosoft.com) to set up your organization profile. All the existing Microsoft 365 user accounts in your tenant have been assigned this same Tenant Password, which your instructor will provide for you.
 
-1. In **VM-Deployment-ID**, you should still be logged into the Microsoft 365 admin center as Holly Dickson. If not, then do so now.
+1. In **LON-CL1-ID**, you should still be logged into the Microsoft 365 admin center as Holly Dickson. If not, then do so now.
 
 1. In the **Microsoft 365 admin center**, if you are not displaying the **Active Users**, then navigate to there now.  
 
@@ -157,7 +157,7 @@ In this task, you will begin by examining the administrative properties of two u
 
 	![](Images/image24.png)
 
-1. In your VM lab environment, switch to the Client 1 VM (**VM-Deployment-ID**).
+1. In your VM lab environment, switch to the Client 1 VM (**LON-CL1-ID**).
 
 1. If a **Networks** window appears, select **Yes**.
 
@@ -281,7 +281,7 @@ In this task, you will begin by examining the administrative properties of two u
 	
 	![](Images/image48.png)
 
-1. Switch back to **VM-Deployment-ID**, where you should still be logged into **Microsoft 365** as Holly Dickson. The **Active users** list should be displayed in the **Microsoft 365 admin center** from earlier in this task. 
+1. Switch back to **LON-DC1-ID**, where you should still be logged into **Microsoft 365** as Holly Dickson. The **Active users** list should be displayed in the **Microsoft 365 admin center** from earlier in this task. 
 
 	![](Images/image49.png)
 
@@ -293,9 +293,9 @@ In this task, you will begin by examining the administrative properties of two u
 
 	![](Images/image51.png)
 
-   Note the warning message that's displayed indicating it can take up to 15 minutes before Alex can sign in again. As such, you will **NOT** try to log back in as Alex on **VM-Deployment-ID**. Instead, remain on **VM-Deployment-ID** and simply close the **Unblock sign-in** window.
+   Note the warning message that's displayed indicating it can take up to 15 minutes before Alex can sign in again. As such, you will **NOT** try to log back in as Alex on **LON-CL1-ID**. Instead, remain on **LON-DC1-ID** and simply close the **Unblock sign-in** window.
 	
-1. On **VM-Deployment-ID**, leave your browser and all tabs open and proceed to the next exercise. 
+1. On **LON-DC1-ID**, leave your browser and all tabs open and proceed to the next exercise. 
 
 
 # Proceed to Lab 2 - Exercise 2
