@@ -11,7 +11,7 @@ In your role as Holly Dickson, you will use this exercise to create some basic v
 
 In this task, you will download and install the Microsoft Power BI Desktop. Once installed, you will create a Power BI report based on the new Service Desk Ticketing system that you created earlier in SharePoint.
 
-1. After having completed the prior lab exercise in which you created a Power Automate flow, you should still be logged into **VM-Deployment-ID** as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior lab exercise in which you created a Power Automate flow, you should still be logged into **LON-CL1-ID** as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. In your Edge browser, make sure that your new Service Desk Ticketing system is open in a tab. The tab should be titled **IT Services – Service Desk Requests – All Items**. If you do not have this tab open, then go to the **SharePoint admin center**, select **Active Sites**, select **IT Services** from the **Active Sites** list, select **Site contents**, and then select the **Service Desk Requests** list. 
 
@@ -368,7 +368,7 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 **Note:** At the end of this task are steps on how to use your mobile device to view the dashboard that you created. These steps are strictly optional. 
 
-1. After having completed the prior task, you should still be logged into **VM-Deployment-ID** as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior task, you should still be logged into **LON-DC1-ID** as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. In your Edge browser, open a new tab and then enter the following URL in the address bar: **https://powerbi.microsoft.com** 
 
@@ -471,7 +471,7 @@ Dashboards can only be created in Power BI Online because they are a feature of 
 
 As part of her pilot project, Holly wants to share the dashboard that she just created with Laura Atkins.
 
-1. After having completed the prior task, you should still be logged into **VM-Deployment-ID** as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior task, you should still be logged into **LON-DC1-ID** as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 2. You should also have the Power BI Service open in your Edge browser; if not, then open a new browser tab, enter **https://app.powerbi.com** in the address bar, and sign in as **Holly.**
 
@@ -498,9 +498,9 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 
 6. Once the dashboard is shared, you will see a message that says **Success!! Access has been granted.**
 
-7. Switch to **VM-Deployment-ID** so that you can test whether the dashboard was successfully shared.   
+7. Switch to **LON-CL1-ID** so that you can test whether the dashboard was successfully shared.   
 
-8. On **VM-Deployment-ID**, you should still be logged in as the **Administrator** with a password of **Pa55w.rd**. 
+8. On **LON-CL1-ID**, you should still be logged in as the **Administrator** with a password of **Pa55w.rd**. 
 
 9. Open your Edge browser and enter the following URL in the address bar: **https://app.powerbi.com**
 
@@ -525,9 +525,9 @@ As part of her pilot project, Holly wants to share the dashboard that she just c
 
 Now that Holly has created a report and dashboard and shared it with another Adatum user, she wants to explore the administrative functionality within Power BI that’s available in the Power BI Admin Portal.
 
-1. Switch back to **VM-Deployment-ID**.
+1. Switch back to **LON-DC1-ID**.
 
-2. On **VM-Deployment-ID**, you should still be logged in as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+2. On **LON-DC1-ID**, you should still be logged in as the **Administrator** and a password of **Pa55w.rd**; if not, then do so now.
 
 3. In your **Edge** browser, you should still have the **Power BI Service** tab open; if not, open a new tab and enter the following URL in the address bar: **https://app.powerbi.com** 
 

@@ -4,7 +4,7 @@ Adatum Corporation runs their legacy applications (such as Microsoft Exchange Se
 
 As Adatum's Enterprise administrator, you have been tasked with deploying Microsoft 365 in Adatum’s hybrid deployment using a virtualized lab environment. In this exercise, you will set up Adatum's Microsoft 365 trial tenant, and your instructor will guide you on how to obtain your Microsoft 365 credentials in your lab-hosted environment. You will use these credentials throughout the remaining labs in this course. 
 
-In your lab environment, your lab hosting provider has already created a free Microsoft 365 trial tenant for you, along with a default tenant admin account in Microsoft 365 (the display name for this user account is ODL_User(Admin User)). You will log into the Domain Controller VM (Lab-VM) using the ODL_User account which you can find in the **Environment Details** tab, and when you access Microsoft 365 for the first time, you will initially log in using the Microsoft 365 tenant admin account created by your lab hosting provider. You will then update Adatum's Microsoft 365 organizational profile, and you will prepare your tenant for Microsoft Azure Active Directory and for a future lab using Microsoft Teams.
+In your lab environment, your lab hosting provider has already created a free Microsoft 365 trial tenant for you, along with a default tenant admin account in Microsoft 365 (the display name for this user account is ODL_User(Admin User)). You will log into the Domain Controller VM (LON-DC1-ID) using the ODL_User account which you can find in the **Environment Details** tab, and when you access Microsoft 365 for the first time, you will initially log in using the Microsoft 365 tenant admin account created by your lab hosting provider. You will then update Adatum's Microsoft 365 organizational profile, and you will prepare your tenant for Microsoft Azure Active Directory and for a future lab using Microsoft Teams.
 
 
 ### Task 1 - Obtain Your Microsoft 365 Credentials
@@ -148,7 +148,7 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
 
 Azure Active Directory is required to perform several configuration steps when installing Microsoft 365. Because several of these steps must be performed using Windows PowerShell, you should begin by installing the Azure Active Directory PowerShell module. This module can simply be installed through PowerShell itself. It allows you to perform many of the Microsoft 365 user and organization administration tasks through PowerShell. It’s great for bulk tasks such as password resets, password policies, license management and reporting, and so on.  
 
-1. On Lab-VM, you must open an elevated instance of **Windows PowerShell**. Select the magnifying glass (Search) icon on the taskbar at the bottom of the screen and type **powershell** in the Search box that appears. In the list of search results, right-click on **Windows PowerShell** (do not select Windows PowerShell ISE) and select **Run as administrator** in the drop-down menu. 
+1. On LON-DC1-ID, you must open an elevated instance of **Windows PowerShell**. Select the magnifying glass (Search) icon on the taskbar at the bottom of the screen and type **powershell** in the Search box that appears. In the list of search results, right-click on **Windows PowerShell** (do not select Windows PowerShell ISE) and select **Run as administrator** in the drop-down menu. 
 
 2. Maximize your PowerShell window. In **Windows PowerShell**, at the command prompt type the following command and then press Enter:
 
@@ -172,7 +172,7 @@ Azure Active Directory is required to perform several configuration steps when i
 
 8. Leave the Windows PowerShell window open but minimize it for now.
 
-9. Remain logged into Lab-VM and keep your Edge browser open.
+9. Remain logged into LON-DC1 and keep your Edge browser open.
 
 
 ### Task 4 – Prepare for External Access using Microsoft Teams 
@@ -183,7 +183,7 @@ When you get to Module 4, you will perform a lab in which you will create a new 
 
 By the time you get to the Module 4 labs, External Access should be ready so that you can collaborate with the student whose domain you set up in this task. Conversely, you should also be able to collaborate with the student who entered your domain in his or her External Access setup.
 
-1. On Lab-VM, in your Microsoft Edge browser, you should still be logged into the Microsoft 365 admin center as the ODL_User from the earlier task in which you updated Adatum's organizational profile. <br/>
+1. On LON-DC1-ID, in your Microsoft Edge browser, you should still be logged into the Microsoft 365 admin center as the ODL_User from the earlier task in which you updated Adatum's organizational profile. <br/>
 
 	If you closed the Microsoft 365 admin center, then perform the same steps as before to open it and sign in as **ODL_User@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix assigned by your lab hosting provider) with the tenant admin password provided by your lab hosting provider.
 	

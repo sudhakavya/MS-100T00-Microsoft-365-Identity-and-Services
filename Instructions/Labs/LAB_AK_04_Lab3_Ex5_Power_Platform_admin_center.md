@@ -6,9 +6,9 @@ As Adatum begins its transition to Microsoft 365 as its hosted cloud solution, t
 
 In your role as Holly Dickson, you want to review the Power Platform admin center, which is the go-to destination for administrators who create, manage, and support their Microsoft Power Platform environments. 
 
-1. Switch to **VM-Deployment-ID** VM, if not, then do so now.
+1. Switch to **LON-DC1-ID** VM, if not, then do so now.
 
-2. On ** VM-Deployment-ID**, you should still have your Microsoft Edge browser and the **Microsoft 365 admin center** open from the prior lab in which you were logged in as Holly Dickson. If so, proceed to the next step; otherwise, open Microsoft Edge, navigate to **https://portal.office.com/**, log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**, and then in the **Microsoft 365 Home** page, select the **Admin** icon to open the Microsoft 365 admin center.
+2. On **LON-DC1-ID**, you should still have your Microsoft Edge browser and the **Microsoft 365 admin center** open from the prior lab in which you were logged in as Holly Dickson. If so, proceed to the next step; otherwise, open Microsoft Edge, navigate to **https://portal.office.com/**, log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**, and then in the **Microsoft 365 Home** page, select the **Admin** icon to open the Microsoft 365 admin center.
 
    ![](Images/admin.png)
 

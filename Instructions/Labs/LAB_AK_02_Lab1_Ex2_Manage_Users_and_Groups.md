@@ -11,7 +11,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 
 **Important:** As a best practice in your real-world deployment, you should always write down the first Global admin account’s credentials (in this lab, the ODL_User account, whose username is odl_user_xxxxx@zzzzz.onmicrosoft.com, where xxxxxZZZZZZ is the tenant prefix assigned by your lab hosting provider) and store it away for security reasons. **This account should be a non-personalized identity** that owns the highest privileges possible in a tenant. It should **not** be MFA activated (because it is not personalized). Because the username and password for this account are typically shared among several users, this first Global admin is a perfect target for attacks; therefore, it is always recommended that organizations create personalized service admin accounts and keep as few Global admins as possible. For those Global admins that you do create in your real-world deployment, they should each be mapped to a single identity (such as Holly Dickson), and they should each have Multi-Factor Authentication (MFA) enforced. That being said, you will not turn on MFA for Holly's account because time is limited in this training course and we do not want to take up lab time by making you log in using a second authentication method every time Holly logs in.
 
-1. On Lab-VM, the **Microsoft 365 admin center** should still be open in your Edge browser from the prior lab, and you should be signed into Microsoft 365 as the **ODL_User**. 
+1. On LON-DC1-ID, the **Microsoft 365 admin center** should still be open in your Edge browser from the prior lab, and you should be signed into Microsoft 365 as the **ODL_User**. 
 
 2. In the **Microsoft 365 admin center**, in the left-hand navigation pane, select **Users** and then select **Active users**. 
 
@@ -77,7 +77,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 	
 14. If a survey window appears, select **Cancel**.
 
-15. Remain logged into Lab-VM with the **Microsoft 365 admin center** open in your browser for the next task.
+15. Remain logged into LON-DC1-ID with the **Microsoft 365 admin center** open in your browser for the next task.
 
 
 ### Task 2 – Create and Manage Groups  
@@ -86,7 +86,7 @@ After completing the previous task, you should still be signed into the **Micros
 
 In this task, you will create two new groups and then manage the groups by assigning users to them. One group will be a Microsoft 365 group and the other a Security group; this will enable you to see some of the differences in the two types of groups. After creating the groups, you will then delete one of them. This will set up the next task, which examines how to recover a deleted group using Windows PowerShell.
 
-1. On Lab-VM, on the **Microsoft 365 admin center** tab in your Edge browser, select the user icon for the **ODL_User** (the **MA** circle) in the upper right-hand corner of your browser, and in the **ODL_User** window that appears, select **Sign out.** <br/>
+1. On LON-DC1-ID, on the **Microsoft 365 admin center** tab in your Edge browser, select the user icon for the **ODL_User** (the **MA** circle) in the upper right-hand corner of your browser, and in the **ODL_User** window that appears, select **Sign out.** <br/>
 	
 	**Important:** When signing out of one user account and signing in as another, you should close all the browser tabs except for your current tab (which will be the **Sign out** tab). This is a best practice that helps to avoid any confusion by closing the windows associated with the prior user. Take a moment now and close all other browser tabs except for the **Sign out** tab. 
 	
@@ -210,7 +210,7 @@ In this task, you will create two new groups and then manage the groups by assig
 
 35. In the **Active users** list verify that the Inside Sales group's two owners (**Allan Deyoung** and **Patti Fernandez**) and the two members (**Diego Siciliani** and **Lynne Robbins**) still appear in the list of users. This verifies that deleting a group does not delete the user accounts that were owners or members of the group.
 
-36. Remain logged into Lab-VM with the **Microsoft 365 admin center** open in your browser for the next task.
+36. Remain logged into LON-DC1-ID with the **Microsoft 365 admin center** open in your browser for the next task.
 
 
 ### Task 3 – Recover Groups using PowerShell 
@@ -219,7 +219,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 **NOTE:** You should have installed the Windows Azure Active Directory PowerShell Module in the prior lab exercise.   
 
-1. If you’re not logged into Lab-VM, then please do so now.
+1. If you’re not logged into LON-DC1-ID, then please do so now.
 
 2. If Windows PowerShell is still open from the previous exercise, select the **Windows PowerShell** icon on the taskbar; otherwise, you must open an elevated instance of Windows PowerShell just as you did before. Maximize your PowerShell window.
 
@@ -264,7 +264,7 @@ In this task, you will use Windows PowerShell to recover the Inside Sales group 
 
 12. Close the **Inside Sales** window.
 
-13. Remain logged into Lab-VM and leave your browser tabs open so that they’re ready for the next task. 
+13. Remain logged into LON-DC1-ID and leave your browser tabs open so that they’re ready for the next task. 
 
 
 # Proceed to Lab 1 - Exercise 3
