@@ -12,7 +12,7 @@ That being said, for the purpose of this lab, you will be asked to manually crea
 
 In your hosted lab environment, Adatum already has an existing on-premises domain titled **adatum.com**, along with a Microsoft 365 domain titled **xxxxxZZZZZZ.onmicrosoft.com**. In this lab, you will create a second Microsoft 365 domain for Adatum that will be titled **xxxUPNxxx.xxxCustomDomainxxx.xxx**; you will replace **xxxUPNxxx** with the UPN name assigned to your tenant by your lab hosting provider, and you will replace **xxxCustomDomainxxx.xxx** with your lab hosting provider's custom domain name. Your instructor will provide you with your lab hosting's provider's custom domain name as well as show you how to locate the UPN name.
 
-1. If you’re not logged into Lab VM, then please do so now.
+1. If you’re not logged into LON-DC1-ID, then please do so now.
 
 1. If Windows PowerShell is still open from the previous exercise, select the **Windows PowerShell** icon on the taskbar; otherwise, you must open an elevated instance of Windows PowerShell just as you did before. Maximize your PowerShell window.
 
@@ -52,7 +52,7 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 
    ![](Images/server-dashboard.png)
 
-1. In the **DNS Manager** window, in the **File Explorer** section in the left-hand column, under **VM-Deployment-ID** expand the **Forward Lookup Zones** folder and then select the **xxxUPNxxx.xxxCustomDomainxxx.xxx** zone that you previously added in Windows PowerShell (where xxxUPNxxx is the unique UPN name provided by your lab hosting provider and xxxCustomDomainxxx.xxx is your lab hosting provider's domain name). 
+1. In the **DNS Manager** window, in the **File Explorer** section in the left-hand column, under **LON-DC1-ID** expand the **Forward Lookup Zones** folder and then select the **xxxUPNxxx.xxxCustomDomainxxx.xxx** zone that you previously added in Windows PowerShell (where xxxUPNxxx is the unique UPN name provided by your lab hosting provider and xxxCustomDomainxxx.xxx is your lab hosting provider's domain name). 
 
 1. Right-click on this **xxxUPNxxx.xxxCustomDomainxxx.xxx** zone, and in the menu that appears, select **Other New Records...** 
 
@@ -196,7 +196,7 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 
 1. On the **Domains > xxxUPNxxx.xxxCustomDomainxxx.xxx** page, select the **Domains** portion of this thread.  The **xxxUPNxxx.xxxCustomDomainxxx.xxx** custom domain that you just added should now appear in the list of domains, along with your **xxxxxZZZZZZ.onmicrosoft.com** domain.  
 
-1. Remain logged into the **VM-Deployment-ID** with both **Microsoft Edge** and **Windows PowerShell** left open for the next task. 
+1. Remain logged into the **LON-DC1-ID** with both **Microsoft Edge** and **Windows PowerShell** left open for the next task. 
 
 
 
