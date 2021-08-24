@@ -8,9 +8,9 @@ Meeting policies control the features that are available to participants in meet
 
  As Holly Dickson, Adatum's Enterprise Administrator, you want to customize the company's Global meeting policy as part of Adatum’s pilot project for implementing Microsoft Teams.
 
-1. Switch to **VM-Deployment-ID** where you should still be logged in as **ADATUM\Azureuser Administrator**; if not, then do so now.
+1. Switch to **LON-DC1-ID** where you should still be logged in as **ADATUM\Azureuser Administrator**; if not, then do so now.
 
-1. On **VM-Deployment-ID**, you should still have your Edge browser and the **Microsoft 365 admin center** open from the prior lab. If so, proceed to the next step; otherwise, open Microsoft Edge, navigate to **https://portal.office.com/**, log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**, and then in the **Microsoft Office Home** page, select the **Admin** icon to open the Microsoft 365 admin center.
+1. On **LON-DC1-ID**, you should still have your Edge browser and the **Microsoft 365 admin center** open from the prior lab. If so, proceed to the next step; otherwise, open Microsoft Edge, navigate to **https://portal.office.com/**, log in as **Holly@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and **Pa55w.rd**, and then in the **Microsoft Office Home** page, select the **Admin** icon to open the Microsoft 365 admin center.
 
 	![](Images/image300.png)
 	
@@ -67,7 +67,7 @@ Meeting policies control the features that are available to participants in meet
 
 As Holly Dickson, Adatum’s Microsoft 365 Enterprise Administrator, you use the Teams meetings settings to control whether anonymous users can join Teams meetings and customize meeting invitations. You can also use these settings to enable Quality of Service (QoS) and set port ranges for real-time traffic. These settings apply to all Teams meetings that users schedule in your organization. As part of Adatum’s pilot project for implementing Microsoft Teams, you want to configure Teams meeting settings to see how they handle email invitations.
 
-1. On **VM-Deployment-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
+1. On **LON-DC1-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
 1. In your Edge browser, in the **Microsoft Teams admin center**, under the **Meetings** group in the left-hand navigation pane, select **Meeting settings.**
 
@@ -108,7 +108,7 @@ Messaging policies are used to control which chat and channel messaging features
 
 As part of her Microsoft Teams pilot project for Adatum, Holly wants to create a new messaging policy that addresses the chat and channel messaging requirements set forth by Adatum’s project team. 
 
-1. On **VM-Deployment-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
+1. On **LON-DC1-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
 1. In your Edge browser, in the **Microsoft Teams admin center**, select **Messaging policies** in the left-hand navigation pane.
 
@@ -171,7 +171,7 @@ As part of Adatum’s pilot project for implementing Microsoft Teams, Holly Dick
 
 Creating a calling queue is a two-step process. In this task, you will first create a resource account that represents the call queue. In the next task, you will create the actual call queue and associate it with this resource account. 
 
-1. On **VM-Deployment-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
+1. On **LON-DC1-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
 1. In your Edge browser, in the **Microsoft Teams admin center**, select **Org-wide Settings** in the left-hand navigation pane and then select **Resource accounts.**
 
@@ -204,7 +204,7 @@ Creating a calling queue is a two-step process. In this task, you will first cre
 
 Now that you have created the resource account for your calling queue, you will create the call queue itself and assign it the resource account.
 
-1. On **VM-Deployment-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
+1. On **LON-DC1-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
 1. In your Edge browser, in the **Microsoft Teams admin center**, select **Voice** in the left-hand navigation pane and then select **Call queues.**
 
@@ -269,7 +269,7 @@ In Microsoft Teams, calling policies control which calling and call forwarding f
 
 As part of her Microsoft Teams pilot project, Holly Dickson has been tasked with creating a custom calling policy for Adatum. Instead of customizing the default global policy, she will follow best practice guidelines and create her own customized policy that will be used as Adatum’s default policy.
 
-1. On **VM-Deployment-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
+1. On **LON-DC1-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
 1. In your Edge browser, in the **Microsoft Teams admin center**, select **Voice** in the left-hand navigation pane and then select **Calling policies.**
 
@@ -318,7 +318,7 @@ With Microsoft Teams’ external access feature, Teams users from other domains 
 
 As part of her Microsoft Teams pilot project, Holly Dickson wants to block communication with users from a specific domain (spam.com) that has been the source of multiple spam attacks within Adatum over the past year. At the same time, Holly wants to allow communication with the users from another domain (microsoft.com) that is one of Adatum's key business partners.
 
-1. On **VM-Deployment-ID** , you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
+1. On **LON-DC1-ID** , you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
 1. In your Edge browser, in the **Microsoft Teams admin center**, select **Org-wide settings** in the left-hand navigation pane and then select **External access.**
 
@@ -369,7 +369,7 @@ Microsoft Teams’ guest access feature is a tenant-level setting that is turned
 
 As part of your Microsoft Teams pilot project for Adatum, you will turn on guest access and then customize a variety of the guest settings as defined by Adatum’s project team.
 
-1. On **VM-Deployment-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
+1. On **LON-DC1-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
 1. In your Edge browser, in the **Microsoft Teams admin center**, under **Org-wide settings** in the left-hand navigation pane select **Guest access.**	
 
@@ -422,7 +422,7 @@ As part of your Microsoft Teams pilot project for Adatum, you will turn on guest
 
 Microsoft Teams includes a variety of global settings that control performance within Teams. As part of her Microsoft Teams pilot project, Holly Dickson will configure a number of these settings as determined by Adatum’s project team.
 
-1. On **VM-Deployment-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
+1. On **LON-DC1-ID**, you should still be logged in as the Adatum Azureuser Administrator, and you should still be logged into Microsoft 365 in your Edge browser as Holly Dickson. 
 
 1. In your Edge browser, in the **Microsoft Teams admin center**, under **Org-wide settings** in the left-hand navigation pane select **Teams settings.**
 
@@ -481,9 +481,9 @@ Microsoft Teams includes a variety of global settings that control performance w
 
 ### Task 10 – Configure Chat functionality for the Ticketing System
 
-In this task, you will open the Microsoft Teams desktop application on VM-Deployment-ID and log in as Adatum’s ODL_user_id Administrator. You will then conduct a brief chat session with the IT Consultant. This will validate that you can use Teams to chat with the IT Consultant whenever necessary to discuss matters concerning the new Service Request Ticketing system. 
+In this task, you will open the Microsoft Teams desktop application on LON-CL1-ID and log in as Adatum’s ODL_user_id Administrator. You will then conduct a brief chat session with the IT Consultant. This will validate that you can use Teams to chat with the IT Consultant whenever necessary to discuss matters concerning the new Service Request Ticketing system. 
 
-1. Switch to **VM-Deployment-ID**, where you should still be logged in as **ADATUM\Azureuser Administrator**; if not, then do so now. 
+1. Switch to **LON-CL1-ID**, where you should still be logged in as **ADATUM\Azureuser Administrator**; if not, then do so now. 
 
 1. If the **Microsoft Teams** icon appears on the taskbar, then select it now; otherwise, navigate to the desktop and double-click the **Microsoft Teams** icon. Maximize the Microsoft Teams window (if necessary).
 
