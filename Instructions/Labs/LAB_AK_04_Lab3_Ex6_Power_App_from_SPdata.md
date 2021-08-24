@@ -446,7 +446,7 @@ However, the IT Consultant has just informed Holly that there’s another way in
 
    ![](Images/selsect-power-app.png)
 ‎  
-‎**Important:** Note the message that appears at the bottom of the window: **Make sure your team can use this app. If you’re its owner, share access.** Since you shared this app with the IT Consultant’s MOD Administrator account at the time you published the app, you do not need to share it with anyone else at this time for the purpose of this lab. However, in a real-world scenario, once you were ready to make an app available to other users within the organization, you would need to share the app with them either at the time you published it, or at this point in the process when adding the app to Teams. 
+‎**Important:** Note the message that appears at the bottom of the window: **Make sure your team can use this app. If you’re its owner, share access.** Since you shared this app with the IT Consultant’s ODL_USER_ID Administrator account at the time you published the app, you do not need to share it with anyone else at this time for the purpose of this lab. However, in a real-world scenario, once you were ready to make an app available to other users within the organization, you would need to share the app with them either at the time you published it, or at this point in the process when adding the app to Teams. 
 
 1. Select **Save.**
 
