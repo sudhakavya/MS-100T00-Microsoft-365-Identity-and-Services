@@ -20,15 +20,21 @@ For this lab, Adatum has purchased the new xxxUPNxxx.xxxCustomDomainxxx.xxx doma
 
 1. If **Windows PowerShell** is still open, then select the **PowerShell** icon on your taskbar; otherwise, you must open **Windows PowerShell** by selecting the magnifying glass (**Search**) icon on the taskbar, typing **powershell** in the Search box that appears,  right-clicking on **Windows PowerShell**, and selecting **Run as administrator** in the drop-down menu. 
 
+	 ![](Images/image500.png)
+
 1. Using **Windows PowerShell**, you must replace the on-premises **adatum.com** domain with the **xxxUPNxxx.xxxCustomDomainxxx.xxx** domain (where you will replace xxxUPNxxx with the unique UPN name assigned to your tenant, and you will replace xxxCustomDomainxxx.xxx with your lab hosting provider's custom domain). In doing so, you will update the UPN suffix for the primary domain and the UPN on every user in AD DS with **@xxxUPNxxx.xxxCustomDomainxxx.xxx**. <br/> 
 
 	‎In the following PowerShell command, the **Set-ADForest** cmdlet modifies the properties of an Active Directory forest, and the **-identity** parameter specifies the Active Directory forest to modify. To perform this task, run the following command to set the **UPNSuffixes** property for the **adatum.com** forest (remember to change xxxUPNxxx to your unique UPN name and xxxCustomDomainxxx.xxx to your lab hosting provider's custom domain name):<br/>
 	
 		Set-ADForest -identity adatum.com -UPNSuffixes @{replace="xxxUPNxxx.xxxCustomDomainxxx.xxx"}
 
+	![](Images/image501.png)
+
 1. You must then run the following command that changes all existing adatum.com accounts to the new UPN @xxxUPNxxx.xxxCustomDomainxxx.xxx domain (remember to change xxxUPNxxx to your unique UPN name and xxxCustomDomainxxx.xxx to your lab hosting provider's custom domain name): <br/>
 
 		Get-ADUser -Filter * -Properties SamAccountName | ForEach-Object { Set-ADUser $_  -UserPrincipalName ($_.SamAccountName + "@xxxUPNxxx.xxxCustomDomainxxx.xxx" )}
+
+	![](Images/image502.png)
 
 1. You will continue using PowerShell on your Domain Controller VM in the next task.
 
@@ -45,10 +51,15 @@ In this task, you will run a script that breaks an on-premises user account. As 
 
 		CD C:\labfiles\
 
+	![](Images/image503.png)
+
 1. PowerShell's execution policy settings dictate which PowerShell scripts can be run on a Windows system. Setting this policy to **Unrestricted** enables Holly to load all configuration files and run all scripts. At the command prompt, type the following command, and then press Enter:   <br/>
 
 		Set-ExecutionPolicy Unrestricted
 
+
+	![](Images/image504.png)
+	
 1. You will then be prompted to confirm the execution policy change. Type **A** and press Enter to select the **[A] Yes to All** option.
 
 1. Enter the following command that runs a PowerShell script that creates a problem user account. This script, which is stored in the C:\labfiles folder, will purposely create an issue with the UserPrincipalName for the user's on-premises account; this will enable you to troubleshoot this account in the next task using the IdFix tool.  <br/>
@@ -68,21 +79,27 @@ In this task you will download and use the IdFix tool to fix the on-premises use
 
 1. You should still be logged into **LON-DC1** as the **Administrator** from the prior task. 
 
-2. In **Microsoft Edge**, open a new tab and enter the following URL in the address bar to access the Microsoft Download Center page for the IdFix Directory Synchronization Error Remediation Tool: <br/>
+1. In **Microsoft Edge**, open a new tab and enter the following URL in the address bar to access the Microsoft Download Center page for the IdFix Directory Synchronization Error Remediation Tool: <br/>
 
 	**https://microsoft.github.io/idfix/installation/**
+
+	![](Images/image505.png)
+
+1. On the **Microsoft - IdFix** window, under the **Installation** section at the top of the page, the instructions direct you to run **setup.exe** to install the IdFix application on your machine. Select **setup.exe** to download the file to LON-DC1. 
+
+1. Once the **setup.exe** file is downloaded, it will appear in the notification bar at the bottom of the screen. Select **Run**. 
+
+	![](Images/image506.png)
+
+1. In the **Do you want to install this application?** dialog box, select **Install**.
+
+	![](Images/image507.png)
 	
-3. On the **Microsoft - IdFix** window, under the **Installation** section at the top of the page, the instructions direct you to run **setup.exe** to install the IdFix application on your machine. Select **setup.exe** to download the file to LON-DC1. 
+1. If a **Do you want to run this file?** dialog box appears, select **Run**.
 
-4. Once the **setup.exe** file is downloaded, it will appear in the notification bar at the bottom of the screen. Select **Open file**. 
+1. In the **IdFix Privacy Statement** message box, select **OK**. 
 
-5. If a **Do you want to run this file?** dialog box appears, select **Run**.
-
-6. In the **Do you want to install this application?** dialog box, select **Install**.
-
-7. If a **Do you want to run this file?** dialog box appears, select **Run**.
-
-8. In the **IdFix Privacy Statement** message box, select **OK**. 
+	![](Images/image508.png)
 
 9. In the **IdFix** window that appears, on the menu bar at the very top of the screen, select **Query** to query the directory. After a short wait, you should see several errors. 
 
