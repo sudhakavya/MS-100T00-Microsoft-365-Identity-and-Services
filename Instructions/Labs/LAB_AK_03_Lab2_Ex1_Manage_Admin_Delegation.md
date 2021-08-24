@@ -131,11 +131,11 @@ This task is similar to the prior one in that you will assign administrator righ
 
 ### Task 3 - Verify Delegated Administration  
 
-In this task, you will begin by examining the administrative properties of two users, Allan Deyoung and Lynne Robbins. You will then log into the Office 365 home page on the Client 1 VM (**LON-DC1-ID**) as each user to confirm several of the changes that you made when managing their administrative delegation in the prior tasks. Finally, as Lynne Robbins, you will perform several user account maintenance tasks, such as resetting passwords and blocking a user account.
+In this task, you will begin by examining the administrative properties of two users, Allan Deyoung and Lynne Robbins. You will then log into the Office 365 home page on the Client 1 VM (**LON-CL1-ID**) as each user to confirm several of the changes that you made when managing their administrative delegation in the prior tasks. Finally, as Lynne Robbins, you will perform several user account maintenance tasks, such as resetting passwords and blocking a user account.
 
 **Password Note:** When logging into Microsoft 365 as any of the existing user accounts that were created for you in the Microsoft 365 tenant (for example, Allan Deyoung, Lynne Robbins, and so on), you must use the same Tenant Password that you used in Lab 1 when you signed in using the tenant email account (odl_user_id@xxxxxZZZZZZ.onmicrosoft.com) to set up your organization profile. All the existing Microsoft 365 user accounts in your tenant have been assigned this same Tenant Password, which your instructor will provide for you.
 
-1. In **LON-DC1-ID**, you should still be logged into the Microsoft 365 admin center as Holly Dickson. If not, then do so now.
+1. In **LON-CL1-ID**, you should still be logged into the Microsoft 365 admin center as Holly Dickson. If not, then do so now.
 
 1. In the **Microsoft 365 admin center**, if you are not displaying the **Active Users**, then navigate to there now.  
 
@@ -157,7 +157,7 @@ In this task, you will begin by examining the administrative properties of two u
 
 	![](Images/image24.png)
 
-1. In your VM lab environment, switch to the Client 1 VM (**LON-DC1-ID**).
+1. In your VM lab environment, switch to the Client 1 VM (**LON-CL1-ID**).
 
 1. If a **Networks** window appears, select **Yes**.
 
@@ -293,7 +293,7 @@ In this task, you will begin by examining the administrative properties of two u
 
 	![](Images/image51.png)
 
-   Note the warning message that's displayed indicating it can take up to 15 minutes before Alex can sign in again. As such, you will **NOT** try to log back in as Alex on **LON-DC1-ID**. Instead, remain on **LON-DC1-ID** and simply close the **Unblock sign-in** window.
+   Note the warning message that's displayed indicating it can take up to 15 minutes before Alex can sign in again. As such, you will **NOT** try to log back in as Alex on **LON-CL1-ID**. Instead, remain on **LON-DC1-ID** and simply close the **Unblock sign-in** window.
 	
 1. On **LON-DC1-ID**, leave your browser and all tabs open and proceed to the next exercise. 
 
