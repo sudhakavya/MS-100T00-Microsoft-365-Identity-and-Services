@@ -134,41 +134,57 @@ Azure Active Directory Connect synchronization service is a main component of Az
 
 Before you can run Azure AD Connect, you must first configure several settings that control the synchronization process, which you will do in this task. Once you have completed the preparation process, you will then run the Azure AD Connect tool in the next exercise. 
 
-1. You should still be logged into **LON-DC1** as the **Administrator** from the prior task. 
+1. You should still be logged into **LON-DC1-ID** as the **Azureuser Administrator** from the prior task. 
 
-2. You want to begin by adding several trusted sites for Microsoft Edge. If you're familiar doing this with Internet Explorer, the process is basically the same for Edge; however, the location of the **Security** settings is different. With IE, you added trusted sites through IE's Internet Options; for Edge, you will add trusted sites through the Windows Control Panel. <br>
+1. You want to begin by adding several trusted sites for Microsoft Edge. If you're familiar doing this with Internet Explorer, the process is basically the same for Edge; however, the location of the **Security** settings is different. With IE, you added trusted sites through IE's Internet Options; for Edge, you will add trusted sites through the Windows Control Panel. <br>
 
 	Select the magnifying glass icon on the taskbar and then enter **control** in the Search box. 
 
-3. In the list of search results, select **Control Panel**.
+1. In the list of search results, select **Control Panel**.
 
-4. In the **Control Panel**, select **Network and Internet**.
+	![](Images/image509.png)
 
-5. On the **Network and Internet** window, select **Internet Options**.
+1. In the **Control Panel**, select **Network and Internet**.
 
-6. This opens the **Internet Properties** window. Select the **Security** tab. 
+	![](Images/image510.png)
 
-7. The **Internet** zone should be selected by default. Towards the bottom of the window, select the **Custom Level** button. 
+1. On the **Network and Internet** window, select **Internet Options**.
 
-8. In the **Security Settings – Internet Zone** window, scroll down to the **Downloads** section. The first option in this section is **File download**. Verify the **File download** option is set to **Enable** and then select **OK**. 
+	![](Images/image511.png)
 
-9. This takes you back to the **Internet Options** window. Select the **Trusted sites** zone.
+1. This opens the **Internet Properties** window. Select the **Security** tab. 
 
-10. In the **Trusted Sites** zone, you must add several sites. Select the **Sites** button. 
+	![](Images/image512.png)
 
-11. In the **Trusted sites** window, in the **Add this website to the zone** field, enter the following URL and then select **Add**: **https://outlook.office365.com/** 
+1. The **Internet** zone should be selected by default. Towards the bottom of the window, select the **Custom Level** button. 
 
-12. Repeat step 11 to add the following site: **https://outlook.office.com/**  
+	![](Images/image513.png)
 
-13. Repeat step 11 to add the following site: **https://portal.office.com/**  
+1. In the **Security Settings – Internet Zone** window, scroll down to the **Downloads** section. The first option in this section is **File download**. Verify the **File download** option is set to **Enable** and then select **OK**. 
 
-14. Select **Close** once you have added these three sites.
+	![](Images/image514.png)
 
-15. In the **Internet Options** window, select **OK** to close the window.
+1. This takes you back to the **Internet Options** window. Select the **Trusted sites** zone.
 
-16. Close the **Network and Internet** window.
+1. In the **Trusted Sites** zone, you must add several sites. Select the **Sites** button. 
 
-17. Proceed to the next exercise. You are now ready to install the Azure AD Connect tool and enable synchronization. 
+	![](Images/image516.png)
+
+1. In the **Trusted sites** window, in the **Add this website to the zone** field, enter the following URL and then select **Add**: **https://outlook.office365.com/** 
+
+1. Repeat step 11 to add the following site: **https://outlook.office.com/**  
+
+1. Repeat step 11 to add the following site: **https://portal.office.com/**  
+
+1. Select **Close** once you have added these three sites.
+
+	![](Images/image517.png)
+
+1. In the **Internet Options** window, select **OK** to close the window.
+
+1. Close the **Network and Internet** window.
+
+1. Proceed to the next exercise. You are now ready to install the Azure AD Connect tool and enable synchronization. 
 
 # Proceed to Lab 4 - Exercise 2
  
