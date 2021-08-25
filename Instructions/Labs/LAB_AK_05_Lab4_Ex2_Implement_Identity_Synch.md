@@ -111,6 +111,44 @@ Each group will be assigned several members. After the forced synchronization, y
 
 	![](Images/image564.png)
 
+1. In the **Active Directory Users and Computers** console tree, under **Adatum.com**, select the **User** folder and Right click on the folder where you want to create the new user account, select **new** and then click **user**.
+
+	![](Images/image593.png)
+
+1. In the **New Object - User** window, specify the following settings, click **Next**.
+
+   | Settings | Value |
+   |--|--|
+   | First name | **Ashlee** |
+   | Last name | **Pickett** |
+   | User logon name | **Ashleep**|
+	
+	![](Images/image594.png)
+
+1. In the password and confirm password field, type the **Pa55w.rd**, click **next** and **finish**. 
+
+	![](Images/image595.png)
+	
+1. Repeat the step  from 4 to 6 for adding the following User:
+
+	- **Juanita Cook**
+ 
+	- **Morgan Brooks**
+	
+	- **Bernardo Rutter**
+
+	- **Charlie Miller**
+
+	- **Dawn Williamson**
+	
+	- **Cai Chu**  
+
+	- **Shannon Booth**  
+
+	- **Tia Zecirevic**  
+
+	**Note**: Make sure you have created all the 9 users.
+
 1. You will begin by adding members to one of the built-in security groups. In the **Active Directory Users and Computers** console tree, under **Adatum.com**, select the **Builtin** folder. This will display all the built-in security group folders that were automatically created at the time the **Adatum.com** domain was created.
 
 	![](Images/image565.png)
@@ -137,6 +175,14 @@ Each group will be assigned several members. After the forced synchronization, y
 
 	![](Images/image568.png)
 
+1. you will now create a new folder. right-click on the **Adatum.com**, select **New** and then select **organizzational Unit**.
+
+	![](Images/image591.png)
+
+1. In the **New Object - Organizational Unit**, Enter the **Research** as a Folder name in **Name** field. click **Ok**.
+
+	![](Images/image592.png)
+	
 1. You will now create a new security group. In the console tree under **Adatum.com**, right-click on the **Research** folder, select **New,** and then select **Group**.  
 
 	![](Images/image569.png)
@@ -152,6 +198,20 @@ Each group will be assigned several members. After the forced synchronization, y
 1. Select **OK**.  
 
 	![](Images/image570.png)
+	
+1. You will now create a new security group. In the console tree under **Adatum.com**, right-click on the **Research** folder, select **New,** and then select **Group**.  
+
+	![](Images/image569.png)
+	
+1. In the **New Object - Group** window, enter the following information:
+
+	- Group name: **Research**
+
+	- Group scope: **Universal**
+
+	- Group type: **Security**	
+
+1.  Select **OK**. 
 
 1. In the console tree under **Adatum.com**, select the **Research** folder, and then in the detail pane on the right, double-click on the **Manufacturing** security group.  
 
@@ -172,6 +232,16 @@ Each group will be assigned several members. After the forced synchronization, y
 	![](Images/image573.png)
 	
 	![](Images/image574.png)
+
+1. In the console tree under **Adatum.com**, select the **Research** folder, and then in the detail pane on the right, double-click on the **Research** security group.  
+
+1. Select the **Members** tab, and then repeat steps 6-9 to add the following members to this group:  
+
+	- **Cai Chu**  
+
+	- **Shannon Booth**  
+
+	- **Tia Zecirevic**  
 
 1. Leave the **Active Directory Users and Computers** window open for the next task.  
 
