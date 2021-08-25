@@ -168,7 +168,7 @@ Before you can run Azure AD Connect, you must first configure several settings t
 
 1. In the **Trusted Sites** zone, you must add several sites. Select the **Sites** button. 
 
-	![](Images/image516.png)
+	![](Images/image515.png)
 
 1. In the **Trusted sites** window, in the **Add this website to the zone** field, enter the following URL and then select **Add**: **https://outlook.office365.com/** 
 
@@ -178,7 +178,7 @@ Before you can run Azure AD Connect, you must first configure several settings t
 
 1. Select **Close** once you have added these three sites.
 
-	![](Images/image517.png)
+	![](Images/image516.png)
 
 1. In the **Internet Options** window, select **OK** to close the window.
 
