@@ -302,7 +302,7 @@ In this task, you will validate whether the changes you made earlier were synchr
 	
 		Get-MsolGroupMember -GroupObjectId <ObjectID>
 
-		![](Images/image589.png)
+	![](Images/image589.png)
 	
 1. Verify the membership of the Research group does **NOT** contain the following users that you earlier removed from the group in AD DS:  
 
