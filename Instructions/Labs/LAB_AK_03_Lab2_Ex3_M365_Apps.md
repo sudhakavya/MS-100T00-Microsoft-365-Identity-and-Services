@@ -63,11 +63,17 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 1. Switch to the Client 1 VM (**LON-CL1-ID**). 
 
-1. You want to log in as **Laura Atkins**. If the Edge browser is still open from the previous lab exercise, then close it now. You should be on the **LON-CL1-ID**'s desktop, where it should indicate that you are logged on as **adatum\Azureuser administrator**. Since you want to log on as Laura Atkins, select the **Ctrl+Alt+Delete** function for your VM environment. On the menu screen that appears, select **Switch user**. <br/>
+1. You want to log in as **Laura Atkins**. you must RDP by selecting the magnifying glass (Search) icon on the taskbar, typing RDP in the Search box that appears, click on the remote desktop connection. Enter the **LON-CL1 VM DNS Name** as provided in the Environment Tab when Window Desktop connection dialog box prompted. 
 
-	The lower-left portion of the desktop displays the **Administrator** and **Other user** options. Select **Other user**.
+	![](Images/image597.png)	
 
-1. In the **Other user** log in, enter **adatum\laura** in the **Username** field, enter **Pa55w.rd** as the **Password**, and then select the forward arrow to log in. After logging in, the desktop should indicate the logged on user is **adatum\laura**. 
+1. In the Windows Security window, select More choices and then Use a different account. Provide the username (.\laura) and Enter the **LON-CL1 Admin Password** as provided in the Environment tab. Click **OK** to connect.
+
+	![](Images/image599.png)
+
+1. You may receive a certificate warning during the sign-in process. Click Yes or to create the connection and connect to your deployed VM. You should connect successfully.
+
+	![](Images/image598.png)
 
 1. Select the **Microsoft Edge** icon on the taskbar.
 
