@@ -483,7 +483,7 @@ Microsoft Teams includes a variety of global settings that control performance w
 
 In this task, you will open the Microsoft Teams desktop application on LON-CL1-ID and log in as Adatum’s ODL_user_id Administrator. You will then conduct a brief chat session with the IT Consultant. This will validate that you can use Teams to chat with the IT Consultant whenever necessary to discuss matters concerning the new Service Request Ticketing system. 
 
-1. Switch to **LON-DC1-ID**, where you should still be logged in as **ADATUM\Azureuser Administrator**; if not, then do so now. 
+1. Switch to **LON-DC1**, where you should still be logged in as **ADATUM\Azureuser Administrator**; if not, then do so now. 
 
 1. If the **Microsoft Teams** icon appears on the taskbar, then select it now; otherwise, navigate to the desktop and double-click the **Microsoft Teams** icon. Maximize the Microsoft Teams window (if necessary).
 
