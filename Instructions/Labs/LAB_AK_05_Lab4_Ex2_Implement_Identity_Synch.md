@@ -175,7 +175,7 @@ Each group will be assigned several members. After the forced synchronization, y
 
 	![](Images/image568.png)
 
-1. you will now create a new folder. right-click on the **Adatum.com**, select **New** and then select **organizzational Unit**.
+1. you will now create a new folder. right-click on the **Adatum.com**, select **New** and then select **organizational Unit**.
 
 	![](Images/image591.png)
 
