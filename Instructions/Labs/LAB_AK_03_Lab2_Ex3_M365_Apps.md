@@ -89,13 +89,17 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 	![](Images/image107.png)
 
-1. In the **Microsoft Office Home** page for Laura, notice that no column of Microsoft 365 app icons appears on the left-side of the screen; this is because Laura does not have an Office 365 license assigned. <br/> ![](Images/image108.png)
+1. In the **Microsoft Office Home** page for Laura, notice that no column of Microsoft 365 app icons appears on the left-side of the screen; this is because Laura does not have an Office 365 license assigned. 
+
+	![](Images/image108.png)
 
 1. Select the **Install Office** button, and then in the drop-down menu that appears, select **Install software**. This opens the **My account** window for Laura.
 	
 	![](Images/image109.png)
 
-1. In Laura's **My account** window, under the **Office apps &amp; devices** section, select **View apps &amp; devices**. Note the message that appears at the top of page. Laura has not been assigned an Office license that includes the Office desktop apps, so she’s unable to install Microsoft 365 Apps for enterprise. <br/> ![](Images/image110.png) <br> ![](Images/image111.png)
+1. In Laura's **My account** window, under the **Office apps &amp; devices** section, select **View apps &amp; devices**. Note the message that appears at the top of page. Laura has not been assigned an Office license that includes the Office desktop apps, so she’s unable to install Microsoft 365 Apps for enterprise. <br/> ![](Images/image110.png) 
+
+	![](Images/image111.png)
 	
 	‎**Important:** You have just verified that a user cannot download Microsoft 365 Apps for enterprise if he or she has not been assigned an appropriate Office 365 license.
 	
