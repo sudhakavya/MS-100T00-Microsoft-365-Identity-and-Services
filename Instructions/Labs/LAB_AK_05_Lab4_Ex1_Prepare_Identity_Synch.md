@@ -20,15 +20,21 @@ For this lab, Adatum has purchased the new xxxUPNxxx.xxxCustomDomainxxx.xxx doma
 
 1. If **Windows PowerShell** is still open, then select the **PowerShell** icon on your taskbar; otherwise, you must open **Windows PowerShell** by selecting the magnifying glass (**Search**) icon on the taskbar, typing **powershell** in the Search box that appears,  right-clicking on **Windows PowerShell**, and selecting **Run as administrator** in the drop-down menu. 
 
+	 ![](Images/image500.png)
+
 1. Using **Windows PowerShell**, you must replace the on-premises **adatum.com** domain with the **xxxUPNxxx.xxxCustomDomainxxx.xxx** domain (where you will replace xxxUPNxxx with the unique UPN name assigned to your tenant, and you will replace xxxCustomDomainxxx.xxx with your lab hosting provider's custom domain). In doing so, you will update the UPN suffix for the primary domain and the UPN on every user in AD DS with **@xxxUPNxxx.xxxCustomDomainxxx.xxx**. <br/> 
 
 	‎In the following PowerShell command, the **Set-ADForest** cmdlet modifies the properties of an Active Directory forest, and the **-identity** parameter specifies the Active Directory forest to modify. To perform this task, run the following command to set the **UPNSuffixes** property for the **adatum.com** forest (remember to change xxxUPNxxx to your unique UPN name and xxxCustomDomainxxx.xxx to your lab hosting provider's custom domain name):<br/>
 	
 		Set-ADForest -identity adatum.com -UPNSuffixes @{replace="xxxUPNxxx.xxxCustomDomainxxx.xxx"}
 
+	![](Images/image501.png)
+
 1. You must then run the following command that changes all existing adatum.com accounts to the new UPN @xxxUPNxxx.xxxCustomDomainxxx.xxx domain (remember to change xxxUPNxxx to your unique UPN name and xxxCustomDomainxxx.xxx to your lab hosting provider's custom domain name): <br/>
 
 		Get-ADUser -Filter * -Properties SamAccountName | ForEach-Object { Set-ADUser $_  -UserPrincipalName ($_.SamAccountName + "@xxxUPNxxx.xxxCustomDomainxxx.xxx" )}
+
+	![](Images/image502.png)
 
 1. You will continue using PowerShell on your Domain Controller VM in the next task.
 
@@ -45,10 +51,15 @@ In this task, you will run a script that breaks an on-premises user account. As 
 
 		CD C:\labfiles\
 
+	![](Images/image503.png)
+
 1. PowerShell's execution policy settings dictate which PowerShell scripts can be run on a Windows system. Setting this policy to **Unrestricted** enables Holly to load all configuration files and run all scripts. At the command prompt, type the following command, and then press Enter:   <br/>
 
 		Set-ExecutionPolicy Unrestricted
 
+
+	![](Images/image504.png)
+	
 1. You will then be prompted to confirm the execution policy change. Type **A** and press Enter to select the **[A] Yes to All** option.
 
 1. Enter the following command that runs a PowerShell script that creates a problem user account. This script, which is stored in the C:\labfiles folder, will purposely create an issue with the UserPrincipalName for the user's on-premises account; this will enable you to troubleshoot this account in the next task using the IdFix tool.  <br/>
@@ -68,21 +79,27 @@ In this task you will download and use the IdFix tool to fix the on-premises use
 
 1. You should still be logged into **LON-DC1** as the **Administrator** from the prior task. 
 
-2. In **Microsoft Edge**, open a new tab and enter the following URL in the address bar to access the Microsoft Download Center page for the IdFix Directory Synchronization Error Remediation Tool: <br/>
+1. In **Microsoft Edge**, open a new tab and enter the following URL in the address bar to access the Microsoft Download Center page for the IdFix Directory Synchronization Error Remediation Tool: <br/>
 
 	**https://microsoft.github.io/idfix/installation/**
+
+1. On the **Microsoft - IdFix** window, under the **Installation** section at the top of the page, the instructions direct you to run **setup.exe** to install the IdFix application on your machine. Select **setup.exe** to download the file to LON-DC1. 
+
+	![](Images/image505.png)
+
+1. Once the **setup.exe** file is downloaded, it will appear in the notification bar at the bottom of the screen. Select **Run**. 
+
+	![](Images/image506.png)
+
+1. In the **Do you want to install this application?** dialog box, select **Install**.
+
+	![](Images/image507.png)
 	
-3. On the **Microsoft - IdFix** window, under the **Installation** section at the top of the page, the instructions direct you to run **setup.exe** to install the IdFix application on your machine. Select **setup.exe** to download the file to LON-DC1. 
+1. If a **Do you want to run this file?** dialog box appears, select **Run**.
 
-4. Once the **setup.exe** file is downloaded, it will appear in the notification bar at the bottom of the screen. Select **Open file**. 
+1. In the **IdFix Privacy Statement** message box, select **OK**. 
 
-5. If a **Do you want to run this file?** dialog box appears, select **Run**.
-
-6. In the **Do you want to install this application?** dialog box, select **Install**.
-
-7. If a **Do you want to run this file?** dialog box appears, select **Run**.
-
-8. In the **IdFix Privacy Statement** message box, select **OK**. 
+	![](Images/image508.png)
 
 9. In the **IdFix** window that appears, on the menu bar at the very top of the screen, select **Query** to query the directory. After a short wait, you should see several errors. 
 
@@ -117,41 +134,57 @@ Azure Active Directory Connect synchronization service is a main component of Az
 
 Before you can run Azure AD Connect, you must first configure several settings that control the synchronization process, which you will do in this task. Once you have completed the preparation process, you will then run the Azure AD Connect tool in the next exercise. 
 
-1. You should still be logged into **LON-DC1** as the **Administrator** from the prior task. 
+1. You should still be logged into **LON-DC1-ID** as the **Azureuser Administrator** from the prior task. 
 
-2. You want to begin by adding several trusted sites for Microsoft Edge. If you're familiar doing this with Internet Explorer, the process is basically the same for Edge; however, the location of the **Security** settings is different. With IE, you added trusted sites through IE's Internet Options; for Edge, you will add trusted sites through the Windows Control Panel. <br>
+1. You want to begin by adding several trusted sites for Microsoft Edge. If you're familiar doing this with Internet Explorer, the process is basically the same for Edge; however, the location of the **Security** settings is different. With IE, you added trusted sites through IE's Internet Options; for Edge, you will add trusted sites through the Windows Control Panel. <br>
 
 	Select the magnifying glass icon on the taskbar and then enter **control** in the Search box. 
 
-3. In the list of search results, select **Control Panel**.
+1. In the list of search results, select **Control Panel**.
 
-4. In the **Control Panel**, select **Network and Internet**.
+	![](Images/image509.png)
 
-5. On the **Network and Internet** window, select **Internet Options**.
+1. In the **Control Panel**, select **Network and Internet**.
 
-6. This opens the **Internet Properties** window. Select the **Security** tab. 
+	![](Images/image510.png)
 
-7. The **Internet** zone should be selected by default. Towards the bottom of the window, select the **Custom Level** button. 
+1. On the **Network and Internet** window, select **Internet Options**.
 
-8. In the **Security Settings – Internet Zone** window, scroll down to the **Downloads** section. The first option in this section is **File download**. Verify the **File download** option is set to **Enable** and then select **OK**. 
+	![](Images/image511.png)
 
-9. This takes you back to the **Internet Options** window. Select the **Trusted sites** zone.
+1. This opens the **Internet Properties** window. Select the **Security** tab. 
 
-10. In the **Trusted Sites** zone, you must add several sites. Select the **Sites** button. 
+	![](Images/image512.png)
 
-11. In the **Trusted sites** window, in the **Add this website to the zone** field, enter the following URL and then select **Add**: **https://outlook.office365.com/** 
+1. The **Internet** zone should be selected by default. Towards the bottom of the window, select the **Custom Level** button. 
 
-12. Repeat step 11 to add the following site: **https://outlook.office.com/**  
+	![](Images/image513.png)
 
-13. Repeat step 11 to add the following site: **https://portal.office.com/**  
+1. In the **Security Settings – Internet Zone** window, scroll down to the **Downloads** section. The first option in this section is **File download**. Verify the **File download** option is set to **Enable** and then select **OK**. 
 
-14. Select **Close** once you have added these three sites.
+	![](Images/image514.png)
 
-15. In the **Internet Options** window, select **OK** to close the window.
+1. This takes you back to the **Internet Options** window. Select the **Trusted sites** zone.
 
-16. Close the **Network and Internet** window.
+1. In the **Trusted Sites** zone, you must add several sites. Select the **Sites** button. 
 
-17. Proceed to the next exercise. You are now ready to install the Azure AD Connect tool and enable synchronization. 
+	![](Images/image515.png)
+
+1. In the **Trusted sites** window, in the **Add this website to the zone** field, enter the following URL and then select **Add**: **https://outlook.office365.com/** 
+
+1. Repeat step 11 to add the following site: **https://outlook.office.com/**  
+
+1. Repeat step 11 to add the following site: **https://portal.office.com/**  
+
+1. Select **Close** once you have added these three sites.
+
+	![](Images/image516.png)
+
+1. In the **Internet Options** window, select **OK** to close the window.
+
+1. Close the **Network and Internet** window.
+
+1. Proceed to the next exercise. You are now ready to install the Azure AD Connect tool and enable synchronization. 
 
 # Proceed to Lab 4 - Exercise 2
  
