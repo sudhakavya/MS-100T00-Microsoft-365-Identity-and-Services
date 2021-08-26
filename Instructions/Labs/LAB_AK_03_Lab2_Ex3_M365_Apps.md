@@ -279,14 +279,6 @@ In the prior task, you logged into Laura Atkins’ client PC, and you verified t
 
 1. Close Word.
 
-1. Now that you have completed this lab exercise by installing Microsoft 365 Apps for enterprise, you should log out of **LON-CL1-ID** as Laura Atkins and log back in as the Adatum administrator. This will prepare **LON-CL1-ID** for the next lab.
-
-	On **LON-CL1-ID**, select the **Ctrl+Alt+Delete** function in your VM lab environment. 
-	
-1. On the desktop menu, select **Switch user**. 
-
-1. On the desktop, the **Administrator** is selected by default. Enter **Pa55w.rd** in the **Password** field and then select the forward arrow. 
-
-	The desktop should now display the logged on user as **adatum\Azureuser administrator**. **LON-CL1-ID** is now ready for the next lab.
+1. Now that you have completed this lab exercise by installing Microsoft 365 Apps for enterprise, you should log out of **LON-CL1-ID** as Laura Atkins and log back in as the Adatum Azureuser administrator.
 
 # End of Lab 2
