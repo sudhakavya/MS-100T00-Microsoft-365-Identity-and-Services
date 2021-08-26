@@ -63,7 +63,7 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 1. Switch to the Client 1 VM (**LON-CL1-ID**). 
 
-1. You want to log in as **Laura Atkins**. you must use RDP by selecting the magnifying glass (Search) icon on the taskbar, typing RDP in the Search box that appears, click on the remote desktop connection. Enter the **LON-CL1 VM DNS Name** as provided in the Environment Tab when Window Desktop connection dialog box prompted. 
+1. You want to log in as **Laura Atkins**. you must use RDP by selecting the magnifying glass (Search) icon on the taskbar, typing RDP in the Search box that appears, click on the remote desktop connection. Enter the **LON-CL1 VM DNS Name** as provided in the Environment Tab when Window Desktop connection dialog box prompted, click on **Connect**. 
 
 	![](Images/image597.png)	
 
