@@ -40,7 +40,7 @@ In this task, you will run the Azure AD Connect setup wizard to enable synchroni
 	
 1. When you run the setup, you may get an error message if you don’t have the TLS enabled, if not ignore this step
 
-	![image](https://user-images.githubusercontent.com/69506830/130919551-0842a667-bea6-4fcd-ad1b-f93843fbd849.png)
+	![](Images/image596.png)
 
 	If Windows PowerShell ISE is still open, then select the PowerShell icon on your taskbar; otherwise, you must open Windows PowerShell ISE by selecting the **magnifying glass (Search)** icon on the taskbar, typing powershell in the Search box that appears, right-clicking on **Windows PowerShell ISE**, and selecting Run as administrator in the drop-down menu. open select **file** and click on **new**, Run the following PowerShell commands to enable TLS 1.2.
 	
