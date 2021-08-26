@@ -168,7 +168,7 @@ As the IT Consultant in this task, you will perform two primary steps:
     **CAUTION:** In this task, whenever you access the URL of the IT Services site, you will use ***your*** tenant prefix (xxxxxZZZZZZ) in the URL (**<https://xxxxxZZZZZZ.sharepoint.com/sites/ITServices>**), since you created the site in your Adatum tenant in the prior task. When you access this site in your role as the IT Consultant, you will sign in using your odl_user_id's tenant admin username and password (which represents the IT Consultant); the username will be **odl_user_id@xxxxxZZZZZZ.onmicrosoft.com** as provided in the environment tab
 
 1. Switch to ****LON-CL1-ID****.
-1. On **LON-CL1-ID**, you should still be logged in as the **Administrator** (Adatum\\Azureuser Administrator) from the earlier lab in which you installed Microsoft 365 Apps for enterprise. If you did not log out of **LON-CL1-ID** as Laura Atkins and log back in as the Administrator at the end of the earlier lab, then do so now.
+1. On **LON-CL1-ID**, you should still be logged in as the **Administrator** (Adatum\\Azureuser Administrator) from the earlier lab in which you installed Microsoft 365 Apps for enterprise.
 
 1. If you will recall from the task description, you will be presented with two options for completing this task: through commands in the Excel spreadsheet, or by running a PowerShell script.
       - If you prefer to use Excel to accomplish this task, then proceed to **step 6**.
