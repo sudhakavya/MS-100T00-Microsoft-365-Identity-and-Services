@@ -42,7 +42,7 @@ In this task, you will run the Azure AD Connect setup wizard to enable synchroni
 
 	![](Images/image596.png)
 
-1. If Windows PowerShell ISE is still open, then select the PowerShell icon on your taskbar; otherwise, you must open Windows PowerShell ISE by selecting the **magnifying glass (Search)** icon on the taskbar, typing powershell in the Search box that appears, right-clicking on **Windows PowerShell ISE**, and selecting Run as administrator in the drop-down menu. open select **file** and click on **new**, Run the following PowerShell commands to enable TLS 1.2.
+1. If Windows PowerShell ISE is still open, then select the PowerShell icon on your taskbar; otherwise, you must open Windows PowerShell ISE by selecting the **magnifying glass (Search)** icon on the taskbar, typing powershell in the Search box that appears, right-clicking on **Windows PowerShell ISE**, and selecting Run as administrator in the drop-down menu. Run the following PowerShell commands to enable TLS 1.2.
 	
 		New-Item 'HKLM:\SOFTWARE\WOW6432Node\Microsoft\.NETFramework\v4.0.30319' -Force | Out-Null
 

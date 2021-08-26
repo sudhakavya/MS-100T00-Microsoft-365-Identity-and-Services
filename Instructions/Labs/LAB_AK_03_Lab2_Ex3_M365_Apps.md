@@ -13,7 +13,7 @@ In the final task in this exercise, you will install the Microsoft 365 Apps for 
 
 ### Task 1 – Verify how licensing affects installing Microsoft 365 Apps for enterprise
 
-In this task, Holly will test whether a user who has not been assigned an appropriate Office 365 license can download Microsoft 365 Apps for enterprise. For this test, you cannot use any of the existing users that appear in the **Active Users** list in the Microsoft 365 admin center. These users only have Microsoft 365 accounts (xxxxxZZZZZZ.onmicrosoft.com accounts); they do not have corresponding on-premises accounts in the adatum domain. Without an on-premises account, you cannot log into the Client 1 (**-ID**) VM as any of these users to install Microsoft 365 Apps for enterprise on the client machine. 
+In this task, Holly will test whether a user who has not been assigned an appropriate Office 365 license can download Microsoft 365 Apps for enterprise. For this test, you cannot use any of the existing users that appear in the **Active Users** list in the Microsoft 365 admin center. These users only have Microsoft 365 accounts (xxxxxZZZZZZ.onmicrosoft.com accounts); they do not have corresponding on-premises accounts in the adatum domain. Without an on-premises account, you cannot log into the Client 1 VM as any of these users to install Microsoft 365 Apps for enterprise on the client machine. 
 
 Therefore, you must use one of Adatum's on-premises user accounts that has been loaded in its on-premises domain (adatum.com) by your lab hosting provider. For this test, you will use **Laura Atkins**. You will create a Microsoft 365 account for Laura, but you will not assign her an Office 365 license. 
 
@@ -63,11 +63,17 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 1. Switch to the Client 1 VM (**LON-CL1-ID**). 
 
-1. You want to log in as **Laura Atkins**. If the Edge browser is still open from the previous lab exercise, then close it now. You should be on the **LON-CL1-ID**'s desktop, where it should indicate that you are logged on as **adatum\Azureuser administrator**. Since you want to log on as Laura Atkins, select the **Ctrl+Alt+Delete** function for your VM environment. On the menu screen that appears, select **Switch user**. <br/>
+1. You want to log in as **Laura Atkins**. you must use RDP by selecting the magnifying glass (Search) icon on the taskbar, typing RDP in the Search box that appears, click on the remote desktop connection. Enter the **LON-CL1 VM DNS Name** as provided in the Environment Tab when Window Desktop connection dialog box prompted, click on **Connect**. 
 
-	The lower-left portion of the desktop displays the **Administrator** and **Other user** options. Select **Other user**.
+	![](Images/image597.png)	
 
-1. In the **Other user** log in, enter **adatum\laura** in the **Username** field, enter **Pa55w.rd** as the **Password**, and then select the forward arrow to log in. After logging in, the desktop should indicate the logged on user is **adatum\laura**. 
+1. In the Windows Security window, select More choices and then Use a different account. Provide the username (.\laura) and Enter the **LON-CL1 Admin Password** as provided in the Environment tab. Click **OK** to connect.
+
+	![](Images/image599.png)
+
+1. You may receive a certificate warning during the sign-in process. Click Yes or to create the connection and connect to your deployed VM. You should connect successfully.
+
+	![](Images/image598.png)
 
 1. Select the **Microsoft Edge** icon on the taskbar.
 
@@ -83,13 +89,17 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 	![](Images/image107.png)
 
-1. In the **Microsoft Office Home** page for Laura, notice that no column of Microsoft 365 app icons appears on the left-side of the screen; this is because Laura does not have an Office 365 license assigned. <br/> ![](Images/image108.png)
+1. In the **Microsoft Office Home** page for Laura, notice that no column of Microsoft 365 app icons appears on the left-side of the screen; this is because Laura does not have an Office 365 license assigned. 
+
+	![](Images/image108.png)
 
 1. Select the **Install Office** button, and then in the drop-down menu that appears, select **Install software**. This opens the **My account** window for Laura.
 	
 	![](Images/image109.png)
 
-1. In Laura's **My account** window, under the **Office apps &amp; devices** section, select **View apps &amp; devices**. Note the message that appears at the top of page. Laura has not been assigned an Office license that includes the Office desktop apps, so she’s unable to install Microsoft 365 Apps for enterprise. <br/> ![](Images/image110.png) <br> ![](Images/image111.png)
+1. In Laura's **My account** window, under the **Office apps &amp; devices** section, select **View apps &amp; devices**. Note the message that appears at the top of page. Laura has not been assigned an Office license that includes the Office desktop apps, so she’s unable to install Microsoft 365 Apps for enterprise. <br/> ![](Images/image110.png) 
+
+	![](Images/image111.png)
 	
 	‎**Important:** You have just verified that a user cannot download Microsoft 365 Apps for enterprise if he or she has not been assigned an appropriate Office 365 license.
 	
@@ -269,14 +279,6 @@ In the prior task, you logged into Laura Atkins’ client PC, and you verified t
 
 1. Close Word.
 
-1. Now that you have completed this lab exercise by installing Microsoft 365 Apps for enterprise, you should log out of **LON-CL1-ID** as Laura Atkins and log back in as the Adatum administrator. This will prepare **LON-CL1-ID** for the next lab.
-
-	On **LON-CL1-ID**, select the **Ctrl+Alt+Delete** function in your VM lab environment. 
-	
-1. On the desktop menu, select **Switch user**. 
-
-1. On the desktop, the **Administrator** is selected by default. Enter **Pa55w.rd** in the **Password** field and then select the forward arrow. 
-
-	The desktop should now display the logged on user as **adatum\Azureuser administrator**. **LON-CL1-ID** is now ready for the next lab.
+1. Now that you have completed this lab exercise by installing Microsoft 365 Apps for enterprise, you should log out of **LON-CL1-ID** as Laura Atkins and log back in as the Adatum Azureuser administrator.
 
 # End of Lab 2
