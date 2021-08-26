@@ -63,7 +63,7 @@ Therefore, you must use one of Adatum's on-premises user accounts that has been 
 
 1. Switch to the Client 1 VM (**LON-CL1-ID**). 
 
-1. You want to log in as **Laura Atkins**. you must use RDP by selecting the magnifying glass (Search) icon on the taskbar, typing RDP in the Search box that appears, click on the remote desktop connection. Enter the **LON-CL1 VM DNS Name** as provided in the Environment Tab when Window Desktop connection dialog box prompted, click on **Connect**. 
+1. You want to log in LON-CL1-Id . you must use RDP by selecting the magnifying glass (Search) icon on the taskbar, typing RDP in the Search box that appears, click on the remote desktop connection. Enter the **LON-CL1 VM DNS Name** as provided in the Environment Tab when Window Desktop connection dialog box prompted, click on **Connect**. 
 
 	![](Images/image597.png)	
 
@@ -223,7 +223,7 @@ Holly is now going to test whether users can be prohibited from downloading Micr
 
 In the prior task, you logged into Laura Atkins’ client PC, and you verified that she could download Microsoft 365 Apps for enterprise once she was assigned an Office 365 license and the global Office download setting was turned On. In this task, you will continue the process by having Laura perform a user-driven installation of the Microsoft 365 Apps for enterprise suite from the Microsoft 365 portal.  
 
-1. On **LON-CL1-ID**, you should still be logged in as Laura Atkins. 
+1. On **LON-CL1-ID**, you should still be logged in. 
 
 1. You should still be in Laura’s **My account** window since this is where you left off at the end of the prior task. Under the **Office apps &amp; devices** section, the **Install Office** button now appears since Laura is assigned an Office 365 E5 license and the global Office download setting is turned On.<br/> ![](Images/image125.png)
 
@@ -279,6 +279,6 @@ In the prior task, you logged into Laura Atkins’ client PC, and you verified t
 
 1. Close Word.
 
-1. Now that you have completed this lab exercise by installing Microsoft 365 Apps for enterprise, you should log out of **LON-CL1-ID** as Laura Atkins and log back in as the Adatum Azureuser administrator.
+1. Now that you have completed this lab exercise by installing Microsoft 365 Apps for enterprise, you should log in as the Adatum Azureuser administrator.
 
 # End of Lab 2
