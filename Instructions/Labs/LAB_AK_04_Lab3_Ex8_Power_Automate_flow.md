@@ -9,7 +9,7 @@ As part of your Power Platform pilot project, you now want to investigate how yo
 
 To improve communication between management and internal users, Holly Dickson has decided to build and share an automated flow within Power Automate that sends an email to  **ADATUM\Azureuser Administrator** whenever a service request is created or modified. This task will focus on creating the flow; the next task will address how to share the flow with another manager. 
 
-1. After having completed the prior lab exercise in which you created a Power App from scratch, you should still be logged into your Domain Controller VM (**LON-DC1-ID**) as **ADATUM\Azureuser Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior lab exercise in which you created a Power App from scratch, you should still be logged into your Domain Controller VM (**LON-DC1-ID**) as **ADATUM\Azureuser Administrator** and enter the password as provided in the environment details; if not, then do so now.
 
 2. In your Microsoft Edge browser, make sure that your new ticketing system is open in a tab. The tab should be titled **IT Services – Service Desk Requests – All Items**. If you do not have this tab open, then go to the **SharePoint admin center**, select **Active Sites**, select **IT Services** from the **Active Sites** list, select **Site contents**, and then select the **Service Desk Requests** list. 
 
@@ -210,7 +210,7 @@ To improve communication between management and internal users, Holly Dickson ha
 
 In this task you will add an additional owner to the Power Automate flow that you just created. Generally, it is a good practice to designate additional owners to a flow, just as you would for a SharePoint site. This ensures that any issue can be addressed, and the flow can continue to run if the primary owner has changed roles or left the company. For the flow that Holly just created for her pilot project, she wants to add Allan Deyoung as an additional owner.
 
-1. After having completed the prior task in which you created a flow in Power Automate, you should still be logged into LON-DC1-ID as **ADATUM\Azureuser Administrator** and a password of **Pa55w.rd**; if not, then do so now.
+1. After having completed the prior task in which you created a flow in Power Automate, you should still be logged into LON-DC1-ID as **ADATUM\Azureuser Administrator** and enter the password as provided in the environment details*; if not, then do so now.
 
 2. You should still have the browser tab open to the **Flows &gt; Service Request Flow for new/modified tickets** window. If not, then repeat the steps you performed in the prior task to get to this tab (from **Power Automate studio**, select **My flows**, then select the flow you just created).
 
