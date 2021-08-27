@@ -10,7 +10,21 @@ That being said, for the purpose of this lab, you will be asked to manually crea
 
 ### Task 0 - Buy a custom domain name
 
-1. Open the Azure portal and sign in with your Azure account.
+1. In your browser go to the **Microsoft Office Home** page by entering the following URL in the address bar: 
+   ```
+   https://portal.office.com/
+   ``` 
+1. In the **Sign in** dialog box, copy and paste in the **Username** provided in the environment details page (**odl_user_DID@xxxxx.onmicrosoft.com**) and then select **Next**.
+
+   ![](Images/login-username.png) 
+
+1. In the **Enter password** dialog box, copy and paste in the **Password** and then select **Sign in**.
+
+   ![](Images/login-password.png) 
+
+1. On the **Help us protect your account** dialog box, Select **Skip for now (14 days until this is required)**.
+
+   ![](Images/skip-14.png) 
 
 1. In the search bar, search for and select App Service Domains.
 

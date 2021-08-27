@@ -131,7 +131,7 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
 
 1. In the list of organization profile data, select **Custom themes**.
 
-1. In the **Custom themes** pane, in the **Customize Microsoft 365 for your organization** select **Default theme**, then select the **Show the user's display name** check box. <br/>
+1. In the **Custom themes** pane, in the **Customize Microsoft 365 for your organization** select **Add theme**, then select the **Show the user's display name** check box. <br/>
 
    ![](Images/deault-team.png)
 
