@@ -12,7 +12,7 @@ That being said, for the purpose of this lab, you will be asked to manually crea
 
 1. In your browser go to the **Microsoft Office Home** page by entering the following URL in the address bar: 
    ```
-   https://portal.office.com/
+   https://portal.azure.com/
    ``` 
 1. In the **Sign in** dialog box, copy and paste in the **Username** provided in the environment details page (**odl_user_DID@xxxxx.onmicrosoft.com**) and then select **Next**.
 
