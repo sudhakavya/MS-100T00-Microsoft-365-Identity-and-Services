@@ -26,7 +26,7 @@ That being said, for the purpose of this lab, you will be asked to manually crea
 
    ![](Images/skip-14.png) 
 
-1. In the search bar, search for and select App Service Domains.
+1. In the search bar, search for and select **App Service Domains**.
 
    ![](Images/app-service-domains.png)
 
