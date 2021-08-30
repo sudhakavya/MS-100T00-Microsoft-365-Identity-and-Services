@@ -1,4 +1,4 @@
-**Learning Path 4 - Lab 3 - Exercise 1 - Review Key Features of Exchange Online**
+# Learning Path 4 - Lab 3 - Exercise 1 - Review Key Features of Exchange Online
 
 Holly Dickson is Adatum’s Enterprise Administrator. She has recently deployed
 Microsoft 365 in a virtualized lab environment. Now that she has a tenant
@@ -38,8 +38,16 @@ involved in creating and managing mail flow recipients.
 3.  In the **Microsoft 365 admin center**, in the left-hand navigation pane,
     select **Show all** (if necessary), then scroll down to **Admin centers**
     and select **Exchange**. This will open the **Exchange admin center** in a
-    new tab. This is the Exchange admin center for Microsoft Exchange Online.
+    new tab. But the current version is old and we will navigate to new one by scrolling down in left pane and select **New Exchange admin center**. This is the Exchange admin center for Microsoft Exchange Online.
 
+    ![](../images-ak-04-lab3-ex1/task1/1.png)
+    
+    ![](../images-ak-04-lab3-ex1/task1/1-2.png)
+    
+    ![](../images-ak-04-lab3-ex1/task1/1-3.png)
+    
+    ![](../images-ak-04-lab3-ex1/task1/2.png)
+    
 4.  In the **Exchange admin center**, select **Recipients** in the left-hand
     navigation pane to expand the Recipients group.
 
@@ -48,19 +56,29 @@ involved in creating and managing mail flow recipients.
     tenant by the lab hosting provider, along with the mailboxes for Holly
     Dickson and Laura Atkins that were created when you added their Microsoft
     365 user accounts in the prior lab.
+    
+    ![](../images-ak-04-lab3-ex1/task1/2-1.png)
 
     Select the mailbox for **Joni Sherman** by selecting her **Display name**
     This will open the **user mailbox** window with Joni’s data pre-filled. By
     default, the window displays the **Mailbox** tab (the tabs appear at the top
     under Joni’s name).
+    
+    ![](../images-ak-04-lab3-ex1/task1/3.png)
 
 6.  Towards the bottom of the **Mailbox** tab, under **More actions,** select
     **Custom attributes**.
+    
+    ![](../images-ak-04-lab3-ex1/task1/3-1.png)
+    
+    ![](../images-ak-04-lab3-ex1/task1/3-2.png)
 
 7.  This opens the **Custom attributes** window for Joni. You can enter up to 15
     attributes. You will not be entering any attributes in this lab exercise,
     but it’s important that you know this feature is available. Select
     **Cancel**.
+    
+    ![](../images-ak-04-lab3-ex1/task1/3-3.png)
 
     ‎**Note:** Custom attributes are properties your company can use for specific
     mailbox identification, such as a cost center number for the mailbox or
@@ -79,28 +97,44 @@ involved in creating and managing mail flow recipients.
     -   **Manage Organization information.** This window enables you to add
         company-specific information such as Title, Department, and Company.
 
+     ![](../images-ak-04-lab3-ex1/task1/4.png)
+
 9.  Select the **Mailbox** tab again, and then under the **Mailbox permissions**
     group, select **Manage mailbox delegation.** This enables the admin to
     assign a user to this mailbox’s **Send as** and **Send on behalf**
     permissions, as well as **Read and manage**. This option is commonly used if
     you want another user to send messages from this mailbox.
+    
+    ![](../images-ak-04-lab3-ex1/task1/4-1.png)
 
 10. While in the **Manage mailbox delegation** window, select **Edit** to the
     right of **Read and manage.**
+    
+    ![](../images-ak-04-lab3-ex1/task1/4-2.png)
 
 11. In the **Manage Mailbox delegation** window, select **+ Add permissions**.
+
+    ![](../images-ak-04-lab3-ex1/task1/5.png)
 
 12. In the **Add read and manage permissions** pane, select **Holly Dickson**
     from the list of user accounts, and then select the **Save** button. Then
     select **Close.**  Holly Dickson should appear in the list of users with
     read and manage permissions for Joni’s mailbox. Select **Cancel** and then
     select **Close.**
+    
+    ![](../images-ak-04-lab3-ex1/task1/5-1.png)
+    
+    ![](../images-ak-04-lab3-ex1/task1/5-2.png)
+    
+    ![](../images-ak-04-lab3-ex1/task1/5-3.png)
 
     ‎**Note:** After about an hour Holly Dickson will have access Joni’s mailbox
     without needing a password.
 
 13. On Joni Sherman’s **mailbox** window, select the **X** in the top right-hand
     corner of the pane to close it.
+    
+    ![](../images-ak-04-lab3-ex1/task1/5-4.png)
 
 14. Leave your browser and all the tabs open for the next task.
 
@@ -123,6 +157,8 @@ group.
     following steps, you will create a distribution list group and a Microsoft
     365 group whose email addresses will be in Microsoft 365
     (@xxxxxZZZZZZ.onmicrosoft.com).
+    
+    ![](../images-ak-04-lab3-ex1/task2/1.png)
 
 2.  The Groups page displays a tab for each type of group that can be
     maintained. The **Microsoft 365** tab is displayed by default, which
@@ -132,10 +168,14 @@ group.
 3.  In the **Add a group** wizard, the steps to add a group are displayed in the
     left-hand column. In the **Choose a group type** page, select
     **Distribution** and then select **Next**.
+    
+    ![](../images-ak-04-lab3-ex1/task2/2.png)
 
 4.  In the **Set up the basics** page, enter **Sales Department** in the
     **Name** field, tab into the **Description** field (which enables the
     **Next** button) but leave the field blank, and then select **Next**.
+    
+    ![](../images-ak-04-lab3-ex1/task2/3.png)
 
 5.  In the **Edit settings** page, enter the following information and then
     select **Next.**
@@ -156,11 +196,15 @@ group.
         **Note:** In a real-world scenario, if you want less administration
         governing group membership, then select **Open** for either of these two
         options.
+	
+	![](../images-ak-04-lab3-ex1/task2/4.png)
 
 6.  On the **Review and finish adding group** page, review the information that
     you entered for this group. If anything needs to be changed, select the
     appropriate **Edit** link and make your corrections. When everything is
     correct, select the **Create group** button.
+    
+    ![](../images-ak-04-lab3-ex1/task2/5.png)
 
 7.  Once the group is created, the **Sales Department is created** page appears.
     Note the message at the top of the page indicating that it can take up to an
@@ -171,6 +215,8 @@ group.
     distribution group that you just created. If **Sales Department** does not
     appear in the list of distribution groups, refresh the page every 5 minutes
     until the group appears.
+    
+    ![](../images-ak-04-lab3-ex1/task2/6.png)
 
 9.  Once the **Sales Department** group appears in the list, select the **Sales
     Department** name. This opens a detail pane for the Sales Department group.
@@ -181,21 +227,33 @@ group.
     the **Owners** window. Since you are logged into the Exchange admin center
     using Holly Dickson, her account is displayed as the default Owner. However,
     Holly wants Alex Wilber to co-own the group, so select **+ Add owners**.
+    
+    ![](../images-ak-04-lab3-ex1/task2/7.png)
+    
+    ![](../images-ak-04-lab3-ex1/task2/7-1.png)
 
 11. In the **Add owners** window, select **Alex Wilber**, and then select the
     **Add (1)** button. This returns you to the **Owners** window and displays
     Alex and Holly as owners of this group. Select the back arrow in the
     top-left corner of the window to return you to the **Sales Department**
     window.
+    
+    ![](../images-ak-04-lab3-ex1/task2/8.png)
+    
+    ![](../images-ak-04-lab3-ex1/task2/8-1.png)
 
 12. Select **View all and manage members**, which opens the **Members** window.
     Select **+ Add members**.
+    
+    ![](../images-ak-04-lab3-ex1/task2/9.png)
 
 13. In the **Add members** window, select **Allan DeYoung**, **Diego
     Siciliani,** and **Lynne Robbins**, and then select the **Add (3)** button.
     This returns you to the **Members** window and displays Lynne, Allan, and
     Diego as members of this group. Select the back arrow in the top-left corner
     of the window to return you to the **Sales Department** window.
+    
+    ![](../images-ak-04-lab3-ex1/task2/9-1.png)
 
 14. In the **Sales Departmen**t window, the owners and members that you added
     should be displayed. Select the **Settings** tab. This tab enables you to
@@ -203,13 +261,21 @@ group.
     review the settings that can be updated here for future reference. Once you
     have reviewed the settings, select the **X** in the top right-hand corner of
     the window to close it.
+    
+    ![](../images-ak-04-lab3-ex1/task2/9-2.png)
+    
+    ![](../images-ak-04-lab3-ex1/task2/9-3.png)
 
 15. This should return you to the **Groups** page, which is currently displaying
     the **Distribution list** tab. Select the **Add a group** button. You will
     now add a dynamic distribution group.
+    
+    ![](../images-ak-04-lab3-ex1/task2/10.png)
 
 16. In the **Choose a group type** window that appears, select **Dynamic
     distribution,** and then select **Next.**
+    
+    ![](../images-ak-04-lab3-ex1/task2/10-1.png)
 
 17. On the **Set up the basics** page, enter the following information and
     then select **Next**:
@@ -234,6 +300,8 @@ group.
 
         -   Text field: **Sales**
 
+    ![](../images-ak-04-lab3-ex1/task2/10-2.png)
+    
 19. On the **Edit settings** page, enter the following information then select
     **Next:**
 
@@ -248,6 +316,8 @@ group.
     you entered for this group. If anything needs to be changed, select the
     appropriate **Edit** link and make your corrections. When everything is
     correct, select the **Create group** button.
+    
+    ![](../images-ak-04-lab3-ex1/task2/10-3.png)
 
 21. Once the group is created, the **Dynamics CRM Project Team is created** page
     appears. Select **Close**.
@@ -257,11 +327,17 @@ group.
     to see the dynamic distribution group that you just created. If **Dynamics
     CRM Project Team** does not appear in the list of dynamic distribution
     groups, refresh the page every 5 minutes until the group appears.
+    
+    ![](../images-ak-04-lab3-ex1/task2/10-4.png)
 
 23. Holly now wants to add Nestor Wilke as a co-owner of this group. Perform the
     same steps that you completed earlier when you added an owner to the Sales
     Department group. In this case, add **Nestor Wilke** as a co-owner of the
     **Dynamics CRM Project Team** group.
+    
+    ![](../images-ak-04-lab3-ex1/task2/10-5.png)
+    
+    ![](../images-ak-04-lab3-ex1/task2/10-6.png)
 
 **Task 3 - Upgrade Distribution Lists**
 
@@ -281,15 +357,23 @@ to share.
 
 2.  Select the circle to the left of the **Sales Department** distribution list
     and then select **Upgrade distribution group** in the menu bar.
+    
+    ![](../images-ak-04-lab3-ex1/task3/task3_1.png)
 
 3.  A **Ready to upgrade** pop up window will appear. Select the **Upgrade**
     button to upgrade the group from a distribution list to a Microsoft 365
     group.
+    
+    ![](../images-ak-04-lab3-ex1/task3/task3_2.png)
 
 4.  Select the **Microsoft 365** tab. This may take up to 5 minutes for the
     upgrade to complete, at which time the Sales Department group will appear in
     the list of Microsoft 365 groups. You may need to select **Refresh** on the
     menu bar every couple of minutes before the Sales Department group appears.
+    
+    ![](../images-ak-04-lab3-ex1/task3/task3_3.png)
+    
+    ![](../images-ak-04-lab3-ex1/task3/task3_4.png)
 
 **Task 4 - Configure a Group Naming Policy**
 
@@ -306,6 +390,8 @@ organization based on the following format: **{Department} {Group Name} {City}**
     prior task, and it should still be displaying the **Groups** window and the
     **Microsoft 365** tab. In the menu bar that appears over the list of groups,
     select **Add naming policy.**
+    
+    ![](../images-ak-04-lab3-ex1/task4/task4_1.png)
 
 2.  In the **Edit group naming policy** window that appears, the **Policy** tab
     is displayed by default. Under the **Create a policy** section, you can
@@ -315,6 +401,8 @@ organization based on the following format: **{Department} {Group Name} {City}**
     section, **Attribute** is selected by default in the prefix field. Do not
     change this field. Select the **Select one** field and then select
     **Department** from the drop-down list.
+    
+    ![](../images-ak-04-lab3-ex1/task4/task4_2.png)
 
 3.  Select **Add prefix**, which displays another set of prefix fields. In this
     second set of fields, the prefix field is set to Attribute by default.
@@ -330,6 +418,8 @@ organization based on the following format: **{Department} {Group Name} {City}**
     based on the parameters you selected. If any need to be fixed, select the
     correct values now. When everything looks correct, select the **Save**
     button at the bottom of the window.
+    
+    ![](../images-ak-04-lab3-ex1/task4/task4_3.png)
 
 6.  Once the group naming policy changes have been saved, close the **Edit group
     naming policy** pane. Leave all your browser tabs open for the next task.
@@ -353,6 +443,8 @@ meetings, you can select the room from the Global Address List (GAL).
 
 2.  In the **Resources** window, select **+Add a resource** on the menu bar.
     This initiates the **New resource mailbox** wizard.
+    
+    ![](../images-ak-04-lab3-ex1/task5/task5_1.png)
 
 3.  In the **New resource mailbox** wizard, on the **Fill in the basic info**
     page, select **Room**, and then enter the following information:
@@ -373,6 +465,8 @@ meetings, you can select the room from the Global Address List (GAL).
     -   Phone: **425-555-2011**
 
 4.  Select **Next.**
+
+    ![](../images-ak-04-lab3-ex1/task5/task5_2.png)
 
 5.  A second **Fill in the basic info** page appears. This page used to enter
     the resource address. For this lab, you can skip this page and select
@@ -402,11 +496,15 @@ meetings, you can select the room from the Global Address List (GAL).
 
 12. Select **Next**.
 
+    ![](../images-ak-04-lab3-ex1/task5/task5_3.png)
+
 13. On the **Review resource** page, review the resource information that you
     just entered. If anything needs to be fixed, select the **Back** button and
     make the necessary corrections. When everything looks correct, select
     **Create** and wait for the resource to be created (it may take a couple of
     minutes).
+    
+    ![](../images-ak-04-lab3-ex1/task5/task5_4.png)
 
 14. Once the resource mailbox has been successfully created, the **Status** page
     will appear. Select **Done**. The new resource record for **Conference Room
@@ -427,6 +525,8 @@ introduced to mail contacts and mail users.
 
 2.  In the **Contacts** window, select **+Add a contact** that appears on the
     menu bar.
+    
+    ![](../images-ak-04-lab3-ex1/task6/task6_1.png)
 
 3.  In the **Add contact** pane that appears on the right, enter the following
     information:
@@ -449,6 +549,8 @@ introduced to mail contacts and mail users.
 
 4.  Select **Add.** It may take a minute or two to successfully create the
     record.
+    
+    ![](../images-ak-04-lab3-ex1/task6/task6_2.png)
 
 5.  Once the Contact record has been successfully created, the **Contact created
     successfully** page will appear. Select **Close**. Hai Chu should now appear
@@ -498,6 +600,8 @@ introduced to mail contacts and mail users.
 
 8.  Select **Add.**
 
+    ![](../images-ak-04-lab3-ex1/task6/task6_3.png)
+
 9.  Once the Contact record has been successfully created, the **Contact created
     successfully** page will appear. Select **Close**. Bill Norman should now
     appear in the **Contacts** window. If Bill Norman doesn’t appear, select
@@ -539,13 +643,14 @@ enable you to customize organization management objects.
     now.
 
 2.  In your **Edge** browser, you should still have a tab open for the
-    **Microsoft 365 admin center**. If so, select this tab and proceed to the
-    next step; otherwise, navigate to the **Office 365 home** page, log in as
-    your tenant admin account, navigate to the **Microsoft 365 admin center**,
-    and then in the left-hand navigation pane, select **Show all**.
-
-3.  In the **Microsoft 365 admin center**, in the left-hand navigation pane
-    under **Admin centers**, select **Security**.
+    **Microsoft 365 admin center**. Click on **Compliance**. 
+    
+    ![](../images-ak-04-lab3-ex1/task7/new1.png)
+    
+3.  In the left pane navigation, Select **More resources**. Click **Open** in **Office 365 
+     security & compliance**. This will navigate to a new tab.
+     
+     ![](../images-ak-04-lab3-ex1/task7/new2.png)
 
 4.  In the **Office 365 Security & Compliance center**, in the left-hand
     navigation pane, select **Permissions**.
@@ -554,6 +659,8 @@ enable you to customize organization management objects.
     and then select the magnifying glass icon. This is a quick way to display
     the Organization Management role group so that you don’t have to scroll
     through a list of roles to find it.
+    
+    ![](../images-ak-04-lab3-ex1/task7/new3.png)
 
 6.  The search will display the **Organization Management** role, which is the
     only role starting with **org**. Select the check box next to this role to
@@ -562,20 +669,31 @@ enable you to customize organization management objects.
 7.  In the **Organization Management** pane that appears on the right, scroll
     down to the **Members** section at the bottom of the pane. In the
     **Members** section, select **Edit**.
+    
+    ![](../images-ak-04-lab3-ex1/task7/new4.png)
 
 8.  On the **Editing Choose members** page, select **Choose members**.
 
+    ![](../images-ak-04-lab3-ex1/task7/new5.png)
+
 9.  On the **Choose members** page, select the **+Add** button.
+
+    ![](../images-ak-04-lab3-ex1/task7/new6.png)
 
 10. In the list of users, select the check box next to **Holly Dickson** and
     then select the **Add** button.
+    
+    ![](../images-ak-04-lab3-ex1/task7/new7.png)
 
 11. On the **Choose members** page, Holly should appear in the list of members
     who will be assigned to this role group. Select **Done**.
 
 12. On the **Editing Choose members** page, select **Save**.
 
-13. On the **Organization Management** pane, select **Close**.
+13. On the **Organization Management** pane, select **Close**. You will see holly
+    displayed under Members. 
+
+    ![](../images-ak-04-lab3-ex1/task7/new8.png)
 
 14. In the **Office 365 Security & Compliance** center, in the left-hand
     navigation pane, select **Threat management** to expand this group, and then
@@ -583,6 +701,8 @@ enable you to customize organization management objects.
 
 15. In the **Home \> Policy** page, under the **Policies** section, select
     **Anti-malware**.
+    
+    ![](../images-ak-04-lab3-ex1/task7/task7_9.png)
 
 16. In the **Home \> Policy \> Anti-malware** page, on the menu bar at the top
     of the window, select **+Create** to add a new malware filter. This starts
@@ -593,6 +713,8 @@ enable you to customize organization management objects.
 
 18. In the **Description** field, enter **This policy has been created to
     protect Adatum’s messaging environment** and then select **Next**.
+    
+    ![](../images-ak-04-lab3-ex1/task7/task7_10.png)
 
 19. In the **Users and domains** page, enter **onmicrosoft.com** in the
     **Domains** field. This will display the list of Adatum domains containing
@@ -696,17 +818,19 @@ spammers) that you never want to receive email messages from.
 
 1.  In your **Edge** browser, you should still have a tab open for the **Office
     365 Security & Compliance center**. If so, select this tab and proceed to
-    the next step. Otherwise, navigate to the **Office 365 home** page, log in
-    as your tenant admin account, navigate to the **Microsoft 365 admin
-    center**, select **Show all** in the left-hand navigation pane, and then
-    select **Security**.
+    the next step. Otherwise, navigate to the **https://protection.office.com/** page, log in
+    as your tenant admin account.
+
+	![](Images/admin-center-sec.png)    
 
 2.  In the **Office 365 Security & Compliance** center, the **Home \> Policy \>
     Anti-malware** window should still be displayed from the prior task. In this
     thread at the top of the page, select **Policy**.
 
-3.  In the **Home \> Policy** window, under the **Policies** section, select
+3.  In the **Home \> Policy** window, under the **Threat policies** section, select
     **Anti-spam**.
+
+	![](Images/anti-spam.png)
 
 4.  The **Home \> Policy \> Anti-spam policies** window displays a list of
     default **Anti-spam policies** that control how messages are handled by
@@ -715,6 +839,8 @@ spammers) that you never want to receive email messages from.
     In the list of policies, select the **Connection filter policy (Default)**.
     This displays the current settings for this default spam filter in the
     right-hand pane.
+
+	![](Images/connection-filter.png)
 
 5.  In the **Connection filter policy (Default)** pane, the **Connection
     filtering** section displays options regarding which IP Addresses may send
@@ -730,6 +856,8 @@ spammers) that you never want to receive email messages from.
 6.  At the bottom of the **Connection filtering** section, select the **Edit
     connection filter policy** link.
 
+	![](Images/edit-connection.png)
+
 7.  In the **Connection filter policy (Default)** pane, select the **Turn on
     safe list** check box. This is a best practice that enables for your tenant
     the most common third-party sources of trusted senders that Microsoft
@@ -738,6 +866,8 @@ spammers) that you never want to receive email messages from.
 
 8.  Select **Save** to save this filter, and then select **Close** once the
     changes are successfully saved.
+
+	![](Images/turn-on-safe-list-save.png)
 
 9.  Leave your Edge browser open to the **Office 365 Security & Compliance**
     center for the next task.
@@ -768,13 +898,19 @@ email’s origin.
     There are three sections of settings – Bulk email threshold & spam
     properties, Actions, and Allowed and blocked senders and domains.
 
+	![](Images/anti-spam-policy.png)
+
 3.  Once you’ve finished reviewing these settings, scroll to the bottom of the
     **Bulk email threshold & spam properties** section and select the **Edit
     spam threshold and properties** link.
 
+	![](Images/edit-spam-settings.png)
+
 4.  In the **Spam threshold and properties** pane that appears, the **Bulk email
     threshold** at the top of the pane is set to **7** by default. Change this value
     to **5.**
+
+	![](Images/settings-save.png)
 
 5.  Under the **Mark as spam** section, update the following settings:
 
@@ -813,12 +949,16 @@ email’s origin.
         
         Enter a letter and then select a country with the letter in it that you
         want to filter. Repeat this step for a couple of countries.
+    
+    ![](Images/country-on.png)
 
 6.  Select **Save**.
 
 7.  This returns you to the **Anti-spam inbound policy (Default)** pane. Scroll
     to the bottom of the **Actions** section and select the **Edit actions**
     link. ‎
+
+    ![](Images/inbound-edit-actions.png)
 
 8.  In the **Actions** pane, update the following settings:
 
@@ -837,9 +977,13 @@ email’s origin.
     -   Prepend subject line with this text: enter **WARNING: This message
         contains potential spam!**
 
+    ![](Images/settings-inbound.png)
+
     -   Enable end-user spam notifications: select this check box
 
     -   Send end-user spam notifications every (days): **5**
+
+    ![](Images/notifications.png)
 
 9.  Select **Save** to update the settings, and then select **Close** to close
     the **Anti-spam inbound policy (Default)** pane.
@@ -871,6 +1015,8 @@ size.
 2.  In the **Microsoft 365 admin center**, in the left-hand navigation pane,
     select **Exchange**.
 
+    ![](Images/exchange.png)
+
 3.  In the **Exchange admin center**, in the left-hand navigation pane, select
     **Mail flow** to expand this group. Under this group, select **Rules**.
 
@@ -883,6 +1029,8 @@ size.
     In the menu bar that appears over the list of mail flow rules, select the
     **plus (+)** sign, and in the menu that appears, select **Filter messages by
     size.**
+
+    ![](Images/create-new-rule.png)
 
 5.  In the **new rule** window that appears, enter the following information.
 
@@ -910,6 +1058,8 @@ size.
     -   Under **Choose a mode for this rule** setting, select **Enforce.**
 
 6.  Select **Save**. This may take a minute or so to create the new rule.
+
+    ![](Images/new-rule.png)
 
 7.  Leave your Edge browser open as well as all the tabs.
 
@@ -942,6 +1092,8 @@ type is set to authoritative.
     already set to **Authoritative,** so you don’t need to make any changes
     here.
 
+    ![](Images/accepted-domains.png)
+
 4.  However, let’s assume that you set the domain type to **Internal Relay**
     when you initially created the custom **xxxUPNxxx.xxxCustomDomainxxx.xxx**
     domain. If you wanted to change it now to **Authoritative,** you would
@@ -958,6 +1110,8 @@ type is set to authoritative.
         
         However, since this domain is already set to **Authoritative** and you
         did not make any changes, select **Cancel** to close this window.
+
+    ![](Images/authoritative.png)
 
 5.  This concludes the exercise on reviewing Exchange Online features. You can
     close the **Exchange admin center** tab in your Edge browser. This will
