@@ -165,7 +165,7 @@ In this task, you will begin by examining the administrative properties of two u
 
 1. In your **Edge** browser navigate to **https://portal.office.com**. 
 
-1. You will begin by signing into Microsoft 365 as **Allan Deyoung**. In the **Sign-in** window, enter **AllanD@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider). In the **Enter password** window, enter the Tenant Password provided by your instructor.  If you are signed in to another account, sign out and sign back in using **Allan Deyoung** credentials .
+1. You will begin by signing into Microsoft 365 as **Allan Deyoung**. In the **Sign-in** window, enter **AllanD@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider). In the **Enter password** window, (You can obtain your **Allan Deyoung** from the **Environment details** tab under **Resource Group: domain-controller-RG**, Copy the username and password).  If you are signed in to another account, sign out and sign back in using **Allan Deyoung** credentials .
 
 1. On the **Stay signed in?** window, select the **Don't show this again** check box and then select **Yes**.
 
@@ -179,7 +179,7 @@ In this task, you will begin by examining the administrative properties of two u
 
 1. You will now sign out of Microsoft 365 as Allan. In **Microsoft Edge**, at the top right of the **Office 365 home** page, select the user icon for **Allan Deyoung** (the circle in the upper right-hand corner with Allan's picture in it), and in the **Allan Deyoung** window that appears, select **Sign out.**   
 
-1. You will now sign into Microsoft 365 as **Lynne Robbins**. In your current **Edge** browser tab, it should display a message indicating **Allan, you're signed out now**. In this window, it gives you the option of signing back in as Allan, or signing in as a different user. Select **Switch to a different account**, and in the **Email address** field that appears, enter **LynneR@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and then select **Sign in**. In the **Enter password** window, enter the Tenant Password provided by your instructor.
+1. You will now sign into Microsoft 365 as **Lynne Robbins**. In your current **Edge** browser tab, it should display a message indicating **Allan, you're signed out now**. In this window, it gives you the option of signing back in as Allan, or signing in as a different user. Select **Switch to a different account**, and in the **Email address** field that appears, enter **LynneR@xxxxxZZZZZZ.onmicrosoft.com** ((You can obtain your **Lynne Robbins** from the **Environment details** tab under **Resource Group: domain-controller-RG**, Copy the username and password.)) and then select **Sign in**. In the **Enter password** window, enter the Tenant Password provided by your instructor.
 
 	![](Images/image27.png)
 
@@ -258,7 +258,7 @@ In this task, you will begin by examining the administrative properties of two u
 
 	![](Images/image42.png)
 
-1. Lynne has just been informed that **Nestor Wilke's** username has also been potentially compromised. Repeat steps 30 through 33 to block Nestor from signing in (and to block anyone else from using his username to sign in). 
+1. Lynne has just been informed that **Nestor Wilke's** username has also been potentially compromised. Repeat steps **29** through **32** to block Nestor from signing in (and to block anyone else from using his username to sign in). 
 
 	![](Images/image43.png)
 

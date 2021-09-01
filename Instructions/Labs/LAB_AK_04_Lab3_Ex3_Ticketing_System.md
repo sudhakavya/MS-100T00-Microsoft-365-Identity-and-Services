@@ -242,8 +242,6 @@ As the IT Consultant in this task, you will perform two primary steps:
     Before you can export an Excel table into a SharePoint list, the stationary list of data must be inserted into an Excel table object. This has already been done for you as the data in the spreadsheet has already been inserted into an Excel table object. All you must do now is select the table, which can be done by simply selecting any cell of data (for example, select cell **C3**).
 
     Because you have now selected the Excel table, note how the new menu bar option titled **Table Design** appears after **Help**.
-    
-    ![](Images/image240.png)
 
     **Note:** If you select a cell outside of the table, note how the **Table Design** menu bar option disappears. If you once again select a cell inside the table, note how it reappears.
 1. On the menu bar, select **Table Design**.
@@ -309,7 +307,7 @@ As the IT Consultant in this task, you will perform two primary steps:
 
     ![](Images/image248.png)
 
-1. At the command prompt, you will run the commands in lines **20** together; therefore, select these two lines in the script and then select the **Run Selection (F8)** icon on the menu bar.
+1. At the command prompt, you will run the command in line **20**; therefore, select this line in the script and then select the **Run Selection (F8)** icon on the menu bar.
 
 1. On line **32** in the script, you MUST update the URL before you can run this command. In the URL, you must replace the xxxxxZZZZZZ with ***your tenant ID*** provided by your lab hosting provider (this is your Adatum tenant where the IT Services site was created earlier by Holly).
 
@@ -425,7 +423,7 @@ In this task you will return to your role as Holly Dickson. You have just been i
     ![](Images/image267.png)
 
 1. Select the **Exit grid view** option on the menu bar to see how the Customer data appears in normal display view.
-1. Repeat steps **11-22** to add a column for the **Assign To** data and to copy the **Assign to** data from the **BackupFile.xlsx** spreadsheet and paste it into the **Service Desk Requests** list.
+1. Repeat steps **6-14** to add a column for the **Assign To** data and to copy the **Assign to** data from the **BackupFile.xlsx** spreadsheet and paste it into the **Service Desk Requests** list.
 
     ![](Images/image268.png)
     

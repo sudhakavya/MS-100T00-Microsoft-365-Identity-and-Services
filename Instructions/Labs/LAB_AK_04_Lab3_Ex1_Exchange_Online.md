@@ -13,7 +13,7 @@ of the basic administrative functions in Exchange Online related to mail flow
 and recipient management. Since the Global Administrator role includes the
 Exchange Administrator role, Holly can perform all Exchange-related tasks.
 
-**Task 1 – Manage Recipients**
+### Task 1 – Manage Recipients
 
 As you continue in your role as Holly Dickson, you are ready to review the steps
 involved in creating and managing mail flow recipients.
@@ -119,7 +119,7 @@ involved in creating and managing mail flow recipients.
 12. In the **Add read and manage permissions** pane, select **Holly Dickson**
     from the list of user accounts, and then select the **Save** button. Then
     select **Close.**  Holly Dickson should appear in the list of users with
-    read and manage permissions for Joni’s mailbox. Select **Cancel** and then
+    read and manage permissions for Joni’s mailbox. Select **X** and then
     select **Close.**
     
     ![](../images-ak-04-lab3-ex1/task1/5-1.png)
@@ -138,7 +138,7 @@ involved in creating and managing mail flow recipients.
 
 14. Leave your browser and all the tabs open for the next task.
 
-**Task 2 – Manage Groups**
+### Task 2 – Manage Groups
 
 In this task you will create two types of groups within Exchange Online. The
 first is a distribution list of email recipients, which is used to create a
@@ -339,7 +339,10 @@ group.
     
     ![](../images-ak-04-lab3-ex1/task2/10-6.png)
 
-**Task 3 - Upgrade Distribution Lists**
+
+    >Note: When you add **Nestor Wilke** as a owner, Automatically it **Holly Dickson** user will be removed.
+
+### Task 3 - Upgrade Distribution Lists
 
 Organizations have typically relied on distribution groups in Exchange to
 communicate and collaborate with groups of people both inside and outside the
@@ -375,7 +378,7 @@ to share.
     
     ![](../images-ak-04-lab3-ex1/task3/task3_4.png)
 
-**Task 4 - Configure a Group Naming Policy**
+### Task 4 - Configure a Group Naming Policy
 
 A group naming policy enables organizations to standardize and manage the names
 of distribution groups created by its users. You can require that a specific
@@ -424,7 +427,7 @@ organization based on the following format: **{Department} {Group Name} {City}**
 6.  Once the group naming policy changes have been saved, close the **Edit group
     naming policy** pane. Leave all your browser tabs open for the next task.
 
-**Task 5 – Manage Resources**
+### Task 5 – Manage Resources
 
 A room mailbox is a resource mailbox that is assigned to a physical location,
 such as a conference room, an auditorium, or a training room. Users can easily
@@ -512,7 +515,7 @@ meetings, you can select the room from the Global Address List (GAL).
 
 15. Leave your browser and all tabs open for the next task.
 
-**Task 6 – Manage Contacts**
+### Task 6 – Manage Contacts
 
 One of the key features of Exchange Online is the ability to maintain different
 types of contacts in the Exchange Admin Center. In this task, you will be
@@ -610,7 +613,7 @@ introduced to mail contacts and mail users.
 
 10. Leave the Exchange admin center tab open and proceed to the next task.
 
-**Task 7 – Configure Messaging Protection**
+### Task 7 – Configure Messaging Protection
 
 Adatum has experienced a recent rash of malware infections. The company’s CTO
 has asked Holly to investigate the various options that are available in
@@ -718,7 +721,7 @@ enable you to customize organization management objects.
 
 19. In the **Users and domains** page, enter **onmicrosoft.com** in the
     **Domains** field. This will display the list of Adatum domains containing
-    **onmicrosoft.com**. Select the **M365xZZZZZZ.onmicrosoft.com** domain
+    **onmicrosoft.com**. Select the **xxxxxZZZZZZ.onmicrosoft.com** domain
     that’s displayed and then select **Next**.
 
 20. On the **Protection settings** page, under the **Protection settings**
@@ -771,8 +774,8 @@ enable you to customize organization management objects.
    		Connect-exchangeonline
 
     5.  A **Microsoft 365 Sign in** window will appear. Enter in the username for
-    the **Mod Administrator** account provided by your learning provider
-    (admin@M365xZZZZZZ.onmicrosoft.com) and then select **Next**.
+    the **ODL_User** account provided by your learning provider
+    (admin@xxxxxZZZZZZ.onmicrosoft.com) and then select **Next**.
 
     6.  In the **Enter password** window, enter the password for this admin account
     provided by your learning provider, and then select **Sign in**. It may take
@@ -783,7 +786,7 @@ enable you to customize organization management objects.
     returns a successful result (the command prompt appears with no errors);
     testing shows that it sometimes takes two attempts):
 
-		Enable-OrganizationCustomization
+	        Enable-OrganizationCustomization
 
     8.  Close the PowerShell window.
 
@@ -794,7 +797,7 @@ enable you to customize organization management objects.
 25.  On the **Created new anti-malware policy** page, it indicates the new policy
     has been created and will go into effect immediately. Select **Done.**
 
-        **Note**: If a **Security & Compliance** window appears with a message that
+>**Note**: If a **Security & Compliance** window appears with a message that
     indicates your organization settings need to be updated, select **Yes** to
     continue. It may take a minute for your organization settings to be updated.
 
@@ -802,7 +805,7 @@ enable you to customize organization management objects.
     **Home \> Policy \> Anti-malware** page. Leave your browser and all tabs
     open and proceed to the next task.
 
-**Task 8 – Manage Connection Filters**
+### Task 8 – Manage Connection Filters
 
 Holly has been contacted by Adatum’s CTO. He is upset that he keeps finding
 email from friends and business associates in his junk email folder, and he’s
@@ -872,7 +875,7 @@ spammers) that you never want to receive email messages from.
 9.  Leave your Edge browser open to the **Office 365 Security & Compliance**
     center for the next task.
 
-**Task 9 – Manage Spam Filters**
+### Task 9 – Manage Spam Filters
 
 For Microsoft 365 customers whose mailboxes are hosted in Microsoft Exchange
 Online, their email messages are automatically protected against spam and
@@ -991,7 +994,7 @@ email’s origin.
 10. In your Edge browser, close the **Security & Compliance** center tab, but
     leave all other tabs open.
 
-**Task 10 – Manage Mail Flow Rules**
+### Task 10 – Manage Mail Flow Rules
 
 After Holly reviewed the messaging environment at Adatum Corporation, she
 discovered that Adatum’s current mail flow policy is to simply wait until
@@ -1063,7 +1066,7 @@ size.
 
 7.  Leave your Edge browser open as well as all the tabs.
 
-**Task 11 – Validate Accepted Domains**
+### Task 11 – Validate Accepted Domains
 
 A domain that’s added to an organization’s on-premises environment is called an
 accepted, or custom domain. You can create mailboxes with accepted domains to

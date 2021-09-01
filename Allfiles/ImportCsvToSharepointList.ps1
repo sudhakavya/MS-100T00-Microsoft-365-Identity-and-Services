@@ -17,7 +17,7 @@ Install-Module SharePointPnPPowerShellOnline
 
 # You can select lines 20-21 and run both together at one time.
 
-$ServiceRequestSystem= Import-Csv "C:\LabFiles\MS-100T00-Microsoft-365-Identity-and-Services\Allfiles\Service Request System.csv"
+$ServiceRequestSystem= Import-Csv "C:\AllFiles\MS-100T00-Microsoft-365-Identity-and-Services-prod\Allfiles\Service Request System.csv"
 
 
 # You will be prompted twice for the IT Consultant's MOD Administrator credentials. Please enter it each time.

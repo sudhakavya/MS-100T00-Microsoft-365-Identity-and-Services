@@ -54,8 +54,8 @@ That being said, for the purpose of this lab, you will be asked to manually crea
     | Last name | **Dickson**  |
     | Organization | **Adatum Corporation**  |
 	| Job title | **Administrator**  |
-    | Email | **Holly@azurehol1377.onmicrosoft.com**  |
-    | Confirm Email | **Holly@azurehol1377.onmicrosoft.com**  |
+    | Email | **Holly@xxxxxZZZZZZ.onmicrosoft.com**  |
+    | Confirm Email | **Holly@xxxxxZZZZZZ.onmicrosoft.com**  |
 	| Country code | **United States (+1)**  |
     | Phone | **425-708-7177**  |
     | Address 1 | **555 Main Street**  |
@@ -65,7 +65,7 @@ That being said, for the purpose of this lab, you will be asked to manually crea
     | Postal code | **98052**  |
     | | |
 
-   	![](Images/create-domain.png)
+   ![](Images/create-domain.png)
 
 
 ### Task 1 - Add a Custom Domain
@@ -104,7 +104,7 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 
    ![](Images/ms-value.png)
 
-1. Open the **Azure portal** and sign in with your **Holly** account.
+1. Open the **Azure portal** and sign in with **Odl_User** account.
 
 1. In the search bar, search for and select **DNS Zones**.
 
@@ -118,7 +118,7 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 
    ![](Images/azure-dns-add-records.png)
 
-1. In the **Add record set** in **Name** field give **xxxUPNxxx**, Select type **TXT - Text record type**,  In the **Value** right-click in the Text field and select Paste from the menu that appears. This will paste in the TXT valued of MS=msXXXXXXXX that you copied to the clipboard when you were in the Microsoft 365 admin center
+1. In the **Add record set** in **Name** field give **TXT name(xxxUPNxxx)**, Select type **TXT - Text record type**,  In the **Value** right-click in the Text field and select Paste from the menu that appears. This will paste in the TXT valued of MS=msXXXXXXXX that you copied to the clipboard when you were in the Microsoft 365 admin center
 
    ![](Images/add-azure-txt-record.png)
 
@@ -213,27 +213,27 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 
 	h. In **DNS Manager**, under **Forward Lookup Zones**, the **xxxUPNxxx.xxxCustomDomainxxx.xxx** domain should be selected from when you earlier left off. If not, select this zone now. You should see the **TXT** record that you created earlier. You must now create a **Mail Exchanger (MX)** record for this domain. Under **Forward Lookup Zones**, right-click the **xxxUPNxxx.xxxCustomDomainxxx.xxx** domain and select **New Mail Exchanger (MX)...**
 
-    ![](Images/dns-mx-txt-.png)
+   ![](Images/dns-mx-txt-.png)
 
 	i. In the **New Resource Record** window, in the **Mail Exchanger (MX)** tab, leave the **Host or child domain** field blank, but right-click in the **Fully qualified domain name (FQDN) of mail server** field and select **Paste** from the menu that appears. This will paste in the expected **Points to address or value** that you copied to the clipboard in **step a** above.
 	
-    ![](Images/new-res-mx-record.png)
+   ![](Images/new-res-mx-record.png)
 
 	j. Select **OK**. Note how this Mail Exchanger (MX) record appears in the details pane on the right for the xxxUPNxxx.xxxCustomDomainxxx.xxx domain that you previously created. Leave your DNS Manager window open as you will return to it in a later step in this task.
 	
 	k. Switch back to the **Add DNS records** page in the Microsoft 365 admin center by selecting the **Microsoft Edge** icon on the taskbar at the bottom of the page and selecting the **Microsoft 365 admin center** tab. At this point, you can either select **Continue** at the bottom of the **Add DNS records** page to verify the MX record that you just added, or you can wait until you have added all three records and then select **Continue** to verify all three records at once. 
 	
-    ![](Images/dns-continues.png)
+   ![](Images/dns-continues.png)
 	
 	For the purposes of this lab, you will verify each record as you create it. Therefore, select **Continue**. It will display either a checkmark or an exclamation point next to **MX Records**. The checkmark in a green circle indicates that it successfully validated the MX record for this domain in DNS Manager, and the exclamation point in a red circle indicates that there was a problem with the MX record and it did not validate successfully. If the MX record did not validate successfully, then review the record to ensure you entered the proper information, make any necessary corrections, and then select **Continue** again. 
 
-    ![](Images/mx-record-verified.png)
+   ![](Images/mx-record-verified.png)
 
 1. Once a checkmark appears next to **MX Records**, you must perform the following steps to add the **CNAME record** required by Exchange and Exchange Online Protection service. 
 
 	a. On the **Add DNS records** page, in the **CNAME Records** section, under the **Points to address or value** column, select the copy icon that appears to the left of the expected value (for example, autodiscover.outlook.com). <br/>
 		
-    ![](Images/cname-record-copy.png)
+   ![](Images/cname-record-copy.png)
 
 	**Important:** You will NOT copy the expected **Host Name** value. The value listed here as the expected host name is **autodiscover.xxxUPNxxx** (where xxxUPNxxx is your UPN name). However, if you paste this value in the **Alias name** field in the CNAME record in DNS Manager, the CNAME record validation on this page will fail. When you create the CNAME record in DNS Manager in the following steps, you will simply enter **autodiscover** as the **Alias name** and NOT **autodiscover.xxxUPNxxx**. <br/>
 	
@@ -269,7 +269,7 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 	
 	k. Right-click in the **Fully qualified domain name (FQDN) for target host** field and select **Paste** from the menu that appears. This will paste in the expected **Points to address or value** that you earlier copied to the clipboard.
 	
-	![](Images/cname-new-resource.png)
+   ![](Images/cname-new-resource.png)
 
 	l. Select **OK**. Note how this Alias (CNAME) record appears in the details pane on the right for the xxxUPNxxx.xxxCustomDomainxxx.xxx domain that you previously created. Leave your DNS Manager window open as you will return to it in a later step in this task.
 	
@@ -277,13 +277,13 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 	
 	For the purpose of this lab, select **Continue**. It will display either a checkmark or an exclamation point next to **CNAME Record**. The checkmark in a green circle indicates that it successfully validated the CNAME record for this domain in DNS Manager, and the exclamation point in a red circle indicates that there was a problem with the CNAME record and it did not validate successfully. If the CNAME record did not validate successfully, then review the record to ensure you entered the proper information, make any necessary corrections, and then select **Continue** again. 
 
-    ![](Images/cname-verified.png)
+   ![](Images/cname-verified.png)
 	
 1. Once a checkmark appears next to **CNAME Records**, you will finish by adding the **TXT record** required by Exchange and Exchange Online Protection service. 
 
 	a. On the **Add DNS records** page, in the **TXT Records** section, under the **TXT value** column, select the copy icon that appears to the left of the expected value (for example, v=spf1 include:spf.protection.outlook.com -all) to copy this value to the clipboard.
 
-	![](Images/txt2-record-copy.png)
+   ![](Images/txt2-record-copy.png)
 
 	b. Open the **Azure portal** and sign in with your **Holly** account.
 
@@ -307,17 +307,17 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 
 	h. In **DNS Manager**, under **Forward Lookup Zones**, right-click the **xxxUPNxxx.xxxCustomDomainxxx.xxx** domain and select **Other New Records...**
 
-   	![](Images/dns-manager11.png)
+   ![](Images/dns-manager11.png)
 	
 	i. In the **Resource Record Type** window that appears, in the **Select a resource record type** field, scroll down and select **Text (TXT),** and then select the **Create Record...** button at the bottom of the window.
 
-	![](Images/create-record.png)
+   ![](Images/create-record.png)
 
 	j. In the **New Resource Record** window, in the **Text (TXT)** tab, leave the **Record name** field blank. However, right-click in the **Text** field and select **Paste** from the menu that appears. This will paste in the expected **TXT value** that you earlier copied to the clipboard.
 	
 	k. Select **OK**. 
 
-	![](Images/txt2-record.png)
+   ![](Images/txt2-record.png)
 	
 	l. On the **Resource Record Type** window, select **Done**. 
 
@@ -330,13 +330,13 @@ In your hosted lab environment, Adatum already has an existing on-premises domai
 	
 	If all three records have been successfully validated, then the **Domain setup is complete** page will appear. If this occurs, then select the **Done** button to complete the domain setup process.
 
-	![](Images/domain-setup-cmp.png)	
+   ![](Images/domain-setup-cmp.png)	
 	
 	However, if any of the three records did not validate successfully, then the **Add DNS records** window will return, and it will display either a checkmark or an exclamation point next to each record type to indicate which ones validated successfully and which ones did not. An exclamation point in a red circle indicates that there was a problem with the record and it did not validate successfully (note that the Actual value for the record is left blank). If this occurs, you must correct the data on the corresponding record in DNS Manager and then select **Continue** again. You must repeat this process until all three records have successfully validated and the **Domain setup is complete** page appears.
 
 1. Once the domain setup process is complete and the three DNS records validated successfully for the **Exchange and Exchange Online Protection** service, the **Domains > xxxUPNxxx.xxxCustomDomainxxx.xxx** page will be displayed. Verify the **Domain status** is **Healthy**.
 
-	![](Images/domain-health.png)
+   ![](Images/domain-health.png)
 
 1. On the **Domains > xxxUPNxxx.xxxCustomDomainxxx.xxx** page, select the **Domains** portion of this thread.  The **xxxUPNxxx.xxxCustomDomainxxx.xxx** custom domain that you just added should now appear in the list of domains, along with your **xxxxxZZZZZZ.onmicrosoft.com** domain.  
 
