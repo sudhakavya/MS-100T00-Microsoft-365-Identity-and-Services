@@ -117,11 +117,11 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
 1. In the **Choose users for targeted release** pane that appears, select inside the **Who should receive targeted releases?** field. This displays the list of active users (these are the ten Microsoft 365 user accounts created for your tenant by your lab hosting provider). In this list, select each of the following users (Note: You have to select each user, one at a time; after selecting a user, you must select inside the field again to re-display the list so that you can display the next user): 
 
 	- **Alex Wilber**
-	- **Joni Sherman**
+	- **Megan Bowen**
 	- **Lynne Robbins**
 	- **ODL_User** <br/>
 
-    **Note:** Alex, Joni, and Lynne are administrators who are part of Holly's pilot team. Their accounts will be used throughout the labs for this course.
+    **Note:** Alex, Megan, and Lynne are administrators who are part of Holly's pilot team. Their accounts will be used throughout the labs for this course.
     
 1. Select **Save**.
 
