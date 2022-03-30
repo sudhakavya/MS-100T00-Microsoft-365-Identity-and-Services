@@ -5,7 +5,7 @@ In the following lab exercise, you will take on the role of Holly Dickson, Adatu
 **Note:** The VM environment provided by your lab hosting provider comes with ten existing Microsoft 365 user accounts, as well as a large number of existing on-premises user accounts. Several of the existing Microsoft 365 user accounts will be used throughout the labs in this course. This will save you from having to perform the tedious task of creating user accounts, which is typically not a task performed by Enterprise Administrators. Even though the ODL_User account has been set up for you by your lab hosting provider, you will still create Holly Dickson's user account, since having more than one Global admin is a best practice. It will also provide you with the experience of creating a Microsoft 365 user account in case you are not familiar with the process.
 
 
-### Task 1 - Create a User Account for Adatum's Enterprise Administrator
+### Task 1: Create a User Account for Adatum's Enterprise Administrator
 
 Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user account has not been set up for her, she initially signed into Microsoft 365 as the ODL_User account (the default Global admin) in the previous lab (you did this when you began your role as Holly and signed in using the tenant admin account). In this task, you will continue in your role as Holly Dickson where you should still be logged into Microsoft 365 as the ODL_User. In this lab, Holly will create a personal Microsoft 365 user account for herself, and she will assign her user account the Microsoft 365 Global Administrator role, which gives her the ability to perform all administrative functions within Microsoft 365. Following this task, you will perform all remaining labs using Holly's persona.  
 
@@ -80,7 +80,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 15. Remain logged into LON-DC1-ID with the **Microsoft 365 admin center** open in your browser for the next task.
 
 
-### Task 2 – Create and Manage Groups  
+### Task 2: Create and Manage Groups  
 
 After completing the previous task, you should still be signed into the **Microsoft 365 admin center** as the **ODL_User** account. In this task, you will begin implementing Adatum’s Microsoft 365 pilot project as Holly Dickson, Adatum’s new Enterprise Administrator. Therefore, you will begin this task by logging out of Microsoft 365 as the **ODL_User** and you will log back in as Holly.<br/>
 
@@ -213,7 +213,7 @@ In this task, you will create two new groups and then manage the groups by assig
 36. Remain logged into LON-DC1-ID with the **Microsoft 365 admin center** open in your browser for the next task.
 
 
-### Task 3 – Recover Groups using PowerShell 
+### Task 3: Recover Groups using PowerShell 
 
 In this task, you will use Windows PowerShell to recover the Inside Sales group that you previously deleted. To use Windows PowerShell to perform this Azure AD-related task, the Windows Azure Active Directory PowerShell Module must be installed. 
 
