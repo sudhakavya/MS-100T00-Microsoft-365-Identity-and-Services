@@ -7,7 +7,7 @@ As Adatum's Enterprise administrator, you have been tasked with deploying Micros
 In your lab environment, your lab hosting provider has already created a free Microsoft 365 trial tenant for you, along with a default tenant admin account in Microsoft 365 (the display name for this user account is ODL_User(Admin User)). You will log into the Domain Controller VM (LON-DC1-ID) using the ODL_User account which you can find in the **Environment Details** tab, and when you access Microsoft 365 for the first time, you will initially log in using the Microsoft 365 tenant admin account created by your lab hosting provider. You will then update Adatum's Microsoft 365 organizational profile, and you will prepare your tenant for Microsoft Azure Active Directory and for a future lab using Microsoft Teams.
 
 
-### Task 1 - Obtain Your Microsoft 365 Credentials
+### Obtain Your Microsoft 365 Credentials
 
 Once you launch the lab, a free trial tenant will be automatically created for you to access Microsoft 365 in the Microsoft Virtual Lab environment. Within this tenant, your lab hosting provider will create a Microsoft 365 user account for a default tenant administrator named ODL_User. Your lab hosting provider will assign this user account a unique username and password, and the account will be assigned the Microsoft 365 Global administrator role. You must retrieve this username and password so that you can sign into Microsoft 365 within the Microsoft Virtual Lab environment under the resource section. You will also be assigned a unique network IP address and UPN name for your Microsoft 365 blob. You will also use this UPN name in various tasks throughout the labs for this course.
 
@@ -23,11 +23,11 @@ You should write down the following information (provided by your instructor) fo
 
 - **Network IP address.** Write down the **IP Address** value (this is the IP Address of your parent domain; for example, 64.64.206.13).
 
-### Task 2- Set up the Organization Profile
+### Set up the Organization Profile
 
 In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have been tasked with setting up the company’s profile for its Microsoft 365 trial tenant. In this task, you will configure the required options for Adatum’s tenant. Since Holly has yet to create a personal Microsoft 365 user account (you will do this in the next lab exercise), Holly will initially sign into Microsoft 365 using the default Microsoft 365 tenant admin account and password that was created by your lab hosting provider. This account will be admin@xxxxxZZZZZZ.onmicrosoft.com (where xxxxxZZZZZZ is the tenant prefix assigned by your lab hosting provider); the display name for this account will be ODL_User.
 
-### Task 1 - Obtain Your Office 365 Credentials
+### Task 1: Obtain Your Office 365 Credentials
 
 Once you launch the lab, you can obtain your **Office 365 credentials** from the **Environment details** tab. Copy the username and password.
    
@@ -144,7 +144,7 @@ Once you launch the lab, you can obtain your **Office 365 credentials** from the
    ![](Images/add-themes-1.png)
 
 
-### Task 3 – Prepare for Microsoft Azure Active Directory 
+### Task 3: Prepare for Microsoft Azure Active Directory 
 
 Azure Active Directory is required to perform several configuration steps when installing Microsoft 365. Because several of these steps must be performed using Windows PowerShell, you should begin by installing the Azure Active Directory PowerShell module. This module can simply be installed through PowerShell itself. It allows you to perform many of the Microsoft 365 user and organization administration tasks through PowerShell. It’s great for bulk tasks such as password resets, password policies, license management and reporting, and so on.  
 
@@ -175,7 +175,7 @@ Azure Active Directory is required to perform several configuration steps when i
 9. Remain logged into LON-DC1 and keep your Edge browser open.
 
 
-### Task 4 – Prepare for External Access using Microsoft Teams 
+### Task 4: Prepare for External Access using Microsoft Teams 
 
 When you get to Module 4, you will perform a lab in which you will create a new service request ticketing system. One of the tasks within that lab requires you to collaborate with one of your fellow student's Microsoft 365 tenant through Microsoft Teams. To enable this communication between your tenant and your fellow student's tenant, you must turn on the **External Access** functionality within Teams. When you turn on this External Access feature, it can take a couple of hours for your system to propagate the changes through your tenant. Therefore, you will turn on this External Access feature in this task so that the internal changes made by the system have time to propagate through your tenant by the time you eventually get to the Module 4 lab.
 
